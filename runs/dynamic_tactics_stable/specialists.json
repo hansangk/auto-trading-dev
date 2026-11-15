@@ -1,0 +1,514 @@
+[
+  {
+    "mode": "momentum",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "momentum",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 6,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 6,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 24,
+    "threshold": 0.75,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 60.0,
+    "hold": 6,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 2,
+    "tp": 3.0
+  },
+  {
+    "mode": "macd",
+    "window": 24,
+    "threshold": 1.5,
+    "stop": 150.0,
+    "hold": 6,
+    "tp": 3.0
+  }
+]
