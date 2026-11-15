@@ -4,7 +4,7 @@
 
 ## Codex + Claude Code collaboration
 
-Clone this repository, install with `python -m pip install -e .`, and run `PYTHONPATH=src python -m unittest discover -s tests -q`. Each agent should work on a separate branch (`codex/<topic>` or `claude/<topic>`), commit code and report artifacts, then open a PR to merge into `main`. Start a new task with `git fetch origin && git switch main && git pull --ff-only`; update feature branches with `git rebase origin/main`. Never force-push over the other's work. The included small research samples let many scripts run locally; the full raw 1-minute IEX history and all historical runs are in the five-part archive linked from HANDOFF_INDEX.md. Download and unpack those archives into the repo root for full reproduction, without committing the full raw data. Never commit `upload/`, credentials, `.env`, or live trading keys.
+Clone this repository, install with `python -m pip install -e .`, and run `PYTHONPATH=src python -m unittest discover -s tests -q`. Each agent should work on a separate branch (`codex/<topic>` or `claude/<topic>`), commit code and report artifacts, then open a PR to merge into `main`. Start a new task with `git fetch origin && git switch main && git pull --ff-only`; update feature branches with `git rebase origin/main`. Never force-push over the other's work. The repository includes code, tests, configs, and research reports. Full raw IEX history and historical run artifacts are kept in the owner's separate handoff archives and must not be committed. Never commit `upload/`, credentials, `.env`, or live trading keys.
 
 1분봉 OHLCV로 미국 우량주·ETF·비트코인 ETF의 **롱/숏 동시 보유 초단타 전략**을 대규모 탐색하는 백테스트 연구 프로젝트입니다. 실주문 코드는 의도적으로 포함하지 않았습니다.
 
