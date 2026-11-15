@@ -1,0 +1,6 @@
+{
+  "candidates": 256,
+  "evaluations": 1536,
+  "warning": "Reused data; exit overrides applied to archived selector, not re-trained; posthoc results are exploratory",
+  "risk": "unchanged"
+}
