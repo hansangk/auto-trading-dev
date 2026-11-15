@@ -59,6 +59,7 @@ def run_backtest(
     signal_delay_bars: int = 0,
     regime_plan: tuple[np.ndarray, dict[int, tuple[StrategySpec, np.ndarray]]] | None = None,
     short_exclude_symbols: frozenset[str] = frozenset(),
+    trade_log: list[dict] | None = None,
 ) -> BacktestResult:
     stop = len(data.timestamps) if stop is None else stop
     i = max(start, 1 + signal_delay_bars)
@@ -148,6 +149,14 @@ def run_backtest(
         )
         costs_paid += base * cost_return; turnover += gross * 2
         returns.append(round_return); times.append(data.timestamps[end])
+        if trade_log is not None:
+            trade_log.append(dict(entry=str(data.timestamps[i]), end=str(data.timestamps[end]),
+                                  strategy_id=spec.strategy_id, long_symbols=[data.symbols[j] for j in long_idx],
+                                  short_symbols=[data.symbols[j] for j in short_idx],
+                                  gross_return=long_contribution+short_contribution,
+                                  cost_return=cost_return, net_return=round_return,
+                                  pnl=base*round_return, equity=equity,
+                                  signal_index=i-1-signal_delay_bars))
         if round_return < 0:
             loss_streak += 1
             if loss_streak >= risk.max_loss_streak:
