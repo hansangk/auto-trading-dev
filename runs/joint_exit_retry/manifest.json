@@ -1,0 +1,11 @@
+{
+  "removed_common_bars": 6,
+  "remaining_bars": 3477,
+  "evaluations": 384,
+  "caveats": [
+    "No full holiday calendar audit",
+    "Joint stop checks completed close and fills next open; no intrabar guarantee",
+    "Reentry occurs bar after exit",
+    "Fixed signals; no dynamic selector"
+  ]
+}
