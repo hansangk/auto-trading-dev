@@ -60,7 +60,11 @@ def run_backtest(
     regime_plan: tuple[np.ndarray, dict[int, tuple[StrategySpec, np.ndarray]]] | None = None,
     short_exclude_symbols: frozenset[str] = frozenset(),
     trade_log: list[dict] | None = None,
+    exit_mode: str = 'independent',
+    early_reentry: bool = False,
 ) -> BacktestResult:
+    if exit_mode not in {'independent', 'joint_close', 'fixed_close'}:
+        raise ValueError('Unsupported exit mode')
     stop = len(data.timestamps) if stop is None else stop
     i = max(start, 1 + signal_delay_bars)
     equity = float(capital); peak = equity; daily_start = equity
@@ -116,6 +120,7 @@ def run_backtest(
         while end > i and dates[end] != date:
             end -= 1
         entry = data.open[i]
+        scheduled_end = end
         tp_fraction = stop_fraction * spec.take_profit_multiple
         long_returns: list[tuple[int, float]] = []
         short_returns: list[tuple[int, float]] = []
@@ -137,6 +142,18 @@ def run_backtest(
                 if data.low[j, idx] <= entry[idx] * (1 - tp_fraction):
                     result = tp_fraction; break
             short_returns.append((int(idx), float(result)))
+        if exit_mode != 'independent':
+            exit_prices = data.close[end]
+            if exit_mode == 'joint_close':
+                for j in range(i, end):
+                    pair_move = (np.mean(data.close[j, long_idx] / entry[long_idx] - 1)
+                                 - np.mean(data.close[j, short_idx] / entry[short_idx] - 1)) / 2
+                    if pair_move <= -stop_fraction or pair_move >= tp_fraction:
+                        end = j + 1
+                        exit_prices = data.open[end]
+                        break
+            long_returns = [(int(k), float(exit_prices[k]/entry[k]-1)) for k in long_idx]
+            short_returns = [(int(k), float(1-exit_prices[k]/entry[k])) for k in short_idx]
         long_contribution = per_long * sum(value for _, value in long_returns)
         short_contribution = per_short * sum(value for _, value in short_returns)
         cost_return = gross * roundtrip_bps / 10_000 + side_gross * borrow_per_bar * (end - i + 1)
@@ -166,7 +183,7 @@ def run_backtest(
         peak = max(peak, equity)
         if equity / peak - 1 <= -risk.max_drawdown:
             killed = True
-        i = end + 1
+        i = (end if early_reentry and end < scheduled_end else scheduled_end) + 1
 
     arr = np.asarray(returns, dtype=float); time_arr = np.asarray(times)
     max_drawdown = 0.0
