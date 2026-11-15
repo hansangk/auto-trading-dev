@@ -8,11 +8,13 @@
 
 동일하게 포장된 중복 과거 ZIP은 제외하고 압축 내용의 상대경로와 SHA-256을 각 ZIP의 `ARCHIVE_SHA256.json`에 넣었다. 압축 해제 후 `python -m pip install -e .`, `PYTHONPATH=src python -m unittest discover -s tests -q`. 테스트는 코드 기능 일부만 확인하며 투자 성과를 인증하지 않는다. 자동 주문은 포함되지 않는다.
 
-연구의 읽는 순서: `STRATEGY_RESEARCH_LOG.md`, `CHRONOLOGICAL_RESEARCH_REPORT.md`, `REGIME_FAILURE_DIAGNOSTIC.md`, `MULTIFRAME_WIN_ARCHIVE.md`, `MULTIFRAME_CONFIRMATION_RETRY.md`, `PAIR_REGIME_RETRY_REPORT.md`, `BETA_JOINT_RETRY_REPORT.md`, `TECHNICAL_BREADTH_RETRY_REPORT.md`, `SELECTIVE_FAST_RETRY_REPORT.md`, `ANCHOR_REFINE_RETRY_REPORT.md`, `WIN64_PAYOFF_GRID_REPORT.md`, `PROFIT_PRIORITY_RETRY_REPORT.md`, `RETURN_TARGET_ASYMMETRIC_REPORT.md`, `DUAL_HORIZON_RETRY_REPORT.md`, `CONVEX_BREAKOUT_RETRY_REPORT.md`, `REGIME_REPRO_RETRY_REPORT.md`. 파일이 존재하지 않는 과거 보고는 해당 runs와 다른 ZIP의 이전 버전을 확인한다.
+연구의 읽는 순서: `STRATEGY_RESEARCH_LOG.md`, `CHRONOLOGICAL_RESEARCH_REPORT.md`, `REGIME_FAILURE_DIAGNOSTIC.md`, `MULTIFRAME_WIN_ARCHIVE.md`, `MULTIFRAME_CONFIRMATION_RETRY.md`, `PAIR_REGIME_RETRY_REPORT.md`, `BETA_JOINT_RETRY_REPORT.md`, `TECHNICAL_BREADTH_RETRY_REPORT.md`, `SELECTIVE_FAST_RETRY_REPORT.md`, `ANCHOR_REFINE_RETRY_REPORT.md`, `WIN64_PAYOFF_GRID_REPORT.md`, `PROFIT_PRIORITY_RETRY_REPORT.md`, `RETURN_TARGET_ASYMMETRIC_REPORT.md`, `DUAL_HORIZON_RETRY_REPORT.md`, `CONVEX_BREAKOUT_RETRY_REPORT.md`, `REGIME_REPRO_RETRY_REPORT.md`, `ENSEMBLE_REPRO_RETRY_REPORT.md`. 파일이 존재하지 않는 과거 보고는 해당 runs와 다른 ZIP의 이전 버전을 확인한다.
 
 현재 데이터는 Alpaca IEX 무료 부분 봉, 2024-01-11~2026-11-13. 2026년은 이미 반복 열람되어 새 홀드아웃이 아니다. 독립적인 미래 수익이나 연30%를 확인하지 못했다. 최대 수익과 승률을 섞어 하나의 지표로 보지 말고 전체 기간·연도·주간 기간 및 비용 스트레스를 함께 보고하라.
 
 직전 시도(새 regime): `runs/regime_repro_retry`: 240개 개발+개발 상위30개의 연도 분할60개+최근 기본/비용2배/1봉 지연90개=390회. 개발1위 최근 +0.691%, 비용2배 -1.277%, 지연 -0.673%; 2024/2025 모두 양수26/30, 2026 양수16/30. 결론은 보편적 재현성 미확보. 스크립트 `scripts/regime_repro_retry.py`.
+
+최신 시도(다중분봉 앙상블): `runs/ensemble_repro_retry`: 2,560개 후보, 개발/스트레스 10,240회, 최근 진단90회, 분기 진단360회. 개발1위는 2026에서 음수. 서로 다른 생존 신호군은 15분 Donchian20+OBV20과 완료60분 MACD의 3/3 합의형 하나뿐이다. 40bp 손절형은 2024 +1.71%, 2025 +2.48%, 2026 +1.36%, 2026 비용2배 +0.93%, 지연 +0.22%, 연 29~32회. 표본과 수익이 작아 실전 승인하지 않는다. 스크립트 `scripts/ensemble_repro_retry.py`, 보고서 `ENSEMBLE_REPRO_RETRY_REPORT.md`.
 
 중요한 오류 이력: 초기 엔진이 진입 봉 전체 거래량을 미리 알아보는 누출을 사용했으며 현재 `data.volume[i-1]`로 고쳤다. 기존 보고서 전부 수정 후 재산출된 것은 아니므로 오래된 성적표는 잠정치다. 각 실험의 실행 버전과 `runs` 입력을 비교하라. 15/60분의 마지막으로 완료된 봉 정렬과 시간대·조기폐장 처리도 점검하라.
 
