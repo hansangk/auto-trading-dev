@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+upload/
+**/*api-key*
+**/*secret*
+**/*token*
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+logs/
+*.log
+*.zip
+# Full raw market data live in the separate handoff archive.
+data/alpaca_iex/raw_*.csv
+data/alpaca_iex_bito/
+data/free_sample/
+data/demo.csv

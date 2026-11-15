@@ -1,0 +1,19 @@
+capital: 100000000
+workers: 6
+seed: 20261126
+max_candidates: 5000
+shortlist: 400
+top_n: 30
+checkpoint_every: 100
+validation: {final_holdout_fraction: 0.25, min_train_days: 40, validation_days: 20, step_days: 20, purge_bars: 6}
+execution: {commission_bps: 0.3, slippage_bps: 2.0, short_borrow_bps_per_year: 50.0, cost_stress_multipliers: [1.0, 2.0], signal_delay_stress_bars: [1, 2]}
+risk: {gross_exposure: 1.0, max_asset_weight: 0.15, risk_per_trade: 0.001, daily_soft_loss: 0.005, daily_hard_loss: 0.0075, max_drawdown: 0.05, max_loss_streak: 4}
+grid:
+  components_per_strategy: [1, 2, 3]
+  component_weights: [0.5, 1.0, 1.5]
+  long_k: [1, 2]
+  short_k: [1, 2]
+  hold_bars: [1, 2, 3, 6, 12, 18]
+  stop_loss_bps: [40, 60, 100, 150, 200, 300]
+  take_profit_multiple: [0.1, 0.2, 0.3, 0.5, 0.75, 1.0, 1.5, 2.0]
+  cooldown_bars: [0, 3, 6, 12]
