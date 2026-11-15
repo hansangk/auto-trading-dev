@@ -1,0 +1,478 @@
+[
+  {
+    "month": "2025-07-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-07-01 00:00:00+00:00",
+    "state": 1,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-07-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-07-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-08-01 00:00:00+00:00",
+    "state": 0,
+    "members": [
+      1
+    ],
+    "families": [
+      "momentum"
+    ]
+  },
+  {
+    "month": "2025-08-01 00:00:00+00:00",
+    "state": 1,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-08-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-08-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-09-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-09-01 00:00:00+00:00",
+    "state": 1,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-09-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-09-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-10-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-10-01 00:00:00+00:00",
+    "state": 1,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-10-01 00:00:00+00:00",
+    "state": 2,
+    "members": [
+      8
+    ],
+    "families": [
+      "dual_momentum"
+    ]
+  },
+  {
+    "month": "2025-10-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-11-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-11-01 00:00:00+00:00",
+    "state": 1,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-11-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-11-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-12-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-12-01 00:00:00+00:00",
+    "state": 1,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-12-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2025-12-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-01-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-01-01 00:00:00+00:00",
+    "state": 1,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-01-01 00:00:00+00:00",
+    "state": 2,
+    "members": [
+      8
+    ],
+    "families": [
+      "dual_momentum"
+    ]
+  },
+  {
+    "month": "2026-01-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-02-01 00:00:00+00:00",
+    "state": 0,
+    "members": [
+      7
+    ],
+    "families": [
+      "mean_reversion"
+    ]
+  },
+  {
+    "month": "2026-02-01 00:00:00+00:00",
+    "state": 1,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-02-01 00:00:00+00:00",
+    "state": 2,
+    "members": [
+      8
+    ],
+    "families": [
+      "dual_momentum"
+    ]
+  },
+  {
+    "month": "2026-02-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-03-01 00:00:00+00:00",
+    "state": 0,
+    "members": [
+      2
+    ],
+    "families": [
+      "momentum"
+    ]
+  },
+  {
+    "month": "2026-03-01 00:00:00+00:00",
+    "state": 1,
+    "members": [
+      8
+    ],
+    "families": [
+      "dual_momentum"
+    ]
+  },
+  {
+    "month": "2026-03-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-03-01 00:00:00+00:00",
+    "state": 3,
+    "members": [
+      11
+    ],
+    "families": [
+      "dual_momentum"
+    ]
+  },
+  {
+    "month": "2026-04-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-04-01 00:00:00+00:00",
+    "state": 1,
+    "members": [
+      1,
+      8
+    ],
+    "families": [
+      "momentum",
+      "dual_momentum"
+    ]
+  },
+  {
+    "month": "2026-04-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-04-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-05-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-05-01 00:00:00+00:00",
+    "state": 1,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-05-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-05-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-06-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-06-01 00:00:00+00:00",
+    "state": 1,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-06-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-06-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-07-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-07-01 00:00:00+00:00",
+    "state": 1,
+    "members": [
+      1,
+      11
+    ],
+    "families": [
+      "momentum",
+      "dual_momentum"
+    ]
+  },
+  {
+    "month": "2026-07-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-07-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-08-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-08-01 00:00:00+00:00",
+    "state": 1,
+    "members": [
+      1
+    ],
+    "families": [
+      "momentum"
+    ]
+  },
+  {
+    "month": "2026-08-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-08-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-09-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-09-01 00:00:00+00:00",
+    "state": 1,
+    "members": [
+      1,
+      11
+    ],
+    "families": [
+      "momentum",
+      "dual_momentum"
+    ]
+  },
+  {
+    "month": "2026-09-01 00:00:00+00:00",
+    "state": 2,
+    "members": [
+      3
+    ],
+    "families": [
+      "momentum"
+    ]
+  },
+  {
+    "month": "2026-09-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-10-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-10-01 00:00:00+00:00",
+    "state": 1,
+    "members": [
+      1,
+      11
+    ],
+    "families": [
+      "momentum",
+      "dual_momentum"
+    ]
+  },
+  {
+    "month": "2026-10-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-10-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-11-01 00:00:00+00:00",
+    "state": 0,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-11-01 00:00:00+00:00",
+    "state": 1,
+    "members": [
+      9
+    ],
+    "families": [
+      "dual_momentum"
+    ]
+  },
+  {
+    "month": "2026-11-01 00:00:00+00:00",
+    "state": 2,
+    "members": [],
+    "families": []
+  },
+  {
+    "month": "2026-11-01 00:00:00+00:00",
+    "state": 3,
+    "members": [],
+    "families": []
+  }
+]
