@@ -1,0 +1,13 @@
+{
+  "status": "RUNNING",
+  "run_id": "creative_grid_retry_20261116",
+  "owner": "Codex",
+  "parent": "bc805d8795ede352d4dae00916226b3fafa20519",
+  "started_utc": "2026-11-16T14:42:06.825915+00:00",
+  "checkpoint": "Creative quant agent designing64 candidates; no backtest results yet",
+  "next_action": "Owner to finish grid/rolling windows and commit final handoff; another runner should inspect and resume rather than start duplicate work",
+  "paths": [
+    "runs/creative_grid_retry_20261116"
+  ],
+  "raw_data": "Local pinned market.csv.gz; raw publication previously denied; requires matching input hash"
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "creative_grid_retry_20261116",
+  "parent": "bc805d8795ede352d4dae00916226b3fafa20519",
+  "families": 4,
+  "candidate_budget": 64,
+  "grid": "window12/24 threshold.75/1.25 hold2/4 target2/3; stop60bp risk caps fixed",
+  "selection": "Stage1 base2025H1/H2, at least20 rounds each; top2 per family by worst then mean, max8. Stage2 addcost2/delay1 in each2025half, require20 rounds everycell, freeze top3 by worst then mean before reused2026 diagnostic. Promotion all6positive and all6better than anchor, MDD no worse. Reject otherwise.",
+  "recent": "All64 exact recent3month2026-08-14..11-13 and6month2026-05-14..11-13 base ranking marked in-sample exploration; window-specific top1 selected on base then cost2/delay1 of samewindow descriptive, not verification.",
+  "adaptive": "For each target month2026Jan-Nov, select on strictly preceding3 or6months with at least20 rounds and positive base/cost2/delay1, rank minnetreturn thenmeanthenID; shortlist base top2perfamily first to limit work. Freeze before nextmonth replay. Cash ifnone; no compounding overlapping training results. Use full engine for monthly deployment chunks, carry capital; account stop semantics disclosed.",
+  "risk": "Actual inverse ETF buys, max15% perETF no redistribution; stops60bp target2/3R hold2/4, no leverage increases, no real orders",
+  "publication": "No raw dataset upload, metadata/results/code only",
+  "data": "Same local pinned four-ETF Yahoo hourly snapshot, unchanged hash; no news/macro",
+  "caveat": "Repeated2026 research, no independent validation; adaptive monthly resets require explicit reporting and continuous risk handling"
+}
