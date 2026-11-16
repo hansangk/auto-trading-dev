@@ -1,0 +1,11 @@
+{
+  "evaluations": 18,
+  "filters": [
+    "anchor",
+    "risk_balance",
+    "uniform_same_gross"
+  ],
+  "selected": "risk_balance",
+  "source_sha256": "8d4ea66a1e551c079cb43891583904f4fa4ddbe482b72d7045df26b441344dcd",
+  "note": "2026 reused diagnostic. Anchor previously selected using 2026. Close-based joint stop, not intrabar guarantee."
+}
