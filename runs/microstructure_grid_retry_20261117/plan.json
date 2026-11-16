@@ -1,0 +1,14 @@
+{
+  "parent": "ad0ee3bd2057a0a6788e08bc4a749369e2f433f7",
+  "hypothesis": "New causal gap absorption, volume pressure, cross-market delayed residual and failed breakout mechanisms may outperform stale momentum/regime families; test small factorial grids, no same failed oldgrid.",
+  "budget": "4families \u00d72p1 \u00d72p2 \u00d7hold2/4 \u00d7target2/3 =64. Base2025H1/H2 screen then max2perfamily/8total stress. Save full failed trials.",
+  "selection": "At least20rounds per devcell; worst netreturn then mean then name. Freeze top3 eligible after all6 development stresscells before2026. Approval requires all6positive, all6betterthananchor, nohalt and noMDDworse. Leastbad rejected.",
+  "recent": "All64base recent3month2026-08-14..11-13 and6month2026-05-14..11-13 descriptivefit rankings. Samewindowcost2/delay1 not independent confirmation; disclosehalts.",
+  "walkforward": "Before each2026calendar month select from strictly preceding3/6months, stagebasetop2perfamily then positiveallstress/min20/nohalt, cashfallback. Persistdecisionbeforetest. Maintain AccountState acrossmonths/halts using sameMarketData indices. Reportgloballedger notmonthlyresetcompound.",
+  "risk": "Actual TQQQ SQQQ IBIT BITI purchases, max15%ETF, stop60bp samejointclose nextopen, nolevincrease/noprotectremove/noorders; IBITBitcoinproxy",
+  "source_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "concurrency": "Previous COMPLETE, no localretryworker; uniqueoutdir/exclusivelock and expected parent publish. External privateworkers unverifiable.",
+  "publication": "No rawsnapshot upload, results/code/hash/provenance only",
+  "independent_holdout": false,
+  "news_macro": false
+}
