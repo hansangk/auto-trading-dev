@@ -62,7 +62,13 @@ def run_backtest(
     trade_log: list[dict] | None = None,
     exit_mode: str = 'independent',
     early_reentry: bool = False,
+    asset_weight_scale: np.ndarray | None = None,
 ) -> BacktestResult:
+    if asset_weight_scale is not None:
+        if asset_weight_scale.shape != data.shape or not np.isfinite(asset_weight_scale).all() or np.any(asset_weight_scale <= 0) or np.any(asset_weight_scale > 1):
+            raise ValueError('Asset scales must match data and be finite in (0,1]')
+        if spec.long_k != 1 or spec.short_k != 1 or regime_plan is not None:
+            raise ValueError('Asset scaling currently supports fixed one-long/one-short specs')
     if exit_mode not in {'independent', 'joint_close', 'fixed_close'}:
         raise ValueError('Unsupported exit mode')
     stop = len(data.timestamps) if stop is None else stop
@@ -120,6 +126,12 @@ def run_backtest(
         while end > i and dates[end] != date:
             end -= 1
         entry = data.open[i]
+        if asset_weight_scale is not None:
+            # Completed signal-time scales only; reduce, never enlarge, a leg.
+            scales = asset_weight_scale[i - 1 - signal_delay_bars]
+            per_long = side_gross * float(scales[long_idx[0]])
+            per_short = side_gross * float(scales[short_idx[0]])
+            gross = per_long + per_short
         scheduled_end = end
         tp_fraction = stop_fraction * spec.take_profit_multiple
         long_returns: list[tuple[int, float]] = []
@@ -146,8 +158,8 @@ def run_backtest(
             exit_prices = data.close[end]
             if exit_mode == 'joint_close':
                 for j in range(i, end):
-                    pair_move = (np.mean(data.close[j, long_idx] / entry[long_idx] - 1)
-                                 - np.mean(data.close[j, short_idx] / entry[short_idx] - 1)) / 2
+                    pair_move = (per_long * np.sum(data.close[j, long_idx] / entry[long_idx] - 1)
+                                 - per_short * np.sum(data.close[j, short_idx] / entry[short_idx] - 1)) / gross
                     if pair_move <= -stop_fraction or pair_move >= tp_fraction:
                         end = j + 1
                         exit_prices = data.open[end]
@@ -156,7 +168,7 @@ def run_backtest(
             short_returns = [(int(k), float(1-exit_prices[k]/entry[k])) for k in short_idx]
         long_contribution = per_long * sum(value for _, value in long_returns)
         short_contribution = per_short * sum(value for _, value in short_returns)
-        cost_return = gross * roundtrip_bps / 10_000 + side_gross * borrow_per_bar * (end - i + 1)
+        cost_return = gross * roundtrip_bps / 10_000 + per_short * spec.short_k * borrow_per_bar * (end - i + 1)
         round_return = long_contribution + short_contribution - cost_return
         base = equity; equity *= 1 + round_return
         long_pnl += base * long_contribution; short_pnl += base * short_contribution
@@ -174,6 +186,7 @@ def run_backtest(
                                   cost_return=cost_return, net_return=round_return,
                                   pnl=base*round_return, equity=equity,
                                   signal_index=i-1-signal_delay_bars))
+            trade_log[-1].update(long_weight=per_long,short_weight=per_short)
         if round_return < 0:
             loss_streak += 1
             if loss_streak >= risk.max_loss_streak:
