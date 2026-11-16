@@ -1,0 +1,17 @@
+{
+  "evaluations": 54,
+  "filters": [
+    "anchor",
+    "positive_corr",
+    "low_corr",
+    "quiet",
+    "active",
+    "aligned",
+    "opposed",
+    "no_shock",
+    "corr_no_shock"
+  ],
+  "selected": "low_corr",
+  "source_sha256": "8d4ea66a1e551c079cb43891583904f4fa4ddbe482b72d7045df26b441344dcd",
+  "note": "2026 reused diagnostic. Anchor previously selected using 2026. Close-based joint stop, not intrabar guarantee."
+}
