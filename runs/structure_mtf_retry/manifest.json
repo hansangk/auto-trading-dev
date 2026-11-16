@@ -1,0 +1,880 @@
+{
+  "candidates": [
+    {
+      "id": "anchor",
+      "mode": "dual_momentum",
+      "window": 24,
+      "hold": 4
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "04888ba927eb"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "edd953f1eff5"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "d9e4fe6583c4"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "fcfc86d55a23"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "415a5f23d375"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "9fa77f08d545"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "38d62627860d"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "357f89494a99"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "852ae6d3787f"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "80f7ccddab0e"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "d5a51c8b48b8"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "c4b731c6fe2d"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "d141c44a283c"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "8c4e395db900"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "fbb527699233"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "e2cf71bf5495"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "a3c00b6b8db1"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "7b22237ad535"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "3bb429404d0f"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "c18301cf3561"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "c7b713642ba0"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "4defed58a8e4"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "95f7f67861d2"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "622c407457fa"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "0139bd91ec9c"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "4851673e41bd"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "1b042b32af46"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "6084c670b726"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "ae3ea71fa414"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "1ee3e9387fc3"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "927ab1dbc56d"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "90ea4fa9a76b"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "a36647c6b0ac"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "f4187e7fe592"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "9d464a5fd48a"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "953d93ff6551"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "2e3ed18050aa"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "23b491dd5a1c"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "29ef8a5fd7cd"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "ec5f2bf56d60"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "85cc30859eb8"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "e2c1d0c2bd38"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "fe375264846d"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "aea18b2b25f5"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "8b3e32563fa1"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "6faf2f864647"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "9850fb9016dc"
+    },
+    {
+      "mode": "dual_momentum",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "07f4e6915103"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "d0fa1e61f3ec"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "91fe0cba25b7"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "73d459f47542"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "c1b3bcdd904e"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "881e5d995ab0"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "19b913d574cd"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "ce1a835e2c6a"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "135edb8b706b"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "dbda0212663a"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "f60fc76bf0a6"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "c01a03a21968"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "7122a7b9c988"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "66d99164bce8"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "1520443a2a58"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "54d390d6d341"
+    },
+    {
+      "mode": "breakout",
+      "window": 12,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "cf1ab1b107c9"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "5e7b851f2053"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "b43f774ec460"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "67c9fc935c8c"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "815d214b2efa"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "c2d21552f948"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "77345c4ab463"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "f1abcc1572d4"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "ba7d1ccb45a6"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "06a63567e91c"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "d42884cbefc0"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "86d417bb5506"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "b694918eb42c"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "13a9d653fd91"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "b89adec8e1ff"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "f350949688ae"
+    },
+    {
+      "mode": "breakout",
+      "window": 24,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "367d7cf24ccd"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "846bcc35f777"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "4fa4fb3c50da"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "8db634b51b85"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "10a3985e9c08"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "8bc4807f1ca4"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "dc563b7cfbca"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "a92d7bdc9867"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.2,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "644799d34f0b"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 4,
+      "id": "b3ef41d38f0f"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": false,
+      "hold": 6,
+      "id": "71bf159c0d7a"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 4,
+      "id": "90d8f066efc6"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": false,
+      "use_range": true,
+      "hold": 6,
+      "id": "b0a6070720ba"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 4,
+      "id": "78f752e0481b"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": false,
+      "hold": 6,
+      "id": "402dc9bc93b6"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 4,
+      "id": "cb306089637a"
+    },
+    {
+      "mode": "breakout",
+      "window": 48,
+      "cutoff": 0.4,
+      "align_daily": true,
+      "use_range": true,
+      "hold": 6,
+      "id": "9619b4ff6044"
+    }
+  ],
+  "source_sha256": "8d4ea66a1e551c079cb43891583904f4fa4ddbe482b72d7045df26b441344dcd",
+  "selection": "Worst of six 2025 H1/H2 base/cost2/delay returns, then mean, then ID; persist top 5 before 2026.",
+  "availability": "2h full session pairs at second base bar close; prior-session daily direction only; engine signal shifted.",
+  "warning": "Reused periods; no independent holdout. Risk/exposure unchanged. No news/macro. IBIT proxy.",
+  "development_evaluations": 582,
+  "diagnostic_evaluations": 18
+}
