@@ -1,0 +1,8 @@
+[
+  "daily_regime_p0.4_q0.05_h4_t3",
+  "daily_regime_p0.4_q0.15_h4_t3",
+  "conflict_memory_p2_q1_h4_t2",
+  "conflict_memory_p4_q1_h4_t2",
+  "gap_reservation_p2_q0.25_h4_t2",
+  "gap_reservation_p4_q0.25_h4_t2"
+]

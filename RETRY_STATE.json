@@ -1,12 +1,14 @@
 {
-  "status": "RUNNING",
+  "status": "COMPLETE_REJECTED",
   "owner": "Codex",
   "run_id": "cohort_routing_retry_20261117",
   "parent": "3a9e8a8dc3ae842859766dc92ee9d9889fbb1a1f",
   "started_utc": "2026-11-16T17:03:39.388422+00:00",
-  "checkpoint": "2025fixed-eventaudit complete; creativequant implementing64routinggrid",
-  "next_action": "Owner completes deduplicated stagedgrid andcontinuousWF; do not duplicate",
+  "checkpoint": "Fixed2025event audit+64nominal/8entryarrays/32signal-exit configs;1050newcalls;77tests;allrejected",
+  "next_action": "Freeze current routing thresholds. Diagnose retained/suppressed2025union role gross/cost vs daily efficiency and turnover-matched cash control; close routing hypothesis if weak, obtain untouched history before further grid.",
   "paths": [
     "runs/cohort_routing_retry_20261117"
-  ]
+  ],
+  "latest_report": "COHORT_ROUTING_RETRY_REPORT_20261117.md",
+  "handoff": "RESEARCH_HANDOFF.md"
 }

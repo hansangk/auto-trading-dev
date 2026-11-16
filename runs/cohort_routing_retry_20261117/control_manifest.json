@@ -1,0 +1,6 @@
+{
+  "new_engine_calls": 38,
+  "prior_cache_reused": 34,
+  "unique_controls": 72,
+  "warning": "Source union same exits per selected candidate, no weight summation; fixed intervention cohort attribution is not routed account return"
+}

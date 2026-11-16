@@ -56,3 +56,8 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Count signal-time entry opportunities as an upper bound before spending attention on sparse-event winners. Recent3month gap/breakout cannot reach20rounds; keep ineligible rather than relax the sample screen.
 - Monthly selection must exclude candidates that halted in training stresses, even when terminal return is positive. Use carried AccountState for deployment and preserve full decision/account checkpoints; cash/halted months are legitimate zero-trade outcomes.
 - Latest MICROSTRUCTURE_GRID_RETRY_REPORT_20261117.md: new64grid,2074engine calls,65tests,all rejected. Next measure development gap/volume complementarity before any capped exclusive combination; no blindly repeated grid or diagnostic-fit promotion.
+
+2026-11-17 matched-event and routing-identifiability evidence:
+- Separate fixed signal-cohort delayed-entry paths (same exit versus equal holding duration) from full account replay. Effects differed by half-year; do not call delayed account improvements universal timing alpha.
+- Count distinct development entry arrays and actual interventions vs a source union.64 nominal routing configs produced8entry arrays/32signal-exit configs; most memory routers changed0-2bars only, so their mechanics were not identified. Preserve aliases and do not pad them with new thresholds.
+- Use matched-exit pure components and non-summed source-union controls. Cached controls require data/engine/component/config hashes. Latest COHORT_ROUTING_RETRY_REPORT_20261117.md:1050newcalls,77tests,no approvals. Next fixed-union role attribution plus turnover-matched cash controls; close routing hypothesis if support is sparse or non-replicated, rather than re-sweep it.

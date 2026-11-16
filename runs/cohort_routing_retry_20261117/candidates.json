@@ -1,0 +1,642 @@
+[
+  {
+    "name": "gap_reservation_p2_q0.25_h2_t2",
+    "family": "gap_reservation",
+    "p1": 2,
+    "p2": 0.25,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p2_q0.25_h2_t3",
+    "family": "gap_reservation",
+    "p1": 2,
+    "p2": 0.25,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p2_q0.25_h4_t2",
+    "family": "gap_reservation",
+    "p1": 2,
+    "p2": 0.25,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p2_q0.25_h4_t3",
+    "family": "gap_reservation",
+    "p1": 2,
+    "p2": 0.25,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p2_q0.5_h2_t2",
+    "family": "gap_reservation",
+    "p1": 2,
+    "p2": 0.5,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p2_q0.5_h2_t3",
+    "family": "gap_reservation",
+    "p1": 2,
+    "p2": 0.5,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p2_q0.5_h4_t2",
+    "family": "gap_reservation",
+    "p1": 2,
+    "p2": 0.5,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p2_q0.5_h4_t3",
+    "family": "gap_reservation",
+    "p1": 2,
+    "p2": 0.5,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p4_q0.25_h2_t2",
+    "family": "gap_reservation",
+    "p1": 4,
+    "p2": 0.25,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p4_q0.25_h2_t3",
+    "family": "gap_reservation",
+    "p1": 4,
+    "p2": 0.25,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p4_q0.25_h4_t2",
+    "family": "gap_reservation",
+    "p1": 4,
+    "p2": 0.25,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p4_q0.25_h4_t3",
+    "family": "gap_reservation",
+    "p1": 4,
+    "p2": 0.25,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p4_q0.5_h2_t2",
+    "family": "gap_reservation",
+    "p1": 4,
+    "p2": 0.5,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p4_q0.5_h2_t3",
+    "family": "gap_reservation",
+    "p1": 4,
+    "p2": 0.5,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p4_q0.5_h4_t2",
+    "family": "gap_reservation",
+    "p1": 4,
+    "p2": 0.5,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "gap_reservation_p4_q0.5_h4_t3",
+    "family": "gap_reservation",
+    "p1": 4,
+    "p2": 0.5,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p2_q3_h2_t2",
+    "family": "pressure_takeover",
+    "p1": 2,
+    "p2": 3,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p2_q3_h2_t3",
+    "family": "pressure_takeover",
+    "p1": 2,
+    "p2": 3,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p2_q3_h4_t2",
+    "family": "pressure_takeover",
+    "p1": 2,
+    "p2": 3,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p2_q3_h4_t3",
+    "family": "pressure_takeover",
+    "p1": 2,
+    "p2": 3,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p2_q6_h2_t2",
+    "family": "pressure_takeover",
+    "p1": 2,
+    "p2": 6,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p2_q6_h2_t3",
+    "family": "pressure_takeover",
+    "p1": 2,
+    "p2": 6,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p2_q6_h4_t2",
+    "family": "pressure_takeover",
+    "p1": 2,
+    "p2": 6,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p2_q6_h4_t3",
+    "family": "pressure_takeover",
+    "p1": 2,
+    "p2": 6,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p3_q3_h2_t2",
+    "family": "pressure_takeover",
+    "p1": 3,
+    "p2": 3,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p3_q3_h2_t3",
+    "family": "pressure_takeover",
+    "p1": 3,
+    "p2": 3,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p3_q3_h4_t2",
+    "family": "pressure_takeover",
+    "p1": 3,
+    "p2": 3,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p3_q3_h4_t3",
+    "family": "pressure_takeover",
+    "p1": 3,
+    "p2": 3,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p3_q6_h2_t2",
+    "family": "pressure_takeover",
+    "p1": 3,
+    "p2": 6,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p3_q6_h2_t3",
+    "family": "pressure_takeover",
+    "p1": 3,
+    "p2": 6,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p3_q6_h4_t2",
+    "family": "pressure_takeover",
+    "p1": 3,
+    "p2": 6,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "pressure_takeover_p3_q6_h4_t3",
+    "family": "pressure_takeover",
+    "p1": 3,
+    "p2": 6,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p2_q1_h2_t2",
+    "family": "conflict_memory",
+    "p1": 2,
+    "p2": 1,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p2_q1_h2_t3",
+    "family": "conflict_memory",
+    "p1": 2,
+    "p2": 1,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p2_q1_h4_t2",
+    "family": "conflict_memory",
+    "p1": 2,
+    "p2": 1,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p2_q1_h4_t3",
+    "family": "conflict_memory",
+    "p1": 2,
+    "p2": 1,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p2_q3_h2_t2",
+    "family": "conflict_memory",
+    "p1": 2,
+    "p2": 3,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p2_q3_h2_t3",
+    "family": "conflict_memory",
+    "p1": 2,
+    "p2": 3,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p2_q3_h4_t2",
+    "family": "conflict_memory",
+    "p1": 2,
+    "p2": 3,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p2_q3_h4_t3",
+    "family": "conflict_memory",
+    "p1": 2,
+    "p2": 3,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p4_q1_h2_t2",
+    "family": "conflict_memory",
+    "p1": 4,
+    "p2": 1,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p4_q1_h2_t3",
+    "family": "conflict_memory",
+    "p1": 4,
+    "p2": 1,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p4_q1_h4_t2",
+    "family": "conflict_memory",
+    "p1": 4,
+    "p2": 1,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p4_q1_h4_t3",
+    "family": "conflict_memory",
+    "p1": 4,
+    "p2": 1,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p4_q3_h2_t2",
+    "family": "conflict_memory",
+    "p1": 4,
+    "p2": 3,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p4_q3_h2_t3",
+    "family": "conflict_memory",
+    "p1": 4,
+    "p2": 3,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p4_q3_h4_t2",
+    "family": "conflict_memory",
+    "p1": 4,
+    "p2": 3,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "conflict_memory_p4_q3_h4_t3",
+    "family": "conflict_memory",
+    "p1": 4,
+    "p2": 3,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.25_q0.05_h2_t2",
+    "family": "daily_regime",
+    "p1": 0.25,
+    "p2": 0.05,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.25_q0.05_h2_t3",
+    "family": "daily_regime",
+    "p1": 0.25,
+    "p2": 0.05,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.25_q0.05_h4_t2",
+    "family": "daily_regime",
+    "p1": 0.25,
+    "p2": 0.05,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.25_q0.05_h4_t3",
+    "family": "daily_regime",
+    "p1": 0.25,
+    "p2": 0.05,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.25_q0.15_h2_t2",
+    "family": "daily_regime",
+    "p1": 0.25,
+    "p2": 0.15,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.25_q0.15_h2_t3",
+    "family": "daily_regime",
+    "p1": 0.25,
+    "p2": 0.15,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.25_q0.15_h4_t2",
+    "family": "daily_regime",
+    "p1": 0.25,
+    "p2": 0.15,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.25_q0.15_h4_t3",
+    "family": "daily_regime",
+    "p1": 0.25,
+    "p2": 0.15,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.4_q0.05_h2_t2",
+    "family": "daily_regime",
+    "p1": 0.4,
+    "p2": 0.05,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.4_q0.05_h2_t3",
+    "family": "daily_regime",
+    "p1": 0.4,
+    "p2": 0.05,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.4_q0.05_h4_t2",
+    "family": "daily_regime",
+    "p1": 0.4,
+    "p2": 0.05,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.4_q0.05_h4_t3",
+    "family": "daily_regime",
+    "p1": 0.4,
+    "p2": 0.05,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.4_q0.15_h2_t2",
+    "family": "daily_regime",
+    "p1": 0.4,
+    "p2": 0.15,
+    "hold": 2,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.4_q0.15_h2_t3",
+    "family": "daily_regime",
+    "p1": 0.4,
+    "p2": 0.15,
+    "hold": 2,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.4_q0.15_h4_t2",
+    "family": "daily_regime",
+    "p1": 0.4,
+    "p2": 0.15,
+    "hold": 4,
+    "target": 2,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  },
+  {
+    "name": "daily_regime_p0.4_q0.15_h4_t3",
+    "family": "daily_regime",
+    "p1": 0.4,
+    "p2": 0.15,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "max_etf_weight": 0.15
+  }
+]
