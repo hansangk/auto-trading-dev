@@ -186,7 +186,9 @@ def run_backtest(
                                   cost_return=cost_return, net_return=round_return,
                                   pnl=base*round_return, equity=equity,
                                   signal_index=i-1-signal_delay_bars))
-            trade_log[-1].update(long_weight=per_long,short_weight=per_short)
+            trade_log[-1].update(long_weight=per_long,short_weight=per_short,
+                                 long_gross_return=long_contribution,
+                                 short_gross_return=short_contribution)
         if round_return < 0:
             loss_streak += 1
             if loss_streak >= risk.max_loss_streak:
