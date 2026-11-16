@@ -1,0 +1,6 @@
+{
+  "source_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "period": "2025only",
+  "selection": "Two names fixed from prior2025development rankings, no2026performance used",
+  "warning": "Matched potentially overlapping signal events, no stop/cooldown/account halts; perETF means are NOT account returns. Same-cohort labels only where full4bar+delay exists in same local session."
+}
