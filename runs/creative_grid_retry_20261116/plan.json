@@ -10,5 +10,6 @@
   "risk": "Actual inverse ETF buys, max15% perETF no redistribution; stops60bp target2/3R hold2/4, no leverage increases, no real orders",
   "publication": "No raw dataset upload, metadata/results/code only",
   "data": "Same local pinned four-ETF Yahoo hourly snapshot, unchanged hash; no news/macro",
-  "caveat": "Repeated2026 research, no independent validation; adaptive monthly resets require explicit reporting and continuous risk handling"
+  "caveat": "Repeated2026 research, no independent validation; adaptive monthly resets require explicit reporting and continuous risk handling",
+  "clarifications": "Monthly deployment runs use independent account risk initialization, with monthly compounding a descriptive cohort chain; capital peak/loss-streak are NOT carried. This limitation is disclosed and blocks continuous-account claims. Develop runner with continuous state next before any deployment promotion."
 }

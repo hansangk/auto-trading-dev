@@ -1,0 +1,13 @@
+months,policy,cost,delay,months_tested,active_months,monthly_reset_compound,monthly_close_mdd,rounds,warning
+3,adaptive,1.0,0,11,11,-0.10933529667569308,0.10933529667569308,349,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+3,adaptive,1.0,1,11,11,-0.08535113773588165,0.08535113773588165,353,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+3,adaptive,2.0,0,11,11,-0.13147819322199306,0.13147819322199306,348,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+3,anchor,1.0,0,11,11,0.07807827085299057,0.02422705412599213,259,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+3,anchor,1.0,1,11,11,0.05707792644171161,0.027879161009583653,247,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+3,anchor,2.0,0,11,11,0.03486412716839182,0.029468216449268114,258,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+6,adaptive,1.0,0,11,9,-0.061584330106717045,0.061584330106717045,343,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+6,adaptive,1.0,1,11,9,-0.0761712645444883,0.0761712645444883,352,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+6,adaptive,2.0,0,11,9,-0.08648591048376375,0.08648591048376375,342,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+6,anchor,1.0,0,11,11,0.07807827085299057,0.02422705412599213,259,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+6,anchor,1.0,1,11,11,0.05707792644171161,0.027879161009583653,247,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
+6,anchor,2.0,0,11,11,0.03486412716839182,0.029468216449268114,258,Monthly account initialization/cohort chain; not continuous account with carried peak/loss-streak. Compare to same-reset anchor only.
