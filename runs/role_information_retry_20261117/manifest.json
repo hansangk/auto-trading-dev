@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE_REJECTED",
+  "parent": "7e1a733feed267eb17f9ca8389373664c96ce2da",
+  "new_engine_calls": 283,
+  "cash_control_calls": 277,
+  "frozen_union_calls": 6,
+  "new_alpha_strategies": 0,
+  "control_replicates": 64,
+  "stress_replicates": 8,
+  "permutation_draws_per_cell": 2000,
+  "bootstrap_draws_per_cell": 2000,
+  "tests_passed": 85,
+  "source_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "closed_hypothesis": "Current fixeddailyregime(.4,.15) gap/volume router has no replicated demonstrated incremental information in reused2025development",
+  "closure_scope": "Futility for this model/sample, not proof all efficiency-based routing or future regimes lack value",
+  "independent_holdout": false,
+  "news_macro": false,
+  "limits": "Exact relativeweights/order-count frozenmatching is ex-post; dollar/time exposure not exact. Fullreplay only expected participation matched and different realized turnover; exchangeabilityunproved. No future counts used in causal hash controls afterH1calibration.",
+  "hashes": {
+    "scripts/role_cash_controls_20261117.py": "b2069777d00df71325ea0ae493382ec4e0993c9c477a4df34dea96730749f5f8",
+    "scripts/fixed_role_attribution_20261117.py": "643aab9b5d18c877fba0b40ee5c19678a3df221dfef7a356fc29380d04ac0bf1",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  },
+  "independent_review": "Cashcontrols causal afterH1calibration, seedsfixedbeforeoutcomes; report correctly distinguishes expected vs realized turnover and ex-post exactrelativeweight matching. CLOSEDFUTILITY; nextseparatesnapshot/shadow not tiny-sample validation."
+}

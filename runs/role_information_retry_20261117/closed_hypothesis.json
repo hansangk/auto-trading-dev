@@ -1,0 +1,16 @@
+{
+  "model": "daily_regime_p0.4_q0.15_h4_t3",
+  "component_gap": [
+    0.5,
+    0.6
+  ],
+  "component_volume": [
+    6,
+    2
+  ],
+  "decision": "CLOSE_CURRENT_ROUTING_FAMILY",
+  "futility_cells_passed": 0,
+  "futility_cells_total": 6,
+  "reason": "Nonpositive/inconsistent information contrast and all block lowerCI <=0, sparseconditionalstrata",
+  "reopen_only": "New independent history or genuinely new observable mechanism with preregistered prediction; not another same-sample threshold sweep"
+}

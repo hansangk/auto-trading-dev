@@ -1,0 +1,14 @@
+{
+  "stress_controls": [
+    "event_role_s00",
+    "event_role_s01",
+    "event_shared_s00",
+    "event_shared_s01",
+    "session_role_s00",
+    "session_role_s01",
+    "hour_role_s00",
+    "hour_role_s01"
+  ],
+  "rule": "Predeclared seeds0/1perstyle;never choose most profitable random controls",
+  "alpha_candidates": 0
+}
