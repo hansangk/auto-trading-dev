@@ -1,0 +1,10 @@
+[
+  "volume_pressure_p6_q2_h4_t3",
+  "volume_pressure_p6_q2_h4_t2",
+  "gap_absorption_p0.5_q0.6_h4_t3",
+  "gap_absorption_p0.5_q0.6_h4_t2",
+  "cross_response_p2_q0.75_h2_t2",
+  "cross_response_p2_q0.75_h2_t3",
+  "failed_breakout_p0.25_q2_h4_t2",
+  "failed_breakout_p0.25_q2_h4_t3"
+]

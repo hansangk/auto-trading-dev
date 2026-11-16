@@ -1,12 +1,14 @@
 {
-  "status": "RUNNING",
+  "status": "COMPLETE_REJECTED",
   "owner": "Codex",
   "run_id": "microstructure_grid_retry_20261117",
   "parent": "ad0ee3bd2057a0a6788e08bc4a749369e2f433f7",
   "started_utc": "2026-11-16T16:03:00.719353+00:00",
-  "checkpoint": "Creative quant implementing new64grid; inputverified; no current results",
-  "next_action": "Owner runs stagedgrid and continuous-risk rollingmonth; do not duplicate",
+  "checkpoint": "New4families64grid;2074engine evaluations;65tests;staged dev/recent fits/continuousWF complete;no promotion",
+  "next_action": "First compare base/delay1 actualETF paths on fixed2025signal cohorts and role/month attribution; then gap/volume complementarity before any capped routing. No diagnostic-fit promotion.",
   "paths": [
     "runs/microstructure_grid_retry_20261117"
-  ]
+  ],
+  "latest_report": "MICROSTRUCTURE_GRID_RETRY_REPORT_20261117.md",
+  "handoff": "RESEARCH_HANDOFF.md"
 }

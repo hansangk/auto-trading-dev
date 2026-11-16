@@ -51,3 +51,8 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Monthly walk-forward portfolio claims must preserve account equity/peak, daily state, loss streak, cooldown and permanent kill across segments. AccountState is optional; use the same MarketData/global indices and flat session-boundary stops. Do not reset a halted account at calendar boundaries.
 - Report ever_halted/first halt and actual trade counts, not only final-month killed status. Reduced terminal loss after earlier permanent halt is risk execution, not new alpha. Compare continuity components to isolate causes.
 - Latest report CONTINUOUS_RISK_RETRY_REPORT_20261117.md:27 account scenarios/300engine calls;55tests. No new grid fitted in this execution-only correction. Next4creative families and64bounded settings are proposed in runs/continuous_risk_retry_20261117/quant_next_proposals.md, not implemented/tested.
+
+2026-11-17 new OHLCV families:
+- Count signal-time entry opportunities as an upper bound before spending attention on sparse-event winners. Recent3month gap/breakout cannot reach20rounds; keep ineligible rather than relax the sample screen.
+- Monthly selection must exclude candidates that halted in training stresses, even when terminal return is positive. Use carried AccountState for deployment and preserve full decision/account checkpoints; cash/halted months are legitimate zero-trade outcomes.
+- Latest MICROSTRUCTURE_GRID_RETRY_REPORT_20261117.md: new64grid,2074engine calls,65tests,all rejected. Next measure development gap/volume complementarity before any capped exclusive combination; no blindly repeated grid or diagnostic-fit promotion.
