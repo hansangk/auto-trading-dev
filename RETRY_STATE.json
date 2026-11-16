@@ -1,12 +1,14 @@
 {
-  "status": "RUNNING",
+  "status": "COMPLETE_REJECTED",
   "run_id": "continuous_risk_retry_20261117",
   "owner": "Codex",
   "parent": "7d41826aa35ea5d1ac7afa31ac2d4eb3eeb7d019",
   "started_utc": "2026-11-16T15:07:30.856176+00:00",
-  "checkpoint": "Quant agent implementing account state; input hashes verified; no current backtest result",
-  "next_action": "Complete fixed-decision continuous-state replay and handoff; do not duplicate",
+  "checkpoint": "Continuous AccountState implemented;27scenarios/300engine calls completed;55tests;all strategies remain unapproved",
+  "next_action": "Implement new proposed4families64grid and use continuous state for monthly deployment; do not refit old decisions based on diagnostic results.",
   "paths": [
     "runs/continuous_risk_retry_20261117"
-  ]
+  ],
+  "latest_report": "CONTINUOUS_RISK_RETRY_REPORT_20261117.md",
+  "handoff": "RESEARCH_HANDOFF.md"
 }

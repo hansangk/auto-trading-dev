@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
+from datetime import date
 
 import numpy as np
 import pandas as pd
@@ -8,6 +9,24 @@ import pandas as pd
 from .config import ExecutionConfig, RiskConfig
 from .data import BTC_ETFS, MarketData
 from .strategy import StrategySpec
+
+
+@dataclass
+class AccountState:
+    """Mutable, flat-position account state for sequential session segments.
+
+    Leave monetary values unset to initialize them from the first call's capital.
+    Reuse this object with the same MarketData and its original bar indices;
+    cooldown_until is an absolute index. Positions cannot cross call boundaries.
+    """
+
+    equity: float | None = None
+    peak: float | None = None
+    daily_start: float | None = None
+    current_date: date | None = None
+    cooldown_until: int = -1
+    loss_streak: int = 0
+    killed: bool = False
 
 
 @dataclass(frozen=True)
@@ -65,7 +84,15 @@ def run_backtest(
     asset_weight_scale: np.ndarray | None = None,
     funded_pair: bool = False,
     funded_allow_single: bool = False,
+    account_state: AccountState | None = None,
 ) -> BacktestResult:
+    """Replay a segment, optionally carrying flat account risk state in place.
+
+    Stateful segments must stop at a session boundary (or the data end). They
+    must run in chronological order on the same unsliced MarketData. Returned
+    PnL/costs and returns describe this segment; drawdown includes the inherited
+    peak. Aggregate the trade ledger separately for whole-account statistics.
+    """
     if funded_allow_single and not funded_pair:
         raise ValueError('Single funded entries require funded_pair=True')
     if funded_pair and (spec.long_k != 1 or spec.short_k != 1 or regime_plan is not None):
@@ -81,6 +108,25 @@ def run_backtest(
     i = max(start, 1 + signal_delay_bars)
     equity = float(capital); peak = equity; daily_start = equity
     current_date = None; cooldown_until = -1; loss_streak = 0; hard_halts = 0; killed = False
+    dates = pd.to_datetime(data.timestamps, utc=True).date
+    if account_state is not None:
+        if not 0 <= start <= stop <= len(data.timestamps):
+            raise ValueError('Stateful segments require valid original data indices')
+        if 0 < stop < len(dates) and dates[stop - 1] == dates[stop]:
+            raise ValueError('Stateful segments must stop at a session boundary')
+        equity = float(capital if account_state.equity is None else account_state.equity)
+        peak = float(equity if account_state.peak is None else account_state.peak)
+        daily_start = float(equity if account_state.daily_start is None else account_state.daily_start)
+        if not np.isfinite([equity, peak, daily_start]).all() or min(equity, daily_start) <= 0 or peak < equity:
+            raise ValueError('Account values must be finite and positive, with peak >= equity')
+        if account_state.loss_streak < 0:
+            raise ValueError('Account loss streak cannot be negative')
+        current_date = account_state.current_date
+        cooldown_until = account_state.cooldown_until
+        loss_streak = account_state.loss_streak
+        killed = account_state.killed
+    starting_equity = equity
+    starting_peak = peak
     executed_orders = 0
     returns: list[float] = []; times: list[np.datetime64] = []
     long_pnl = short_pnl = btc_pnl = costs_paid = turnover = 0.0
@@ -91,7 +137,6 @@ def run_backtest(
     roundtrip_bps = 2 * (execution.commission_bps + execution.slippage_bps) * cost_multiplier
     borrow_per_bar = execution.short_borrow_bps_per_year / 10_000 * data.bar_minutes / (252 * 390)
     btc_indices = {j for j, symbol in enumerate(data.symbols) if symbol in BTC_ETFS}
-    dates = pd.to_datetime(data.timestamps, utc=True).date
 
     while i < stop:
         date = dates[i]
@@ -233,14 +278,23 @@ def run_backtest(
 
     arr = np.asarray(returns, dtype=float); time_arr = np.asarray(times)
     max_drawdown = 0.0
-    if len(arr):
-        curve = np.r_[capital, capital * np.cumprod(1 + arr)]; peaks = np.maximum.accumulate(curve)
+    if len(arr) or account_state is not None:
+        curve = np.r_[starting_equity, starting_equity * np.cumprod(1 + arr)]
+        peaks = np.maximum(starting_peak, np.maximum.accumulate(curve))
         max_drawdown = abs(float(np.min(curve / peaks - 1)))
     sharpe, sortino = _daily_metrics(arr, time_arr)
     wins = arr[arr > 0]; losses = arr[arr < 0]
     profit_factor = float(wins.sum() / abs(losses.sum())) if len(losses) and losses.sum() else (float("inf") if len(wins) else 0.0)
-    total_return = equity / capital - 1
+    total_return = equity / starting_equity - 1
     calmar = total_return / max_drawdown if max_drawdown > 0 else 0.0
+    if account_state is not None:
+        account_state.equity = equity
+        account_state.peak = peak
+        account_state.daily_start = daily_start
+        account_state.current_date = current_date
+        account_state.cooldown_until = cooldown_until
+        account_state.loss_streak = loss_streak
+        account_state.killed = killed
     return BacktestResult(
         total_return, max_drawdown, sharpe, sortino, calmar,
         float(np.mean(arr > 0)) if len(arr) else 0.0, profit_factor,
