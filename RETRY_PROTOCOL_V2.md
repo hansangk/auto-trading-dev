@@ -31,3 +31,8 @@ Known protocol weakness to address next: ranking on worst return tends to prefer
 - Explicitly select nonzero buy roles for optional participation; do not let zero-score assets become phantom second holdings. Leave unused allocation in cash. Reconcile actual ETF order counts instead of assuming two orders per round.
 - A profitable frozen subset in reused2026 is insufficient: report the same subset's development cost/delay stresses and the complete replay separately. Here single-opportunity subsets also failed development stresses, so do not repeat a simple single-only filter based on2026 alone.
 - Latest handoff SINGLE_ASSET_RETRY_REPORT_20261116.md: 51 runs, all candidates rejected; next diagnose development forward-path decay as labels, not future information in signals.
+
+2026-11-16 forward-label/exhaustion evidence:
+- Compare horizons on a common entry cohort when possible; horizon-specific session truncation changes sample composition. Forward labels are development diagnostics, not entry features or account returns; keep paired actual inverse-ETF paths separate from protected replay.
+- Worse original gross paths do not imply a profitable inverse strategy. Full/dual-only/single-only direction swaps were ablated; all rejected, with full inversion failing cost2 in both development halves and losing reused2026. Do not repeat this family without a new mechanism.
+- Normalize archived period types before regression checks; report aborted attempts separately. Latest handoff: SIGNAL_DECAY_RETRY_REPORT_20261116.md (39 completed backtests). Next diagnose repeated entries into unchanged states before considering event-onset entries.
