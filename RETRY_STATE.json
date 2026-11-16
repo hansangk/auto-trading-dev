@@ -1,16 +1,12 @@
 {
-  "status": "COMPLETE_REJECTED",
-  "run_id": "creative_grid_retry_20261116",
+  "status": "RUNNING",
+  "run_id": "continuous_risk_retry_20261117",
   "owner": "Codex",
-  "parent": "bc805d8795ede352d4dae00916226b3fafa20519",
-  "started_utc": "2026-11-16T14:42:06.825915+00:00",
-  "checkpoint": "64 candidates;2088 unique account evaluations;47tests pass;recent3/6 and monthly research complete",
-  "next_action": "Implement continuous monthly account risk state before interpreting adaptive chains as portfolio returns. Read report and grid cache; do not rerun identical failures.",
+  "parent": "7d41826aa35ea5d1ac7afa31ac2d4eb3eeb7d019",
+  "started_utc": "2026-11-16T15:07:30.856176+00:00",
+  "checkpoint": "Quant agent implementing account state; input hashes verified; no current backtest result",
+  "next_action": "Complete fixed-decision continuous-state replay and handoff; do not duplicate",
   "paths": [
-    "runs/creative_grid_retry_20261116"
-  ],
-  "raw_data": "Local pinned market.csv.gz; raw publication previously denied; requires matching input hash",
-  "latest_report": "CREATIVE_GRID_RETRY_REPORT_20261116.md",
-  "handoff": "RESEARCH_HANDOFF.md",
-  "claimed_commit": "3844e35179e6fc88b67738e8f3b07b2bdfc61156"
+    "runs/continuous_risk_retry_20261117"
+  ]
 }
