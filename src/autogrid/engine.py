@@ -64,7 +64,10 @@ def run_backtest(
     early_reentry: bool = False,
     asset_weight_scale: np.ndarray | None = None,
     funded_pair: bool = False,
+    funded_allow_single: bool = False,
 ) -> BacktestResult:
+    if funded_allow_single and not funded_pair:
+        raise ValueError('Single funded entries require funded_pair=True')
     if funded_pair and (spec.long_k != 1 or spec.short_k != 1 or regime_plan is not None):
         raise ValueError('Funded pair requires fixed one ETF per role')
     if asset_weight_scale is not None:
@@ -78,6 +81,7 @@ def run_backtest(
     i = max(start, 1 + signal_delay_bars)
     equity = float(capital); peak = equity; daily_start = equity
     current_date = None; cooldown_until = -1; loss_streak = 0; hard_halts = 0; killed = False
+    executed_orders = 0
     returns: list[float] = []; times: list[np.datetime64] = []
     long_pnl = short_pnl = btc_pnl = costs_paid = turnover = 0.0
     stop_fraction = spec.stop_loss_bps / 10_000
@@ -117,11 +121,23 @@ def run_backtest(
         signal = score[i - 1 - signal_delay_bars]
         if not np.any(signal) or np.allclose(signal, signal[0]):
             i += 1; continue
-        order = np.argsort(signal)
-        long_idx = order[-spec.long_k:]
-        short_idx = np.array([j for j in order if data.symbols[j] not in short_exclude_symbols and j not in long_idx][:spec.short_k], dtype=int)
-        if len(short_idx) != spec.short_k:
-            i += 1; continue
+        if funded_allow_single:
+            # Positive/negative values label the Nasdaq/Bitcoin BUY roles.
+            # Zero-score assets must never become a phantom second holding.
+            long_idx = np.flatnonzero(signal > 0)
+            short_idx = np.flatnonzero(signal < 0)
+            if len(long_idx) > 1 or len(short_idx) > 1:
+                raise ValueError('At most one ETF in each funded role')
+            if len(long_idx) + len(short_idx) == 0:
+                i += 1; continue
+            per_long = side_gross; per_short = side_gross
+            gross = side_gross * (len(long_idx) + len(short_idx))
+        else:
+            order = np.argsort(signal)
+            long_idx = order[-spec.long_k:]
+            short_idx = np.array([j for j in order if data.symbols[j] not in short_exclude_symbols and j not in long_idx][:spec.short_k], dtype=int)
+            if len(short_idx) != spec.short_k:
+                i += 1; continue
         # At the open of bar i, its eventual volume is not yet known.
         if set(short_idx).intersection(long_idx) or np.any(data.volume[i - 1, np.r_[short_idx, long_idx]] <= 0):
             i += 1; continue
@@ -189,6 +205,7 @@ def run_backtest(
             + per_short * sum(value for idx, value in short_returns if idx in btc_indices)
         )
         costs_paid += base * cost_return; turnover += gross * 2
+        executed_orders += len(long_idx) + len(short_idx)
         returns.append(round_return); times.append(data.timestamps[end])
         if trade_log is not None:
             trade_log.append(dict(entry=str(data.timestamps[i]), end=str(data.timestamps[end]),
@@ -199,7 +216,7 @@ def run_backtest(
                                   pnl=base*round_return, equity=equity,
                                   signal_index=i-1-signal_delay_bars))
             if funded_pair:
-                trade_log[-1].update(execution_type='buy_two_etfs', bought_symbols=[data.symbols[j] for j in np.r_[long_idx,short_idx]], role_note='short_symbols/short_gross_return are legacy role names; second role is also bought, no borrow')
+                trade_log[-1].update(execution_type='buy_two_etfs', bought_symbols=[data.symbols[j] for j in np.r_[long_idx,short_idx]], bought_weights=[per_long]*len(long_idx)+[per_short]*len(short_idx), role_note='short_symbols/short_gross_return are legacy role names; second role is also bought, no borrow')
             trade_log[-1].update(long_weight=per_long,short_weight=per_short,
                                  long_gross_return=long_contribution,
                                  short_gross_return=short_contribution)
@@ -227,6 +244,6 @@ def run_backtest(
     return BacktestResult(
         total_return, max_drawdown, sharpe, sortino, calmar,
         float(np.mean(arr > 0)) if len(arr) else 0.0, profit_factor,
-        len(arr) * (spec.long_k + spec.short_k), len(arr), turnover, costs_paid,
+        executed_orders, len(arr), turnover, costs_paid,
         long_pnl, short_pnl, btc_pnl, hard_halts, killed,
     )

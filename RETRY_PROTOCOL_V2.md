@@ -26,3 +26,8 @@ Known protocol weakness to address next: ranking on worst return tends to prefer
 - Research universe now includes actual TQQQ/SQQQ/IBIT/BITI ETF buys. Distinguish a bearish signal, borrowed short sale, and purchase of an inverse ETF. Verify actual per-ticker ledger counts; a ticker present only in downloaded files is not evidence it was traded.
 - Isolate instrument implementation from direction logic and timeframe filters. An inverse ETF price path is not the negative spot ETF return; replay actual bars with correct purchase sign and no short borrow charge. Keep capital caps and protective stops, acknowledge differing underlying sensitivity.
 - Latest experiment and next handoff: INVERSE_ETF_RETRY_REPORT_20261116.md. All development candidates rejected; next is fixed-cap single-asset participation ablation, not yet run.
+
+2026-11-16 single-asset participation evidence:
+- Explicitly select nonzero buy roles for optional participation; do not let zero-score assets become phantom second holdings. Leave unused allocation in cash. Reconcile actual ETF order counts instead of assuming two orders per round.
+- A profitable frozen subset in reused2026 is insufficient: report the same subset's development cost/delay stresses and the complete replay separately. Here single-opportunity subsets also failed development stresses, so do not repeat a simple single-only filter based on2026 alone.
+- Latest handoff SINGLE_ASSET_RETRY_REPORT_20261116.md: 51 runs, all candidates rejected; next diagnose development forward-path decay as labels, not future information in signals.
