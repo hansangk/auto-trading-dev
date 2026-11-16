@@ -1,0 +1,38 @@
+{
+  "parent": "d29506f12feca739e190b6f77d5bf8022f043699",
+  "scope": "New separatelyversioned4ETF Yahoohourlysnapshot integrity and frozen-model paper/shadow, no thresholdfit or CLOSED_FUTILITY reopening.",
+  "as_of_utc": "2026-11-16T19:03:46.280351+00:00",
+  "old_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "old_path": "runs/inverse_etf_retry_20261116/market.csv.gz",
+  "source": "Yahoo query2 chart range2y interval1h includePrePostfalse actual TQQQ SQQQ IBIT BITI",
+  "frozen": {
+    "anchor": {
+      "signal": "funded_relative dual_momentum24/.75",
+      "hold": 4,
+      "target": 3,
+      "stop_bps": 60
+    },
+    "gap_reference": {
+      "family": "gap_absorption",
+      "p1": 0.5,
+      "p2": 0.6,
+      "hold": 4,
+      "target": 3,
+      "stop_bps": 60,
+      "selection": "Prior2025developmentrank1,notapproved"
+    },
+    "cash": {
+      "signal": "zeros",
+      "hold": 4,
+      "target": 3,
+      "stop_bps": 60
+    }
+  },
+  "acceptance": "No invalid/duplicate OHLCV; completed-bar cutoff2minlag; classifyoverlap revisions/missing/new beforeevaluation. Only fullregular7bar09:30..15:30sessions with16:00+2min<=cutoff eligible, calendar earlycloseunknown flagged/excluded. No forcedclose partialsession. Source freshness/provenance mandatory.",
+  "evaluation": "Re-anchor frozen models on2026-01-01..11-13 usingoldvsnewoverlap ifdataavailable. Shadowpost11-13 onlyfullycompletedsessions;basic/cost2/delay1. Fewer20sessions or20rounds=>INSUFFICIENT not validation. Preserveactualinputspecs/code hashes, no fake newresultifnone.",
+  "risk": "Actual4ETFbuys max15%ETF,stop60jointclose nextopen nolevincrease/noorder. IBITBitcoinproxy.",
+  "publication": "No rawsnapshot upload;localonlyrawJSON/CSV. Publishcode/aggregates/provenance/hash.",
+  "concurrency": "Previous COMPLETE,localnoworker; unique run+expectedparentclaim, externalprivateworkersunknown",
+  "independence": "Revisedoverlap is reused research. New unseenbars stillsmall/originallynotpreregisteredbeforebarformation=>shadowonly, not independent validation.",
+  "news_macro": false
+}

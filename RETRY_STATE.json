@@ -1,14 +1,12 @@
 {
-  "status": "COMPLETE_REJECTED",
+  "status": "RUNNING",
   "owner": "Codex",
-  "run_id": "role_information_retry_20261117",
-  "parent": "7e1a733feed267eb17f9ca8389373664c96ce2da",
-  "started_utc": "2026-11-16T18:05:23.778181+00:00",
-  "checkpoint": "Fixed-role/cash falsification283calls;85tests;currentdailyrouterCLOSED_FUTILITY;noalpha promoted",
-  "next_action": "Preserve oldsnapshot, audit newcompleted bars after2026-11-13 in separatelyversioned snapshot; freeze baseline/model before shadow evaluation; no new same-sample routing grid. Tiny new sample notvalidation.",
+  "run_id": "snapshot_shadow_retry_20261117",
+  "parent": "d29506f12feca739e190b6f77d5bf8022f043699",
+  "started_utc": "2026-11-16T19:03:46.280351+00:00",
+  "checkpoint": "Frozenspecs saved beforefreshdatafetch;oldinput hashverified;quant completionguard implementing",
+  "next_action": "Owner fetches newlocal snapshot/audits and shadow only complete sessions; no duplicate",
   "paths": [
-    "runs/role_information_retry_20261117"
-  ],
-  "latest_report": "ROLE_INFORMATION_RETRY_REPORT_20261117.md",
-  "handoff": "RESEARCH_HANDOFF.md"
+    "runs/snapshot_shadow_retry_20261117"
+  ]
 }
