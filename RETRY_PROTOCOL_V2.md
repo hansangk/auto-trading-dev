@@ -36,3 +36,8 @@ Known protocol weakness to address next: ranking on worst return tends to prefer
 - Compare horizons on a common entry cohort when possible; horizon-specific session truncation changes sample composition. Forward labels are development diagnostics, not entry features or account returns; keep paired actual inverse-ETF paths separate from protected replay.
 - Worse original gross paths do not imply a profitable inverse strategy. Full/dual-only/single-only direction swaps were ablated; all rejected, with full inversion failing cost2 in both development halves and losing reused2026. Do not repeat this family without a new mechanism.
 - Normalize archived period types before regression checks; report aborted attempts separately. Latest handoff: SIGNAL_DECAY_RETRY_REPORT_20261116.md (39 completed backtests). Next diagnose repeated entries into unchanged states before considering event-onset entries.
+
+2026-11-16 event-onset retry evidence:
+- A change in the signal vector is not necessarily new actionable information: disappearing roles alone must not trigger onset entries. Specify the event precisely and test both positive and negative cases.
+- Entry gating need not reduce full-replay turnover when stops/cooldowns/account halts alter future opportunities. Report frozen admitted/rejected baseline rounds and full account costs/order counts separately; event gating here increased diagnostic replay costs and lost more money.
+- Latest handoff EVENT_ENTRY_RETRY_REPORT_20261116.md:27 completed account runs, all rejected. Next measure exit reasons, gap effects and intraround marks with output-invariance logging before changing exits.
