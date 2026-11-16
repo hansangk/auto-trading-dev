@@ -1,0 +1,6 @@
+{
+  "evaluations": 36,
+  "observer_runs": 3,
+  "live_risk": "unchanged",
+  "warning": "Shadow limits disabled for observation only. Reused 2026, no independent holdout; outcomes released one bar after recorded end."
+}
