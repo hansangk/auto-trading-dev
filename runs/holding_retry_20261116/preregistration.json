@@ -1,0 +1,28 @@
+{
+  "status": "running",
+  "input_code": "08388d0dffb113e4f608226513c3c1d0237e1f4f",
+  "hypothesis": "With fixed dual momentum entries and joint-close 60bp stop/3R target, changing maximum intraday hold alone may improve net capture; no overnight extension.",
+  "holds": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "anchor": 4,
+  "development": [
+    "2025-01-01/2025-06-30",
+    "2025-07-01/2025-12-31"
+  ],
+  "diagnostic": "2026-01-01/2026-11-13 reused",
+  "stress": [
+    "base",
+    "cost2",
+    "delay1"
+  ],
+  "eligibility": "At least 20 rounds in all six development cells",
+  "selection": "Eligible top1 by worst net return, then mean return, then hold; freeze before diagnostics",
+  "promotion": "All six development returns positive, every delta versus refreshed anchor positive, every MDD no worse than anchor. Otherwise reject, even rank1.",
+  "data_change": "Redownload changed hash; old hash unavailable, refresh all comparators; never claim identical-input reproduction.",
+  "concurrency": "No local worker/lock found; remote head checked twice unchanged. External worker absence cannot be proven. Distinct output directory; normal non-force push only."
+}

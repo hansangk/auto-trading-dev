@@ -16,3 +16,8 @@ Purpose: improve both strategy and the experiment loop. A retry is a falsifiable
 Initial v2 adoption: `scripts/anchor_filter_audit.py` fixes anchor signal and exits, audits ten single filters plus anchor, requires at least 20 rounds per development scenario for diagnostic eligibility, and requires all six development scenarios positive and each better than anchor for its research promotion screen. These thresholds are this experiment's preregistered rules, not universal statistical assurance. Every candidate failed promotion.
 
 Known protocol weakness to address next: ranking on worst return tends to prefer sparse participation. Pair return improvements with opportunity coverage and confidence, and add new independent periods. Also examine potential code-path effects: gated replay can find opportunities the frozen baseline never executed. Do not infer causality from raw aggregate return differences alone.
+
+2026-11-16 holding retry evidence-based additions:
+- Missing raw inputs must be recovered or explicitly versioned as a new data snapshot. Compare its hash before experiments. If different, rerun all comparators and separate data-revision differences from strategy deltas; never silently overwrite archived metrics. Pin the actual CSV when practical.
+- Decompose any net improvement into gross leg contributions and costs, using capital-weighted ledger accounting. Fewer rounds and lower costs do not establish improved price-path capture. For exit changes, full replay changes future opportunities and is not a matched-entry causal comparison.
+- Latest evidence/handoff: HOLDING_RETRY_REPORT_20261116.md; hold-only top1 rejected across development, despite slightly higher reused-2026 base profit.
