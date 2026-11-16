@@ -21,3 +21,8 @@ Known protocol weakness to address next: ranking on worst return tends to prefer
 - Missing raw inputs must be recovered or explicitly versioned as a new data snapshot. Compare its hash before experiments. If different, rerun all comparators and separate data-revision differences from strategy deltas; never silently overwrite archived metrics. Pin the actual CSV when practical.
 - Decompose any net improvement into gross leg contributions and costs, using capital-weighted ledger accounting. Fewer rounds and lower costs do not establish improved price-path capture. For exit changes, full replay changes future opportunities and is not a matched-entry causal comparison.
 - Latest evidence/handoff: HOLDING_RETRY_REPORT_20261116.md; hold-only top1 rejected across development, despite slightly higher reused-2026 base profit.
+
+2026-11-16 user scope correction — real inverse ETF implementation:
+- Research universe now includes actual TQQQ/SQQQ/IBIT/BITI ETF buys. Distinguish a bearish signal, borrowed short sale, and purchase of an inverse ETF. Verify actual per-ticker ledger counts; a ticker present only in downloaded files is not evidence it was traded.
+- Isolate instrument implementation from direction logic and timeframe filters. An inverse ETF price path is not the negative spot ETF return; replay actual bars with correct purchase sign and no short borrow charge. Keep capital caps and protective stops, acknowledge differing underlying sensitivity.
+- Latest experiment and next handoff: INVERSE_ETF_RETRY_REPORT_20261116.md. All development candidates rejected; next is fixed-cap single-asset participation ablation, not yet run.

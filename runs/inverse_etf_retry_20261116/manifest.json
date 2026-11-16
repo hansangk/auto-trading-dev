@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE",
+  "evaluations": 36,
+  "development": 30,
+  "diagnostic": 6,
+  "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "hashes": {
+    "src/autogrid/engine.py": "539966169bb3bf8a96546c66122454bec46b982bdd172ff826af9ba3d3dc551a",
+    "scripts/inverse_etf_retry_20261116.py": "ab1ec4abb4a5001aba3aae3f4a2ee7082f61b7939c2dce32479ff74eb4824081",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  },
+  "periods": {
+    "2025H1": [
+      "2025-01-01",
+      "2025-07-01"
+    ],
+    "2025H2": [
+      "2025-07-01",
+      "2026-01-01"
+    ],
+    "2026": [
+      "2026-01-01",
+      "2026-11-14"
+    ]
+  },
+  "prefix_checks": 15,
+  "independent_holdout": false,
+  "news_macro": false,
+  "source_code_parent": "c0c3f5171997349e70a98089374665f82e59e374",
+  "raw_data_publication": "Blocked by automatic approval review; original market.csv.gz retained locally. Only source hashes and provenance published; exact reproduction requires matching local data."
+}

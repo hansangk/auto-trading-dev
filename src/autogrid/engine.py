@@ -63,7 +63,10 @@ def run_backtest(
     exit_mode: str = 'independent',
     early_reentry: bool = False,
     asset_weight_scale: np.ndarray | None = None,
+    funded_pair: bool = False,
 ) -> BacktestResult:
+    if funded_pair and (spec.long_k != 1 or spec.short_k != 1 or regime_plan is not None):
+        raise ValueError('Funded pair requires fixed one ETF per role')
     if asset_weight_scale is not None:
         if asset_weight_scale.shape != data.shape or not np.isfinite(asset_weight_scale).all() or np.any(asset_weight_scale <= 0) or np.any(asset_weight_scale > 1):
             raise ValueError('Asset scales must match data and be finite in (0,1]')
@@ -146,6 +149,15 @@ def run_backtest(
                     result = tp_fraction; break
             long_returns.append((int(idx), float(result)))
         for idx in short_idx:
+            if funded_pair:
+                result = data.close[end, idx] / entry[idx] - 1
+                for j in range(i, end + 1):
+                    if data.low[j, idx] <= entry[idx] * (1 - stop_fraction):
+                        result = min(data.open[j, idx]/entry[idx]-1, -stop_fraction); break
+                    if data.high[j, idx] >= entry[idx] * (1 + tp_fraction):
+                        result = tp_fraction; break
+                short_returns.append((int(idx), float(result)))
+                continue
             result = -(data.close[end, idx] / entry[idx] - 1)
             for j in range(i, end + 1):
                 if data.high[j, idx] >= entry[idx] * (1 + stop_fraction):
@@ -159,16 +171,16 @@ def run_backtest(
             if exit_mode == 'joint_close':
                 for j in range(i, end):
                     pair_move = (per_long * np.sum(data.close[j, long_idx] / entry[long_idx] - 1)
-                                 - per_short * np.sum(data.close[j, short_idx] / entry[short_idx] - 1)) / gross
+                                 + (1 if funded_pair else -1) * per_short * np.sum(data.close[j, short_idx] / entry[short_idx] - 1)) / gross
                     if pair_move <= -stop_fraction or pair_move >= tp_fraction:
                         end = j + 1
                         exit_prices = data.open[end]
                         break
             long_returns = [(int(k), float(exit_prices[k]/entry[k]-1)) for k in long_idx]
-            short_returns = [(int(k), float(1-exit_prices[k]/entry[k])) for k in short_idx]
+            short_returns = [(int(k), float((1 if funded_pair else -1)*(exit_prices[k]/entry[k]-1))) for k in short_idx]
         long_contribution = per_long * sum(value for _, value in long_returns)
         short_contribution = per_short * sum(value for _, value in short_returns)
-        cost_return = gross * roundtrip_bps / 10_000 + per_short * spec.short_k * borrow_per_bar * (end - i + 1)
+        cost_return = gross * roundtrip_bps / 10_000 + (0 if funded_pair else per_short * spec.short_k * borrow_per_bar * (end - i + 1))
         round_return = long_contribution + short_contribution - cost_return
         base = equity; equity *= 1 + round_return
         long_pnl += base * long_contribution; short_pnl += base * short_contribution
@@ -186,6 +198,8 @@ def run_backtest(
                                   cost_return=cost_return, net_return=round_return,
                                   pnl=base*round_return, equity=equity,
                                   signal_index=i-1-signal_delay_bars))
+            if funded_pair:
+                trade_log[-1].update(execution_type='buy_two_etfs', bought_symbols=[data.symbols[j] for j in np.r_[long_idx,short_idx]], role_note='short_symbols/short_gross_return are legacy role names; second role is also bought, no borrow')
             trade_log[-1].update(long_weight=per_long,short_weight=per_short,
                                  long_gross_return=long_contribution,
                                  short_gross_return=short_contribution)
