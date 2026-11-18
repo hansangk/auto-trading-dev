@@ -1,0 +1,32 @@
+[
+  {
+    "start": "2026-09-21",
+    "end_exclusive": "2026-10-01",
+    "ETF_role_events": 168,
+    "reference_role_events": 169,
+    "same_direction": 165,
+    "removed_roles": 3,
+    "new_reference_roles": 4,
+    "changed_clock_vectors": 6
+  },
+  {
+    "start": "2026-10-01",
+    "end_exclusive": "2026-10-19",
+    "ETF_role_events": 235,
+    "reference_role_events": 237,
+    "same_direction": 233,
+    "removed_roles": 2,
+    "new_reference_roles": 4,
+    "changed_clock_vectors": 6
+  },
+  {
+    "start": "2026-10-19",
+    "end_exclusive": "2026-11-18",
+    "ETF_role_events": 555,
+    "reference_role_events": 560,
+    "same_direction": 543,
+    "removed_roles": 12,
+    "new_reference_roles": 17,
+    "changed_clock_vectors": 29
+  }
+]

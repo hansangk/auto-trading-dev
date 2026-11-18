@@ -1,0 +1,234 @@
+{
+  "status": "REJECTED_ON_CURRENT_EVIDENCE",
+  "reuse": "No identical resweep without independent history or explicitly justified new evidence. A new download hash alone is not alpha evidence.",
+  "combinations": [
+    {
+      "name": "tracking_catchup_3_1",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "tracking_catchup",
+        "a": 3,
+        "b": 1.0
+      },
+      "development_array_sha256": "6f740ce0f60579e769cf39509b4656b654f3371d19cd230113139e5b8d735ade",
+      "fingerprint": "0643fb8d7384ad4c201eee6f113ed209577ecc0a765656d3d828212f6be36508"
+    },
+    {
+      "name": "tracking_catchup_3_2",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "tracking_catchup",
+        "a": 3,
+        "b": 2.0
+      },
+      "development_array_sha256": "d5981c5e7f1123aa3a6137510ac304418124f08a74f9bc21908352a495265b94",
+      "fingerprint": "9eb819317ff3dd736118fc160cad34860e4c3ff1b8af19df0275446fae6fe2d1"
+    },
+    {
+      "name": "tracking_catchup_6_1",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "tracking_catchup",
+        "a": 6,
+        "b": 1.0
+      },
+      "development_array_sha256": "02d608b0597830cf89d383081bebb14ee87c3b279444ec4c97f3c3ee1ed82acc",
+      "fingerprint": "ef000dd32c71540a0a2504a672b503dd48d33d8c2ce58d2e0c7250e58b1ad463"
+    },
+    {
+      "name": "tracking_catchup_6_2",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "tracking_catchup",
+        "a": 6,
+        "b": 2.0
+      },
+      "development_array_sha256": "88daea7f4453b7e03b476e9d5b4865dd2aedbe2dc06a63ad11066264f3a3abdf",
+      "fingerprint": "58c24f90a058333a0ae8c974e136f4557ab9191ef70e0558adce204d6f9145a0"
+    },
+    {
+      "name": "sweep_reclaim_15m_6_0.65",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "sweep_reclaim_15m",
+        "a": 6,
+        "b": 0.65
+      },
+      "development_array_sha256": "6c8b45baaaa5f94445d0d667898d69f776d3a815d86b4291a58a31c08102645b",
+      "fingerprint": "4f31eb97aaa59d76a0d0161d42c0e22846413070a1664f2abb8e0bbd60e8843a"
+    },
+    {
+      "name": "sweep_reclaim_15m_6_0.8",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "sweep_reclaim_15m",
+        "a": 6,
+        "b": 0.8
+      },
+      "development_array_sha256": "0d176adabf5dc9e52ad3229e75f234c86151f6af2b265f92911511b0ff9a4959",
+      "fingerprint": "9b4b1f6405a8b9655384915b198f1a4fc594272ab15f13c80b6556c654f4fb77"
+    },
+    {
+      "name": "sweep_reclaim_15m_12_0.65",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "sweep_reclaim_15m",
+        "a": 12,
+        "b": 0.65
+      },
+      "development_array_sha256": "6e2a7e40ba543aeb34e5fe6e2377d0114b6bdbb369e1db5760428f5a3b175bbc",
+      "fingerprint": "93f9443ac593cbcbce2be2005dcdc80570e2d1ad4b7f09f8f02eeec8e586d9f8"
+    },
+    {
+      "name": "sweep_reclaim_15m_12_0.8",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "sweep_reclaim_15m",
+        "a": 12,
+        "b": 0.8
+      },
+      "development_array_sha256": "5b4a24d0cb11f5c0b1dabb467c309144d2e569c5c8473d15fa3dd84e989b3252",
+      "fingerprint": "bc533a47eb6ad92a51915b2410f21995d24bcd9d61a37475ce150ebab1761a63"
+    },
+    {
+      "name": "shock_exhaustion_1_1.5",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "shock_exhaustion",
+        "a": 1,
+        "b": 1.5
+      },
+      "development_array_sha256": "a8a662496abfc7c5982d27a1fe380706282a3fd37215e71d1792b29b23562eaf",
+      "fingerprint": "7bdaa080dea77b149f5bb4af5c36c3afde8c9657e3d53c6a818785328cdd84bb"
+    },
+    {
+      "name": "shock_exhaustion_1_2",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "shock_exhaustion",
+        "a": 1,
+        "b": 2.0
+      },
+      "development_array_sha256": "d024b6fcd1e06649899637ef47075122d8487bad1ff7d257cbc59f2504ec89d5",
+      "fingerprint": "517b374fdaf6aa82e0301bf9b8a3a8a0c2010057abff7e76d2b7e33ee4bd8c41"
+    },
+    {
+      "name": "shock_exhaustion_3_1.5",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "shock_exhaustion",
+        "a": 3,
+        "b": 1.5
+      },
+      "development_array_sha256": "a86d9ff7802b0d7e7d86245c653ea0bf24a400afce996d57b0d519255742e7ee",
+      "fingerprint": "484e66b11c7dea7bb88df464ef0cde89813b38d778dfdbc333129ce82a9a0dff"
+    },
+    {
+      "name": "shock_exhaustion_3_2",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "shock_exhaustion",
+        "a": 3,
+        "b": 2.0
+      },
+      "development_array_sha256": "c757a94de1155518ae7b0ec12b231378bcc08e3852c81a13df5f23af61dd1944",
+      "fingerprint": "4ca9eb5b205764efd07468df6377e9aa4f852dbe308a9b6d5d7388459eda920e"
+    },
+    {
+      "name": "cross_reference_sync_3_0.5",
+      "reasons": [
+        "nonpositive_development_cell",
+        "not_better_than_ETF_control_each_cell",
+        "drawdown_worse_than_ETF_control"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "cross_reference_sync",
+        "a": 3,
+        "b": 0.5
+      },
+      "development_array_sha256": "f446bc317455e974ae8f43594343c7576a2190a9885dc9e09b51cb001246c1d2",
+      "fingerprint": "6c0997f13ba731090d0af1ea4b6b2f0774fff5c55a5e704f28a0b7e7fe38ef96"
+    },
+    {
+      "name": "cross_reference_sync_3_1",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "cross_reference_sync",
+        "a": 3,
+        "b": 1.0
+      },
+      "development_array_sha256": "3334d8871321e908e1894f73928aec45b0ae3abf4525aaf40d2709bdc289e433",
+      "fingerprint": "42446f6e6c7e65bf47bf9cc746f0324ffb2f63558c095e85ea29aea99fc2a64f"
+    },
+    {
+      "name": "cross_reference_sync_6_0.5",
+      "reasons": [
+        "nonpositive_development_cell",
+        "not_better_than_ETF_control_each_cell",
+        "drawdown_worse_than_ETF_control"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "cross_reference_sync",
+        "a": 6,
+        "b": 0.5
+      },
+      "development_array_sha256": "63aa8f994049e3f53d16279b13bb547a6ca539065c4d107b404feda1dc0ca5fe",
+      "fingerprint": "3a5cd69c54c5fae226af4dd52a1ca3b1e5cf23d64aec9d9a56cc278272ef0671"
+    },
+    {
+      "name": "cross_reference_sync_6_1",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true,
+      "params": {
+        "family": "cross_reference_sync",
+        "a": 6,
+        "b": 1.0
+      },
+      "development_array_sha256": "aaaa37921770b46f2f0016129a288b3f108e1bc963e2efaf9aeb4a3267b9b19a",
+      "fingerprint": "28e46e6a94adc3f56beb95cf7cdf883a84ec4beb3d1eb39d949427d09ae4cc85"
+    }
+  ]
+}

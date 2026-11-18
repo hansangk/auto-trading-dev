@@ -116,3 +116,9 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Freeze direction-control seeds and stress IDs independently of PnL. Report control configurations separately from alpha trials; do not promote a profitable control seed.
 - Preserve active roles and use actual bullish/inverse ETF paths at equal role budgets. Raw common-event labels test direction conditional on event timing; full replay does not match realized turnover/time/beta.
 - Average random controls within each event before paired daily clustering; include zero-opportunity days. Show all four null families and multiday block sensitivity. Seed dispersion is not a market-sample confidence interval. Distinguish same-exit delayed labels from equal-holding evidence.
+
+
+2026-11-19 external-reference pilot:
+- Audit source-specific actual returned coverage before fitting; range60d may mean different calendar spans across ETF and24/7reference feeds. Exactjoin completedstarts/ends, keep frozenETFvintage, disclose unmatched source vintages and assumed publication latency.
+- Count actual changed active roles on common opportunity support and full development arrays. New feeds almost duplicating ETF direction are not independent information sources; a20round account screen does not establish adequate intervention sample.
+- Use return-blind event-count/warmup upper bounds before enlarging sparse-family grids. Keep minsample rejects and do not relax thresholds or add parameters to rescue a sparse winner. Preserve selection before diagnostics and publish compact aggregates before long narrative.

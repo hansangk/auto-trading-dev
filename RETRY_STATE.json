@@ -1,13 +1,28 @@
 {
-  "status": "COMPLETE_PENDING_REPORT",
+  "status": "COMPLETE_REJECTED",
   "owner": "Codex",
   "run_id": "reference_retry_20261119",
-  "parent": "f56a926a72befff4ca3b20d9d1e3ee7492784fec",
+  "parent": "3a3badaf73394d487c986747130675bb0a5f0b6b",
   "etf_input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
-  "checkpoint": "Actual82engine calls complete,121tests PASS;16distinct candidates,2shortlist,0passed,0approved. Aggregates/checkpoints published before final analysis. No current backtestworker.",
+  "checkpoint": "82actualenginecalls/121tests PASS;16distinctcandidatearrays,2development-shortlisted/diagnostic,failsallpromotion,0approved. Aggregates saved3a3badaf; report and handoff complete; worker exited.",
   "claim_parent": "d954f42ae4c2b0bc139115ad8381fcb8c5299ba1",
   "reference_input_sha256": "836d92f572b14bf0a622b637b7009ca6e261f09e7b567e36bec4ab206a689075",
   "calls": 82,
   "tests_passed": 121,
-  "raw_upload": "not attempted"
+  "raw_upload": "not attempted",
+  "updated_utc": "2026-11-18 16:10:09 UTC",
+  "research_parent": "c2eb4730a83644213b0fd1f10e0d6f44208338f9",
+  "claim_commit": "138b31400856491a36083a7804d93609c6cd7188",
+  "latest_report": "REFERENCE_RETRY_REPORT_20261119.md",
+  "aligned_etf_sha256": "a672f4d76a6216e743270abb97fae31f421a955985fa718cd82c6c423430e99c",
+  "raw_data_access": "LOCAL only. No raw reupload, previous refusal preserved. Source response hashes/URLs in reference_provenance.json; absent exact snapshot blocks exact reproduction.",
+  "next_action": "Read currentremote/ownership; verify exact snapshots. Preregister source-lag0/1/3 fixed-opportunity information audit before new grid. Require enough changed-role support in bothdevelopmentwindows. Audit notyetimplemented. No repeat16failures withoutnewevidence.",
+  "next_command": "sha256sum runs/reference_retry_20261119/references_LOCAL.csv.gz runs/extended_snapshot_20261118/refreshed_all_LOCAL.csv.gz",
+  "paths": [
+    "runs/reference_retry_20261119"
+  ],
+  "approved": [],
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0
 }
