@@ -2,14 +2,17 @@
   "status": "RUNNING",
   "owner": "Codex",
   "run_id": "nasdaq_gate_audit_20261119_0330",
-  "parent": "aef1efc5dd4121750fa96ad3f44dde35977723c7",
-  "updated_utc": "2026-11-18 20:05:50 UTC",
+  "parent": "e1d2e7639512b4b13e63b06b72123a510d1ad05c",
+  "updated_utc": "2026-11-18 20:09:40 UTC",
   "latest_report": "HOURLY_NIGHT_RETRY_REPORT_20261119_0300.md",
-  "checkpoint": "Resumed sameowner/preregisterednasdaq_gate_audit_0330; remoteheadunchangedaef1, no localPythonworker/lock/results. Source/control/statisticscode andtests survived; ephemeraltestlogabsent, rerunvalidationbeforefirstbacktest. No duplicatejob orstrategyparameterchange.",
+  "checkpoint": "235actualcompletedaccountcalls(136reset+99frozenmonthlycounterfactuals),157testsPASS. Structuraldaygate/QQQdirectionidentitiesverified; noinformationpass/adoption. Original15staticcells+3monthlyscenariosreproduced. Allengineworkersfinished; report/verificationactive.",
   "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
   "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
   "raw_upload": "not attempted",
   "orders": 0,
-  "phase": "RESUMED_VALIDATING_EXISTING_PLAN",
-  "resume_parent": "aef1efc5dd4121750fa96ad3f44dde35977723c7"
+  "phase": "BACKTEST_COMPLETE_REPORTING",
+  "resume_parent": "aef1efc5dd4121750fa96ad3f44dde35977723c7",
+  "engine_calls": 235,
+  "tests_passed": 157,
+  "worker": "no backtestworker; reportactive"
 }

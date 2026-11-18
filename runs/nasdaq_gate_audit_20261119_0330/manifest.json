@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE_FIXED_NASDAQ_INFORMATION_AUDIT",
+  "engine_calls": 235,
+  "reset_calls": 136,
+  "monthly_calls": 99,
+  "logical_reset_cells": 136,
+  "controls": 16,
+  "distinct_dev_arrays": 16,
+  "stress_ids": [
+    "source",
+    "qqq_consensus",
+    "qqq_gap_side",
+    "opposite",
+    "session_cash_0",
+    "session_cash_1",
+    "session_cash_2",
+    "session_cash_3"
+  ],
+  "information_pass": false,
+  "approved": [],
+  "new_alpha_trials": 0,
+  "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+  "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
+  "monthly_choices_sha256": "6712b3dc75f3ae7587a203168934e21f1d3db4af3b5477b0adb2730b6301b2ae",
+  "code_config_sha256": {
+    "scripts/nasdaq_gate_audit_20261119.py": "4c55919ed74340fffa7376a89f04a52c4b406ef6bd5238dacc6c4d5ef406314a",
+    "scripts/nasdaq_gate_controls_20261119.py": "c8901ba49253a103bfe92df01602227e9b76bebb122eed0a8969a42ef44272e3",
+    "scripts/nasdaq_gate_statistics_20261119.py": "a8f02608b7661ccad3a4667a38f7cc0b5072fa3c6cdcba6e52490340ef4cf8f0",
+    "tests/test_nasdaq_gate_controls.py": "e487a218713b36fed03c1e61f28d544d22bc3e2b4cb9597b9c46d96a4750b612",
+    "tests/test_nasdaq_gate_statistics.py": "755d606dc93809e89d2432394f28c35812beb42bf1b05af63efe015bb18e7141",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  },
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "raw_upload": "Not attempted",
+  "reused2026": true,
+  "selection_note": "Nasdaq5frozenafterpreviousrecent6fit; currentauditretrospective,notindependentconfirmatorytest"
+}
