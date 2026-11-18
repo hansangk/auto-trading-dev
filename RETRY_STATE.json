@@ -1,8 +1,13 @@
 {
   "owner": "Codex",
-  "status": "RUNNING",
+  "status": "COMPLETE_FROZEN_EXTENSION_REJECTED",
   "run_id": "extended_snapshot_20261118",
   "parent": "a11dd4663691cb111667223f78aad3ca93e0e65a",
   "old_input_sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836",
-  "checkpoint": "Separately versioned Yahoo60day5min request; preserve prior. Freeze prior developmentselectedcompression.75/4,chase1/.25,chase3/.5,momentum4/.5,control. No new parameters. Audit finite/duplicates/common starts/completed78bar sessions/overlap revisions/drops. Replay old/new matchedOctdevA/NovdevB/Nov16-17; earlierSept20-Oct1 andOct1-Oct19 newly retrieved retrospective,notindependent2026. Basic/cost2/delay1. Min20each andmultipleperiods allstress positivity/nohalts required; no adoption if insufficient independenthistory. New3/6month history may remain unavailable."
+  "checkpoint": "195actualreplays (180window+15continuous),101testsPASS,45archivedcells match.49fullsessions,1027oldsharedrows revised;currentmonthvs60d match.0adoption.",
+  "claim": "9a64169968df2c6043c33dea4fe80badebbf9dc3",
+  "latest_report": "EXTENDED_SNAPSHOT_REPORT_20261118.md",
+  "new_input_sha256": "9d849a7f872d7e4b9092b1df06afea37b99adc5928bbe7aa402c63823c92c347",
+  "next_command": "Read state/handoff; fixed development ledger stratification by compression-box age and adverse actualETF drift. Reproduce PYTHONPATH=src:scripts python scripts/extended_snapshot_20261118.py only fresh paths with exact originalraw inputs.",
+  "next_hypothesis": "Does stale compression box age or uncapped adverse drift explain loss? Development-only attribution before one-factor changes."
 }

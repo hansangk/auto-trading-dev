@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE_FROZEN_EXTENSION",
+  "calls": 180,
+  "new_candidates": 0,
+  "adoption": false,
+  "input_hashes": {
+    "runs/extended_snapshot_20261118/archived_LOCAL.csv.gz": "b721c8c5cfb41264f385939cb4da644adf85161b7b57386dba1c447d358b3e6a",
+    "runs/extended_snapshot_20261118/refreshed_same_dates_LOCAL.csv.gz": "d3ee0638e60c8f4c3339ed245e993d5a14577cf58dde209473452f5923d10bdf",
+    "runs/extended_snapshot_20261118/refreshed_all_LOCAL.csv.gz": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851"
+  },
+  "source_sha256": "9d849a7f872d7e4b9092b1df06afea37b99adc5928bbe7aa402c63823c92c347",
+  "frozen_models": [
+    "compression_0.75_4",
+    "chasecancel_1_0.25",
+    "chasecancel_3_0.5"
+  ],
+  "code_hashes": {
+    "scripts/extended_snapshot_20261118.py": "8f220e5c87d2738945e1fffa3a338f0702da94de682891c5792a84c8372e28f7",
+    "scripts/fetch_extended_snapshot_20261118.py": "25723184e0804741e34f037adfed8a5afebbc31d1f6d61fe8a8bcc177227a348",
+    "scripts/episode_signals_20261118.py": "25a0a1ee1902739d4b128b36005ef2dce1984d6a02d1b834f432d170b45b8136",
+    "scripts/five_minute_grid_20261118.py": "9483727bdd06f1d0d6ebdb3be04c22972e487b026f2fb54c2bb33cb47b3b7d84",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "scripts/session_signal_provenance.py": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c",
+    "scripts/extended_continuous_20261118.py": "fa2d1931b413447c9a6a42d370c6179bb1f5d53e7fb46f02c58b25a00b3cb27a",
+    "scripts/compare_query_ranges_20261118.py": "814157ed4293718038f19a725437cb7fae0e8254e6d05822ed18af70c723ac5b",
+    "scripts/fetch_same_day_month_20261118.py": "2247484f1dc73c29f823f12429ca4e1de6cf9b2951aa9362ad0e49de30f1d6ee"
+  },
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "continuous_calls": 15,
+  "total_calls": 195,
+  "tests": {
+    "count": 101,
+    "seconds": 6.755,
+    "result": "PASS"
+  },
+  "archived_regression_cells": 45
+}

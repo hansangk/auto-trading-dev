@@ -98,3 +98,9 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Sparse15min scores on a5min timeline need explicit completed-decision neutral counters; zeros between decision clocks are unobserved decisions, not neutral confirmations.
 - Freeze actual selected ETF anchor/range for retest and chase rules. Require an earlier observed bar to arm a retest before a later recovery, avoiding assumed OHLC path order.
 - Report first/repeated-event paths by development window and full protected account replay separately. Current first/repeat advantage reverses; do not adopt onset-only based on one window. Keep minimum sample and short-history restrictions explicit.
+
+
+2026-11-18 extended snapshot findings:
+- Query common raw symbol/timestamp keys before common-session filters. Separate vintage/overlap changes, repaired session coverage and added earlier history. Current versus old1mo changed1027rows; current1mo andcurrent60d agree on oldkeys.
+- Pin range/absolute-period parameters and actual returned dates. Current range60d returned60observed sessions, while prior absolute2025request said last60days; do not assume identical calendar semantics.
+- Preserve reset-window result comparisons separately from one continuous account. Archive exact comparator regressions before interpreting altered performance as strategy improvement. Shorter one-ETF control exposure is not fully risk matched.

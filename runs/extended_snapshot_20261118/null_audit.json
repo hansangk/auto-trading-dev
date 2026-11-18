@@ -1,0 +1,38 @@
+{
+  "runs/extended_snapshot_20261118": {
+    "TQQQ": {
+      "raw_quote_rows": 4681,
+      "null_quote_rows": 0
+    },
+    "SQQQ": {
+      "raw_quote_rows": 4681,
+      "null_quote_rows": 0
+    },
+    "IBIT": {
+      "raw_quote_rows": 4681,
+      "null_quote_rows": 0
+    },
+    "BITI": {
+      "raw_quote_rows": 4681,
+      "null_quote_rows": 19
+    }
+  },
+  "runs/extended_snapshot_20261118/same_day_one_month": {
+    "TQQQ": {
+      "raw_quote_rows": 1717,
+      "null_quote_rows": 0
+    },
+    "SQQQ": {
+      "raw_quote_rows": 1717,
+      "null_quote_rows": 0
+    },
+    "IBIT": {
+      "raw_quote_rows": 1717,
+      "null_quote_rows": 0
+    },
+    "BITI": {
+      "raw_quote_rows": 1717,
+      "null_quote_rows": 6
+    }
+  }
+}
