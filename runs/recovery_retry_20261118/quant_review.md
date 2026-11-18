@@ -1,0 +1,7 @@
+# Independent quant recovery review
+
+Agent retry_recovery_review reviewed interruption evidence and proposed four conditional families. No strategy code or new-grid results were produced. Earlier18calls/92tests are prior observed logs, not this run. Exact archived SHA verified by parent.
+
+Proposal-only budget64: trend breakout N{20,55,100,150} × volatility cap{.20,.35} × exitMA{10,20}; trend pullback RSI2 threshold{5,10,15,20} × recovery{50,70} × hold{5,10}days; range mean reversion efficiency{.2,.3} × z{-1,-1.5,-2,-2.5} × hold{5,10}; crash rebound magnitude{2,2.5,3,3.5}sigma × confirmation{1,2} × hold{3,5}days. Each16; untested.
+
+Parent review: REJECT AS IMPLEMENTATION-READY. Agent suggested long/cash and daily multi-day exits, which do not yet satisfy requested symmetrical TQQQ/SQQQ and IBIT/BITI buy routing or existing intraday AccountState/stop semantics. Do not run these as approved configs. Before a future preregistration, specify causal bull/bear signal mapping to actual inverse ETF prices, completed daily release and split-adjustment audit, equivalent protected exit controls, overnight-gap risk and min samples in both2025halves. Keep max15% per ETF and60bp protection; no leverage increase. Check previous rejected signal arrays before any grid. No independent-data claim for reused2026. Current closed daily_regime router stays closed. Top<=8 development candidates only to stresses; recent3/6 fitted ranks separate from next-month causal validation. These are deferred hypotheses, not completed research.

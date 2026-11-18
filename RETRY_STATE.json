@@ -1,12 +1,17 @@
 {
-  "status": "RUNNING",
+  "status": "RECOVERY_COMPLETE_FRESH_DATA_BLOCKED",
   "owner": "Codex",
-  "run_id": "snapshot_shadow_retry_20261117",
-  "parent": "d29506f12feca739e190b6f77d5bf8022f043699",
-  "started_utc": "2026-11-16T19:03:46.280351+00:00",
-  "checkpoint": "Frozenspecs saved beforefreshdatafetch;oldinput hashverified;quant completionguard implementing",
-  "next_action": "Owner fetches newlocal snapshot/audits and shadow only complete sessions; no duplicate",
+  "run_id": "recovery_retry_20261118",
+  "parent": "f29c81567ed4ce033df7d8ddeb9f9e2146472fd7",
+  "updated_utc": "2026-11-18T03:41:44.759404+00:00",
+  "previous_run": "snapshot_shadow_retry_20261117",
+  "previous_run_disposition": "Interrupted before final publication; prior18calls/92tests observed in conversation but artifacts unavailable after maintenance. Not included as new runs.",
+  "checkpoint": "Pinned archive hash verified; latest committed code recovered;9 frozen historical engine calls completed; no fresh data or grid search.",
+  "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "next_action": "Check remote state and worker ownership; retry separately versioned Yahoo snapshot after429 clears, audit complete sessions/revisions, then frozen shadow. Do not repeat closed router.",
+  "next_command": "PYTHONPATH=src:scripts python scripts/recovery_retry_20261118.py (fresh output path and exact local input required; current completed output protected)",
+  "latest_report": "RECOVERY_RETRY_REPORT_20261118.md",
   "paths": [
-    "runs/snapshot_shadow_retry_20261117"
+    "runs/recovery_retry_20261118"
   ]
 }

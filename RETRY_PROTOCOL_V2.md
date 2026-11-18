@@ -66,3 +66,8 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Distinguish exact-count/relative-weight conditional frozen-ledger cash matching (ex-post, not executable) from causal full-replay cash controls (expected participation only; realized turnover differs). Neither automatically matches dollar/time exposure or establishes causality.
 - Freeze control seeds before outcomes; do not promote a profitable random seed. Report conditional-stratum support and active-session bootstrap limits. Current fixed daily-regime router failed six-cell information/futility checks and is CLOSED_FUTILITY; no more same-sample threshold tuning without new independent data/mechanism.
 - Latest ROLE_INFORMATION_RETRY_REPORT_20261117.md:283newengine calls,64cash control repetitions (notalpha strategies),85tests. Next prioritize a separately versioned post-snapshot completed-bar data audit and frozen-model shadow monitoring; tiny new sample is not validation.
+
+
+2026-11-18 interrupted-run recovery:
+- A published RUNNING claim is not a completed report. Save compact aggregate checkpoints before lengthy follow-up reviews. Record prior terminal observations separately when unpublished outputs are lost. Never recreate a claimed exact CSV from rounded conversational metrics.
+- Verify surviving input SHA and restore exact committed code in an isolated directory. Record fresh-data rate limits independently from successful archive replay. Do not call historical reproduction new strategy validation. Preserve expected-parent publication and record ownership evidence; do not infer remote-worker liveness from local process lists alone.

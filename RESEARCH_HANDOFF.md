@@ -1,3 +1,13 @@
+# 최신 복구 인계 — 2026-11-18
+
+최신 상태 RECOVERY_COMPLETE_FRESH_DATA_BLOCKED. 최신 보고서 RECOVERY_RETRY_REPORT_20261118.md. 이전 자기 실행 RUNNING은 최종 게시 전 중단 상태였으며 이번 복구로 정리했다. 현재 백테스트 worker 종료. 타 환경 worker는 관찰할 수 없으므로 새 시작 전 remote state/lease를 다시 확인할 것.
+
+오늘 실제9회 동결모형 재현. 신규 전략/새 자료 검증0. Yahoo 새 요청 HTTP429. 원본SHA e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd 일치. 원본 공개업로드 재시도 없음. 이전 미게시18회/92tests를 오늘 실행 수에 포함하지 않음. 정확 입력이 없으면 재현 주장 금지.
+
+다음:429해소 후 새 고유경로에 스냅샷 수집, 완료봉/세션·공통키·수정·공식달력 감사 후 사전 동결 shadow. 최근3/6 적합 및 인과 월별 검증은 이전 캐시이며 이번 재실행하지 않음. CLOSED_FUTILITY 라우팅 재탐색 금지. 신규 기전64제안은 quant_review.md에 미실행 표시.
+
+## 이전 인계 보존
+
 # Codex ↔ Claude 공통 연구 인계
 
 상태 COMPLETE_REJECTED,run_id role_information_retry_20261117. 현재고정일봉라우팅은CLOSED_FUTILITY. 최신ROLE_INFORMATION_RETRY_REPORT_20261117.md. RETRY_STATE/AGENTS/RETRY_PROTOCOL/최신원격부터읽고타runnerRUNNING중복실행/덮어쓰기금지.
