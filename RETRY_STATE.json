@@ -2,12 +2,13 @@
   "status": "RUNNING",
   "owner": "Codex",
   "run_id": "latency_decomposition_20261119_0600",
-  "parent": "4cc0f400e3fa89f102ea940a49863355f6740a85",
+  "parent": "de8340b53ec387d1b47a5cb2b95a5c21d0767c1f",
   "updated_utc": "2026-11-18 21:02:02 UTC",
   "latest_report": "NASDAQ_GATE_AUDIT_REPORT_20261119_0330.md",
-  "checkpoint": "ReadlatestCOMPLETE/AGENTS/protocol/report,handoff; no localPythonworker. Claimbeforefixedlatency xholding4/3 factorial andsame-cohort labels. Creativequant identifiesfourbars !=fourhours andscheduledrelease !=actualprotectedexit. No newalphafitting.",
+  "checkpoint": "Preregisterfixed16schedule/cohortdefinitions afterreturnblindcounts. Strict4hourNasdaqsupport0,sourcecommon12/15=>skipfurthereligiblepromotion. Parentcommon4maxstresses,88continuousmonthlycomponentcalls; no newalpha/stopchange.",
   "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
   "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
   "orders": 0,
-  "raw_upload": "not attempted"
+  "raw_upload": "not attempted",
+  "phase": "PREREGISTERED_IMPLEMENTING"
 }

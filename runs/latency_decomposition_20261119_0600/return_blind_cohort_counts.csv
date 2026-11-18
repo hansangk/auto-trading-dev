@@ -1,0 +1,16 @@
+policy,start,end_exclusive,native_events,common_full4_delay_events,equalwall4_events,equalwall3_events
+source,2025-01-01,2025-07-01,46,12,0,12
+source,2025-07-01,2026-01-01,56,15,0,15
+source,2026-01-01,2026-11-14,87,25,0,25
+source,2026-08-14,2026-11-14,23,6,0,6
+source,2026-05-14,2026-11-14,40,11,0,11
+parent,2025-01-01,2025-07-01,204,65,0,65
+parent,2025-07-01,2026-01-01,156,36,0,36
+parent,2026-01-01,2026-11-14,331,85,0,85
+parent,2026-08-14,2026-11-14,115,26,0,26
+parent,2026-05-14,2026-11-14,189,49,0,49
+bitcoin_frozen_control,2025-01-01,2025-07-01,37,25,16,25
+bitcoin_frozen_control,2025-07-01,2026-01-01,33,19,11,19
+bitcoin_frozen_control,2026-01-01,2026-11-14,48,28,14,28
+bitcoin_frozen_control,2026-08-14,2026-11-14,18,13,7,13
+bitcoin_frozen_control,2026-05-14,2026-11-14,29,19,11,19
