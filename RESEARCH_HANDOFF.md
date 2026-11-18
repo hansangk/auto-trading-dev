@@ -1,36 +1,34 @@
 # Codex ↔ Claude 인계 — 2026-11-19 KST
 
-최신 [RELEASE_CLOCK_RETRY_REPORT_20261119_0630.md](RELEASE_CLOCK_RETRY_REPORT_20261119_0630.md). COMPLETE_REJECTED, owner Codex, run_id release_clock_audit_20261119_0630. 실거래0·채택0·새 독립 검증0. 새 기본32회=16고정실행정의×2짧은 개발창. 스트레스0, 중단0.171 tests PASS(10.473초),252실험 거래/원천 release/회계 대조,86paired기록·172horizon 대조 PASS. 검증기 정밀도 실패1회는 보존·수정; 백테스트 재실행 없음.
+최신 [SOURCE_ACTIVITY_RETRY_REPORT_20261119_0700.md](SOURCE_ACTIVITY_RETRY_REPORT_20261119_0700.md). COMPLETE_REJECTED,ownerCodex,run_id source_activity_grid_20261119_0700. 실제511회=reset478+continuous33,논리reset519중41정확동일회차재사용.3/6schedule동일33실제월경로로66논리월구간.182suite+4guardtestsPASS,18119거래/66상태/22인과선택 검증. 중단0·검증실패0·채택0·실주문0.
 
-연구 부모1f9493a59cdf60aeb599094dddf3b56e682e7a7f → claim e56e074145cd2308be5e7808a28c66b4b83984aa → 수익 전 계획91efa4f16ba92bab4ad8c3149d9059d23bb9be18 → 완료 집계4b5b3f482931e755f5ca78660c1da7ba27f9b34e. 이 최종보고·상태·인계는 그 뒤 expected-parent로 원자 저장한다. 다음 회차는 원격 AGENTS/RETRY_STATE/프로토콜/최신보고부터 읽고 소유권을 확인한다. 다른 RUNNING이면 중복/덮어쓰기 금지, force 금지. 외부 worker 생존은 로컬 process목록만으로 확인했다고 하지 말것. 완료 입력/결과/lock 삭제금지.
+연구 부모905f92dc6d2ee1ebd98b18b52079c3e069fea152 → claim8c4b5b1081d21793d60483db9158b1d225ab10da → 사전계획63db22a478281a9409c30734911260518f0ac65b → **2026전 후보동결2b5850875001acfc70d458b9e3380523c05b0952** → 완료집계15721ea785a449b79682d835def76eb34050e340. 최종보고·상태·인계는이후expected-parent로원자저장. 다음은원격AGENTS/상태/프로토콜/최신보고서부터;타인RUNNING중복/덮어쓰기금지,force금지. 로컬process부재로외부worker생존까지확인했다고하지말것.
 
-**실행 내용**: 창의 퀀트 release_clock_quant_0630 독립 설계/코드·결과 읽기전용 검토. 동결4정책(Nasdaqnight5,.5/QQQ부모/BTC수용.5,.25/BTC소진.8,.25)×coarse60/release5×180/240분=16실행정의. 새 알파/임계값그리드0. 실제5분에서 동적QQQ/BTC source end+5분/age<=65를 새로 결합, 원래hourly맥락을 앞당기지 않음. 일별야간/과거국면만 동결복사. 첫IBIT12개5분봉 완료+5분=10:35, coarse mask는 onset전 valid에 반영. 두clock 모두같은5분 보호·15%한도·현금·60bp/3R·연속손실쿨다운24봉(다음날reset). 엔진변경없음.
+**새실험** 창의퀀트 source_activity_quant_0700가4전략군(참여지속/흡수회복/저활동반전/burst후quiet유지)×8=32source +동일수식TQQQ32대조=64정의. 원천개발배열28고유. 동일시간대과거20/40정상달력donor중앙값 volume ratio,donor모두양수·존재필수/현재·미래·missingdonor건너뛰기없음. QQQsourceend+5min<=ETFdecision,age<=65,currentRTHday,ETF동일start/end정보. F3/4같은RTH실제60min연속두봉. source/ETF공통support를onset전에적용. Reportedactivityproxy이지orderflow/실자금유입아님.
 
-**표본 기각**: 개발2026-08-25~09-30(22실제일)/10-01~11-13(25일), 모두기연구2026. 같은240분 Nasdaq matched3/2,QQQ부모9/10,BTC수용0/1,BTC소진4/6. QQQ부모release180 계좌21/22라운드지만 동일정보14/17<20. 따라서 shortlist0, cost2/+1finebar(5분)delay/diagnostic/채택 전부0. 최소20round와20matched/10days를양구간요구했고완화안함. 동일사건 rawpath는 보호계좌수익아님. 240분 Nasdaq release−coarse net가중mean−6.72/−8.64bp이지만CI미산출소표본. 이를일반적인조기진입열위로단정금지.
+**품질** QQQ2025positivevolume100/99.21%로사전95%gate통과;BTC48.40/49.74%라volume전략BLOCK.0을저활동으로쓰지않음. BTC가격전술 night_exhaustion(.8,.25)은모든비교의고정신호배경으로유지,실제Bitcoin거래·수익은jointstop/슬롯/state로달라져전체재실행했다. Nasdaq15%+Bitcoin15%최대30%원래cap불변,현금·stop60bp/3R/hold4eligibleRTH/2lossstreakcooldown/계좌보호불변. 단독15%감사와riskmatched아님. 마지막hourbar30분,4봉항상4시간아님,delay1=60minEligibleRTH(마지막30분).
 
-**수익 해석**: 240분 원형coarse +.4382%/−.1226%,release−.0016%/+.5080%로일관개선없음. 순위1위QQQ부모coarse240+.6392%/+.9710%지만9/10라운드만있어채택금지. 자세한승률/MDD/PF/비용/180분은all_evaluations.csv. 계좌는각창reset,연속월별성과아님. MDD/peak/daily계좌보호는청산후실현자산기준,연속5분미실현낙폭보장아님.
+**선정** 실제NasdaqBUY20각2025H1/H2 + source/ETF변경20/10일 AND source/novol변경20/10일 +무halt+alias제외.2source(L20/L40,a1.25,b.5의participation_follow)+paired2ETF만스트레스(총4정의,8cap미만). 총Nasdaq/coin합라운드로표본부풀리지않음. Source상위S40 H1기본+1.0910/cost2+.5138/delay−1.1241%,H2−.0633/−.4968/+.0312%. S20 H1−1.6564/−2.2519/−1.2502%,H2+.4937/+.0440/−.1253%. 개발합격0. 두쌍은stress표본/무halt충족으로최근regime연구용4pool만2026전동결;양수개발합격/채택아님.
 
-반복 실험 ETFBUY TQQQ76/SQQQ80/IBIT56/BITI40. 각round 한ETF15%; legacybuy_two_etfs태그로2개매수라고추정금지. IBIT=BitcoinETF대용,BITI=선물인버스. 실제뉴스/매크로/호가/PIT최초공표없음.5분원천2026-11-18 21:57KSTcutoff,QQQ/BTCraw11-19 02:12KST;이번취득0/새시장관측0. 첫IBIT시간봉buffer·보호빈도·빈티지변경을과거hourly대비순수시계개선으로해석금지.
+**최근/월별** 2026Jan1-Nov13 fixedS40기본−2.1079%,기존같은coin배경legacy+2.3755%(반복2026로채택근거아님). 최근6mMay14-Nov13전체fit1위E20기본+.6310/cost2+.1876/delay−1.0867%,64기본round중Nasdaq40. 최근3mAug14-Nov13E20+.0022/−.2872/−.3340%;delayNasdaq19로min20실패. fit순위는그기간적합이지다음달성과아님. 직전3/6개월만훈련,3stressNasdaq20/양수/무halt+coin-only보다return높고MDD높지않음일때만다음달선정. 결과둘다11개월Nasdaqcash=coin-only. 전체현금아님. 연속계좌기본−.7999%(43round48.84%win.7999%MDD),cost2−1.0938%(43/46.51/1.0938),delay+.4624%(37/56.76/.5019). 이는새Nasdaq선택0인미승인Bitcoinbackground성과,새전략개선으로표현금지. 명시전체cash정책0개월/실제0거래1개월구분. MDD/peak/daily보호는청산후실현자산기준,장중미실현보장아님.2025도기연구·2026재사용·독립기간0·새시장취득0·뉴스/매크로/호가실PIT없음.
 
-**입력 한계**:5m전체49일중auditedhourly와겹치는47일만사용,Nov16/17진단안함. 완전recent3(8/14시작)/6(5/14시작)불가,이번fit랭크/직전3/6선정다음달검증0. 이전hourlyrank/selector는이전결과캐시로만,현재성과와혼합금지. 직전fine세션없는9일은정확한직전공식hourlyIBITclose로gap;gap_origins.csv. 동일hourly집계가격57필드/volume150차이,TQQQopen최대.4831%차이;두현재clock동일입력이고과거수익delta에섞지말것.
+**귀속** source-only/control-only/same-target/switched정확partition별도저장. S20vsETF H1 26/24/63/0,H2 16/21/41/0. source-only가있어단순filter부분집합아님. 동일기회netmean/3일blockCI모두0포함,원장계좌수익과구분. volume_removed도양수volume donor가용성mask가남음. L20novol개발basic+.3115/+1.3231%,아직cost2/delay미실행이라새best사후채택금지.
 
-원본 SHA256:
-- runs/extended_snapshot_20261118/refreshed_all_LOCAL.csv.gz → ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851
+**검증·복구** Pythonfloat정밀도JSON원장,strictsharedJSON무한PF문자열. source가용성8552Nasdaq거래/전체18119round/최대gross.3/동시2role360검증,매수TQQQ3819/SQQQ4921/IBIT5300/BITI4439(실험중복포함시장독립사건아님). IBITBitcoinETF대용,BITI선물인버스.117개동일시가종가청산phase불명확보존.
+독립감사발견: 원runner월별state는끝에저장되어부분중단재시작시prefix중복위험. 이번정상완료는중단/중복0. 원실행코드/사전hash보존,별도 scripts/source_activity_resume_guard_20261119.py 추가: 완료manifest/생존lock/partialcontinuous면자동실행차단(4tests). 앞으로직접runner연속재시작금지;원정확AccountState회복증거없으면장애인계,완료prefix재실행금지.
+
+정확 원본SHA256:
 - runs/hourly_clock_retry_20261119_0300/audit_v2/audited_ETF_LOCAL.csv.gz →163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7
-- 같은기존context_LOCAL.npz →3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0
-- runs/source_lead_audit_20261119_0200/hourly_access/QQQ_raw_LOCAL.json →a62a158a1f6a3fc85ef803c277543408e7b46c629630787013427218827271ad
-- 같은BTC-USD_raw_LOCAL.json →5a470cea79415bc73c87eaeeb5740fe8c5e1f95c2b72e9f05e68e8def54cb206
-- 이번runs/release_clock_audit_20261119_0630/five_minute_overlap_LOCAL.csv.gz →251bf9a42435cb0b5babea3ff6189d225ad187efcb068baa38d8d240e167ae05
-- 같은context_LOCAL.npz →75531cd49b4c17cad36ba985bdfba3be390c32f39041b00a074bc8575c47c7d1
-- 같은scores_LOCAL.npz →f216195a23d5d07ce617940d837ca7a8c831522c753ce0d1269ad1316400086b
-원본/가격/맥락/배열/trace/pairedevent세부/원장은LOCAL만. 원본공개거절재시도0,정확입력없는환경은재현제약보고;다시받으면새빈티지.
+- 같은기존context_LOCAL.npz(고정BTC) →3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0
+- runs/source_activity_grid_20261119_0700/activity_context_LOCAL.npz →d3a2dea122e11166865e199b9290d91f9f135a57874536786668a9fc4ca1560c
+- QQQraw a62a158a1f6a3fc85ef803c277543408e7b46c629630787013427218827271ad / BTCraw5a470cea79415bc73c87eaeeb5740fe8c5e1f95c2b72e9f05e68e8def54cb206,경로 runs/source_lead_audit_20261119_0200/hourly_access/{QQQ,BTC-USD}_raw_LOCAL.json
+- scores/Nasdaq_scores원문hash는preregistered_plan/score_manifest/상태참조. ETF494정상일Nov14 2024-Nov13 2026,원천기존Yahoo2y1h Nov19 02:12KST취득. 달력hash754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296.
+원본/가격/맥락/배열/trace/원장/세부라벨LOCAL만. 원본공개거절재시도0. 원본없는환경동일재현제약보고,재다운로드새빈티지.
 
-**실패기록**: verification_attempt1.log + failures.json. JSONfractionreturns10자리반올림최대5e−11(초기자본1e8≈.005통화단위)때문에상대오차만쓰던PnL검증실패. 통화PnL누적/명시적오차상한으로수정후PASS,전략·엔진·결과변경/백테스트중복없음. 시가/종가동일가격11기록구분불명확유지.
+다음명령 `PYTHONPATH=src:scripts python scripts/source_activity_verify_20261119.py`.
+전체tests `PYTHONPATH=src:scripts python -m unittest discover -s tests -q`.
+기존완료OUT/manifest/lock삭제금지. 재현은원격소유권·exacthash·새고유OUT부터준비,실행은source_activity_resume_guard통해서만.
 
-다음 명령 `PYTHONPATH=src:scripts python scripts/release_clock_verify_20261119.py`.
-테스트 `PYTHONPATH=src:scripts python -m unittest discover -s tests -q`.
-현재완료OUT은보호됨. 재현필요시새고유OUT/같은원본·preparedhash/독점lock/사전plan을별도로준비한다. 기존manifest/lock삭제/경로덮어쓰기금지.
+**다음 미실행 가설**: 같은32activitythreshold재스윕금지. 이번관찰에근거해고정QQQ가격몸통효율.5 기준의 (i)volumehistory가용성무관, (ii)L20가용성만, (iii)L40가용성만 사전단일요소대조로분리. 동일기회경로/추가onset·전체재실행둘다. 원L20volume-removed아직미실행cost2/delay검증,새2026후보/임계값선정금지. 가격전략이독립적으로좋다는뜻아니며source가용성선별artifact부터확인. 필요한정보/표본없으면64개채우려고확장하지말것. 실제새독립기간·새정보미확보한계유지.
 
-**다음 미실행 작업**: 같은16시계/보유정의나기각BTCthreshold재탐색금지. 실제장기세밀한원본접근또는정당한새정보의시점·quality·coverage·변경사건수부터감사. 기존2년source원천의미검증정보(예sourcevolume)는ETFvolume기각전략과별칭여부·실제보고량품질을수익전확인한뒤별도사전계획에서만. 과거Yahoo5분제한거절같은요청반복금지. 조건부신규4feed전략×16범위는creative_quant_proposals.json:share/NAV흐름,옵션꼬리,펀드재조정예상압력,실제강제청산포화. 필요한PIT자료없어서전부미구현/미실행. 새정보·충분지원이없으면그리드예산을채우지말고사유기록. 레버리지확대/손절제거금지.
-
-이전 [LATENCY_DECOMPOSITION_REPORT_20261119_0600.md](LATENCY_DECOMPOSITION_REPORT_20261119_0600.md), [NASDAQ_GATE_AUDIT_REPORT_20261119_0330.md](NASDAQ_GATE_AUDIT_REPORT_20261119_0330.md), Claude연속문서 보존. [이전 인계 원문](https://github.com/hansangk/auto-trading-dev/blob/1f9493a59cdf60aeb599094dddf3b56e682e7a7f/RESEARCH_HANDOFF.md).
+이전 [RELEASE_CLOCK_RETRY_REPORT_20261119_0630.md](RELEASE_CLOCK_RETRY_REPORT_20261119_0630.md)/LATENCY/NASDAQ_GATE/Claude문서보존. [이전 인계 원문](https://github.com/hansangk/auto-trading-dev/blob/905f92dc6d2ee1ebd98b18b52079c3e069fea152/RESEARCH_HANDOFF.md).

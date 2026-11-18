@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "actual_engine_calls": 511,
+  "reset_actual_calls": 478,
+  "continuous_actual_calls": 33,
+  "logical_reset_cells": 519,
+  "same_run_reset_reused_cells": 41,
+  "logical_month_segments": 66,
+  "monthly_state_checks": 66,
+  "causal_selection_decisions_checked": 22,
+  "trade_records_checked": 18119,
+  "Nasdaq_buy_round_records": 8740,
+  "Bitcoin_buy_round_records": 9739,
+  "two_role_round_records": 360,
+  "source_release_trade_checks": 8552,
+  "exact_price_phase_ambiguous_records": 117,
+  "fixed_opportunity_provenance_records": 1143,
+  "base_suite_tests": 182,
+  "resume_guard_tests": 4,
+  "max_gross": 0.3,
+  "engine_unchanged": true,
+  "orders": 0,
+  "raw_upload": "not attempted",
+  "independent_validation": false,
+  "verifier_sha256": "610aefdea64743090a51e1502ed3fed0211860c4372f2c67969d720f99a2e380"
+}
+symbol
+BITI    4439
+IBIT    5300
+SQQQ    4921
+TQQQ    3819
