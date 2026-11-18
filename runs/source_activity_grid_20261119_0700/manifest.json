@@ -1,0 +1,42 @@
+{
+  "status": "COMPLETE_SOURCE_ACTIVITY_RESEARCH",
+  "engine_calls": 511,
+  "reset_actual_calls": 478,
+  "continuous_actual_calls": 33,
+  "logical_reset_cells": 519,
+  "logical_month_segments": 66,
+  "source_candidates": 32,
+  "matched_ETF_controls": 32,
+  "nominal_grid_definitions": 64,
+  "shortlisted_grid_definitions": [
+    "source__participation_follow_L40_a1.25_b0.5",
+    "ETF__participation_follow_L40_a1.25_b0.5",
+    "source__participation_follow_L20_a1.25_b0.5",
+    "ETF__participation_follow_L20_a1.25_b0.5"
+  ],
+  "diagnostic_pool": [
+    "source__participation_follow_L20_a1.25_b0.5",
+    "ETF__participation_follow_L20_a1.25_b0.5",
+    "source__participation_follow_L40_a1.25_b0.5",
+    "ETF__participation_follow_L40_a1.25_b0.5"
+  ],
+  "development_screen_pass": [],
+  "approved": [],
+  "engine_unchanged": true,
+  "source_BTC_volume_blocked": true,
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "raw_upload": "not attempted",
+  "hashes": {
+    "scripts/source_activity_context_20261119.py": "8b70c183c52ea964d0685a914e5eedceca01da491b4e00a12025ba16c7282405",
+    "scripts/source_activity_signals_20261119.py": "0ff66792b31424717762263f84de3322c368ac746e29a25b8c4874ef07566c2c",
+    "scripts/source_activity_retry_20261119.py": "232af2357d95dfed043c5314f3e5e0c65751720724c9131e96e5a98cc5e9f464",
+    "tests/test_source_activity.py": "51cfc59c6e20dad91a4578fbd6b3fe8e9702e83cc9c5698704d5bde0c1945c84",
+    "tests/test_source_activity_context.py": "0c84243be568d65a264694d128cdd72bc49f3adcfefa4611499e0338ca07e206",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  },
+  "cash_note": "Nasdaqcash retainsfixedBitcoinpolicy,notwholecash; realizedcointradesalwaysrecomputed",
+  "risk": "EachNasdaq/Bitcoinrole15%,two<=30%originalcap; notriskmatchedtopriorNasdaq15%audit"
+}
