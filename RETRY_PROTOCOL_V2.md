@@ -129,3 +129,11 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Compare identical formulas/lags with only sourcefeed substituted, plus same-clock baseline and unrestricted baseline. Fixed-opportunity role labels and fullaccount replays answer different questions; count all failures even when support stops shortlist/stress/diagnosis.
 - Keep ownership RUNNING while reports or acquisition audits continue after backtests; aggregate publication alone is not finalhandoff. Release COMPLETE only with checkpoint and next commands.
 - Record newly acquired long history as ACCESS_ONLY until barcompletion, nulls, session clocks and vintages are audited. BTC hourly00 and ETF/QQQ mostly30minute starts cannot be called exact-clock bars or shifted/synthesized to match; completed sourcefeature age must be explicit. Newdownload is not an independentvalidation period.
+
+
+2026-11-19 long hourly night-information evidence:
+- Audit actualsourcebarend +declaredpublicationbuffer before ETFdecision. Do notshiftBTC00 bars intoETF30bars; logsourceage, trueRTHpullbackbarstarts, intentionalovernightanchorages andshortlastsessionbars. CurrentQQQopen mustnotdependonwholecurrentdaycompleteness. Preservepreliminarycontext andcorrectbeforePnL.
+- Freeze globalcandidatepool on2025beforeany2026monthlyresearch. Recent3/6fits areonlythatpool andnotnext-monthreturns. Trainingstrictlyprecedingcalendar3/6months, allstresses/minrounds; continuousAccountState acrossflatmonthboundaries. Reportcashmonths,everhalt andcostfragility.
+- Candidate min20account rounds differs fromnight-sourceintervention counts. NativeETFgap proxies canmakecapturethresholdmechanicallyredundant;preservecontrolaliases insteadofpaddinggrids. One15%role versuslegacytwo15%roles isnotriskmatched.
+- Count completedresearch, additionalfrozenregression andabortedunpersistedcalls separately. Afterfirst/20calls saveaggregates. Ledger entry/end aretimestamps,signal_index isindex; verify their mapping. Exportboth start/end/callid foroverlappingtrainingwindows.
+- Largepublicartifactreads mustbechunked andchecked against exactremotecontent/Gitblobhash. Terminaltruncation isnotavalidCSV; repairmetadatawithoutrepeatingbacktests. KeepownershipRUNNINGuntilfinalreport/handoffcomplete.

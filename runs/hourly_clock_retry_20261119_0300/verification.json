@@ -1,0 +1,23 @@
+{
+  "tests_passed": 145,
+  "test_seconds": 11.555,
+  "code_hashes_pass": true,
+  "raw_source_hashes_pass": {
+    "QQQ": true,
+    "BTC-USD": true
+  },
+  "state_continuity_segments_passed": 66,
+  "same_session_trade_provenance_checks": 13222,
+  "original_legacy_regression_calls": 6,
+  "original_legacy_fields_percell": 6,
+  "main_completed_calls": 623,
+  "total_completed_calls": 629,
+  "aborted_unpersisted_call": 1,
+  "total_actual_calls_including_abort": 630,
+  "metadata_note": "Originalticker_usage omittedend; explicit_periods export joins actualcallend bycallid; originalpreserved. Continuouscounts independentlyderivedfromsavedledgers.",
+  "publication_note": "TwoCSVcheckpointreads truncated; repaired9045499 and exactremote/localcontentverified beforefinal. Usechunkedreads/contentcomparison forlargeartifacts.",
+  "extra_code_sha256": {
+    "scripts/hourly_results_verify_20261119.py": "4e2a2452b38068e9e338a1f17de41da2c68afb6a97efeb226baddf219df7f0dd",
+    "scripts/hourly_legacy_repro_20261119.py": "5ce3ffecd1792941a0082cbcad3a17f62a7e738d65392d73e13915415df81a73"
+  }
+}

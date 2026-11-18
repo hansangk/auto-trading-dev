@@ -1,0 +1,39 @@
+[
+  {
+    "stage": "preliminary_context",
+    "outcome": "CorrectedbeforePnL",
+    "issue": "CurrentQQQopeninggap incorrectlyrequiredwholecurrentdaycompleteness",
+    "fix": "Preservepreliminary artifacts, currentopeningfromactualfirstbar; useaudit_v2only",
+    "performance_calls": 0
+  },
+  {
+    "stage": "first_main_attempt",
+    "outcome": "ABORTED",
+    "issue": "duplicatecall_id resultassembly",
+    "completed_engine_calls": 1,
+    "persisted_result_cells": 0,
+    "fix": "Preservefailedcode+trace;excludeabortfromcompletedcount;rerununchangedmodel"
+  },
+  {
+    "stage": "publication_checkpoint",
+    "outcome": "REPAIRED",
+    "issue": "twoaggregateCSVtruncatedbyterminalreadlimit",
+    "fix": "chunkedread +exactremote/localcontentverification",
+    "repair_commit": "9045499e51e7fafc608cea6f6569c24fcbb539cb",
+    "new_engine_calls": 0
+  },
+  {
+    "stage": "supplementary_verification",
+    "outcome": "CORRECTED_AND_PASS",
+    "issue": "Twofailedreads:ledgerentry/endaretimestampstrings,notarrayindices",
+    "fix": "Parseknownledger timestamps and exact-indexmatch; all13222records verified",
+    "new_engine_calls": 0
+  },
+  {
+    "stage": "ticker_metadata",
+    "outcome": "Explicitperiodexport",
+    "issue": "Trainingwindowscanhavethesamestartwithdifferentends",
+    "fix": "Keeporiginalexport; joinend_exclusive/purposebycallid intoexplicit_periods",
+    "new_engine_calls": 0
+  }
+]
