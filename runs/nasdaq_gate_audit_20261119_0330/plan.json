@@ -1,0 +1,84 @@
+{
+  "run_id": "nasdaq_gate_audit_20261119_0330",
+  "research_parent": "235909009b7fb805de91c5fdfd5cc67622b83981",
+  "claim": "38abb33339dee19a463cdf2c8886412d52135a5a",
+  "status": "PREREGISTERED_BEFORE_NEW_OUTCOMES",
+  "scope": "Identification audit of fixed night_nasdaq(5,.5), chosenfromprevious2025pool/recent2026fit. No newalpha optimization and no repeated16nightparamgrid. Fourfamiliesx4=16controls.",
+  "structural_hypothesis": "BTCnightreturn/scale andQQQregime5 fixedperday; sourceepisodearray mustequalQQQ-consensusparentonsets onBTCqualifieddays. AcceptedsideQQQregime/hour=source identically; sourceaddsdayparticipationnotconditionaldirection.",
+  "families": {
+    "factorial": [
+      "source",
+      "drop_strength",
+      "drop_direction",
+      "qqq_consensus"
+    ],
+    "source_cohort_sides": [
+      "qqq_gap_side",
+      "opposite",
+      "hash_side_0",
+      "hash_side_1"
+    ],
+    "parent_session_cash": [
+      "session_cash_0",
+      "session_cash_1",
+      "session_cash_2",
+      "session_cash_3"
+    ],
+    "stale_source_day_gate": [
+      "stale_1",
+      "stale_2",
+      "stale_3",
+      "stale_5"
+    ]
+  },
+  "cash_calibration": "Returnblindpredev2024Dec1-Dec31, sourceonsets/parentonsets probability. Ifparent<20 fixedp=.5andflaguncalibrated. Frozenbeforeall2025/26. HashNYday+fixedseedonly. Expectedparticipation,notexactcount/dollar/time/betamatch.",
+  "stale_rule": "UseactualearlierobservednormalETFdaynightreturn/scale,lag1/2/3/5;missingdonorremainsmissing,no skipping/gapfill. CurrentQQQconsensus/commonvalidityunchanged. Notfuturepermutions.",
+  "development": [
+    [
+      "2025-01-01",
+      "2025-07-01"
+    ],
+    [
+      "2025-07-01",
+      "2026-01-01"
+    ]
+  ],
+  "diagnostic": [
+    "2026-01-01",
+    "2026-11-14"
+  ],
+  "recent": [
+    [
+      "2026-08-14",
+      "2026-11-14"
+    ],
+    [
+      "2026-05-14",
+      "2026-11-14"
+    ]
+  ],
+  "staging": "All16controlbaseinboth2025devwindows. Max8prespecifiedidentificationstressIDs source/QQQconsensus/gapside/opposite/cash0..3, notPnLrankedrandomseeds. These8alonecost2/delayand2026/recentwholeaccountreplay. No nullseedpromotedasalpha. Remainingcontrolsdevbase/labels only.",
+  "stress_ids": [
+    "source",
+    "qqq_consensus",
+    "qqq_gap_side",
+    "opposite",
+    "session_cash_0",
+    "session_cash_1",
+    "session_cash_2",
+    "session_cash_3"
+  ],
+  "attribution": "FullQQQconsensuspotentialonsetcohort, actualchosenTQQQ/SQQQ,15%rolebudget. BTCadmitted vsrejected originalQQQevents; gross/cost/netlabels notaccountreturns. Exitmin(k+4,lastsameNYdaybar), entriesk+1/k+2,commonexitandcommonlatencysupport;k+2>exitundefinedexcluded. Frozenstrata QQQregimesign xQQQgapsign xcloseclockearly<=12:30/later, >=5events and>=3days eachadmit/reject ineligiblematchedstratum. Weightstratabytotalparentopportunitycount beforeoutcomes. Missingstrata notimputed.",
+  "uncertainty": "EventcomparisonsclusterNYday; allobservedfullNYdays inclzeroeventdays.2000ordinarydayand2000circular3observeddayblockdraws seed20261119; recomputeadmit/rejectstratameans,originalfixedstrataweights. Reportinvaliddraws, need>=90%validelseinconclusive. No independentmarketCIclaimwithreusedsample/selection.",
+  "information_pass": "EACH2025dev andselectedrecent6diagnosis:eligiblematched>=20admittedand>=20rejectedevents,>=10dayseach and>=6nonoverlapping3observeddayblocks; matchednetcontrast>0.69portfolio_bp (15%extra4.6bpscost),95%3dayblocklower>0. Recent-onlypositiveisregimeassociationnotindependentconfirmation. Overallstrategyadoptionremainsdisabled:known2025failsandnoindependenthistory.",
+  "monthly": "Importpreviousfrozen6monthtrainingchoicesCSV; norefit/rerank. Replay3counterfactuals originalchoices /replaceonlyselectedNasdaq5byQQQconsensus /replaceonlyNasdaq5byexistingQQQgapcontextproxy. OtherIBIT/BITIselectedpoliciesunchanged, sameAccountState across11months and3executionstressscenarios=99calls. Originalmustreproduceprevious6mresult. Counterfactualisfrozenchoiceintervention,notnewcausallyretrainedselector. StaticNasdaqvsselector scopeincludesallocationdifferences.",
+  "risk": "SameactualTQQQ/SQQQ/IBIT/BITI BUYuniverse;isolatedNasdaqcontrolsTQQQ/SQQQonly;monthlyretainsrealIBIT/BITI.15%ETF,cashunused,hold4hourlyrows,60bpjointclose-stopnextopen,3R,2cooldown,existinghard/soft/5%risk. Base4.6bp/cost2 9.2bp/delay1eligibleRTH60min. Sourceactualend+5min<=decision age<=65min.",
+  "data": {
+    "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+    "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
+    "paths": "runs/hourly_clock_retry_20261119_0300/audit_v2/audited_ETF_LOCAL.csv.gz andcontext_LOCAL.npz",
+    "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
+    "source_provenance": "PreviousfrozenYahoo1hrawQQQ/BTCfromNov19 02:12KST; no newprices/firstreleaseclaims"
+  },
+  "limitations": "2026reused andcandidatechosenafteritsrecentfit,2025alsoresearched. No newindependentvalidation,nonews/macro/quotes orrawupload. LatepartialRTHbar30min/holdingtruncated, realized-roundMDD. Currenthypothesisnotstrategyrecommendation."
+}

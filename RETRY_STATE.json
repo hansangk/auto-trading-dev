@@ -2,12 +2,13 @@
   "status": "RUNNING",
   "owner": "Codex",
   "run_id": "nasdaq_gate_audit_20261119_0330",
-  "parent": "235909009b7fb805de91c5fdfd5cc67622b83981",
+  "parent": "38abb33339dee19a463cdf2c8886412d52135a5a",
   "updated_utc": "2026-11-18 18:39:07 UTC",
   "latest_report": "HOURLY_NIGHT_RETRY_REPORT_20261119_0300.md",
-  "checkpoint": "Readlatestremote COMPLETE/AGENTS/protocol/handoff/report, no localPythonworker. ClaimbeforefixedNasdaq(5,.5) participation/direction/strength andselection audit. Creativequant identifiedstructuralQQQdirection identity, proposes16boundedcontrols; no newalphafitting.",
+  "checkpoint": "Preregister16fixedinformationcontrols/8stressIDs,matchedQQQparentcohort and99frozenmonthlycounterfactuals. Structuraldirectionidentitytoverifybeforeperformance; noalpharesweep.",
   "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
   "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
   "raw_upload": "not attempted",
-  "orders": 0
+  "orders": 0,
+  "phase": "IMPLEMENTING_PREREGISTERED_AUDIT"
 }
