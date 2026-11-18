@@ -1,11 +1,11 @@
 {
-  "status": "COMPLETE_PENDING_REPORT",
+  "status": "RUNNING",
   "owner": "Codex",
   "run_id": "source_lead_audit_20261119_0200",
-  "parent": "2d7403376adac56bba51c9dba86cf248db349f4a",
+  "parent": "fe667a4f8bf3cf9756c08d861ff0d6ad08f031dd",
   "updated_utc": "2026-11-18 17:02:24 UTC",
   "latest_report": "REFERENCE_RETRY_REPORT_20261119.md",
-  "checkpoint": "75actualaccountcalls/130tests PASS.12sourcefilters+12matchedETFablation,12distinctsourcearrays.0passbothdevelopment support gates;no source shortlist/stress/diagnostic. Fixedcontrols3scenarios/3periodscomplete;all9unrestrictedbaselinecellsreproduced.",
+  "checkpoint": "Backtestworker exited after75calls/130tests. Report assembly and separate source-only2yearhourly access inventory underway. Ownership retained until finalhandoff; no extraalpha search.",
   "etf_input_sha256": "a672f4d76a6216e743270abb97fae31f421a955985fa718cd82c6c423430e99c",
   "reference_input_sha256": "836d92f572b14bf0a622b637b7009ca6e261f09e7b567e36bec4ab206a689075",
   "raw_upload": "not attempted",
@@ -13,5 +13,6 @@
   "calls": 75,
   "tests_passed": 130,
   "approved": [],
-  "worker": "exited"
+  "worker": "no backtestworker; report/accessaudit active",
+  "phase": "BACKTEST_COMPLETE_REPORT_AND_HOURLY_ACCESS_AUDIT"
 }
