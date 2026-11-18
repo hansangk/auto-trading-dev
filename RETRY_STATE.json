@@ -1,12 +1,8 @@
 {
-  "status": "COMPLETE_DIAGNOSTIC_NO_PROMOTION",
   "owner": "Codex",
-  "run_id": "five_minute_path_20261118",
-  "parent": "606b437d3a64ece3499324ccd11d2c368b512fdb",
+  "status": "RUNNING",
+  "run_id": "episode_grid_20261118",
+  "parent": "df2904a16af8a854c0f44ba1208b1471dc680612",
   "input_sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836",
-  "checkpoint": "54 actual enginecalls;27priorcontrols match;92testsPASS;common events strongest107/146. Gross edge below costs, no supported optimaldelay.",
-  "claim": "3fb20b7eb0c65472e40477dba1829722a3536ec5",
-  "latest_report": "FIVE_MINUTE_PATH_REPORT_20261118.md",
-  "next_command": "PYTHONPATH=src:scripts python scripts/five_minute_path_20261118.py (fresh output path; exact existing5m input hash required)",
-  "next_hypothesis": "Development first episode vs repeated same-direction15min events; no threshold resweep."
+  "checkpoint": "16 preregistered configs: onset neutral1/2 completed15bars x refractory0/3fivebars;firsteventretest.25/.5prior15range x timeout1/2completed15bars;compression last2ranges<=.5/.75 medianpreceding4/8 x frozen2barbreak;chasewait1/3fivebars x cap.25/.5prior15range. Fixedhold12/60bp/3R/15%ETF. Same-session actual5m nextopen. No overnight. Base early/late dev7/10days >=20rounds,top<=8 tocost2/delay1, devselectedonly2daydiagnostic. Promotion0shortsample. No new3/6history. Compare first/repeat fixedpaths vs accountreplays."
 }
