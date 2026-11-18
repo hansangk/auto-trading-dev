@@ -104,3 +104,9 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Query common raw symbol/timestamp keys before common-session filters. Separate vintage/overlap changes, repaired session coverage and added earlier history. Current versus old1mo changed1027rows; current1mo andcurrent60d agree on oldkeys.
 - Pin range/absolute-period parameters and actual returned dates. Current range60d returned60observed sessions, while prior absolute2025request said last60days; do not assume identical calendar semantics.
 - Preserve reset-window result comparisons separately from one continuous account. Archive exact comparator regressions before interpreting altered performance as strategy improvement. Shorter one-ETF control exposure is not fully risk matched.
+
+
+2026-11-18 structural-grid correction:
+- Group candidates by effective development score-array hash before stress/diagnostic shortlist. Arm-only compression lifetime makes decompression invalidation redundant. Preserve preliminary results and cache-resume only missing unique cells when an alias is discovered after evaluation; record both nominal and unique counts.
+- A source-code feature such as unexpired boxes or one-sided chase caps is a falsifiable concern, not evidence of loss causation. Reconstruct original event metadata and check its exact role-array agreement, then use development-only strata plus full account interventions.
+- Flag overlapping roles/partial filters and changed event timing in frozen-parent attribution; do not turn baseline return sums into filtered portfolio returns.

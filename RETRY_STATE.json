@@ -1,8 +1,14 @@
 {
   "owner": "Codex",
-  "status": "RUNNING",
+  "status": "COMPLETE_REJECTED",
   "run_id": "structural_grid_20261118",
   "parent": "999adf7d9e1eff85fc465909701a3aa2c306540e",
   "source_sha256": "9d849a7f872d7e4b9092b1df06afea37b99adc5928bbe7aa402c63823c92c347",
-  "checkpoint": "16variants4families expiry1/3decisions x invalidate0/1;chasewait1/3 x adversebound.25/.75range;ownETFconfirmation1/3fivebars x rangebuffer0/.25;preceding5/10session same15slot volume quantile.2/.4. Original compression, twochases,momentum andoneETFcontrol comparators. Fixedrisk15%/60bp/hold12/3R. DevAug25-Sep20/Sep20-Oct19,top8>=20rounds each worsthalf thenmean tocost2/delay1. Stress>=20,allpositive,beatfamilyparent,noMDDworse/nohalt forresearchpass;noadoption without independentdata. Top3developmenteligible toOct19-Nov18 reuseddiagnostic. Frozenledgeroverlap notaccountreturns. No fitting ondiagnostic."
+  "checkpoint": "125actualcalls=118preliminary+7cache-resumedunique,16nominal/15distinct,8uniquestress/3uniquediagnostic,109testsPASS,0approval.",
+  "claim": "052e8b506d4b62d73b49eacfd2a1b6cc130da3cf",
+  "latest_report": "STRUCTURAL_GRID_REPORT_20261118.md",
+  "input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
+  "final_selection": "runs/structural_grid_20261118/unique_selection.json",
+  "next_command": "Read state/handoff; freeze seeds and compare fixed development momentum direction with exposure-matched direction/cash controls. Reproduction structural_grid then finalize_structural_unique in clean paths.",
+  "next_hypothesis": "Does fixed direction add information beyond matched exposure and cash? Current4repairfamiliesclosed on this data."
 }

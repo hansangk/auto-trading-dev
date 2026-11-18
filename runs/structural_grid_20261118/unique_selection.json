@@ -1,0 +1,25 @@
+{
+  "shortlist": [
+    "compression_expiry_1_0",
+    "participation_10_0.4",
+    "compression_expiry_3_1",
+    "participation_10_0.2",
+    "compression_expiry_3_0",
+    "own_confirmation_1_0.25",
+    "participation_5_0.4",
+    "participation_5_0.2"
+  ],
+  "selected": [
+    "compression_expiry_1_0",
+    "participation_10_0.4",
+    "compression_expiry_3_1"
+  ],
+  "aliases": {
+    "compression_expiry_1_1": "compression_expiry_1_0"
+  },
+  "research_pass": [],
+  "approved": [],
+  "additional_calls": 7,
+  "prior_calls": 118,
+  "total_calls": 125
+}

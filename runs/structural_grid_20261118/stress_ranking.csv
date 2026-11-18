@@ -1,0 +1,9 @@
+name,parent,worst,min_rounds,eligible,research_pass
+compression_expiry_1_0,compression_parent,-0.010105167341553423,25,True,False
+compression_expiry_1_1,compression_parent,-0.010105167341553423,25,True,False
+participation_10_0.4,momentum_parent,-0.011452987825400829,29,True,False
+compression_expiry_3_1,compression_parent,-0.01193855236720176,32,True,False
+participation_10_0.2,momentum_parent,-0.013047021484797416,29,True,False
+compression_expiry_3_0,compression_parent,-0.013618804960550568,40,True,False
+participation_5_0.4,momentum_parent,-0.018385778244070283,47,True,False
+own_confirmation_1_0.25,momentum_parent,-0.018482154609607115,49,True,False
