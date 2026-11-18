@@ -1,13 +1,17 @@
 {
-  "status": "RUNNING",
+  "status": "COMPLETE_PENDING_REPORT",
   "owner": "Codex",
   "run_id": "source_lead_audit_20261119_0200",
-  "parent": "2d785e8ddb79d00caf2dc37200d62a464fed8319",
+  "parent": "2d7403376adac56bba51c9dba86cf248db349f4a",
   "updated_utc": "2026-11-18 17:02:24 UTC",
   "latest_report": "REFERENCE_RETRY_REPORT_20261119.md",
-  "checkpoint": "4novel source-informationfilterfamilies x3fixedlags preregistered. Exact matched source/ETF singlefeature ablations and returnblind intervention gates precede fit; no performanceobserved.",
+  "checkpoint": "75actualaccountcalls/130tests PASS.12sourcefilters+12matchedETFablation,12distinctsourcearrays.0passbothdevelopment support gates;no source shortlist/stress/diagnostic. Fixedcontrols3scenarios/3periodscomplete;all9unrestrictedbaselinecellsreproduced.",
   "etf_input_sha256": "a672f4d76a6216e743270abb97fae31f421a955985fa718cd82c6c423430e99c",
   "reference_input_sha256": "836d92f572b14bf0a622b637b7009ca6e261f09e7b567e36bec4ab206a689075",
   "raw_upload": "not attempted",
-  "orders": 0
+  "orders": 0,
+  "calls": 75,
+  "tests_passed": 130,
+  "approved": [],
+  "worker": "exited"
 }
