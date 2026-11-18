@@ -77,12 +77,14 @@
   "controls": [
     "ETF_momentum4_0.5",
     "reference_momentum4_0.5",
-    "cash"
+    "cash",
+    "reference_agreement_at_ETF_events"
   ],
   "ranking": "worst return then mean; min20 rounds EACH devbase; dedup development arrays BEFORE shortlist <=8; stress only shortlist + fixedcontrols; atmost3sampleeligibledevelopmentranked diagnosticanalysis, no diagnostic tuning",
   "pass": "all6dev base/cost2/delay1 positive, >=20 rounds each, nohalt, everycellreturn>ETFcontrol, MDD<=ETFcontrol. Regardless screen no adoption without independenthistory.",
   "protection": "samehold12x5min,60bp jointclose trigger nextopenstop,3R,2barcooldown,15%perETFmax,cashunused,originalaccountprotections",
   "hypotheses": "source/ETF catchup;15min source sweep;5min shock reversal;source concordance onset. Source vsETFmomentum ablation changes feature source only. Strategies change entrymechanisms independently, no joined overlay.",
   "raw_policy": "No raw uploads, prior refusal respected. All newrawLOCAL.",
-  "history": "Only33matchedfullsessions. 3/6fit and monthly walkforward unavailable; no mixedhourly results. 2026reused, zero additionalrelease latency base assumption."
+  "history": "Only33matchedfullsessions. 3/6fit and monthly walkforward unavailable; no mixedhourly results. 2026reused, zero additionalrelease latency base assumption.",
+  "attribution": "All original ETFmomentum events with fixed +12bar same-session exit; retain only same-direction active role if reference_momentum agrees. Compare original and admitted/cash roleweighted gross/cost/net paths, delay0/1 sameexit labels (not accounts); replay agreement-filtered whole account independently. Removing roles changes exposure, not exact riskmatch."
 }
