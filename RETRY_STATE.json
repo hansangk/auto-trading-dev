@@ -1,8 +1,12 @@
 {
   "owner": "Codex",
-  "status": "RUNNING",
+  "status": "COMPLETE_REJECTED",
   "run_id": "slot_retry_20261118",
   "parent": "1512581d2e2c77027c837bf32291bec787bd9784",
   "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
-  "checkpoint": "Pre-results: test intraday same-clock slot response families; fixed hold4/3R/60bp. Rank eligible (20 rounds each development half) by worst 2025 half net then mean; stress top8 only. Require all six cells positive, outperform anchor, no MDD halt, MDD no worse and 20 rounds each. Freeze before any 2026 diagnostics. Same-window recent fits exploratory; preceding-window winners next month with continuous account."
+  "checkpoint": "936 evaluations, 16 candidates, 0 approved, 85 tests passed",
+  "claim": "3cee6e76278002e43e7f791c9a282d53a397eabe",
+  "next_action": "2025 fixed breakout opportunity entry timing attribution",
+  "latest_report": "SLOT_RETRY_REPORT_20261118.md",
+  "next_command": "PYTHONPATH=src python scripts/slot_retry_20261118.py (clean reproduction directory only)"
 }
