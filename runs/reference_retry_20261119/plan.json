@@ -1,8 +1,88 @@
 {
-  "status": "RUNNING",
-  "owner": "Codex",
   "run_id": "reference_retry_20261119",
   "parent": "c2eb4730a83644213b0fd1f10e0d6f44208338f9",
-  "etf_input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
-  "checkpoint": "FetchQQQ/BTC-USD actual5min range60d separately, priorETFinput frozen. Audit commonstart+end timestamps and finiteOHLCV,complete78bar NY sessions. No forwardfill/referenceprice synthesis. Do not claim reference end synchronization without actualavailable timestamps. Freeze4familiesx4 aftersourcecoveragebeforeoutcomes;existingETFsource vsreferencesource ablations. Devtwoearliest disjoint windows thenlaterreuseddiagnostic, >=20 andtop8stress, dedupbeforeselection. No adoptionwithoutindependenthistory."
+  "claim": "138b31400856491a36083a7804d93609c6cd7188",
+  "status": "PREREGISTERED_BEFORE_OUTCOMES",
+  "families": {
+    "catchup": {
+      "horizon": [
+        3,
+        6
+      ],
+      "z": [
+        1,
+        2
+      ],
+      "qscale_prior": 48,
+      "nominal_mapping": [
+        3,
+        -3,
+        1,
+        -1
+      ]
+    },
+    "sweep": {
+      "completed_15min_range": [
+        6,
+        12
+      ],
+      "location": [
+        0.65,
+        0.8
+      ]
+    },
+    "exhaustion": {
+      "shock_horizon": [
+        1,
+        3
+      ],
+      "z": [
+        1.5,
+        2
+      ],
+      "prior_vol": 12,
+      "reversal_fraction": 0.5
+    },
+    "synchronized": {
+      "horizon": [
+        3,
+        6
+      ],
+      "z": [
+        0.5,
+        1
+      ],
+      "prior_vol": 12
+    }
+  },
+  "development": [
+    [
+      "2026-09-21",
+      "2026-10-01"
+    ],
+    [
+      "2026-10-01",
+      "2026-10-19"
+    ]
+  ],
+  "diagnostic": [
+    "2026-10-19",
+    "2026-11-18"
+  ],
+  "known_complete_sessions": [
+    6,
+    8,
+    19
+  ],
+  "controls": [
+    "ETF_momentum4_0.5",
+    "reference_momentum4_0.5",
+    "cash"
+  ],
+  "ranking": "worst return then mean; min20 rounds EACH devbase; dedup development arrays BEFORE shortlist <=8; stress only shortlist + fixedcontrols; atmost3sampleeligibledevelopmentranked diagnosticanalysis, no diagnostic tuning",
+  "pass": "all6dev base/cost2/delay1 positive, >=20 rounds each, nohalt, everycellreturn>ETFcontrol, MDD<=ETFcontrol. Regardless screen no adoption without independenthistory.",
+  "protection": "samehold12x5min,60bp jointclose trigger nextopenstop,3R,2barcooldown,15%perETFmax,cashunused,originalaccountprotections",
+  "hypotheses": "source/ETF catchup;15min source sweep;5min shock reversal;source concordance onset. Source vsETFmomentum ablation changes feature source only. Strategies change entrymechanisms independently, no joined overlay.",
+  "raw_policy": "No raw uploads, prior refusal respected. All newrawLOCAL.",
+  "history": "Only33matchedfullsessions. 3/6fit and monthly walkforward unavailable; no mixedhourly results. 2026reused, zero additionalrelease latency base assumption."
 }
