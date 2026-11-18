@@ -1,0 +1,38 @@
+{
+  "status": "COMPLETE_LATENCY_DECOMPOSITION",
+  "engine_calls": 144,
+  "reset_new_calls": 56,
+  "monthly_new_calls": 88,
+  "cached_old_reset_cells": 8,
+  "logical_reset_cells": 64,
+  "control_definitions": 16,
+  "eligible_stress_configs": [
+    "A_parent_common",
+    "B_parent_common",
+    "C_parent_common",
+    "D_parent_common"
+  ],
+  "strict240_Nasdaq_support": 0,
+  "source_common_dev_support": [
+    12,
+    15
+  ],
+  "approved": [],
+  "new_alpha_grid": 0,
+  "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+  "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
+  "code_config_sha256": {
+    "scripts/latency_decomposition_20261119.py": "5d7a989053447f9b77cce819079d71c1ec8d27c82b2fb1b34b96c64fc069c971",
+    "scripts/latency_schedules_20261119.py": "4d76fb84eb56524325a89112dde6702591fa8f92e7cdcc1d5bf036c441e1ed9b",
+    "scripts/latency_statistics_20261119.py": "cc3d0f6d25cdd9c4d623a5e1abf8c60f30406f66486d3283f6f617cb86f196f6",
+    "tests/test_latency_schedules.py": "05570a7e9020bc666810b2edfc3407b0b100961f6cbf12b1dd2f0e69d7b5ec6e",
+    "tests/test_latency_statistics.py": "0802258772748ffc17adf87d6fd71de4242f4e831dc52a9d7a77808097303a3d",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  },
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "raw_upload": "Not attempted",
+  "monthly_scope": "Nasdaq-only executionfamilychanges; othercrypto hold4/delay0; fixedchoices/continuousrisk"
+}

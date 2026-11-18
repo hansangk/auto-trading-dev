@@ -2,13 +2,17 @@
   "status": "RUNNING",
   "owner": "Codex",
   "run_id": "latency_decomposition_20261119_0600",
-  "parent": "de8340b53ec387d1b47a5cb2b95a5c21d0767c1f",
-  "updated_utc": "2026-11-18 21:02:02 UTC",
+  "parent": "4ec85051e1a3f9393b4e4de5e7d0c77c4aeb84c6",
+  "updated_utc": "2026-11-18 21:18:23 UTC",
   "latest_report": "NASDAQ_GATE_AUDIT_REPORT_20261119_0330.md",
-  "checkpoint": "Preregisterfixed16schedule/cohortdefinitions afterreturnblindcounts. Strict4hourNasdaqsupport0,sourcecommon12/15=>skipfurthereligiblepromotion. Parentcommon4maxstresses,88continuousmonthlycomponentcalls; no newalpha/stopchange.",
+  "checkpoint": "144newenginecalls(56reset+88continuousmonthly),8exactoldcellsreused,166tests PASS. Sourcecommonmax12/15soextra/diag skipped;parent4commoncontrolsrun. Strict240Nasdaqsupport0,180minparentcontrastsblockintervalsinclude0. Allengineworkersfinished; finalreport/verificationsaving.",
   "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
   "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
   "orders": 0,
   "raw_upload": "not attempted",
-  "phase": "PREREGISTERED_IMPLEMENTING"
+  "phase": "EXECUTION_COMPLETE_REPORTING",
+  "engine_calls": 144,
+  "cached_cells": 8,
+  "tests_passed": 166,
+  "worker": "no engineworker; reportactive"
 }

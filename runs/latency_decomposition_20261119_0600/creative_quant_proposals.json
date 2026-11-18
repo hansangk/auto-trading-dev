@@ -1,0 +1,26 @@
+[
+  {
+    "name": "auction_repricing",
+    "requires": "Actual opening-auction and contemporaneous quote histories",
+    "status": "UNIMPLEMENTED",
+    "actual_point_in_time_feeds": false
+  },
+  {
+    "name": "futures_cash_lead",
+    "requires": "Synchronized completed Nasdaq-futures/cash feeds and release timestamps",
+    "status": "UNIMPLEMENTED",
+    "actual_point_in_time_feeds": false
+  },
+  {
+    "name": "macro_surprise",
+    "requires": "Point-in-time releases and contemporaneous consensus histories",
+    "status": "UNIMPLEMENTED",
+    "actual_point_in_time_feeds": false
+  },
+  {
+    "name": "liquidity_timing",
+    "requires": "Actual finer bars/quotes for spread and executable-delay attribution",
+    "status": "UNIMPLEMENTED",
+    "actual_point_in_time_feeds": false
+  }
+]
