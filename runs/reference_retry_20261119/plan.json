@@ -1,0 +1,8 @@
+{
+  "status": "RUNNING",
+  "owner": "Codex",
+  "run_id": "reference_retry_20261119",
+  "parent": "c2eb4730a83644213b0fd1f10e0d6f44208338f9",
+  "etf_input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
+  "checkpoint": "FetchQQQ/BTC-USD actual5min range60d separately, priorETFinput frozen. Audit commonstart+end timestamps and finiteOHLCV,complete78bar NY sessions. No forwardfill/referenceprice synthesis. Do not claim reference end synchronization without actualavailable timestamps. Freeze4familiesx4 aftersourcecoveragebeforeoutcomes;existingETFsource vsreferencesource ablations. Devtwoearliest disjoint windows thenlaterreuseddiagnostic, >=20 andtop8stress, dedupbeforeselection. No adoptionwithoutindependenthistory."
+}

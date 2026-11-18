@@ -1,12 +1,8 @@
 {
+  "status": "RUNNING",
   "owner": "Codex",
-  "status": "COMPLETE_FIXED_DIRECTION_REJECTED",
-  "run_id": "direction_control_20261119",
-  "parent": "dc31f3261cec15f2723a7669ce78928ccb60265f",
-  "input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
-  "checkpoint": "220accountcalls,64directioncontrols/8prefixedstressids,0newalphas,113testsPASS,18priorcells match. DirectionAnegative/Bunconfirmed;oppositenotstable.",
-  "claim": "c33df3409d0e4efba7231e4a58912fd28f30091c",
-  "latest_report": "DIRECTION_CONTROL_REPORT_20261119.md",
-  "next_command": "Read state/handoff; acquire separately versioned synchronized QQQ/BTC-USD reference bars and audit release/overlap/hash before any new direction tests. Reproduction direction_control then direction_control_summary in fresh paths.",
-  "next_hypothesis": "New source transmission evidence from synchronized underlying references; currentfixed4/.5momentumdirectionclosed."
+  "run_id": "reference_retry_20261119",
+  "parent": "c2eb4730a83644213b0fd1f10e0d6f44208338f9",
+  "etf_input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
+  "checkpoint": "FetchQQQ/BTC-USD actual5min range60d separately, priorETFinput frozen. Audit commonstart+end timestamps and finiteOHLCV,complete78bar NY sessions. No forwardfill/referenceprice synthesis. Do not claim reference end synchronization without actualavailable timestamps. Freeze4familiesx4 aftersourcecoveragebeforeoutcomes;existingETFsource vsreferencesource ablations. Devtwoearliest disjoint windows thenlaterreuseddiagnostic, >=20 andtop8stress, dedupbeforeselection. No adoptionwithoutindependenthistory."
 }
