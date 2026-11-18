@@ -1,0 +1,8 @@
+{
+  "owner": "Codex",
+  "status": "RUNNING",
+  "run_id": "structural_grid_20261118",
+  "parent": "999adf7d9e1eff85fc465909701a3aa2c306540e",
+  "source_sha256": "9d849a7f872d7e4b9092b1df06afea37b99adc5928bbe7aa402c63823c92c347",
+  "checkpoint": "16variants4families expiry1/3decisions x invalidate0/1;chasewait1/3 x adversebound.25/.75range;ownETFconfirmation1/3fivebars x rangebuffer0/.25;preceding5/10session same15slot volume quantile.2/.4. Original compression, twochases,momentum andoneETFcontrol comparators. Fixedrisk15%/60bp/hold12/3R. DevAug25-Sep20/Sep20-Oct19,top8>=20rounds each worsthalf thenmean tocost2/delay1. Stress>=20,allpositive,beatfamilyparent,noMDDworse/nohalt forresearchpass;noadoption without independentdata. Top3developmenteligible toOct19-Nov18 reuseddiagnostic. Frozenledgeroverlap notaccountreturns. No fitting ondiagnostic."
+}
