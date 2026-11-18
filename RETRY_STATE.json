@@ -3,16 +3,17 @@
   "owner": "Codex",
   "run_id": "release_clock_audit_20261119_0630",
   "research_parent": "1f9493a59cdf60aeb599094dddf3b56e682e7a7f",
-  "parent": "e56e074145cd2308be5e7808a28c66b4b83984aa",
+  "parent": "91efa4f16ba92bab4ad8c3149d9059d23bb9be18",
   "updated_utc": "2026-11-18 21:31:02 UTC",
   "latest_report": "LATENCY_DECOMPOSITION_REPORT_20261119_0600.md",
-  "phase": "PREREGISTERED_READY",
-  "checkpoint": "Input audit47actual sessions; context4prefixes/32policy prefixchecks PASS;171tests PASS. Before PnL common240 Nasdaqsource3/2,QQQparent9/10 below20; all16definitions incapableofpairedsamplegate. Base32screens planned,no stress/diagnostics expected.",
+  "phase": "EXECUTION_COMPLETE_REPORTING",
+  "checkpoint": "32actual base backtests completed,252trade records; noaborts.47sessions22/25shortdev. All16failmatchedsamplegate,shortlist0;cost2/+5minstress/diagnostics notrun. Same240minNasdaqmatched3/2,QQQparent9/10. Final independentverification/report active.",
   "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
   "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
   "five_minute_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
   "orders": 0,
   "raw_upload": "not attempted",
-  "claim_commit": "e56e074145cd2308be5e7808a28c66b4b83984aa",
-  "new_engine_calls": 0
+  "plan_commit": "91efa4f16ba92bab4ad8c3149d9059d23bb9be18",
+  "engine_calls": 32,
+  "tests_passed": 171
 }

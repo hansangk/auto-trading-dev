@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE_SHORT_SAMPLE_REJECTED",
+  "engine_calls": 32,
+  "base_calls": 32,
+  "stress_calls": 0,
+  "definitions": 16,
+  "new_alpha_trials": 0,
+  "shortlist": [],
+  "approved": [],
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "raw_upload": "not attempted",
+  "hashes": {
+    "scripts/release_clock_20261119.py": "142c5ef05aee90fe6b5a66b1c8618d97056ea0962baccdc2227dd3a55d475183",
+    "scripts/release_clock_retry_20261119.py": "633f24d41fa011d506d71d31938081aa872b69353f66df3ebe1210720440bd06",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "scripts/hourly_night_signals_20261119.py": "0f7fbe5966d8f5122bc9ae009e6abbd2b3bcf7c26dd8938dbb7534088fb57a05",
+    "scripts/hourly_clock_audit_20261119.py": "3eb315d2919dce70ecd75c185535de5f6aa379f0dd384dd603740c95f9c7d178",
+    "scripts/nasdaq_gate_controls_20261119.py": "c8901ba49253a103bfe92df01602227e9b76bebb122eed0a8969a42ef44272e3",
+    "scripts/latency_statistics_20261119.py": "cc3d0f6d25cdd9c4d623a5e1abf8c60f30406f66486d3283f6f617cb86f196f6"
+  },
+  "engine_unchanged": true,
+  "first_ETF_hour_buffer_minutes": 5,
+  "protection_bar_minutes": 5,
+  "cooldown_minutes": 120,
+  "full_horizon": true,
+  "new_market_observations": 0,
+  "periods": [
+    [
+      "2026-08-25",
+      "2026-10-01"
+    ],
+    [
+      "2026-10-01",
+      "2026-11-14"
+    ]
+  ]
+}
