@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE",
+  "calls": 375,
+  "selected": [],
+  "approved": [],
+  "new_alpha_configs": 0,
+  "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "hashes": {
+    "scripts/session_provenance_20261118.py": "c5ea79ab6ca60077b2d168d333a3a2fd987eff6876bf306f7bb8325812e7d9f1",
+    "scripts/session_signal_provenance.py": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c",
+    "scripts/event_path_signals.py": "70a2cefc1624f10ba631faf264e57e61db2ffbb2d4facabab571ca8679be11d5",
+    "scripts/slot_signals.py": "1c27b061a809026e35350dd695df7475d584403c3327a82f1dcdd5e409e5b613",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  },
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "tests": 92,
+  "test_result": "PASS",
+  "duration_seconds": 14.67,
+  "claim": "50029922942f8f7e1b5a2ea436388e9a73656493",
+  "new_five_minute_input_sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836"
+}

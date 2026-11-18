@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-18T03:57:29.177157+00:00",
+  "attempts": [
+    {
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/TQQQ?range=5d&interval=5m&includePrePost=false",
+      "status": 200,
+      "bytes": 36750
+    },
+    {
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/TQQQ?range=5d&interval=5m&includePrePost=false",
+      "status": 200,
+      "bytes": 36750
+    }
+  ]
+}

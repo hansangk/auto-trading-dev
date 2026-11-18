@@ -71,3 +71,8 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 2026-11-18 interrupted-run recovery:
 - A published RUNNING claim is not a completed report. Save compact aggregate checkpoints before lengthy follow-up reviews. Record prior terminal observations separately when unpublished outputs are lost. Never recreate a claimed exact CSV from rounded conversational metrics.
 - Verify surviving input SHA and restore exact committed code in an isolated directory. Record fresh-data rate limits independently from successful archive replay. Do not call historical reproduction new strategy validation. Preserve expected-parent publication and record ownership evidence; do not infer remote-worker liveness from local process lists alone.
+
+
+2026-11-18 signal provenance audit:
+- For intraday event intent, check original event, transformed score and actual entry NY dates using logged signal_index and execution delay. A first-row reset alone does not enforce this. Preserve legacy semantics as a comparator; cross-session trading is a policy decision, not universally an error.
+- Report preserved-ledger attribution separately from whole-account replay. If corrected provenance removes minimum sample eligibility, do not send the candidate into diagnostics. Archive actual finer-bar source/hashes and audit common complete sessions before new research.
