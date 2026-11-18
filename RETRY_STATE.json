@@ -2,15 +2,19 @@
   "status": "RUNNING",
   "owner": "Codex",
   "run_id": "hourly_clock_retry_20261119_0300",
-  "parent": "ed7c47e167d1a1b043518017dd8e97df22065de2",
+  "parent": "5327c8bdd5201ac4f09f66e2880c5b0ae47316f7",
   "updated_utc": "2026-11-18 18:03:15 UTC",
   "latest_report": "SOURCE_LEAD_AUDIT_REPORT_20261119_0200.md",
-  "checkpoint": "Clockaudit_v2complete beforePnL;494normalETFdays,sourceavailable418days,explicit5minbuffer/age. PreliminaryQQQcurrentdaycoveragegatecorrectedbeforeperformance.16newnight/contextcandidateparameters andglobal2025selection/2026continuous3/6monthlyplanfrozen.",
+  "checkpoint": "Main623completedactualcalls/145tests PASS; aborted1call before resultassembly separatelyrecorded.16sourcecandidates,6global2025shortlist;0promotion. Exactrecent3/6fitted and6causalcontinuous3/6accounts complete. Metadata/report/legacy6regression verification inprogress; ownershipretained.",
   "ETF_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
   "QQQ_raw_sha256": "a62a158a1f6a3fc85ef803c277543408e7b46c629630787013427218827271ad",
   "BTC_raw_sha256": "5a470cea79415bc73c87eaeeb5740fe8c5e1f95c2b72e9f05e68e8def54cb206",
   "orders": 0,
   "raw_upload": "not attempted",
   "audited_ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
-  "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0"
+  "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
+  "phase": "RESULTS_COMPLETE_REPORTING",
+  "main_completed_calls": 623,
+  "aborted_calls": 1,
+  "tests_passed": 145
 }

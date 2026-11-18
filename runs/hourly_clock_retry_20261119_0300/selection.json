@@ -1,0 +1,198 @@
+{
+  "shortlist": [
+    "night_exhaustion_a0.8_b0.25",
+    "night_exhaustion_a0.5_b0.25",
+    "night_acceptance_a0.5_b0.5",
+    "night_acceptance_a0.5_b0.25",
+    "night_nasdaq_a10_b0.5",
+    "night_nasdaq_a5_b0.5"
+  ],
+  "diagnostic_pool": [
+    "night_acceptance_a0.5_b0.25",
+    "night_acceptance_a0.5_b0.5",
+    "night_exhaustion_a0.5_b0.25",
+    "night_exhaustion_a0.8_b0.25",
+    "night_nasdaq_a5_b0.5",
+    "night_nasdaq_a10_b0.5"
+  ],
+  "development_screen_pass": [],
+  "approved": [],
+  "failures": [
+    {
+      "name": "night_acceptance_a0.5_b0.25",
+      "family": "night_acceptance",
+      "a": 0.5,
+      "b": 0.25,
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_CELL",
+        "NO_UNIFORM_RETURN_INCREMENT_VS_PAIRED_CONTROL",
+        "MDD_WORSE_THAN_PAIRED_CONTROL",
+        "INSUFFICIENT_NIGHT_INTERVENTION"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_acceptance_a0.5_b0.5",
+      "family": "night_acceptance",
+      "a": 0.5,
+      "b": 0.5,
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_CELL",
+        "NO_UNIFORM_RETURN_INCREMENT_VS_PAIRED_CONTROL",
+        "MDD_WORSE_THAN_PAIRED_CONTROL",
+        "INSUFFICIENT_NIGHT_INTERVENTION"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_acceptance_a1_b0.25",
+      "family": "night_acceptance",
+      "a": 1.0,
+      "b": 0.25,
+      "reasons": [
+        "BASE_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_acceptance_a1_b0.5",
+      "family": "night_acceptance",
+      "a": 1.0,
+      "b": 0.5,
+      "reasons": [
+        "BASE_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_exhaustion_a0.5_b0.25",
+      "family": "night_exhaustion",
+      "a": 0.5,
+      "b": 0.25,
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_CELL",
+        "NO_UNIFORM_RETURN_INCREMENT_VS_PAIRED_CONTROL",
+        "MDD_WORSE_THAN_PAIRED_CONTROL",
+        "INSUFFICIENT_NIGHT_INTERVENTION"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_exhaustion_a0.5_b0.5",
+      "family": "night_exhaustion",
+      "a": 0.5,
+      "b": 0.5,
+      "reasons": [
+        "BASE_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_exhaustion_a0.8_b0.25",
+      "family": "night_exhaustion",
+      "a": 0.8,
+      "b": 0.25,
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_CELL",
+        "NO_UNIFORM_RETURN_INCREMENT_VS_PAIRED_CONTROL",
+        "MDD_WORSE_THAN_PAIRED_CONTROL",
+        "INSUFFICIENT_NIGHT_INTERVENTION"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_exhaustion_a0.8_b0.5",
+      "family": "night_exhaustion",
+      "a": 0.8,
+      "b": 0.5,
+      "reasons": [
+        "BASE_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "trend_pullback_a24_b1",
+      "family": "trend_pullback",
+      "a": 24,
+      "b": 1,
+      "reasons": [
+        "BASE_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "trend_pullback_a24_b3",
+      "family": "trend_pullback",
+      "a": 24,
+      "b": 3,
+      "reasons": [
+        "BASE_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "trend_pullback_a48_b1",
+      "family": "trend_pullback",
+      "a": 48,
+      "b": 1,
+      "reasons": [
+        "BASE_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "trend_pullback_a48_b3",
+      "family": "trend_pullback",
+      "a": 48,
+      "b": 3,
+      "reasons": [
+        "BASE_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_nasdaq_a5_b0.5",
+      "family": "night_nasdaq",
+      "a": 5,
+      "b": 0.5,
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_CELL",
+        "NO_UNIFORM_RETURN_INCREMENT_VS_PAIRED_CONTROL",
+        "MDD_WORSE_THAN_PAIRED_CONTROL"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_nasdaq_a5_b1",
+      "family": "night_nasdaq",
+      "a": 5,
+      "b": 1.0,
+      "reasons": [
+        "BASE_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_nasdaq_a10_b0.5",
+      "family": "night_nasdaq",
+      "a": 10,
+      "b": 0.5,
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_CELL",
+        "NO_UNIFORM_RETURN_INCREMENT_VS_PAIRED_CONTROL",
+        "MDD_WORSE_THAN_PAIRED_CONTROL"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "night_nasdaq_a10_b1",
+      "family": "night_nasdaq",
+      "a": 10,
+      "b": 1.0,
+      "reasons": [
+        "BASE_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    }
+  ]
+}

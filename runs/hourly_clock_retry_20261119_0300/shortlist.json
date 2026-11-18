@@ -1,0 +1,29 @@
+{
+  "shortlist": [
+    "night_exhaustion_a0.8_b0.25",
+    "night_exhaustion_a0.5_b0.25",
+    "night_acceptance_a0.5_b0.5",
+    "night_acceptance_a0.5_b0.25",
+    "night_nasdaq_a10_b0.5",
+    "night_nasdaq_a5_b0.5"
+  ],
+  "aliases": {
+    "night_acceptance_a0.5_b0.25": "night_acceptance_a0.5_b0.25",
+    "night_acceptance_a0.5_b0.5": "night_acceptance_a0.5_b0.5",
+    "night_acceptance_a1_b0.25": "night_acceptance_a1_b0.25",
+    "night_acceptance_a1_b0.5": "night_acceptance_a1_b0.5",
+    "night_exhaustion_a0.5_b0.25": "night_exhaustion_a0.5_b0.25",
+    "night_exhaustion_a0.5_b0.5": "night_exhaustion_a0.5_b0.5",
+    "night_exhaustion_a0.8_b0.25": "night_exhaustion_a0.8_b0.25",
+    "night_exhaustion_a0.8_b0.5": "night_exhaustion_a0.8_b0.5",
+    "trend_pullback_a24_b1": "trend_pullback_a24_b1",
+    "trend_pullback_a24_b3": "trend_pullback_a24_b3",
+    "trend_pullback_a48_b1": "trend_pullback_a48_b1",
+    "trend_pullback_a48_b3": "trend_pullback_a48_b3",
+    "night_nasdaq_a5_b0.5": "night_nasdaq_a5_b0.5",
+    "night_nasdaq_a5_b1": "night_nasdaq_a5_b1",
+    "night_nasdaq_a10_b0.5": "night_nasdaq_a10_b0.5",
+    "night_nasdaq_a10_b1": "night_nasdaq_a10_b1"
+  },
+  "selected_using": "2025H1/H2 base only"
+}

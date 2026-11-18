@@ -1,0 +1,12 @@
+[
+  {
+    "attempt": 1,
+    "status": "ABORTED_RESULT_ASSEMBLY",
+    "completed_engine_calls_before_abort": 1,
+    "completed_public_result_cells": 0,
+    "error": "TypeError dict duplicate call_id",
+    "numeric_result": "notpersisted; not reconstructed or counted as completed result",
+    "code_sha256": "66d3c163228a05814c80360a0636ca01a5d52a38ea55e7b70eb2d0f453df326e",
+    "next": "Exclude duplicate metadata key; parameters/criteria/data unchanged; rerun unpersisted firstcell, report abortedcall separately"
+  }
+]
