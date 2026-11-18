@@ -1,13 +1,8 @@
 {
-  "status": "COMPLETE_REJECTED",
   "owner": "Codex",
-  "parent": "a58ad4958b8df3530fa834827412ead60cec53d7",
-  "run_id": "rank_spread_20261118",
-  "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
-  "checkpoint": "Resumed657 completed evaluations; freshly verified9 calls/92tests PASS.7candidates all rejected.",
-  "claim": "5389f6766d3e0a04af71497a7791e0276d67e433",
-  "completed_utc": "2026-11-18T09:06:40.955Z",
-  "latest_report": "RANK_SPREAD_RETRY_REPORT_20261118.md",
-  "next_command": "Read state/handoff; audit actual5minute history and release timestamps; reproduction PYTHONPATH=src python scripts/rank_spread_20261118.py only fresh output.",
-  "next_hypothesis": "Fine-bar signal-to-execution decay, with synchronized instrument data; no same-sample rank-gap re-sweep."
+  "status": "RUNNING",
+  "run_id": "five_minute_grid_20261118",
+  "parent": "072f3a42f34e872f93ff28050f2fbe5ebd1d24a7",
+  "input_sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836",
+  "checkpoint": "16 actual5m candidates4families: openingrange,completed15m momentum,pullback,rangefade. Fixed hold12x5min,60bp,3R,15%ETF,noovernight. Dev Oct19-Nov1 andNov1-Nov14 excluding incomplete78bar days. Min20each,top<=8 worsthalf thenmean;stresscost2 and5min delay. Promote disabled shortperiods/reused2026. Development-selected only toNov16-17 diagnostics. Longer3/6 training unavailable. Preserve prior raw snapshot;no new uploads."
 }
