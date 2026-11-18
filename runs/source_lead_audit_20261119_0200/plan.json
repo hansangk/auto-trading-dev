@@ -7,8 +7,8 @@
   "families": {
     "wick_pressure": "mean CLV=(2C-H-L)/(H-L) over3bars; zero range contributes0; directional orientation forinverse source; admit>0",
     "path_chop": "12returns,11adjacent signreversals/11; >=10nonzeroreturns elseunavailable; admit<=1/3",
-    "variance_compression": "RMSlast4returns/RMSprevious8returns over12pastreturns; denominator0 unavailable; admit<=1",
-    "tail_energy": "sum(r*abs(r))/sum(r^2) over12returns; inverse sourceorientation; denom0 unavailable; admit>1/4"
+    "tail_energy": "sum(r*abs(r))/sum(r^2) over12returns; inverse sourceorientation; denom0 unavailable; admit>1/4",
+    "vol_compression": "RMSlast4returns/RMSprevious8returns over12pastreturns; denominator0 unavailable; admit<=1"
   },
   "lags": [
     0,
