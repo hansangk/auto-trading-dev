@@ -76,3 +76,8 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 2026-11-18 signal provenance audit:
 - For intraday event intent, check original event, transformed score and actual entry NY dates using logged signal_index and execution delay. A first-row reset alone does not enforce this. Preserve legacy semantics as a comparator; cross-session trading is a policy decision, not universally an error.
 - Report preserved-ledger attribution separately from whole-account replay. If corrected provenance removes minimum sample eligibility, do not send the candidate into diagnostics. Archive actual finer-bar source/hashes and audit common complete sessions before new research.
+
+
+2026-11-18 rank-gap evidence:
+- Cross-ETF past-return rank gap is not an expected executable net edge. Report small-gap sample counts before inference; current <=4.6bp has only4events perhalf.
+- Separate unchanged/filtered/ETF-switched baseline opportunities. Lower drawdown of one15% ETF versus two15% ETFs does not isolate information quality. Save compact completion summaries promptly so subsequent runners resume publication rather than repeat completed searches.
