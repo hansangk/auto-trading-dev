@@ -1,11 +1,10 @@
 {
-  "run_id": "event_path_20261118",
-  "status": "COMPLETE_REJECTED",
   "owner": "Codex",
-  "parent": "cc1e017a341c54d9ea7998ecbd9048883c5a645a",
+  "status": "RUNNING",
+  "run_id": "session_provenance_20261118",
+  "parent": "3809df76685d9489a45a3dd2bc735f2e6fd76178",
+  "checkpoint": "Read latest COMPLETE state, local no worker. New5min fetch pending. Audit next-session stale signals: fixed previous4models plus anchor, compare legacy/scoreday/eventday. No threshold search. Dev2025halves with3stresses; select top1>=20rounds allcells then diagnostics only. Report fixed-event ledger attribution separately from full replay. Prior2026 reused.",
+  "criteria": "Promote only all6devpositive, >=20rounds, nohalts, beat anchor net and MDD. Correction semantic audit regardless profitability; don't assume crossingday is universally wrong.",
   "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
-  "checkpoint": "388 evaluations, 4 rejected; 85 tests passed",
-  "claim": "a0bef5c6c5972adbc92d8912a91dd6ece3d173d2",
-  "latest_report": "EVENT_PATH_REPORT_20261118.md",
-  "next_command": "Verify data access for actual finer completed bars before implementation; archive reproduction: PYTHONPATH=src python scripts/event_path_20261118.py in fresh output directory"
+  "next_command": "PYTHONPATH=src:scripts python scripts/session_provenance_20261118.py"
 }
