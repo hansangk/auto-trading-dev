@@ -92,3 +92,9 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Require common same-session support across the longest latency plus equal-hold horizon. Same-exit cells whose exit precedes delayed entry are undefined and omitted as NA.
 - Freeze original event/symbols for paired latency labels. Cluster descriptive differences by trading day because adjacent fifteen-minute events overlap. Price-path labels omit protection and cannot be reported as account returns; replay unchanged protected account separately.
 - Nested threshold signals are not independent alpha sources. Count previously matched controls and new latency cells separately.
+
+
+2026-11-18 event-episode evidence:
+- Sparse15min scores on a5min timeline need explicit completed-decision neutral counters; zeros between decision clocks are unobserved decisions, not neutral confirmations.
+- Freeze actual selected ETF anchor/range for retest and chase rules. Require an earlier observed bar to arm a retest before a later recovery, avoiding assumed OHLC path order.
+- Report first/repeated-event paths by development window and full protected account replay separately. Current first/repeat advantage reverses; do not adopt onset-only based on one window. Keep minimum sample and short-history restrictions explicit.

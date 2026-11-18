@@ -1,8 +1,12 @@
 {
   "owner": "Codex",
-  "status": "RUNNING",
+  "status": "COMPLETE_SHORT_SAMPLE_REJECTED",
   "run_id": "episode_grid_20261118",
   "parent": "df2904a16af8a854c0f44ba1208b1471dc680612",
   "input_sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836",
-  "checkpoint": "16 preregistered configs: onset neutral1/2 completed15bars x refractory0/3fivebars;firsteventretest.25/.5prior15range x timeout1/2completed15bars;compression last2ranges<=.5/.75 medianpreceding4/8 x frozen2barbreak;chasewait1/3fivebars x cap.25/.5prior15range. Fixedhold12/60bp/3R/15%ETF. Same-session actual5m nextopen. No overnight. Base early/late dev7/10days >=20rounds,top<=8 tocost2/delay1, devselectedonly2daydiagnostic. Promotion0shortsample. No new3/6history. Compare first/repeat fixedpaths vs accountreplays."
+  "checkpoint": "91actualreplays,16distinctsignals,8shortlist,3devselected,101testsPASS,0approval. First/repeat advantage reversed acrossdev7/10days.",
+  "claim": "35b55ff0668f4e36b6dd2890cac05cd3a4570b58",
+  "latest_report": "EPISODE_GRID_REPORT_20261118.md",
+  "next_command": "Read state/handoff; fetch allowed recent60day actual5min into newlocalpath; audit prior overlap before further fitting. Reproduce PYTHONPATH=src:scripts python scripts/episode_grid_20261118.py only fresh output.",
+  "next_hypothesis": "Expand actual5min history with same-source allowed60days; frozen comparison and data revision audit before parameter search."
 }
