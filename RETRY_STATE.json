@@ -1,14 +1,8 @@
 {
   "owner": "Codex",
-  "status": "COMPLETE_REJECTED",
-  "run_id": "structural_grid_20261118",
-  "parent": "999adf7d9e1eff85fc465909701a3aa2c306540e",
-  "source_sha256": "9d849a7f872d7e4b9092b1df06afea37b99adc5928bbe7aa402c63823c92c347",
-  "checkpoint": "125actualcalls=118preliminary+7cache-resumedunique,16nominal/15distinct,8uniquestress/3uniquediagnostic,109testsPASS,0approval.",
-  "claim": "052e8b506d4b62d73b49eacfd2a1b6cc130da3cf",
-  "latest_report": "STRUCTURAL_GRID_REPORT_20261118.md",
+  "status": "RUNNING",
+  "run_id": "direction_control_20261119",
+  "parent": "dc31f3261cec15f2723a7669ce78928ccb60265f",
   "input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
-  "final_selection": "runs/structural_grid_20261118/unique_selection.json",
-  "next_command": "Read state/handoff; freeze seeds and compare fixed development momentum direction with exposure-matched direction/cash controls. Reproduction structural_grid then finalize_structural_unique in clean paths.",
-  "next_hypothesis": "Does fixed direction add information beyond matched exposure and cash? Current4repairfamiliesclosed on this data."
+  "checkpoint": "Fixedmomentum4/.5 directions vs actualETF counterfactual buys;4hashfamilies x16 seeds0..15, noalpha search. Fullbase64controls onAug25-Sep20 andSep20-Oct19;8predeclaredseed0/1perfamily only cost2/delay1. Baseline,cash,oppositecontrols. Samepotentialevents/active roles/15% budgets, not matched realized turnover/beta. Rawpath commoncohort nextactualopen->same12bar exit anddaycluster paired bootstrap; simultaneous bothdirections priorvolume>0. Directionadvantage requires bothdevelopment dailyCI lower>0 vscontrolmean andbaseline sixcellspositive/min20/nohalt. Noapproval onreused2026. Carryfrozen8controls toOct19-Nov18 fordescriptiveaudit,notbestseed."
 }
