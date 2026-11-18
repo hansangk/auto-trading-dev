@@ -1,8 +1,11 @@
 {
   "run_id": "event_path_20261118",
-  "status": "RUNNING",
+  "status": "COMPLETE_REJECTED",
   "owner": "Codex",
   "parent": "cc1e017a341c54d9ea7998ecbd9048883c5a645a",
   "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
-  "checkpoint": "Freeze previous 40/.90 signal; 2x2 fade vs continuation, next open vs extra one-bar wait (same session after signal for waiting). Fixed event cohort compare both fills sharing exit close after later entry, constant15% weight per active role. Account replays separate. Fixed hold4,3R,60bp. Require 20 rounds, positive returns and anchor outperformance, no worse drawdown or permanent halt across six 2025 cells. Top3 sample-eligible for diagnostic only. Recent fitted vs causal monthly continuous replay."
+  "checkpoint": "388 evaluations, 4 rejected; 85 tests passed",
+  "claim": "a0bef5c6c5972adbc92d8912a91dd6ece3d173d2",
+  "latest_report": "EVENT_PATH_REPORT_20261118.md",
+  "next_command": "Verify data access for actual finer completed bars before implementation; archive reproduction: PYTHONPATH=src python scripts/event_path_20261118.py in fresh output directory"
 }
