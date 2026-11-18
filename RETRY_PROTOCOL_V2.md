@@ -86,3 +86,9 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 2026-11-18 true5min pilot:
 - Form15min features only from three actual contiguous5min bars, releasing at the third bar end. An immediate nextopen assumes zero additional data latency; report5min delay separately from an hourly delay.
 - Structurally complete sessions need all78expected starts per ETF. Keep short-window pilot conclusions and unavailable3/6month or2025 histories explicit. Current Yahoo2025five-minute query returned422 with last60days restriction. Do not relax min20 after seeing19rounds.
+
+
+2026-11-18 same-event five-minute path audit:
+- Require common same-session support across the longest latency plus equal-hold horizon. Same-exit cells whose exit precedes delayed entry are undefined and omitted as NA.
+- Freeze original event/symbols for paired latency labels. Cluster descriptive differences by trading day because adjacent fifteen-minute events overlap. Price-path labels omit protection and cannot be reported as account returns; replay unchanged protected account separately.
+- Nested threshold signals are not independent alpha sources. Count previously matched controls and new latency cells separately.

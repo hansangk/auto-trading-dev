@@ -1,0 +1,35 @@
+{
+  "status": "COMPLETE_DIAGNOSTIC_NO_PROMOTION",
+  "engine_calls": 54,
+  "new_candidates": 0,
+  "frozen_models": [
+    "momentum_4_0.5",
+    "momentum_4_0.25",
+    "rangefade_2_0.8"
+  ],
+  "input_sha256": "9f0aaf935a5ebca0139d77c681d3b3ed87f3d3057dbf4e188cfd2c60612d5478",
+  "source_sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836",
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "seed": 20261118,
+  "bootstrap_draws": 2000,
+  "hashes": {
+    "scripts/five_minute_path_20261118.py": "f68f82eda24e44ce4c10ca01eebfbaf733ddee1f18d2bca5d8fc64920b5cd7f3",
+    "scripts/five_minute_grid_20261118.py": "9483727bdd06f1d0d6ebdb3be04c22972e487b026f2fb54c2bb33cb47b3b7d84",
+    "scripts/session_signal_provenance.py": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  },
+  "matching_prior_control_cells": 27,
+  "tests": {
+    "count": 92,
+    "result": "PASS",
+    "seconds": 6.536
+  },
+  "assumptions": [
+    "Fixed raw paths omit protective stop triggers; not portfolio returns.",
+    "Impossible same-exit cells are NA, omitted from aggregates.",
+    "Overlap clustered by session;7/10days and bootstrap descriptive only."
+  ]
+}
