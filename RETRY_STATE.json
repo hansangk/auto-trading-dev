@@ -1,10 +1,13 @@
 {
-  "status": "RUNNING",
+  "status": "COMPLETE_PENDING_REPORT",
   "owner": "Codex",
   "run_id": "reference_retry_20261119",
-  "parent": "c2eb4730a83644213b0fd1f10e0d6f44208338f9",
+  "parent": "f56a926a72befff4ca3b20d9d1e3ee7492784fec",
   "etf_input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
-  "checkpoint": "Reference sources acquired:33 common complete sessions Sep21-Nov17. Plan frozen before outcomes;16candidates, dev6/8sessions,min20/stress<=8; signal implementation + prefix/clock tests underway.",
+  "checkpoint": "Actual82engine calls complete,121tests PASS;16distinct candidates,2shortlist,0passed,0approved. Aggregates/checkpoints published before final analysis. No current backtestworker.",
   "claim_parent": "d954f42ae4c2b0bc139115ad8381fcb8c5299ba1",
-  "reference_input_sha256": "836d92f572b14bf0a622b637b7009ca6e261f09e7b567e36bec4ab206a689075"
+  "reference_input_sha256": "836d92f572b14bf0a622b637b7009ca6e261f09e7b567e36bec4ab206a689075",
+  "calls": 82,
+  "tests_passed": 121,
+  "raw_upload": "not attempted"
 }
