@@ -1,12 +1,8 @@
 {
+  "run_id": "event_path_20261118",
+  "status": "RUNNING",
   "owner": "Codex",
-  "status": "COMPLETE_REJECTED",
-  "run_id": "slot_retry_20261118",
-  "parent": "1512581d2e2c77027c837bf32291bec787bd9784",
+  "parent": "cc1e017a341c54d9ea7998ecbd9048883c5a645a",
   "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
-  "checkpoint": "936 evaluations, 16 candidates, 0 approved, 85 tests passed",
-  "claim": "3cee6e76278002e43e7f791c9a282d53a397eabe",
-  "next_action": "2025 fixed breakout opportunity entry timing attribution",
-  "latest_report": "SLOT_RETRY_REPORT_20261118.md",
-  "next_command": "PYTHONPATH=src python scripts/slot_retry_20261118.py (clean reproduction directory only)"
+  "checkpoint": "Freeze previous 40/.90 signal; 2x2 fade vs continuation, next open vs extra one-bar wait (same session after signal for waiting). Fixed event cohort compare both fills sharing exit close after later entry, constant15% weight per active role. Account replays separate. Fixed hold4,3R,60bp. Require 20 rounds, positive returns and anchor outperformance, no worse drawdown or permanent halt across six 2025 cells. Top3 sample-eligible for diagnostic only. Recent fitted vs causal monthly continuous replay."
 }
