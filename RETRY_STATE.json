@@ -1,14 +1,8 @@
 {
   "owner": "Codex",
-  "status": "COMPLETE_REJECTED_DATA_RECOVERED",
-  "run_id": "session_provenance_20261118",
-  "parent": "3809df76685d9489a45a3dd2bc735f2e6fd76178",
-  "checkpoint": "375 account evaluations and92tests.0candidate eligible.5min1710common starts,2newdates,calendar unverified.",
-  "criteria": "Promote only all6devpositive, >=20rounds, nohalts, beat anchor net and MDD. Correction semantic audit regardless profitability; don't assume crossingday is universally wrong.",
+  "run_id": "upgrade_20261118",
+  "parent": "5b741d1637209aad1182b5cf8157f563ad0972ad",
+  "status": "RUNNING",
   "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
-  "next_command": "PYTHONPATH=src:scripts python scripts/session_provenance_20261118.py",
-  "claim": "50029922942f8f7e1b5a2ea436388e9a73656493",
-  "latest_report": "SESSION_PROVENANCE_REPORT_20261118.md",
-  "new_input_sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836",
-  "next_action": "Preserve five-minute snapshot; obtain earlier development5min history; audit aligned release times then frozen opportunity and full replay comparison."
+  "checkpoint": "Test wait1 rejection parent and single-factor upgrades; independent intraday families. Same-session origin and entry, fixed hold4/3R/60bp. Top8 development only; >=20 rounds each 2025 half and stress; all positive above anchor without worse MDD/halt. Independently log exploratory recent fits and continuous monthly selection."
 }
