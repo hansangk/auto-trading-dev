@@ -110,3 +110,9 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Group candidates by effective development score-array hash before stress/diagnostic shortlist. Arm-only compression lifetime makes decompression invalidation redundant. Preserve preliminary results and cache-resume only missing unique cells when an alias is discovered after evaluation; record both nominal and unique counts.
 - A source-code feature such as unexpired boxes or one-sided chase caps is a falsifiable concern, not evidence of loss causation. Reconstruct original event metadata and check its exact role-array agreement, then use development-only strata plus full account interventions.
 - Flag overlapping roles/partial filters and changed event timing in frozen-parent attribution; do not turn baseline return sums into filtered portfolio returns.
+
+
+2026-11-19 fixed-direction audit:
+- Freeze direction-control seeds and stress IDs independently of PnL. Report control configurations separately from alpha trials; do not promote a profitable control seed.
+- Preserve active roles and use actual bullish/inverse ETF paths at equal role budgets. Raw common-event labels test direction conditional on event timing; full replay does not match realized turnover/time/beta.
+- Average random controls within each event before paired daily clustering; include zero-opportunity days. Show all four null families and multiday block sensitivity. Seed dispersion is not a market-sample confidence interval. Distinguish same-exit delayed labels from equal-holding evidence.

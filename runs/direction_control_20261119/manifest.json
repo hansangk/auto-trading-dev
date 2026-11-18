@@ -1,0 +1,48 @@
+{
+  "status": "COMPLETE_DIRECTION_AUDIT",
+  "engine_calls": 220,
+  "new_alpha_candidates": 0,
+  "control_configs": 64,
+  "distinct_arrays": 64,
+  "seed_range": [
+    0,
+    15
+  ],
+  "stress_seeds": [
+    0,
+    1
+  ],
+  "stress_ids": [
+    "event_independent_0",
+    "event_independent_1",
+    "event_shared_0",
+    "event_shared_1",
+    "session_independent_0",
+    "session_independent_1",
+    "session_shared_0",
+    "session_shared_1"
+  ],
+  "approved": [],
+  "input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "bootstrap_seed": 20261119,
+  "hashes": {
+    "scripts/direction_control_20261119.py": "aac7997671d8a532840fc6198c2153d95014fe413bfad293db20fe643d4d2e22",
+    "scripts/five_minute_grid_20261118.py": "9483727bdd06f1d0d6ebdb3be04c22972e487b026f2fb54c2bb33cb47b3b7d84",
+    "scripts/session_signal_provenance.py": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "scripts/direction_control_summary_20261119.py": "949b47e234ade5ff71db3bed9e66551fae65a37c1a6a80a6a5e7e5ee87e95d23",
+    "tests/test_direction_controls.py": "2d7828aeb46fd4a38213d7ff7ee5f138b24b6896695523f1436f893ed94d50a5"
+  },
+  "tests": {
+    "count": 113,
+    "seconds": 8.815,
+    "result": "PASS"
+  },
+  "prior_regression_cells": 18,
+  "summary_seed": 20261120,
+  "block_size": 3
+}

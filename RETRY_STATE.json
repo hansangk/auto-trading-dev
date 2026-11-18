@@ -1,8 +1,12 @@
 {
   "owner": "Codex",
-  "status": "RUNNING",
+  "status": "COMPLETE_FIXED_DIRECTION_REJECTED",
   "run_id": "direction_control_20261119",
   "parent": "dc31f3261cec15f2723a7669ce78928ccb60265f",
   "input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
-  "checkpoint": "Fixedmomentum4/.5 directions vs actualETF counterfactual buys;4hashfamilies x16 seeds0..15, noalpha search. Fullbase64controls onAug25-Sep20 andSep20-Oct19;8predeclaredseed0/1perfamily only cost2/delay1. Baseline,cash,oppositecontrols. Samepotentialevents/active roles/15% budgets, not matched realized turnover/beta. Rawpath commoncohort nextactualopen->same12bar exit anddaycluster paired bootstrap; simultaneous bothdirections priorvolume>0. Directionadvantage requires bothdevelopment dailyCI lower>0 vscontrolmean andbaseline sixcellspositive/min20/nohalt. Noapproval onreused2026. Carryfrozen8controls toOct19-Nov18 fordescriptiveaudit,notbestseed."
+  "checkpoint": "220accountcalls,64directioncontrols/8prefixedstressids,0newalphas,113testsPASS,18priorcells match. DirectionAnegative/Bunconfirmed;oppositenotstable.",
+  "claim": "c33df3409d0e4efba7231e4a58912fd28f30091c",
+  "latest_report": "DIRECTION_CONTROL_REPORT_20261119.md",
+  "next_command": "Read state/handoff; acquire separately versioned synchronized QQQ/BTC-USD reference bars and audit release/overlap/hash before any new direction tests. Reproduction direction_control then direction_control_summary in fresh paths.",
+  "next_hypothesis": "New source transmission evidence from synchronized underlying references; currentfixed4/.5momentumdirectionclosed."
 }
