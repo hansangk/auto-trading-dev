@@ -1,0 +1,79 @@
+{
+  "run_id": "latency_decomposition_20261119_0600",
+  "status": "COMPLETE_REJECTED",
+  "new_calls": 144,
+  "cached_cells": 8,
+  "approved": [],
+  "rejections": [
+    {
+      "id": "strict240_Nasdaq_A_B",
+      "criterion": "same240min actual entry/exit support >=20 per development",
+      "result": "0/0",
+      "reason": "QQQ source availability forbids earliest event; final bar only30min",
+      "status": "NOT_IDENTIFIED"
+    },
+    {
+      "id": "source_common",
+      "criterion": ">=20 original opportunities and actual rounds in each development",
+      "result": [
+        12,
+        15
+      ],
+      "status": "REJECT_MIN_SAMPLE",
+      "extra_stress_and_diagnostic": "SKIPPED"
+    },
+    {
+      "id": "parent_equal180_C_D",
+      "criterion": "block lower bound >0 in both2025 halves",
+      "mean_bp": [
+        2.15,
+        -1.6
+      ],
+      "block_ci_bp": [
+        [
+          -3.15,
+          7.63
+        ],
+        [
+          -6.14,
+          4.08
+        ]
+      ],
+      "status": "REJECT_NO_REPLICATED_EDGE"
+    },
+    {
+      "id": "D_source_native",
+      "criterion": "positive net across both2025 halves and costs before promotion",
+      "base_return_pct": [
+        -2.4708,
+        -0.5105
+      ],
+      "status": "REJECT_DEVELOPMENT"
+    },
+    {
+      "id": "D_monthly_counterfactual",
+      "period": [
+        "2026-01-01",
+        "2026-11-14"
+      ],
+      "end_exclusive": true,
+      "base_return_pct": 0.371,
+      "cost2_return_pct": 0.0254,
+      "baseline_base_pct": 0.2368,
+      "baseline_cost2_pct": -0.074,
+      "status": "UNAPPROVED_REUSED_DIAGNOSTIC_FIXED_SELECTION",
+      "warning": "not a retrained3bar selector; no independent validation"
+    }
+  ],
+  "retry_logic_changes": [
+    "wall minutes distinct from bar count",
+    "returnblind support before expensive stages",
+    "same-event labels separate from actual protected replay",
+    "exact-provenance cache only",
+    "Nasdaq-only delay separate from all-policy delay",
+    "actual exit price phase distinct from scheduled reservation release"
+  ],
+  "no_new_market_observations": true,
+  "news_macro_actual_PIT": false,
+  "real_orders": 0
+}

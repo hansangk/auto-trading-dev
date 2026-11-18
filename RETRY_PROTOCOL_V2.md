@@ -144,3 +144,11 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Build all parent opportunities, including source-rejected days. Match only predeclared past-state strata; report overlap/eligible support before clustered uncertainty. Recent3 had no matched strata andrecent6only16admitted; do notloosen matching after outcomes to obtain significance.
 - Fixed monthly-choice component replacement is not a causally retrained selector. Decompose dollar gross/cost contributions before interpreting fewer trades as source edge; entry delay can reverse relative price-path benefits.
 - Resume the same owned RUNNING plan only after checking head/runid/surviving inputs/no active localworker/results/lock evidence; retain explicit external-worker limits. Save logs underpersistent run paths, notephemeral temporary paths.
+
+
+2026-11-19 latency/holding decomposition:
+- Record holding bars and actual wall-clock minutes separately. The final normal RTH bar is30min: four delayed bars need not equal240min. Before PnL, count common calendar support; zero equal-duration support is NOT_IDENTIFIED, not zero effect or a completed validation. Do not invent later exits/finer prices.
+- Use identical frozen events/ETFs for paired path labels and preserve protection in full account replays. Same-exit, equal-bar and equal-minute contrasts answer different questions. In current source common cohort12/15<20, stop extra stress/diagnosis rather than relax the minimum.
+- Track scheduled exit, actual protected exit price phase and reserved-slot release independently. End log timestamps are bar starts; equal-price open/close ambiguity must remain unresolved. Existing early_reentry=False reserves the original slot.
+- Reuse a cached cell only after verifying immutable result/dependency blobs, exact inputs, config, reconstructed signals and execution definition. Count144new calls separately from8reused cells. Modified monthly state requires replay, never cached crypto splicing.
+- A Nasdaq-only latency counterfactual is distinct from delaying every chosen policy. Fixed monthly choices are not a newly trained selector; current D recent improvement cannot override negative2025development. Keep actual data access limits, zero new independent validation and conditional unimplemented feed proposals explicit.
