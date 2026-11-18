@@ -1,0 +1,39 @@
+{
+  "status": "PREPARED_BEFORE_PNL",
+  "source_quality_gate": ">=95%positive reportedvolume EACH2025half; zero unavailable,notlowflow",
+  "source_quality_pass": {
+    "QQQ": true,
+    "BTC-USD": false
+  },
+  "QQQ_raw": {
+    "raw_rows": 3499,
+    "null_rows": 33,
+    "invalid_days": {
+      "2026-07-14": 7,
+      "2026-07-13": 7,
+      "2026-01-30": 5,
+      "2026-07-10": 5,
+      "2026-02-02": 4,
+      "2024-11-29": 1,
+      "2024-12-24": 1,
+      "2025-12-24": 1,
+      "2025-07-03": 1,
+      "2025-11-28": 1
+    },
+    "finite_offgrid_rows": 6,
+    "accepted_rows": 3459,
+    "first_start": "2024-11-18 16:30:00+00:00",
+    "last_end": "2026-11-18 16:30:00+00:00",
+    "raw_sha256": "a62a158a1f6a3fc85ef803c277543408e7b46c629630787013427218827271ad"
+  },
+  "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+  "context_sha256": "d3a2dea122e11166865e199b9290d91f9f135a57874536786668a9fc4ca1560c",
+  "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
+  "donors": "All20/40previous NORMALcalendar sessions samehour ordinal; everydonorpositive/present; no currentday/future/skipmissing",
+  "source_join": "QQQ actualend+5min<=ETFdecision,age<=65,currentRTHday; ETFfeatureusesEXACTsamecompletedstart/end",
+  "QQQ_not_whole_current_day_gated": true,
+  "news_macro": false,
+  "independent_validation": false,
+  "new_market_observations": 0,
+  "orders": 0
+}
