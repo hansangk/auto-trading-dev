@@ -81,3 +81,8 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 2026-11-18 rank-gap evidence:
 - Cross-ETF past-return rank gap is not an expected executable net edge. Report small-gap sample counts before inference; current <=4.6bp has only4events perhalf.
 - Separate unchanged/filtered/ETF-switched baseline opportunities. Lower drawdown of one15% ETF versus two15% ETFs does not isolate information quality. Save compact completion summaries promptly so subsequent runners resume publication rather than repeat completed searches.
+
+
+2026-11-18 true5min pilot:
+- Form15min features only from three actual contiguous5min bars, releasing at the third bar end. An immediate nextopen assumes zero additional data latency; report5min delay separately from an hourly delay.
+- Structurally complete sessions need all78expected starts per ETF. Keep short-window pilot conclusions and unavailable3/6month or2025 histories explicit. Current Yahoo2025five-minute query returned422 with last60days restriction. Do not relax min20 after seeing19rounds.

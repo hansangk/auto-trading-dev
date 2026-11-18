@@ -1,0 +1,19 @@
+{
+  "shortlist": [
+    "momentum_4_0.5",
+    "momentum_4_0.25",
+    "rangefade_2_0.8",
+    "pullback_3_0.25",
+    "momentum_2_0.5",
+    "pullback_3_0.0",
+    "rangefade_2_0.6",
+    "rangefade_4_0.6"
+  ],
+  "diagnostic_selected": [
+    "momentum_4_0.5",
+    "momentum_4_0.25",
+    "rangefade_2_0.8"
+  ],
+  "approved": [],
+  "reason": "Short development windows, no2025or3/6month history; promotion disabled"
+}

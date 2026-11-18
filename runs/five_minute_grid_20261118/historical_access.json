@@ -1,0 +1,5 @@
+{
+  "status": 422,
+  "body": "{\"chart\":{\"result\":null,\"error\":{\"code\":\"Unprocessable Entity\",\"description\":\"5m data not available for startTime=1735689600 and endTime=1751328000. The requested range must be within the last 60 days.\"}}}",
+  "url": "https://query2.finance.yahoo.com/v8/finance/chart/TQQQ?period1=1735689600&period2=1751328000&interval=5m"
+}
