@@ -152,3 +152,12 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Track scheduled exit, actual protected exit price phase and reserved-slot release independently. End log timestamps are bar starts; equal-price open/close ambiguity must remain unresolved. Existing early_reentry=False reserves the original slot.
 - Reuse a cached cell only after verifying immutable result/dependency blobs, exact inputs, config, reconstructed signals and execution definition. Count144new calls separately from8reused cells. Modified monthly state requires replay, never cached crypto splicing.
 - A Nasdaq-only latency counterfactual is distinct from delaying every chosen policy. Fixed monthly choices are not a newly trained selector; current D recent improvement cannot override negative2025development. Keep actual data access limits, zero new independent validation and conditional unimplemented feed proposals explicit.
+
+
+2026-11-19 actual5m release-clock evidence:
+- Never backdate a complete hourly context row. Preserve only genuinely frozen preopen/prior-close fields and rejoin each actual dynamic source at its dependency end+assumed buffer. ETF first-hour completion/buffer must be explicit; adding it changes old assumptions.
+- Apply coarse observation masks BEFORE onset state updates; off-clock rows are unobserved, not false confirmations. Pair by policy-used dependency snapshot/session/ETF, not calendar day alone or unused context fields.
+- Require both account-round support and matched-intervention support in each development period. Current release5 parent180 had21/22rounds but14/17matched events; no stress/diagnosis. Exact180/240 prices now exist, but Nasdaq240 paired3/2 remains unidentified at required sample.
+- Current+1bar stress means5min, not the previous60min. Keep protection frequency identical within clock contrasts; do not attribute old hourly-versus5m PnL differences to timing when vintage and first-hour buffers also changed.
+- State MDD/peak/daily protection granularity: existing engine uses realized post-round equity, not continuous intrabar unrealized drawdown. Cooldown24finebars applies only under existing loss-streak logic and resets at the next day.
+- JSON fractional return export at10decimals has up to5e-11 rounding error. Reconcile with currency PnL/explicit serialization bounds; preserve initial verifier failure, do not repeat completed backtests just to repair a verifier.

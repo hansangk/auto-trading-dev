@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "engine_calls": 32,
+  "trade_records": 252,
+  "paired_event_records": 86,
+  "exact_horizon_checks": 172,
+  "all_stress_skipped_by_sample_gate": true,
+  "tests_passed": 171,
+  "source_release_checked_for_each_trade": true,
+  "account_return_cost_win_drawdown_reconciled": true,
+  "engine_unchanged": true,
+  "exit_price_phase_ambiguous": 11,
+  "ledger_fractional_precision_decimals": 10,
+  "maximum_fractional_rounding_error": 5e-11,
+  "prior_verifier_failures": 1,
+  "orders": 0,
+  "independent_validation": false,
+  "verifier_sha256": "9a8a08625aff748d7e30a2d9f8077b65fcced4967d3fffa1cf16c88acd8bfb82"
+}
+symbol
+BITI    40
+IBIT    56
+SQQQ    80
+TQQQ    76

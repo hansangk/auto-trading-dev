@@ -1,0 +1,25 @@
+{
+  "run_id": "release_clock_audit_20261119_0630",
+  "backtest_completed": 32,
+  "backtest_aborted": 0,
+  "verifier_failures": [
+    {
+      "attempt": 1,
+      "stage": "ledger PnL consistency",
+      "error": "AssertionError",
+      "log": "verification_attempt1.log",
+      "cause": "fractional returns JSON10decimal serialization; relative-only PnL tolerance fails near-zero values",
+      "fix": "explicit max fractional rounding5e-11; accumulate exported currency PnL; no engine/result changes; no backtest rerun",
+      "final_status": "PASS"
+    }
+  ],
+  "trial_rejections": "All16definitions fail >=20matcheddependency events in EACHshortdev; highestprofitcoarseQQQ240 has9/10rounds. Stress/diag skipped,not zero return.",
+  "source_input_limitations": [
+    "47reused2026fine sessions",
+    "9previousIBITcloses fromactualauditedhourly,not fine",
+    "57price/150volume samehourkeys differ",
+    "No actual first-publication PIT",
+    "MDD realized round closes only"
+  ],
+  "approved": []
+}
