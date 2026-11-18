@@ -1,0 +1,46 @@
+{
+  "status": "ACCESS_AUDIT_ONLY",
+  "sources": [
+    {
+      "symbol": "QQQ",
+      "status": "DOWNLOADED_ACCESS_ONLY",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/QQQ?range=2y&interval=1h&includePrePost=false",
+      "raw_sha256": "a62a158a1f6a3fc85ef803c277543408e7b46c629630787013427218827271ad",
+      "fetched_utc": "2026-11-18 17:12:26.272768+00:00",
+      "raw_rows": 3499,
+      "null_rows": 33,
+      "conservative_62min_aged_rows": 3464,
+      "first": "2024-11-18 16:30:00+00:00",
+      "last": "2026-11-18 15:30:00+00:00",
+      "UTC_start_minute_histogram": {
+        "30": 3459,
+        "0": 5
+      },
+      "vendor_timezone": "America/New_York",
+      "raw_upload": "Notattempted",
+      "execution_or_feature_use": false
+    },
+    {
+      "symbol": "BTC-USD",
+      "status": "DOWNLOADED_ACCESS_ONLY",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BTC-USD?range=2y&interval=1h&includePrePost=false",
+      "raw_sha256": "5a470cea79415bc73c87eaeeb5740fe8c5e1f95c2b72e9f05e68e8def54cb206",
+      "fetched_utc": "2026-11-18 17:12:26.272768+00:00",
+      "raw_rows": 17522,
+      "null_rows": 33,
+      "conservative_62min_aged_rows": 17487,
+      "first": "2024-11-18 17:00:00+00:00",
+      "last": "2026-11-18 16:00:00+00:00",
+      "UTC_start_minute_histogram": {
+        "0": 17487
+      },
+      "vendor_timezone": "UTC",
+      "raw_upload": "Notattempted",
+      "execution_or_feature_use": false
+    }
+  ],
+  "independent_validation": false,
+  "hourly_backtests": 0,
+  "clock_alignment_verified": false,
+  "next": "Audit30minphase difference,barcompletion/sessioncutoffs,vintages andfrozenETFoverlap beforefeatures. Neverasof-fillpricebars orpretendexactclockmatch."
+}

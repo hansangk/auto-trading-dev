@@ -122,3 +122,10 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Audit source-specific actual returned coverage before fitting; range60d may mean different calendar spans across ETF and24/7reference feeds. Exactjoin completedstarts/ends, keep frozenETFvintage, disclose unmatched source vintages and assumed publication latency.
 - Count actual changed active roles on common opportunity support and full development arrays. New feeds almost duplicating ETF direction are not independent information sources; a20round account screen does not establish adequate intervention sample.
 - Use return-blind event-count/warmup upper bounds before enlarging sparse-family grids. Keep minsample rejects and do not relax thresholds or add parameters to rescue a sparse winner. Preserve selection before diagnostics and publish compact aggregates before long narrative.
+
+
+2026-11-19 source-lead identification and access audit:
+- Preregister changed-role support, admitted/rejected counts and changed days before reading PnL. Account min20rounds does not establish a20intervention information sample.12sourcefilters and12matchedETF feature controls are not24independentalphas.
+- Compare identical formulas/lags with only sourcefeed substituted, plus same-clock baseline and unrestricted baseline. Fixed-opportunity role labels and fullaccount replays answer different questions; count all failures even when support stops shortlist/stress/diagnosis.
+- Keep ownership RUNNING while reports or acquisition audits continue after backtests; aggregate publication alone is not finalhandoff. Release COMPLETE only with checkpoint and next commands.
+- Record newly acquired long history as ACCESS_ONLY until barcompletion, nulls, session clocks and vintages are audited. BTC hourly00 and ETF/QQQ mostly30minute starts cannot be called exact-clock bars or shifted/synthesized to match; completed sourcefeature age must be explicit. Newdownload is not an independentvalidation period.
