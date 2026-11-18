@@ -1,0 +1,100 @@
+{
+  "status": "AUDIT_COMPLETE",
+  "revision": "v2 preserves preliminary; currentQQQopeningprice no longer conditionalonwholecurrentdaycompleteness. Beforeanyperformance.",
+  "raw_source": {
+    "QQQ": {
+      "raw_rows": 3499,
+      "null_rows": 33,
+      "invalid_days": {
+        "2026-07-14": 7,
+        "2026-07-13": 7,
+        "2026-01-30": 5,
+        "2026-07-10": 5,
+        "2026-02-02": 4,
+        "2024-11-29": 1,
+        "2024-12-24": 1,
+        "2025-12-24": 1,
+        "2025-07-03": 1,
+        "2025-11-28": 1
+      },
+      "finite_offgrid_rows": 6,
+      "accepted_rows": 3459,
+      "first_start": "2024-11-18 16:30:00+00:00",
+      "last_end": "2026-11-18 16:30:00+00:00",
+      "raw_sha256": "a62a158a1f6a3fc85ef803c277543408e7b46c629630787013427218827271ad"
+    },
+    "BTC-USD": {
+      "raw_rows": 17522,
+      "null_rows": 33,
+      "invalid_days": {
+        "2025-11-29": 14,
+        "2025-10-28": 10,
+        "2025-11-28": 6,
+        "2025-01-02": 1,
+        "2025-10-27": 1,
+        "2026-05-07": 1
+      },
+      "finite_offgrid_rows": 1,
+      "accepted_rows": 17487,
+      "first_start": "2024-11-18 17:00:00+00:00",
+      "last_end": "2026-11-18 17:00:00+00:00",
+      "raw_sha256": "5a470cea79415bc73c87eaeeb5740fe8c5e1f95c2b72e9f05e68e8def54cb206"
+    }
+  },
+  "ETF_original_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "ETF_audited_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+  "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
+  "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
+  "calendar_package": "exchange_calendars4.13.3 XNYS plus primaryNYSEclosurescrosscheck",
+  "full_normal_ETF_days": 494,
+  "excluded_ETF_days": [
+    {
+      "day": "2024-11-29",
+      "reason": "short_session_not_full_390min",
+      "rows": 12
+    },
+    {
+      "day": "2024-12-24",
+      "reason": "short_session_not_full_390min",
+      "rows": 12
+    },
+    {
+      "day": "2025-07-03",
+      "reason": "short_session_not_full_390min",
+      "rows": 12
+    },
+    {
+      "day": "2025-11-28",
+      "reason": "short_session_not_full_390min",
+      "rows": 12
+    },
+    {
+      "day": "2025-12-24",
+      "reason": "short_session_not_full_390min",
+      "rows": 12
+    },
+    {
+      "day": "2026-01-30",
+      "reason": "ETF_missing_hour",
+      "rows": 4
+    },
+    {
+      "day": "2026-02-02",
+      "reason": "ETF_missing_hour",
+      "rows": 12
+    }
+  ],
+  "first": "2024-11-14 14:30:00+00:00",
+  "last": "2026-11-13 20:30:00+00:00",
+  "usable_rows": 2925,
+  "usable_days": 418,
+  "model_source_publication_buffer_minutes": 5,
+  "max_source_age_minutes": 65,
+  "BTC_clock": "Actual00minute ends available; no shifting/interpolation",
+  "QQQ_clock": "Actual30min starts, clippedtoofficialclose; source>=5minpublicationbuffer",
+  "sampling_limitation": "WholeETFnormalcomplete days selectedretrospectivelyforbacktestavailability; cannotassumefuturedataqualityknownlive. Sourcefeatures onlypastvalidbars; no wholeQQQdaymask on BTC-onlysignals.",
+  "code_sha256": "3eb315d2919dce70ecd75c185535de5f6aa379f0dd384dd603740c95f9c7d178",
+  "orders": 0,
+  "raw_upload": "Not attempted",
+  "independent_validation": false
+}
