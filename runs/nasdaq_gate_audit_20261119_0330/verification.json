@@ -1,0 +1,13 @@
+{
+  "tests_passed": 157,
+  "test_seconds": 10.871,
+  "engine_calls": 235,
+  "state_continuity_segments": 99,
+  "trade_provenance_checks": 6636,
+  "source_static_regression_cells": 15,
+  "original_monthly_regression_scenarios": 3,
+  "code_config_hashes_pass": true,
+  "metadata_note": "entry/end timestamps explicitlymapped,signal_index numeric; overlappingwindows exportstart/end/callid.",
+  "decomposition": "Dollarbefore-equity gross/cost sums dividedbyinitialcapital; netexactfromPnL, gross/costlimitedbyserializedreturnprecision. Notrawsumofroundreturns.",
+  "extra_code_sha256": "25092ba6a99ee821efa79e1d5941e33a13c67f2bb4d727373609498c5308abf6"
+}

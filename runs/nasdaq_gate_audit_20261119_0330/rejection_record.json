@@ -1,0 +1,37 @@
+{
+  "scope": "No newalphagrid;16fixedcontrols not16newalphas",
+  "failures": [
+    {
+      "hypothesis": "FixedNasdaq5 BTCnightendpointincrement",
+      "status": "NOT_CONFIRMED",
+      "reason": "2025H1/H2matchedblockintervalsinclude0",
+      "independent_validation": false
+    },
+    {
+      "hypothesis": "FixedNasdaq5 BTCnightendpointincrement",
+      "status": "NOT_CONFIRMED",
+      "reason": "recent3nomatchedstrata",
+      "independent_validation": false
+    },
+    {
+      "hypothesis": "FixedNasdaq5 BTCnightendpointincrement",
+      "status": "NOT_CONFIRMED",
+      "reason": "recent6admitted16below20",
+      "independent_validation": false
+    },
+    {
+      "hypothesis": "FixedNasdaq5 BTCnightendpointincrement",
+      "status": "NOT_CONFIRMED",
+      "reason": "known2025strategynegative",
+      "independent_validation": false
+    },
+    {
+      "hypothesis": "FixedNasdaq5 BTCnightendpointincrement",
+      "status": "NOT_CONFIRMED",
+      "reason": "monthlycost2negativeanddelayincrementreversal",
+      "independent_validation": false
+    }
+  ],
+  "approved": [],
+  "reuse": "No sourceendpointthreshold/randomseedresweep on currentfrozenhistory; preservepositiveandnegative diagnostics"
+}

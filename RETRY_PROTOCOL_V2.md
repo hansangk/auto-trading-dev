@@ -137,3 +137,10 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - Candidate min20account rounds differs fromnight-sourceintervention counts. NativeETFgap proxies canmakecapturethresholdmechanicallyredundant;preservecontrolaliases insteadofpaddinggrids. One15%role versuslegacytwo15%roles isnotriskmatched.
 - Count completedresearch, additionalfrozenregression andabortedunpersistedcalls separately. Afterfirst/20calls saveaggregates. Ledger entry/end aretimestamps,signal_index isindex; verify their mapping. Exportboth start/end/callid foroverlappingtrainingwindows.
 - Largepublicartifactreads mustbechunked andchecked against exactremotecontent/Gitblobhash. Terminaltruncation isnotavalidCSV; repairmetadatawithoutrepeatingbacktests. KeepownershipRUNNINGuntilfinalreport/handoffcomplete.
+
+
+2026-11-19 fixed Nasdaq participation audit:
+- Prove predicate-implied direction identities before calling source information. Current accepted BTC/QQQ sides are identical; source is a frozen session gate, not a separately identified directional forecast. Do not count identity aliases as new controls.
+- Build all parent opportunities, including source-rejected days. Match only predeclared past-state strata; report overlap/eligible support before clustered uncertainty. Recent3 had no matched strata andrecent6only16admitted; do notloosen matching after outcomes to obtain significance.
+- Fixed monthly-choice component replacement is not a causally retrained selector. Decompose dollar gross/cost contributions before interpreting fewer trades as source edge; entry delay can reverse relative price-path benefits.
+- Resume the same owned RUNNING plan only after checking head/runid/surviving inputs/no active localworker/results/lock evidence; retain explicit external-worker limits. Save logs underpersistent run paths, notephemeral temporary paths.

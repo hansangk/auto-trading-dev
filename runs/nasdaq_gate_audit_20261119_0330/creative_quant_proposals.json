@@ -1,0 +1,54 @@
+[
+  {
+    "family": "BTCnightinnovationbeyondQQQgap",
+    "ranges": {
+      "z": [
+        0.5,
+        1
+      ]
+    },
+    "status": "PROPOSED_NOT_IMPLEMENTED",
+    "precondition": "Newindependenthistory or justifiednewinformation mechanism; do not expandcurrentfailedendpointgate bythresholdfishing"
+  },
+  {
+    "family": "closure_duration",
+    "ranges": {
+      "classes": [
+        "ordinary_night",
+        "weekend_or_holiday"
+      ]
+    },
+    "status": "PROPOSED_NOT_IMPLEMENTED",
+    "precondition": "Newindependenthistory or justifiednewinformation mechanism; do not expandcurrentfailedendpointgate bythresholdfishing"
+  },
+  {
+    "family": "night_path_persistence",
+    "ranges": {
+      "efficiency": [
+        0.4,
+        0.7
+      ],
+      "late_contribution": [
+        0.25,
+        0.5
+      ]
+    },
+    "status": "PROPOSED_NOT_IMPLEMENTED",
+    "precondition": "Newindependenthistory or justifiednewinformation mechanism; do not expandcurrentfailedendpointgate bythresholdfishing"
+  },
+  {
+    "family": "preopen_shock_localization",
+    "ranges": {
+      "hours": [
+        1,
+        3
+      ],
+      "z": [
+        1.5,
+        2
+      ]
+    },
+    "status": "PROPOSED_NOT_IMPLEMENTED",
+    "precondition": "Newindependenthistory or justifiednewinformation mechanism; do not expandcurrentfailedendpointgate bythresholdfishing"
+  }
+]
