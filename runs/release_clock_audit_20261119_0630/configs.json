@@ -1,0 +1,98 @@
+[
+  {
+    "name": "nasdaq_source_coarse60_180",
+    "policy": "nasdaq_source",
+    "clock": "coarse60",
+    "hold_minutes": 180
+  },
+  {
+    "name": "nasdaq_source_coarse60_240",
+    "policy": "nasdaq_source",
+    "clock": "coarse60",
+    "hold_minutes": 240
+  },
+  {
+    "name": "nasdaq_source_release5_180",
+    "policy": "nasdaq_source",
+    "clock": "release5",
+    "hold_minutes": 180
+  },
+  {
+    "name": "nasdaq_source_release5_240",
+    "policy": "nasdaq_source",
+    "clock": "release5",
+    "hold_minutes": 240
+  },
+  {
+    "name": "qqq_parent_coarse60_180",
+    "policy": "qqq_parent",
+    "clock": "coarse60",
+    "hold_minutes": 180
+  },
+  {
+    "name": "qqq_parent_coarse60_240",
+    "policy": "qqq_parent",
+    "clock": "coarse60",
+    "hold_minutes": 240
+  },
+  {
+    "name": "qqq_parent_release5_180",
+    "policy": "qqq_parent",
+    "clock": "release5",
+    "hold_minutes": 180
+  },
+  {
+    "name": "qqq_parent_release5_240",
+    "policy": "qqq_parent",
+    "clock": "release5",
+    "hold_minutes": 240
+  },
+  {
+    "name": "btc_acceptance_coarse60_180",
+    "policy": "btc_acceptance",
+    "clock": "coarse60",
+    "hold_minutes": 180
+  },
+  {
+    "name": "btc_acceptance_coarse60_240",
+    "policy": "btc_acceptance",
+    "clock": "coarse60",
+    "hold_minutes": 240
+  },
+  {
+    "name": "btc_acceptance_release5_180",
+    "policy": "btc_acceptance",
+    "clock": "release5",
+    "hold_minutes": 180
+  },
+  {
+    "name": "btc_acceptance_release5_240",
+    "policy": "btc_acceptance",
+    "clock": "release5",
+    "hold_minutes": 240
+  },
+  {
+    "name": "btc_exhaustion_coarse60_180",
+    "policy": "btc_exhaustion",
+    "clock": "coarse60",
+    "hold_minutes": 180
+  },
+  {
+    "name": "btc_exhaustion_coarse60_240",
+    "policy": "btc_exhaustion",
+    "clock": "coarse60",
+    "hold_minutes": 240
+  },
+  {
+    "name": "btc_exhaustion_release5_180",
+    "policy": "btc_exhaustion",
+    "clock": "release5",
+    "hold_minutes": 180
+  },
+  {
+    "name": "btc_exhaustion_release5_240",
+    "policy": "btc_exhaustion",
+    "clock": "release5",
+    "hold_minutes": 240
+  }
+]
