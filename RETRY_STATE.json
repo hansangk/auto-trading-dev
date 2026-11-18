@@ -1,13 +1,8 @@
 {
+  "status": "RUNNING",
   "owner": "Codex",
-  "status": "COMPLETE_SHORT_SAMPLE_REJECTED",
-  "run_id": "five_minute_grid_20261118",
-  "parent": "072f3a42f34e872f93ff28050f2fbe5ebd1d24a7",
+  "run_id": "five_minute_path_20261118",
+  "parent": "606b437d3a64ece3499324ccd11d2c368b512fdb",
   "input_sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836",
-  "checkpoint": "82 fresh account calls,16 candidates,8shortlist,3diagnostic,0adoption,92testsPASS.19complete sessions=7devA+10devB+2diagnostic.",
-  "claim": "4618b6a8cc0527cfcf9fa7f8f87207c5c86fa577",
-  "latest_report": "FIVE_MINUTE_GRID_REPORT_20261118.md",
-  "next_command": "PYTHONPATH=src:scripts python scripts/five_minute_grid_20261118.py (fresh output path only)",
-  "next_hypothesis": "Fixed development15min events: prior-close to next5minopen vs same-exit forward gross/cost decay. No new parameter sweep.",
-  "raw_data_access": "Local-only frozen5min bddc0...;2025history request422 last60days. Exact input required for reproduction."
+  "checkpoint": "Frozen prior development-selected momentum4/.5,4/.25,rangefade2/.8; no new thresholds. Fixed common event cohort: entries next5mopen and +1/+3 five-min bars, same exit vs equal12barhold; horizons1/3/12. All comparisons require sufficient same-session bars. Full replay frozen3 x costs1/2 x delays0/1/3 across two devwindows and reuseddiagnostic; promotion0 pending longerdata. Label means not portfolio returns. Count signalclose->actualopen gap separately. Tests existing92 plus ledger identities."
 }
