@@ -1,0 +1,20 @@
+{
+  "reviewer": "postclose_quant_0600",
+  "scope": "Read-only prospectivegate/hash/creativeproposal review; no agentnewpriceaudit",
+  "existing32": "PROPOSED_ONLY",
+  "ranges": [
+    "seasonal20/40 xz1/1.5 xconfirmation1/2",
+    "costP50/75 x1/2 xconfirmation1/2",
+    "shock20/40 xz1/1.5 xconfirmation1/2",
+    "persistence2/3 xhistory20/40 xactivity1.25/1.5"
+  ],
+  "reference_hashes_verified": true,
+  "frozen17_verified": true,
+  "opinion": "28regularcandidate rows do not qualify rawpayload. After21:00incompletepredecessor impossible; unknowntail rejects. Source29requirescutoff>=21:05. FullPIT/parity/NEW FULLAccountState/integration notprovided byarrival.",
+  "agent_edits": 0,
+  "agent_requests": 0,
+  "new_test_runs": 0,
+  "engine_calls": 0,
+  "orders": 0,
+  "new_strategy_definitions": 0
+}

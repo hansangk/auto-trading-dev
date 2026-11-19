@@ -1,0 +1,100 @@
+{
+  "status": "POSTCLOSE_RAW_GATE_REJECTED_NO_EXECUTION",
+  "cutoff": "2026-11-19T21:05:51Z",
+  "regular_ETF_candidate_rows": 28,
+  "regular_ETF_exact28_coverage": true,
+  "actual_source_rows": 29,
+  "source_full29": true,
+  "raw_classifier_all_passed": false,
+  "per_symbol": [
+    {
+      "symbol": "TQQQ",
+      "raw_rows": 8,
+      "last_epoch": 1795122000,
+      "meta_market_time": 1795122001,
+      "tail_volume": 0,
+      "tail_OHLC_equal": true,
+      "classifier_passed": false,
+      "error": "Off-clock tail lacks an incomplete regular predecessor"
+    },
+    {
+      "symbol": "SQQQ",
+      "raw_rows": 8,
+      "last_epoch": 1795122000,
+      "meta_market_time": 1795122000,
+      "tail_volume": 0,
+      "tail_OHLC_equal": true,
+      "classifier_passed": false,
+      "error": "Off-clock tail lacks an incomplete regular predecessor"
+    },
+    {
+      "symbol": "IBIT",
+      "raw_rows": 8,
+      "last_epoch": 1795122000,
+      "meta_market_time": 1795122001,
+      "tail_volume": 0,
+      "tail_OHLC_equal": true,
+      "classifier_passed": false,
+      "error": "Off-clock tail lacks an incomplete regular predecessor"
+    },
+    {
+      "symbol": "BITI",
+      "raw_rows": 7,
+      "last_epoch": 1795120200,
+      "meta_market_time": 1795121994,
+      "tail_volume": 28072,
+      "tail_OHLC_equal": false,
+      "classifier_passed": true,
+      "completed_rows": 7,
+      "quarantines": []
+    }
+  ],
+  "prefix_comparisons": {
+    "prospective_access_retry_20261120_0100": {
+      "ETF": {
+        "prior_rows": 4,
+        "missing": 0,
+        "changed": 0
+      },
+      "source": {
+        "prior_rows": 18,
+        "missing": 0,
+        "changed": 0
+      }
+    },
+    "prospective_five_hour_append_20261120_0500": {
+      "ETF": {
+        "prior_rows": 20,
+        "missing": 0,
+        "changed": 0
+      },
+      "source": {
+        "prior_rows": 26,
+        "missing": 0,
+        "changed": 0
+      }
+    }
+  },
+  "full_structural_audit_passed": false,
+  "full_structural_error": null,
+  "full_qualifier_skipped_for_raw_rejection": true,
+  "private_sha256": {
+    "runs/prospective_postclose_access_20261120_0600/SQQQ_raw_LOCAL.json": "b3faef1a1fc2c35072589a91e55b03ae40e856565f45cdbaee402cffa3cb6671",
+    "runs/prospective_postclose_access_20261120_0600/BITI_raw_LOCAL.json": "f4d512c8cce951147520169f777a4a800c961d9525c62a11660c6bc22ddb5405",
+    "runs/prospective_postclose_access_20261120_0600/TQQQ_raw_LOCAL.json": "de67d65474ea351632cc9b11d4ee23de052bb6e559ff9fb43fc902f0fecca9f0",
+    "runs/prospective_postclose_access_20261120_0600/IBIT_raw_LOCAL.json": "e5cf686afe16808551a3384a92e4b3d4cbb7f3483202669f038e566ec020a27c",
+    "runs/prospective_postclose_access_20261120_0600/Binance_connector_response_LOCAL.json": "5ca2b64e59821af6e3d539513bc4e62095bffc0b7574718c16a25f36c916eafc",
+    "runs/prospective_postclose_access_20261120_0600/regular_candidates_ETF_LOCAL.csv": "f267a8a365ca811d2425b224f512b5f2e1c8a7089434cd4a933e5661baf722b9",
+    "runs/prospective_postclose_access_20261120_0600/BTCUSDT_30m_LOCAL.json": "1dc08daf5751a8566ae2263f2d187c67a0c3245553365026f978d90065a48f03"
+  },
+  "PIT_qualified": false,
+  "AccountState_initialized": false,
+  "qualified_account_continuation": false,
+  "terminal_backtest_allowed": false,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "new_independent_validation": false,
+  "raw_public_upload": "NOT_ATTEMPTED",
+  "limitation": "Regularcandidatecoverage is not rawgate/PIT/accountpermission; unknownpostclosetails notdeleted/shifted. Futurepolicy needs actual evidence, frozen03unchanged."
+}

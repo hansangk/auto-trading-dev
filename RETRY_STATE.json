@@ -1,14 +1,14 @@
 {
-  "status": "RUNNING",
+  "status": "POSTCLOSE_RAW_GATE_REJECTED_NO_EXECUTION",
   "owner": "Codex",
   "run_id": "prospective_postclose_access_20261120_0600",
   "research_parent": "26bf9035169f0842c4026f003cea2112a8f7ad99",
-  "parent": "26bf9035169f0842c4026f003cea2112a8f7ad99",
-  "updated_utc": "2026-11-19T20:03:07Z",
-  "latest_report": "PROSPECTIVE_FIVE_HOUR_REPORT_20261120_0500.md",
+  "parent": "2ee77294910d7a67cec03714ac9240993044ed5e",
+  "updated_utc": "2026-11-19T21:05:52Z",
+  "latest_report": "PROSPECTIVE_POSTCLOSE_REPORT_20261120_0600.md",
   "latest_performance_report": "VENUE_LATENCY_RETRY_REPORT_20261119_1400.md",
-  "phase": "OBSERVE_ACTUAL_POSTCLOSE_PAYLOAD_WITH_FROZEN_GATE",
-  "checkpoint": "Readlatestremote docs/report;05artifact/old36/private01+02+04+05 hashes match, no intent/lock. Acquire actualpostclose4ETFraw; source29onlywhenverifiedcutoff>=21:05else28releasedrows. Frozen03classifier mustretainrejects; no ruleloosening/engine/PnL. FullPIT/parity/NEW FULLAccountState/execution stillmissing; externalworker liveness unobservable.",
+  "phase": "FULL_REGULAR_CANDIDATES_OBSERVED_THREE_RAW_PAYLOADS_REJECTED",
+  "checkpoint": "Actualpostclose4ETFHTTP200:28exactregularcandidatebars. Source29requested onlyafterverified21:05floor. Old01/05prefix0missing0changed. Frozen03classifier rejectsTQQQ/SQQQ/IBITextra21:00zero-volume tail withcompletedpredecessor;BITI7regularonlypasses. TQQQ/IBITmetadata21:00:01 vs tail21:00:00, SQQQexact; no blanketlastrowdrop orrulechange. Rawgatefails=>fullqualifierskipped, noPIT/accountcontinuation/parity/NEW FULLAccountState/execution. Engine/orders0 metricsNA. Noactiveworker/external liveness unobservable.",
   "engine_calls": 0,
   "orders": 0,
   "raw_upload": "NOT_ATTEMPTED; new4ETF/raw connector/extracted data and prior refused originals stayLOCAL; publish hashes only.",
@@ -51,14 +51,14 @@
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_035_LOCAL.json": "f8cd5377a03da9ef2714124af8f33b4b9899dce32aafb812bec78b3a74997663"
   },
   "next_command": "python scripts/prospective_shadow_guard_20261119.py --plan runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json --plan-blob-sha1 3595a3d7fc07401252a205f615f5fd743e77ab49 --calendar runs/prospective_readiness_retry_20261119_1700/calendar_20261119.csv --now \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" --out \"runs/prospective_recheck_$(date -u +%Y%m%d_%H%M%S)/readiness.json\"",
-  "worker_active": true,
-  "checked_at_utc": "2026-11-19T20:03:04Z",
+  "worker_active": false,
+  "checked_at_utc": "2026-11-19T21:05:51Z",
   "latest_completed_backtest_run": "venue_latency_retry_20261119_1400",
   "latest_completed_backtest_engine_calls": 669,
   "new_price_acquisitions": 5,
   "new_real_orders": 0,
   "financial_metrics": null,
-  "next_action": "NEWrun/output, collect full actualsession onlywhenended and sourcefloorpassed; clocktimes notproof ofavailability. Current03classifier specialtail requiresincompletepredecessor and thus willreject anyoffclocktail at/before21:05. Observe actualpostclosepayload before evidence-basedpolicy change; no silentdeletion/merge/shift. Exactregular-only payload mayparse butfullPIT/coverage/signalparity/NEW FULLAccountState/model-control-stress/protectedexecutionintegration stillrequired. Compare01trusted and05latestaccess rawhash/canonicalprefix, revision=>separatevintage. No partialendforcedclose/resetP&Lcopy/oldgrid/monthprefixreruns. Min20actualtrades(notbars)/multipleperiods/cost2/delay beforeadoption; reused2026notindependent.",
+  "next_action": "Nextsubstantivework: evidence-based postcloseauxiliary-row policy in NEWmodule/contract/tests, preservefrozen03and06rawrejection. ActualtailsTQQQ/SQQQ/IBITat21:00zeroVol/flatOHLC, TQQQ/IBITmetaMarketTime21:00:01;BITInoextra row (last20:30regularpositiveVol). Neverblanketdroplastrow, merge/shift or tolerance-fit. Requireexactregularcoverage/oldprefix/rowmetadata/evidence, retainallraw, unknownreject. Then structuralqualifier mayrun, but authenticPIT/signalparity/prefixinvariance/NEW FULLAccountState/model-control-stress/executionintegration stillmissing. Keep01trusted/05access refs unpromoted. Noengine/oldgrid/monthprefix/resetP&L/partialforcedexit. Min20actualtrades/multipleperiods/cost2/delay beforeadoption; reused2026notindependent.",
   "context_sha256": "abd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c",
   "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
   "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
@@ -68,7 +68,7 @@
   },
   "prospective_shadow_plan": "runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json",
   "prospective_frozen_at_utc": "2026-11-19 05:20:49 UTC",
-  "prospective_new_observations": 20,
+  "prospective_new_observations": 0,
   "current_official_calendar_sha256": "5f993b55f18a91bb37b80516181389733238568b966275cf3f5aa1e6682cc03d",
   "current_official_calendar_days": [
     "2026-11-19"
@@ -85,8 +85,8 @@
   "prior_test_log": "runs/prospective_tail_diagnosis_20261120_0300/tests_final.log",
   "new_strategy_definitions": 0,
   "existing_conditional_proposals": 32,
-  "claim_commit": "2c5e91ac6bc7b25264670917c74054d4d785cf38",
-  "preregistration_commit": "2c5e91ac6bc7b25264670917c74054d4d785cf38",
+  "claim_commit": "2ee77294910d7a67cec03714ac9240993044ed5e",
+  "preregistration_commit": "2ee77294910d7a67cec03714ac9240993044ed5e",
   "actual_input_audits": 1,
   "new_tests_this_cycle": 0,
   "full_tests_passed": 254,
@@ -108,21 +108,21 @@
   "session_open_has_passed": true,
   "first_hour_completed": true,
   "price_acquisition_count_unit": "4 HTTP200 ETF responses plus1 connector response, not full qualifications",
-  "new_actual_ETF_completed_rows": 20,
-  "new_actual_source_30m_rows": 26,
+  "new_actual_ETF_completed_rows": 0,
+  "new_actual_source_30m_rows": 29,
   "prospective_observation_unit": "actual completed ETF bar rows, not trades",
-  "actual_partial_input_audits_passed": 1,
+  "actual_partial_input_audits_passed": 0,
   "full_session_audit_attempts_including_interface_failure": 0,
   "full_session_audits_passed": 0,
   "partial_audit_recovery_failures": 0,
   "new_private_input_hashes": {
-    "runs/prospective_five_hour_append_20261120_0500/SQQQ_raw_LOCAL.json": "a870659edb6d34bfa246d1eff33e101648677d2ae0dae2bbfa173491dc654819",
-    "runs/prospective_five_hour_append_20261120_0500/BITI_raw_LOCAL.json": "aca009938c0d8f722fef0f6093c2bd83bd60756b1ce5e77a1613ad6b8ee4c9bd",
-    "runs/prospective_five_hour_append_20261120_0500/TQQQ_raw_LOCAL.json": "d63432091e8a10b5a3118c4db7c2cff42787812d9203b842ff359a237e4a97ce",
-    "runs/prospective_five_hour_append_20261120_0500/IBIT_raw_LOCAL.json": "91b883b3629f904451ef41f73727182228a570c101f09bd7ec4c6dd2142ca322",
-    "runs/prospective_five_hour_append_20261120_0500/Binance_connector_response_LOCAL.json": "1d36c4d3ab45e2668564df2027cf37e3fc8dc1b82f07182d3aaf3e3aa1f53d89",
-    "runs/prospective_five_hour_append_20261120_0500/partial_ETF_LOCAL.csv": "4ff112ea1c731dd5632345a505c4ae8897b94e5397d39ee8d312a6da5979ee8f",
-    "runs/prospective_five_hour_append_20261120_0500/BTCUSDT_30m_partial_LOCAL.json": "211d469172994d15f4f1b5935e017ff5560b5b42dd287d1cbe38a6047bf073da"
+    "runs/prospective_postclose_access_20261120_0600/SQQQ_raw_LOCAL.json": "b3faef1a1fc2c35072589a91e55b03ae40e856565f45cdbaee402cffa3cb6671",
+    "runs/prospective_postclose_access_20261120_0600/BITI_raw_LOCAL.json": "f4d512c8cce951147520169f777a4a800c961d9525c62a11660c6bc22ddb5405",
+    "runs/prospective_postclose_access_20261120_0600/TQQQ_raw_LOCAL.json": "de67d65474ea351632cc9b11d4ee23de052bb6e559ff9fb43fc902f0fecca9f0",
+    "runs/prospective_postclose_access_20261120_0600/IBIT_raw_LOCAL.json": "e5cf686afe16808551a3384a92e4b3d4cbb7f3483202669f038e566ec020a27c",
+    "runs/prospective_postclose_access_20261120_0600/Binance_connector_response_LOCAL.json": "5ca2b64e59821af6e3d539513bc4e62095bffc0b7574718c16a25f36c916eafc",
+    "runs/prospective_postclose_access_20261120_0600/regular_candidates_ETF_LOCAL.csv": "f267a8a365ca811d2425b224f512b5f2e1c8a7089434cd4a933e5661baf722b9",
+    "runs/prospective_postclose_access_20261120_0600/BTCUSDT_30m_LOCAL.json": "1dc08daf5751a8566ae2263f2d187c67a0c3245553365026f978d90065a48f03"
   },
   "prospective_first_snapshot_prefixes": {
     "ETF": {
@@ -136,22 +136,23 @@
   },
   "new_ETF_period": {
     "start_inclusive": "2026-11-19T14:30:00Z",
-    "end_exclusive": "2026-11-19T19:30:00Z"
+    "end_exclusive": "2026-11-19T21:00:00Z",
+    "qualification": "candidate regular rows only"
   },
   "new_source_period": {
     "start_inclusive": "2026-11-19T06:30:00Z",
-    "end_exclusive": "2026-11-19T19:30:00Z"
+    "end_exclusive": "2026-11-19T21:00:00Z"
   },
-  "partial_input_audit_manifest": "runs/prospective_five_hour_append_20261120_0500/normalized_append_audit.json",
+  "partial_input_audit_manifest": "runs/prospective_postclose_access_20261120_0600/postclose_audit.json",
   "actual_source_receipt_verified_bracket": null,
   "ETF_actual_first_received_host_utc_range": [
-    "2026-11-19T20:03:10.838757+00:00",
-    "2026-11-19T20:03:10.894009+00:00"
+    "2026-11-19T21:04:14.515279+00:00",
+    "2026-11-19T21:04:14.547955+00:00"
   ],
   "availability_at_fixed_cutoff_proven": false,
   "prospective_new_account_state_initialized": false,
   "incremental_distinct_ETF_rows": 4,
-  "incremental_distinct_source_rows": 2,
+  "incremental_distinct_source_rows": 3,
   "prior_access_private_hashes": {
     "runs/prospective_access_retry_20261120_0100/BITI_raw_LOCAL.json": "34e770f044f271d71a9c002807ce1f8becdef6b6a8323446f433ddd5a7c66f02",
     "runs/prospective_access_retry_20261120_0100/IBIT_raw_LOCAL.json": "586e58e9e8dc9da7783573a1e16e932dbec3e298aec18adb82173ebd55970f5f",
@@ -165,13 +166,13 @@
   "qualified_input_continuation_allowed": false,
   "raw_clock_gate": "runs/prospective_append_retry_20261120_0200/raw_clock_gate.json",
   "source_response_host_clock_bracket": [
-    "2026-11-19T20:03:04Z",
-    "2026-11-19T20:03:07Z"
+    "2026-11-19T21:05:51Z",
+    "2026-11-19T21:05:52Z"
   ],
   "clock_source_this_cycle": "HostUTC date command; prior clock MCP unavailable",
   "second_hour_completed": true,
-  "latest_available_ETF_rows": 20,
-  "latest_available_source_30m_rows": 26,
+  "latest_available_ETF_rows": 28,
+  "latest_available_source_30m_rows": 29,
   "normalizer_diagnostic_verified": true,
   "normalizer": "scripts/prospective_quote_tail_20261120.py",
   "normalizer_replay": "runs/prospective_tail_diagnosis_20261120_0300/actual_replay.json",
@@ -204,5 +205,19 @@
     "runs/prospective_normalized_append_20261120_0400/Binance_connector_response_LOCAL.json": "a359af4f6032bcbec10a32a37aa1219f04b06b226e0b59db046bcae16c2c4cd4",
     "runs/prospective_normalized_append_20261120_0400/partial_ETF_LOCAL.csv": "cc9f0ba87fa4a887ab70600f42b252a1b7108ef0be4597003e0216b855526e86",
     "runs/prospective_normalized_append_20261120_0400/BTCUSDT_30m_partial_LOCAL.json": "8c2f7c6309a45c11ff1e507ce4ad2223ef5d1f3f31fabce4e7b39ae1674338e5"
-  }
+  },
+  "ETF_request_bar_end_cutoff": "2026-11-19T21:04:07Z",
+  "prior06_private_hash_reference": {
+    "runs/prospective_five_hour_append_20261120_0500/SQQQ_raw_LOCAL.json": "a870659edb6d34bfa246d1eff33e101648677d2ae0dae2bbfa173491dc654819",
+    "runs/prospective_five_hour_append_20261120_0500/BITI_raw_LOCAL.json": "aca009938c0d8f722fef0f6093c2bd83bd60756b1ce5e77a1613ad6b8ee4c9bd",
+    "runs/prospective_five_hour_append_20261120_0500/TQQQ_raw_LOCAL.json": "d63432091e8a10b5a3118c4db7c2cff42787812d9203b842ff359a237e4a97ce",
+    "runs/prospective_five_hour_append_20261120_0500/IBIT_raw_LOCAL.json": "91b883b3629f904451ef41f73727182228a570c101f09bd7ec4c6dd2142ca322",
+    "runs/prospective_five_hour_append_20261120_0500/Binance_connector_response_LOCAL.json": "1d36c4d3ab45e2668564df2027cf37e3fc8dc1b82f07182d3aaf3e3aa1f53d89",
+    "runs/prospective_five_hour_append_20261120_0500/partial_ETF_LOCAL.csv": "4ff112ea1c731dd5632345a505c4ae8897b94e5397d39ee8d312a6da5979ee8f",
+    "runs/prospective_five_hour_append_20261120_0500/BTCUSDT_30m_partial_LOCAL.json": "211d469172994d15f4f1b5935e017ff5560b5b42dd287d1cbe38a6047bf073da"
+  },
+  "regular_ETF_candidate_rows": 28,
+  "latest_available_ETF_unit": "regularcandidatebar, not wholepayloadqualified input",
+  "incremental_distinct_ETF_candidate_rows": 8,
+  "full_qualifier_skipped_for_raw_rejection": true
 }

@@ -1,0 +1,30 @@
+{
+  "request_failures": 0,
+  "raw_gate_rejections": [
+    {
+      "symbol": "TQQQ",
+      "error": "Off-clock tail lacks an incomplete regular predecessor",
+      "last_epoch": 1795122000,
+      "meta_market_time": 1795122001
+    },
+    {
+      "symbol": "SQQQ",
+      "error": "Off-clock tail lacks an incomplete regular predecessor",
+      "last_epoch": 1795122000,
+      "meta_market_time": 1795122000
+    },
+    {
+      "symbol": "IBIT",
+      "error": "Off-clock tail lacks an incomplete regular predecessor",
+      "last_epoch": 1795122000,
+      "meta_market_time": 1795122001
+    }
+  ],
+  "full_qualifier_skipped_for_raw_rejection": true,
+  "full_qualification_passed": false,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "source29_request_before_floor": false,
+  "rule_changed_to_rescue": false
+}

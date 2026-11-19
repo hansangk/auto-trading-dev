@@ -267,3 +267,8 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 2026-11-20 fivehour access/postclose review:
 - FreshETF20/source26 passed frozen03classifier and01/04canonicalprefix0missing0changed.20bars not20trades;engine/PnL/orders0; prior254tests reusedonly.
 - At21:05 the classifier incompletepredecessor condition cannot hold forregularintervals endingby21:00, so unknownoffclock tails stillreject. Regular-onlypayload mayparse. This iscode/existingtestreview, notactualpostcloseevidence. Observeactualnewpayload beforepolicychanges;06:00KSTmustnotuseunreleasedlastsourcebar. FullPIT/parity/NEW FULLAccountState/execution gates remain.
+
+
+2026-11-20 actual postclose raw-gate rejection:
+- Actual4HTTP200ETFresponses exposed28exactregularcandidatebars; source29requestedonlyafterverified21:05:51floor and schema/coveragechecked.01/05canonicalprefix missing0changed0 doesnotqualify entirepayload/PIT/AccountState.
+- TQQQ/SQQQ/IBITeachcontainedextra21:00zero-volume flatOHLCrow; TQQQ/IBITmetaMarketTime21:00:01 vsrow21:00:00. Frozen03incompletepredecessor rule correctlyrejects3. BITIhad7regular-onlyrows, last20:30positiveVolume. Do notblanketdroplastrow orfit1secondtolerance. Rawgatefailed=>fullqualifier skipped, engine/PnL/orders0. Separatepolicy/code/negative tests needed using actualevidence; preservefrozen03/rawrejection. No independentfinancialvalidation.
