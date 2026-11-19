@@ -1,0 +1,17 @@
+{
+  "run_id": "prospective_append_retry_20261120_0200",
+  "parent": "545a2ca5bb07d2eb8dbbe5cf74410fae1b1d008a",
+  "hypothesis": "Two completed actualETF hours and source warmup can extend priorfirstsnapshot with identical oldcanonicalprefix; revision invalidates continuation.",
+  "ETF_expected": 8,
+  "ETF_starts": [
+    "2026-11-19T14:30:00Z",
+    "2026-11-19T15:30:00Z"
+  ],
+  "source_expected": 20,
+  "source_range": "2026-11-19T06:30:00Z <=open<2026-11-19T16:30:00Z",
+  "acceptance": "Previousraw hashes verified; actual12column source/positivevolume/taker/contiguous exactrange; ETFcompleted exactclock only, future/incomplete/offclock separate; oldkey/values identical via existing_prefix or declare separatevintage. Partial not fullsession/PIT/AccountState.",
+  "engine_calls": 0,
+  "orders": 0,
+  "raw_upload": "NO, LOCAL only",
+  "new_strategy_definitions": 0
+}
