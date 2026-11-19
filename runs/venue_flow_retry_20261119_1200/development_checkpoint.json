@@ -1,0 +1,15 @@
+{
+  "actual_new_calls": 109,
+  "logical_cells": 166,
+  "prior_unique_cells": 0,
+  "pool": [
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8"
+  ]
+}

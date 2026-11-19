@@ -1,0 +1,482 @@
+{
+  "shortlist": [
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8"
+  ],
+  "diagnostic_pool": [
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8"
+  ],
+  "development_screen_pass": [],
+  "approved": [],
+  "failures": [
+    {
+      "name": "price__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.5",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_NASDAQ_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=-0.1",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=0",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=-0.1",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=0",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_NASDAQ_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_NASDAQ_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=4",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=8",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_NASDAQ_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_NASDAQ_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_NASDAQ_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=-0.1",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=0",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=-0.1",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=0",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_NASDAQ_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_NASDAQ_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=4",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=8",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.75",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=4",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.75",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=8",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.55",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.35",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=4",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.5",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.5",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.5",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.55",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.55",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.35",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.35",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=0",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.75",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.75",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=0",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=8",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.55",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=-0.1",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.35",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=0",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=-0.1",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=-0.1",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=0",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=-0.1",
+      "reasons": [
+        "BASE_SAMPLE_HALT_ALIAS_INTERVENTION_OR_BELOW_TOP4_PAIRS"
+      ],
+      "independent_history_missing": true
+    }
+  ]
+}

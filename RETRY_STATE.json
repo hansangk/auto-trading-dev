@@ -3,12 +3,12 @@
   "owner": "Codex",
   "run_id": "venue_flow_retry_20261119_1200",
   "research_parent": "623e91b276dcb882e045c29cd29571fa99361dc4",
-  "parent": "b7aa8bcf8185657107edb775d11d251909fb9319",
+  "parent": "a98b49d483810b841a296977b72b49744b7b65a0",
   "updated_utc": "2026-11-19 03:03:27 UTC",
   "latest_report": "AVAILABILITY_ABLATION_REPORT_20261119_0800.md",
-  "phase": "PREREGISTERED_BEFORE_PNL",
-  "checkpoint": "Actual35040Binance30m audited,0missing/duplicates/zeros;32flow+32matchedpricecontrols prepared;192prefixchecks. Firstprepare rejected metadata keys beforePnL, corrected and retained log. Code/plan/rawhashes frozen; noenginecalls yet.",
-  "engine_calls": 0,
+  "phase": "DEVELOPMENT_FROZEN_BEFORE_2026",
+  "checkpoint": "64definitions/128basiclogicalcells,matched4pairs8nominalstressed. Allhistoricalprofitadoptionfailed;8nominalsample/nohaltRESEARCHONLYpool frozen. 109newuniqueenginecalls total; cachedaliasesnotnewcalls. No2026seen. Next boundedrecentfit+causalmonthly continuousaccount with verifiedprefix.",
+  "engine_calls": 109,
   "orders": 0,
   "raw_upload": "not attempted"
 }
