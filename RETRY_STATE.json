@@ -1,16 +1,16 @@
 {
-  "status": "RUNNING",
+  "status": "COMPLETE",
   "owner": "Codex",
   "run_id": "venue_latency_retry_20261119_1400",
   "research_parent": "0d015d814a563fb75fcb3afce4dad623442da65e",
-  "parent": "6c0b24980cd184779d842be4ba6fc75ef086a6b4",
-  "updated_utc": "2026-11-19 05:01:46 UTC",
-  "latest_report": "VENUE_ISOLATION_RETRY_REPORT_20261119_1300.md",
-  "phase": "RESULTS_VERIFIED_REPORT_PENDING",
-  "checkpoint": "669newactual=603reset+66FULLstate monthly;30uniqueoldrefs cached,633logicalreset. 221testsPASS;24428new+2711priorledgerrows/PIT/cost/equity/exitphase verified. hold-awarecache h/c distinct. c180dev6profitvspricepasses with25/21tiny rounds but6mcausal3active months16rounds-.7854/-.8949/-.4692%;3mwholecash. New2026notindependent/0adopted. D60noengine,4actualminutes equality0. Labelattempt1safelyrefusedinflightintent;retryonlyafterresearchended,noenginefailure. OwnershipRUNNINGuntilreport/handoff.",
+  "parent": "bbb3807ce88138e45c6b1b352310e98e01423538",
+  "updated_utc": "2026-11-19 05:24:09 UTC",
+  "latest_report": "VENUE_LATENCY_RETRY_REPORT_20261119_1400.md",
+  "phase": "ALL_RESULTS_REPORT_HANDOFF_VERIFIED",
+  "checkpoint": "669newactual=603reset+66FULLstate months,30prioruniqueexactcache,633logicalreset. 221testsPASS;24428new+2711priortrades cost/PIT/BUY/equity/MDD/phaseverified;66states/prefixresume0replay. 8newprotectedfactorialdefs/12nominal;D60accountblocked,originalequalactualminutes0support. c180dev6profitpriceMDDscreenpasses25/21tinyroundsBUT6mcausalnextmonth16rounds-.7854/-.8949/-.4692%;3mwholecash. Noindependentvalidation/adoption/orders. Allfailurelogs/metadata semanticcorrection/report/handoffdone. Noactiveworkerclaimed/noLOCALintentlock. Prospective2modelsfrozen;NOnewshadowbarscollected.",
   "engine_calls": 669,
   "orders": 0,
-  "raw_upload": "not attempted; no raw acquisition; original refusal respected",
+  "raw_upload": "not attempted; no newacquisition; original publicrawrefusal respected",
   "original_data_hashes": {
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_000_LOCAL.json": "d6ca3f23067f7c787e2c74de25204cd686b075174b322e9a5fb9ec622c72310e",
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_001_LOCAL.json": "485fabe72eb58102e59053999a7797c37b33876a71d2f3083e86d15c535fdd57",
@@ -49,5 +49,21 @@
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_034_LOCAL.json": "6733f3bdba2325fdd54480b36b4ae599c1415b4884cb08ff9e3da9ed6d5b44e6",
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_035_LOCAL.json": "f8cd5377a03da9ef2714124af8f33b4b9899dce32aafb812bec78b3a74997663"
   },
-  "next_command": "Prepare calendar-common-support and preregister fixed-event latency/holding decomposition; no manufactured RTHprices."
+  "next_command": "PYTHONPATH=src:scripts python scripts/venue_latency_verify_20261119.py",
+  "prior_unique_calls_reused": 30,
+  "next_action": "Readlatestbranch/AGENTS/state/protocol/handoff/report first. Completedgridsimmutable. Read prospective_shadow_plan.json; only completedobservations AFTER frozenUTC, separatelyaudited ETF/sourcevintage/calendar/overlap/hash. Ifno postfreezeRTHbarsyet record WAITING_FOR_COMPLETED_SHADOW_BARS,doNOTrepeatoldgrids. NewrunID/expectedparentclaim/output beforework;min20eachstress/multipleperiodsbeforeclaim;reused2026notindependent.",
+  "context_sha256": "abd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c",
+  "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+  "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
+  "new_signal_sha256": "47588e27e567bcbfc6bbea931e6b258312bf925f4fe12b242e096cefdb7bcc43",
+  "source_period": {
+    "start": "2024-11-14 00:00:00+00:00",
+    "end_exclusive": "2026-11-14 00:00:00+00:00"
+  },
+  "prospective_shadow_plan": "runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json",
+  "prospective_frozen_at_utc": "2026-11-19 05:20:49 UTC",
+  "prospective_new_observations": 0,
+  "approved": [],
+  "new_independent_validation": false,
+  "news_macro": false
 }

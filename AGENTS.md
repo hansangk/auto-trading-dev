@@ -14,3 +14,7 @@ For availability_ablation_20261119_0800, never invoke the raw research phase to 
 
 ## Frozen venue isolation continuation (2026-11-19)
 The completed venue_flow_retry_20261119_1200 and venue_isolation_retry_20261119_1300 outputs are immutable. Do not bypass manifests, clear unresolved intents, or replay completed months. Read exact original hashes and verified full AccountState/ledger prefixes before any authorized isolated reproduction. Distinguish wholecash isolation fallback from Bitcoin cash plus Nasdaq background. Paired source/control intervention support is required in both arms; new isolation profit must not be inferred by splicing a prior full-account leg. Same cost/delay labels with different actual values are not cache hits.
+
+
+## Calendar/holding continuation (2026-11-19)
+venue_latency_retry_20261119_1400 is completed immutable research. Do not replay closed grids or completed monthly prefixes. Cache identity includes hold/exit settings plus actual cost/delay values; identical h/c score arrays are different execution hypotheses. Duration60/hold1 has no intermediate joint-close protection and is label-only. Known-calendar common support must not inspect future quotes. Read prospective_shadow_plan.json before later collection; only newly completed post-freeze observations with separately audited ETF/source vintages qualify as shadow, never rename reused2026 a pristine holdout. Missing original state/ledgers or unresolved intent blocks exact replay.

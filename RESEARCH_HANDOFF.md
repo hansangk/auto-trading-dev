@@ -1,3 +1,32 @@
+# Latest research handoff — 2026-11-19 14시 KST
+
+Run venue_latency_retry_20261119_1400 /Codex COMPLETE_REJECTED_ADOPTION. Latest [VENUE_LATENCY_RETRY_REPORT_20261119_1400.md](VENUE_LATENCY_RETRY_REPORT_20261119_1400.md). Researchparent0d015d814a563fb75fcb3afce4dad623442da65e;publicationparentbbb3807ce88138e45c6b1b352310e98e01423538. Claimca9b173dd77117155bbd0b45cec95ee1af36358f;prereg4638423ebbbfa33b1c797fb2a1fb1fcec734591d;2025poolfreeze6c0b24980cd184779d842be4ba6fc75ef086a6b4. PriorCOMPLETE/noactive localengine/intent/lock;externalworkerstatusnotdirectlyobservable. CAS/expectedparent,neverforce. Reportcomplete afteralloutputsverified.
+
+New669actual=603reset+66FULLstate monthly;30verifiedoldunique refs reused,633logicalreset. 8newprotecteddefs =h120/c120/h180/c180×source/price;4otherlegacy/h60label-only/refdefs=12nominal,noalpha thresholdfit. Sourcefrozen.55/.10/L4. h120/h180 useSAMEcalendarcohort withscheduledCLOSE120/180min; c120/c180 keepoldhold4onSAMEcohortforcalendar/holdingfactorial. Onsetsnotrecomputed. D60actualhold1has0intermediatestop/TPobservations=>accountprerejected;labelonly. Originalhold4sameactualminutesafterdelay0/0common=>NOT_IDENTIFIED,noinventedlaterprices. Both4actualbars25/21oppshavebase240/delay210min,not equaltime. D12051/46opps,D18025/21; latterverythin.
+
+Development basicSOURCErank1h120 +1.4875/+1.0289%,cost2+1.1451/+.7088,delay+.3638/-.1966% H1/H2. Onlyc180passedALL6profit+same15%price/MDDscreen:base+1.1393/+.4245,cost2+.9650/+.2791,delay+.1479/+.2299;25/21actualrounds. c180iscalendar-onlyH4control,notshortenedholdingalpha. h120-c120basic -0.6125/+0.2039%p;h180-c180 -0.3855/+0.2408 soholdingimprovementnonreplicated. h180actualchangedexits20/19failsH2interventionmin20 despiteplanned25/21changes. NOADOPTION withoutindependentperiod.
+
+Frozen2025researchSOURCEpool4(sample20botharms/all6cells,nohalts,MDD<=3%screen;engine5%killunchanged),pairsbenchmarksnotselectorcandidates. Recent3Aug14..Nov13topc120+.3678%base/worststress-.0497;recent6May14..Nov13topc180+.2740/worst-.2563. c180recent3only13rounds<20,explicitflag. Reused2026notindependent andcandidateconfigurationretrospectiveafterprevious2026seen.
+
+Strictprior3/6months training→nextmonth2026Jan1..Nov13. 3m all11WHOLECASH0trades/0return/winNA. 6mselectedJan c180,Apr h180,Aug h180;other8cash. 6mactual16trades(<20) base-.7854%,win18.75%,MDD.8412%;cost2-.8949/18.75/.9233;delay-.4692/56.25/.4698. Newdevscreenprofitfailedtocarryintonextmonths. Fixedc1802026full+.6131/+.2390/-.6659%. Allnewindependentvalidation0,adopted0,realorders0,news/macro0.
+
+Verification221testsPASS inclagent6,24428new+2711priorledgerrows costs/equity/PIT/actualBUY verified;newIBIT10514/BITI13914,Nasdaq0;priorrefsTQQQ343/SQQQ175/IBIT1082/BITI1197. Countsaggregateoverlappingresearchcalls,notsingleportfolio. ActualBUYinverseETFs,notborrowshort;BitcoinETFproxy notspot. SourceBTCUSDTsinglevenue30m2contiguous→1h:30+prior4hours/end+assumed5min<=decision/age30or60/exactETFspan. h120/180holdingminutesNOTnewfeaturetimeframes.
+
+Dataunchanged: ETFsha163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7;calendar754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296;Nasdaqcontext3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0;venuecontextabd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c. Originalraw36filehashes/requestsinvenue_flow_retry_20261119_1200/context_manifest.json,acquisition_requests.json. Currentpreregistered_plan/analysis_manifest allcode/config/input/newledgerSHA;cache_provenance exactremoteGitblobs. Dependencies22+old336ledgers/ck+raw36checked. Norawdownload/uploadthisrun;previousrawpublicuploadrefusalrespected. LOCALraw/context/ledgersrequired,hashescannotreconstruct. Missingexactfiles=>BLOCKEDexactreplay,notpermissiontofake/reexecuteoldmetrics.
+
+All66actualmonthly fullAccountState/ledgerSHA/plan/schedule/equitypeakverified;6actualpaths(schedule3m!=6m). Actualfirstmonthpause→prefixverify→resume0firstmonthreplay. intentbeforecall/atomiccommitbeforeclear. Holdincludedwithactualcost/delay/exitsettingsincachekey soidenticalh/csignalsarenotfalsealiases. MissingimmutablepriorcacheFAILCLOSEDBEFOREengine. ExitCLOSE/OPENreconstructedfromprotectionrule;328same-priceambiguouscasesresolvedasmodelrules,notrealexecutionguarantee. MDD/dailyprotectionrealizedpostround;softskipcountnotinstrumented. Labelattempt1refusedliveintent;keptlogandwaitedresearchendthenattempt2success,noenginefailure. monthly_choices explicit_whole_cash_policy isFALLBACKdefinition,notactualmonthflag; clarifiedmonthly_choice_semantics.csv hasdeclared_fallback_is_whole_cash vsactual_selected_whole_cash. NoPnLchanged.
+
+Nextread-onlycommand(ifexactLOCALfilespresent):
+```bash
+PYTHONPATH=src:scripts python scripts/venue_latency_verify_20261119.py
+```
+DoNOTreruncompletedprepare/development/research orclearintents/manifests/locks. Sameflow32/isolation4/calendar-horizon8resweepsclosed. Alloutcomes/developmentfailures/fixedopportunitylabels/factorialcontrasts saved. Checklatestbranch/AGENTS/state/protocol/report beforeanynewwork;anotherRUNNING=>handoff,noduplicate.
+
+NEXTCONCRETEPLAN: runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json. FrozenUTC 2026-11-19 05:20:49 UTC BEFOREnewobservations,models ONLYh120+c180withsame15%pricecontrols/risk/cost/delay/hashdependencies. No newshadowbarsacquiredhere. FuturecompletedAFTERfreeze observationsonly,separateETF+sourcevintage/officialcalendar/overlaprevision/hashaccessaudit FIRST;notretroactivelyrenamed2026independentholdout. Minimum20actualrounds/eachstress/multipleperiodsbeforeanyclaim. NewfinerexecutionstudyrequiresactualhistoricalETFfinerbarcoveragefirst;no syntheticprices/nolargerhold/leveragerescue. If no postfreezecompletedRTHbarsyet,recordWAITING_FOR_COMPLETED_SHADOW_BARS withcheckpoint ratherthanrepeatoldgrids. ClaimnewID/expectedparent/isolatedoutputbeforework.
+
+---
+Previous handoff retained:
+
 # Latest research handoff — 2026-11-19 13시 KST
 
 Run venue_isolation_retry_20261119_1300 /Codex COMPLETE_REJECTED. Report [VENUE_ISOLATION_RETRY_REPORT_20261119_1300.md](VENUE_ISOLATION_RETRY_REPORT_20261119_1300.md). Researchparent91925951180909e9ec2cd57130539c3cfcb08cd8;publicationparent4a6752e14b60c9d9d645b7fa2edf6bbf338cf723. Read latestbranch/AGENTS/state/protocol/report before nextcall; expectedparentCAS,neverforce. PriorCOMPLETE/noactive localengine/nointentlock atclaim; externalworkerlivenessnotdirectlyobservable.
