@@ -1,0 +1,151 @@
+{
+  "sources": [
+    {
+      "symbol": "TQQQ",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/TQQQ?period1=1795098600&period2=1795108045&interval=1h&includePrePost=false",
+      "request_started_host_utc": "2026-11-19T17:07:26.556550+00:00",
+      "raw_public_upload": "NOT_ATTEMPTED",
+      "execution_or_feature_use": false,
+      "http_status": 200,
+      "received_host_utc": "2026-11-19T17:07:35.572061+00:00",
+      "raw_path": "runs/prospective_append_retry_20261120_0200/TQQQ_raw_LOCAL.json",
+      "raw_sha256": "7b252b2fdcf82e1a6d0a766117eb983a83c97cf9ae91fb16c9ca99d57b8289b4",
+      "raw_bytes": 1669,
+      "vendor_metadata": {
+        "symbol": "TQQQ",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeTimezoneName": "America/New_York",
+        "exchangeName": "NGM",
+        "dataGranularity": "1h"
+      },
+      "status": "INCOMPLETE_OR_INVALID_COVERAGE",
+      "raw_rows": 4,
+      "incomplete_rows_excluded": 1,
+      "rejected_rows": [
+        {
+          "reason": "OFF_CLOCK",
+          "timestamp": "2026-11-19T17:07:35+00:00"
+        }
+      ],
+      "completed_rows": 2,
+      "completed_starts_utc": [
+        "2026-11-19T14:30:00+00:00",
+        "2026-11-19T15:30:00+00:00"
+      ],
+      "fixed_bar_end_cutoff_utc": "2026-11-19T17:07:25+00:00",
+      "historical_release_or_asof_availability_proven": false
+    },
+    {
+      "symbol": "SQQQ",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/SQQQ?period1=1795098600&period2=1795108045&interval=1h&includePrePost=false",
+      "request_started_host_utc": "2026-11-19T17:07:26.558132+00:00",
+      "raw_public_upload": "NOT_ATTEMPTED",
+      "execution_or_feature_use": false,
+      "http_status": 200,
+      "received_host_utc": "2026-11-19T17:07:35.656109+00:00",
+      "raw_path": "runs/prospective_append_retry_20261120_0200/SQQQ_raw_LOCAL.json",
+      "raw_sha256": "67c3a4f991944c0c51b54c4e06708123cb2656ec7a6d4410c11d501b1e60da2f",
+      "raw_bytes": 1666,
+      "vendor_metadata": {
+        "symbol": "SQQQ",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeTimezoneName": "America/New_York",
+        "exchangeName": "NGM",
+        "dataGranularity": "1h"
+      },
+      "status": "INCOMPLETE_OR_INVALID_COVERAGE",
+      "raw_rows": 4,
+      "incomplete_rows_excluded": 1,
+      "rejected_rows": [
+        {
+          "reason": "OFF_CLOCK",
+          "timestamp": "2026-11-19T17:07:35+00:00"
+        }
+      ],
+      "completed_rows": 2,
+      "completed_starts_utc": [
+        "2026-11-19T14:30:00+00:00",
+        "2026-11-19T15:30:00+00:00"
+      ],
+      "fixed_bar_end_cutoff_utc": "2026-11-19T17:07:25+00:00",
+      "historical_release_or_asof_availability_proven": false
+    },
+    {
+      "symbol": "IBIT",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/IBIT?period1=1795098600&period2=1795108045&interval=1h&includePrePost=false",
+      "request_started_host_utc": "2026-11-19T17:07:26.558895+00:00",
+      "raw_public_upload": "NOT_ATTEMPTED",
+      "execution_or_feature_use": false,
+      "http_status": 200,
+      "received_host_utc": "2026-11-19T17:07:35.655261+00:00",
+      "raw_path": "runs/prospective_append_retry_20261120_0200/IBIT_raw_LOCAL.json",
+      "raw_sha256": "ffd4bfb36cf0e6860c6945ed5e1a644d197f6aa7fa9e5333f6562f942ba491fa",
+      "raw_bytes": 1671,
+      "vendor_metadata": {
+        "symbol": "IBIT",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeTimezoneName": "America/New_York",
+        "exchangeName": "NGM",
+        "dataGranularity": "1h"
+      },
+      "status": "INCOMPLETE_OR_INVALID_COVERAGE",
+      "raw_rows": 4,
+      "incomplete_rows_excluded": 1,
+      "rejected_rows": [
+        {
+          "reason": "OFF_CLOCK",
+          "timestamp": "2026-11-19T17:07:35+00:00"
+        }
+      ],
+      "completed_rows": 2,
+      "completed_starts_utc": [
+        "2026-11-19T14:30:00+00:00",
+        "2026-11-19T15:30:00+00:00"
+      ],
+      "fixed_bar_end_cutoff_utc": "2026-11-19T17:07:25+00:00",
+      "historical_release_or_asof_availability_proven": false
+    },
+    {
+      "symbol": "BITI",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITI?period1=1795098600&period2=1795108045&interval=1h&includePrePost=false",
+      "request_started_host_utc": "2026-11-19T17:07:26.559639+00:00",
+      "raw_public_upload": "NOT_ATTEMPTED",
+      "execution_or_feature_use": false,
+      "http_status": 200,
+      "received_host_utc": "2026-11-19T17:07:35.601240+00:00",
+      "raw_path": "runs/prospective_append_retry_20261120_0200/BITI_raw_LOCAL.json",
+      "raw_sha256": "26dffc1f5b2bed67db2c51876b47e7099a0b72146c01392a556919b17f4992c4",
+      "raw_bytes": 1663,
+      "vendor_metadata": {
+        "symbol": "BITI",
+        "currency": "USD",
+        "instrumentType": "ETF",
+        "exchangeTimezoneName": "America/New_York",
+        "exchangeName": "PCX",
+        "dataGranularity": "1h"
+      },
+      "status": "INCOMPLETE_OR_INVALID_COVERAGE",
+      "raw_rows": 4,
+      "incomplete_rows_excluded": 1,
+      "rejected_rows": [
+        {
+          "reason": "OFF_CLOCK",
+          "timestamp": "2026-11-19T17:05:37+00:00"
+        }
+      ],
+      "completed_rows": 2,
+      "completed_starts_utc": [
+        "2026-11-19T14:30:00+00:00",
+        "2026-11-19T15:30:00+00:00"
+      ],
+      "fixed_bar_end_cutoff_utc": "2026-11-19T17:07:25+00:00",
+      "historical_release_or_asof_availability_proven": false
+    }
+  ],
+  "rows": 8,
+  "receipt_limitation": "Observation after cutoff does not prove availability at cutoff. Parentcollector strictfirsthour status is not this twohour audit.",
+  "raw_public_upload": "NOT_ATTEMPTED"
+}

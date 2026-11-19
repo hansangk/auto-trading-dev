@@ -1,0 +1,37 @@
+{
+  "status": "RAW_CLOCK_GATE_REJECTED_PREFIX_VALUES_UNCHANGED",
+  "records": [
+    {
+      "symbol": "TQQQ",
+      "timestamp": "2026-11-19T17:07:35+00:00",
+      "reason": "OFF_CLOCK",
+      "classification": "POST_CUTOFF_EXCLUDED"
+    },
+    {
+      "symbol": "SQQQ",
+      "timestamp": "2026-11-19T17:07:35+00:00",
+      "reason": "OFF_CLOCK",
+      "classification": "POST_CUTOFF_EXCLUDED"
+    },
+    {
+      "symbol": "IBIT",
+      "timestamp": "2026-11-19T17:07:35+00:00",
+      "reason": "OFF_CLOCK",
+      "classification": "POST_CUTOFF_EXCLUDED"
+    },
+    {
+      "symbol": "BITI",
+      "timestamp": "2026-11-19T17:05:37+00:00",
+      "reason": "OFF_CLOCK",
+      "classification": "AT_OR_BEFORE_CUTOFF_OFFCLOCK_REJECTED"
+    }
+  ],
+  "before_cutoff_offclock_count": 1,
+  "canonical_old_prefix_unchanged": true,
+  "qualified_input_continuation_allowed": false,
+  "terminal_backtest_allowed": false,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "action": "Do not promote02candidate prefixes to qualifiedinput/state. Preserve01trustedreference. Resolve actual vendor row semantics with evidence before any execution; never shift/drop an at-or-before-cutoff offclock row silently."
+}

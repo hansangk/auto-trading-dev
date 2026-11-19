@@ -1,0 +1,69 @@
+{
+  "status": "PARTIAL_APPEND_PREFIX_UNCHANGED",
+  "asof_bar_end_cutoff": "2026-11-19T17:07:25Z",
+  "ETF_rows": 8,
+  "source_rows": 20,
+  "ETF_end_exclusive": "2026-11-19T16:30:00Z",
+  "source_start": "2026-11-19T06:30:00Z",
+  "source_end_exclusive": "2026-11-19T16:30:00Z",
+  "prefix_comparisons": {
+    "ETF": {
+      "previous_rows": 4,
+      "current_rows": 8,
+      "missing_old_keys": 0,
+      "changed_old_values": 0,
+      "unchanged": true,
+      "error": null
+    },
+    "source": {
+      "previous_rows": 18,
+      "current_rows": 20,
+      "missing_old_keys": 0,
+      "changed_old_values": 0,
+      "unchanged": true,
+      "error": null
+    }
+  },
+  "new_private_hashes": {
+    "runs/prospective_append_retry_20261120_0200/SQQQ_raw_LOCAL.json": "67c3a4f991944c0c51b54c4e06708123cb2656ec7a6d4410c11d501b1e60da2f",
+    "runs/prospective_append_retry_20261120_0200/BITI_raw_LOCAL.json": "26dffc1f5b2bed67db2c51876b47e7099a0b72146c01392a556919b17f4992c4",
+    "runs/prospective_append_retry_20261120_0200/TQQQ_raw_LOCAL.json": "7b252b2fdcf82e1a6d0a766117eb983a83c97cf9ae91fb16c9ca99d57b8289b4",
+    "runs/prospective_append_retry_20261120_0200/IBIT_raw_LOCAL.json": "ffd4bfb36cf0e6860c6945ed5e1a644d197f6aa7fa9e5333f6562f942ba491fa",
+    "runs/prospective_append_retry_20261120_0200/Binance_connector_response_LOCAL.json": "fa7a465e84f4de687520e529c600c665c87fabf94b0a1247065c6036eb481909",
+    "runs/prospective_append_retry_20261120_0200/BTCUSDT_30m_partial_LOCAL.json": "363580fd5b408dd771df6b586606f45ce137d6535eda1b48ae6b7216d0314d66",
+    "runs/prospective_append_retry_20261120_0200/partial_ETF_LOCAL.csv": "f4d9c59f703580a920e30e65343a28d95f1e49712eb72116b32647564d5a1d20"
+  },
+  "previous_trusted_prefixes": {
+    "status": "FIRST_SNAPSHOT_CANONICAL_VALUES_MATCH_ACQUIRED_PAYLOADS",
+    "ETF_rows": 4,
+    "source_rows": 18,
+    "new_LOCAL_private_file_sha256": {
+      "runs/prospective_access_retry_20261120_0100/BITI_raw_LOCAL.json": "34e770f044f271d71a9c002807ce1f8becdef6b6a8323446f433ddd5a7c66f02",
+      "runs/prospective_access_retry_20261120_0100/IBIT_raw_LOCAL.json": "586e58e9e8dc9da7783573a1e16e932dbec3e298aec18adb82173ebd55970f5f",
+      "runs/prospective_access_retry_20261120_0100/SQQQ_raw_LOCAL.json": "1ed0f2d76ce47df2e82529d6ad59abf0257206d104cd7d4fedaab5c6a7424e7d",
+      "runs/prospective_access_retry_20261120_0100/TQQQ_raw_LOCAL.json": "0396a4fbe74977449e29fca92eaf035a63254caa6d5ba74f5e6eee1ba86bdf44",
+      "runs/prospective_access_retry_20261120_0100/Binance_connector_response_LOCAL.json": "3a9951f6878232f595f7962342425c830d041ea11ff557e052d896802076af22",
+      "runs/prospective_access_retry_20261120_0100/BTCUSDT_30m_partial_LOCAL.json": "7d6d6eaf8ea98808f781ecf363de12e84972125336bed0696c717503b1911090",
+      "runs/prospective_access_retry_20261120_0100/partial_ETF_LOCAL.csv": "89ddb737486b7a768e0daab76933aad9496ff57af2b360c1371c8ef000c566b2"
+    },
+    "trusted_prefix_ETF": {
+      "path": "runs/prospective_access_retry_20261120_0100/partial_ETF_LOCAL.csv",
+      "sha256": "89ddb737486b7a768e0daab76933aad9496ff57af2b360c1371c8ef000c566b2"
+    },
+    "trusted_prefix_source": {
+      "path": "runs/prospective_access_retry_20261120_0100/BTCUSDT_30m_partial_LOCAL.json",
+      "sha256": "7d6d6eaf8ea98808f781ecf363de12e84972125336bed0696c717503b1911090"
+    },
+    "lineage_limit": "Preserve these hashes with raw manifests as first access checkpoint; no historical release or trading eligibility is established",
+    "raw_public_upload": "NOT_ATTEMPTED"
+  },
+  "raw_public_upload": "NOT_ATTEMPTED",
+  "terminal_backtest_allowed": false,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "new_independent_validation": false,
+  "full_session_qualified": false,
+  "account_state_initialized": false,
+  "limitation": "Partialprice structures only. Preserve original collector tails/errors and actualreceipt. Source serializedconnector is not HTTPwirebytes. No retrospectivePIT claim; signalparity/FULLAccountState/execution integration stillmissing."
+}
