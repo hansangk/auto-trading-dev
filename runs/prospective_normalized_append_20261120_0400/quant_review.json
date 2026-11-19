@@ -1,0 +1,19 @@
+{
+  "reviewer": "new_payload_quant_0400",
+  "scope": "Read-only prospective gate guidance, not agentperformed04audit",
+  "existing32": "PROPOSED_ONLY",
+  "ranges": [
+    "seasonal20/40 x z1/1.5 x confirmation1/2",
+    "costP50/75 x cost1/2 x confirmation1/2",
+    "shock20/40 x z1/1.5 x confirmation1/2",
+    "persistence2/3 x history20/40 x activity1.25/1.5"
+  ],
+  "independent_previous_hashes_verified": true,
+  "frozen_classifier_sha256": "133c2c642725f13dea1aef968226668af69a4b84e83f73cf552587d8302d44b9",
+  "opinion": "Require exact16ETF/24source, unchanged01/02prefix and frozen03classifier. Unknownoffclock/revision fail separatevintage; no merge/shift/relaxation. Fullsession/PIT/parity/NEW FULLAccountState stillmissing.",
+  "agent_edits": 0,
+  "agent_requests": 0,
+  "engine_calls": 0,
+  "orders": 0,
+  "new_strategy_definitions": 0
+}

@@ -1,14 +1,14 @@
 {
-  "status": "RUNNING",
+  "status": "FRESH_PARTIAL_NORMALIZATION_PREFIX_PASS_NO_EXECUTION",
   "owner": "Codex",
   "run_id": "prospective_normalized_append_20261120_0400",
   "research_parent": "6f25796f4d055e0406ebdb54ed76d237b2a5f8e0",
-  "parent": "6f25796f4d055e0406ebdb54ed76d237b2a5f8e0",
-  "updated_utc": "2026-11-19T18:08:28Z",
-  "latest_report": "PROSPECTIVE_TAIL_REPORT_20261120_0300.md",
+  "parent": "fa0952af77bccd34973e4661805c66534b460400",
+  "updated_utc": "2026-11-19T19:07:14Z",
+  "latest_report": "PROSPECTIVE_NORMALIZED_APPEND_REPORT_20261120_0400.md",
   "latest_performance_report": "VENUE_LATENCY_RETRY_REPORT_20261119_1400.md",
-  "phase": "VERIFY_FROZEN_QUARANTINE_ON_NEW_FOUR_HOUR_RESPONSES",
-  "checkpoint": "Latestremote docs/report read;03artifact/old36/01+02privatehash match, no localintent/lock. Preregister fresh4ETF4h/source24row acquisition, strict03classifier frozen before newdata,01/02canonicalprefix comparison, no model/engine/PnL or oldgrid replay; externalworker liveness unobservable.",
+  "phase": "FROZEN03_CLASSIFIER_VERIFIED_ON_NEW_PAYLOADS",
+  "checkpoint": "Fresh4ETFHTTP200+1Binance response:16completeETFrows/24source30mrows. Frozen03classifier unchanged; future3/incomplete4/strictmetadata-live1 quarantined.01and02canonicalprefix keys/values unchanged(0missing/0changed). Newpartialaccesspass only, no full/PIT/AccountState/qualifiedaccountcontinuation. engine/orders0 metricsNA. Oldraw/gates preserved, noactiveworker; external liveness unobservable.",
   "engine_calls": 0,
   "orders": 0,
   "raw_upload": "NOT_ATTEMPTED; new4ETF/raw connector/extracted data and prior refused originals stayLOCAL; publish hashes only.",
@@ -51,14 +51,14 @@
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_035_LOCAL.json": "f8cd5377a03da9ef2714124af8f33b4b9899dce32aafb812bec78b3a74997663"
   },
   "next_command": "python scripts/prospective_shadow_guard_20261119.py --plan runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json --plan-blob-sha1 3595a3d7fc07401252a205f615f5fd743e77ab49 --calendar runs/prospective_readiness_retry_20261119_1700/calendar_20261119.csv --now \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" --out \"runs/prospective_recheck_$(date -u +%Y%m%d_%H%M%S)/readiness.json\"",
-  "worker_active": true,
-  "checked_at_utc": "2026-11-19T18:08:28Z",
+  "worker_active": false,
+  "checked_at_utc": "2026-11-19T19:07:11Z",
   "latest_completed_backtest_run": "venue_latency_retry_20261119_1400",
   "latest_completed_backtest_engine_calls": 669,
-  "new_price_acquisitions": 0,
+  "new_price_acquisitions": 5,
   "new_real_orders": 0,
   "financial_metrics": null,
-  "next_action": "For NEW acquisition/output, use strictquote classifier (Nov19normalday only), retain originalrows and quarantinedmetadata; nevermerge/shift prices. Unknownoffclock/nonzerovolume/metadata mismatch/completedinterval tail stillrejects. Separate prior02originalgate from new diagnosticpolicy; do notpromote full/PIT/AccountState on this diagnosis. Verify01trustedprefixhashes and actualnew canonicalkeys/values. Need fullactualsession/sourcefloor, observedPIT, signalparity/prefixinvariance, NEW FULLAccountState/model-control-stress protectedexecution integration. Existingclassifiers do not solve postclosecases or laterNYcalendar. No oldgrid/monthprefix repeats; min20/multipleperiods/cost2/delay beforeadoption; reused2026notindependent.",
+  "next_action": "NEW acquisition/output only, use unchanged03classifier with diagnostics and receipts. Compare01trusted and04latestaccess refs exacthash/canonicalkeys; unknownoffclock/revision failseparatevintage. Preserve02originalgate and03diagnosis. Fullactual sessionETF21:00/sourceassumed21:05 and observedPIT stillneeded; postclosequote handling notcovered by currentincomplete-tail rule. Signalparity/prefixinvariance/NEW FULLAccountState permodel-control-stress/executionintegration unimplemented. No partialendforcedclose/historicresetP&Lcopy. Oldgrids/monthprefixclosed; min20/multipleperiods/cost2/delay beforeadoption; reused2026notindependent.",
   "context_sha256": "abd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c",
   "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
   "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
@@ -68,7 +68,7 @@
   },
   "prospective_shadow_plan": "runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json",
   "prospective_frozen_at_utc": "2026-11-19 05:20:49 UTC",
-  "prospective_new_observations": 0,
+  "prospective_new_observations": 16,
   "current_official_calendar_sha256": "5f993b55f18a91bb37b80516181389733238568b966275cf3f5aa1e6682cc03d",
   "current_official_calendar_days": [
     "2026-11-19"
@@ -80,15 +80,15 @@
   "news_macro": false,
   "latest_handoff_archive": "handoffs/RESEARCH_HANDOFF_THROUGH_20261119_1700.md",
   "latest_handoff_archive_git_blob": "265e395018945ee6e05ab8d6f0bd09a5effdd2c4",
-  "full_test_runs_this_cycle": 1,
-  "cached_previous_full_tests": 241,
+  "full_test_runs_this_cycle": 0,
+  "cached_previous_full_tests": 254,
   "prior_test_log": "runs/prospective_tail_diagnosis_20261120_0300/tests_final.log",
   "new_strategy_definitions": 0,
   "existing_conditional_proposals": 32,
-  "claim_commit": "b1fd51a2ce5a20109fabda54d32693622b663e14",
-  "preregistration_commit": "b1fd51a2ce5a20109fabda54d32693622b663e14",
+  "claim_commit": "fa0952af77bccd34973e4661805c66534b460400",
+  "preregistration_commit": "fa0952af77bccd34973e4661805c66534b460400",
   "actual_input_audits": 1,
-  "new_tests_this_cycle": 13,
+  "new_tests_this_cycle": 0,
   "full_tests_passed": 254,
   "input_audit_adapter": "scripts/prospective_input_audit_20261119.py",
   "input_audit_manifest": "runs/prospective_prefix_audit_retry_20261119_2300/analysis_manifest.json",
@@ -108,21 +108,21 @@
   "session_open_has_passed": true,
   "first_hour_completed": true,
   "price_acquisition_count_unit": "4 HTTP200 ETF responses plus1 connector response, not full qualifications",
-  "new_actual_ETF_completed_rows": 0,
-  "new_actual_source_30m_rows": 0,
+  "new_actual_ETF_completed_rows": 16,
+  "new_actual_source_30m_rows": 24,
   "prospective_observation_unit": "actual completed ETF bar rows, not trades",
-  "actual_partial_input_audits_passed": 0,
+  "actual_partial_input_audits_passed": 1,
   "full_session_audit_attempts_including_interface_failure": 0,
   "full_session_audits_passed": 0,
   "partial_audit_recovery_failures": 0,
   "new_private_input_hashes": {
-    "runs/prospective_append_retry_20261120_0200/SQQQ_raw_LOCAL.json": "67c3a4f991944c0c51b54c4e06708123cb2656ec7a6d4410c11d501b1e60da2f",
-    "runs/prospective_append_retry_20261120_0200/BITI_raw_LOCAL.json": "26dffc1f5b2bed67db2c51876b47e7099a0b72146c01392a556919b17f4992c4",
-    "runs/prospective_append_retry_20261120_0200/TQQQ_raw_LOCAL.json": "7b252b2fdcf82e1a6d0a766117eb983a83c97cf9ae91fb16c9ca99d57b8289b4",
-    "runs/prospective_append_retry_20261120_0200/IBIT_raw_LOCAL.json": "ffd4bfb36cf0e6860c6945ed5e1a644d197f6aa7fa9e5333f6562f942ba491fa",
-    "runs/prospective_append_retry_20261120_0200/Binance_connector_response_LOCAL.json": "fa7a465e84f4de687520e529c600c665c87fabf94b0a1247065c6036eb481909",
-    "runs/prospective_append_retry_20261120_0200/BTCUSDT_30m_partial_LOCAL.json": "363580fd5b408dd771df6b586606f45ce137d6535eda1b48ae6b7216d0314d66",
-    "runs/prospective_append_retry_20261120_0200/partial_ETF_LOCAL.csv": "f4d9c59f703580a920e30e65343a28d95f1e49712eb72116b32647564d5a1d20"
+    "runs/prospective_normalized_append_20261120_0400/SQQQ_raw_LOCAL.json": "a83f378b1244bbcd4e627c11c2538c0e6846046627cf6848d17d49d7da3233b2",
+    "runs/prospective_normalized_append_20261120_0400/BITI_raw_LOCAL.json": "686248f6e3c336cf3b3d7964efd6fac55bf521b84c1ade8bd9687f36c3d2f3ff",
+    "runs/prospective_normalized_append_20261120_0400/TQQQ_raw_LOCAL.json": "694a82bb3dacd64ec71150bb918c232f7f57d3d245fd49f294bbc4fffcc6e6ce",
+    "runs/prospective_normalized_append_20261120_0400/IBIT_raw_LOCAL.json": "a98d8cb1295c2508d60a32643d142f57f3e4e515c19cb9cc16e713103b218b91",
+    "runs/prospective_normalized_append_20261120_0400/Binance_connector_response_LOCAL.json": "a359af4f6032bcbec10a32a37aa1219f04b06b226e0b59db046bcae16c2c4cd4",
+    "runs/prospective_normalized_append_20261120_0400/partial_ETF_LOCAL.csv": "cc9f0ba87fa4a887ab70600f42b252a1b7108ef0be4597003e0216b855526e86",
+    "runs/prospective_normalized_append_20261120_0400/BTCUSDT_30m_partial_LOCAL.json": "8c2f7c6309a45c11ff1e507ce4ad2223ef5d1f3f31fabce4e7b39ae1674338e5"
   },
   "prospective_first_snapshot_prefixes": {
     "ETF": {
@@ -136,22 +136,22 @@
   },
   "new_ETF_period": {
     "start_inclusive": "2026-11-19T14:30:00Z",
-    "end_exclusive": "2026-11-19T16:30:00Z"
+    "end_exclusive": "2026-11-19T18:30:00Z"
   },
   "new_source_period": {
     "start_inclusive": "2026-11-19T06:30:00Z",
-    "end_exclusive": "2026-11-19T16:30:00Z"
+    "end_exclusive": "2026-11-19T18:30:00Z"
   },
-  "partial_input_audit_manifest": "runs/prospective_append_retry_20261120_0200/append_audit.json",
+  "partial_input_audit_manifest": "runs/prospective_normalized_append_20261120_0400/normalized_append_audit.json",
   "actual_source_receipt_verified_bracket": null,
   "ETF_actual_first_received_host_utc_range": [
-    "2026-11-19T17:07:35.572061+00:00",
-    "2026-11-19T17:07:35.656109+00:00"
+    "2026-11-19T19:07:20.423502+00:00",
+    "2026-11-19T19:07:20.487713+00:00"
   ],
   "availability_at_fixed_cutoff_proven": false,
   "prospective_new_account_state_initialized": false,
-  "incremental_distinct_ETF_rows": 0,
-  "incremental_distinct_source_rows": 0,
+  "incremental_distinct_ETF_rows": 8,
+  "incremental_distinct_source_rows": 4,
   "prior_access_private_hashes": {
     "runs/prospective_access_retry_20261120_0100/BITI_raw_LOCAL.json": "34e770f044f271d71a9c002807ce1f8becdef6b6a8323446f433ddd5a7c66f02",
     "runs/prospective_access_retry_20261120_0100/IBIT_raw_LOCAL.json": "586e58e9e8dc9da7783573a1e16e932dbec3e298aec18adb82173ebd55970f5f",
@@ -165,15 +165,35 @@
   "qualified_input_continuation_allowed": false,
   "raw_clock_gate": "runs/prospective_append_retry_20261120_0200/raw_clock_gate.json",
   "source_response_host_clock_bracket": [
-    "2026-11-19T17:07:25Z",
-    "2026-11-19T17:07:27Z"
+    "2026-11-19T19:07:11Z",
+    "2026-11-19T19:07:14Z"
   ],
   "clock_source_this_cycle": "HostUTC date command; prior clock MCP unavailable",
   "second_hour_completed": true,
-  "latest_available_ETF_rows": 8,
-  "latest_available_source_30m_rows": 20,
+  "latest_available_ETF_rows": 16,
+  "latest_available_source_30m_rows": 24,
   "normalizer_diagnostic_verified": true,
   "normalizer": "scripts/prospective_quote_tail_20261120.py",
   "normalizer_replay": "runs/prospective_tail_diagnosis_20261120_0300/actual_replay.json",
-  "original02_gate_preserved": true
+  "original02_gate_preserved": true,
+  "prior04_private_hash_reference": {
+    "runs/prospective_append_retry_20261120_0200/SQQQ_raw_LOCAL.json": "67c3a4f991944c0c51b54c4e06708123cb2656ec7a6d4410c11d501b1e60da2f",
+    "runs/prospective_append_retry_20261120_0200/BITI_raw_LOCAL.json": "26dffc1f5b2bed67db2c51876b47e7099a0b72146c01392a556919b17f4992c4",
+    "runs/prospective_append_retry_20261120_0200/TQQQ_raw_LOCAL.json": "7b252b2fdcf82e1a6d0a766117eb983a83c97cf9ae91fb16c9ca99d57b8289b4",
+    "runs/prospective_append_retry_20261120_0200/IBIT_raw_LOCAL.json": "ffd4bfb36cf0e6860c6945ed5e1a644d197f6aa7fa9e5333f6562f942ba491fa",
+    "runs/prospective_append_retry_20261120_0200/Binance_connector_response_LOCAL.json": "fa7a465e84f4de687520e529c600c665c87fabf94b0a1247065c6036eb481909",
+    "runs/prospective_append_retry_20261120_0200/BTCUSDT_30m_partial_LOCAL.json": "363580fd5b408dd771df6b586606f45ce137d6535eda1b48ae6b7216d0314d66",
+    "runs/prospective_append_retry_20261120_0200/partial_ETF_LOCAL.csv": "f4d9c59f703580a920e30e65343a28d95f1e49712eb72116b32647564d5a1d20"
+  },
+  "normalizer_sha256": "133c2c642725f13dea1aef968226668af69a4b84e83f73cf552587d8302d44b9",
+  "new_access_reference_prefixes": {
+    "ETF": {
+      "path": "runs/prospective_normalized_append_20261120_0400/partial_ETF_LOCAL.csv",
+      "sha256": "cc9f0ba87fa4a887ab70600f42b252a1b7108ef0be4597003e0216b855526e86"
+    },
+    "source": {
+      "path": "runs/prospective_normalized_append_20261120_0400/BTCUSDT_30m_partial_LOCAL.json",
+      "sha256": "8c2f7c6309a45c11ff1e507ce4ad2223ef5d1f3f31fabce4e7b39ae1674338e5"
+    }
+  }
 }

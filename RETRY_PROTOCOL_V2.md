@@ -257,3 +257,8 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 2026-11-20 strict metadata live-tail diagnosis:
 - Preserved02rawclock rejection, then preregistered a new narrow partitioner: finaloffclock timestamp==regularMarketTime, flatpositiveOHLC/zeroVolume, inside immediatelyprior exactregular interval stillincomplete atcutoff. Suchrow is quarantined, never merged/shifted into a bar. Unknownoffclock/completedinterval/mismatchedmetadata reject. This does not generalize to postclose/otherNYdays.
 - Same8actualpayload replay yielded future7/incomplete8/strictlivetimestamp1 quarantine; completed01four/02eight values unchanged (8uniqueETFbars). Full254testsPASS(13new). No newprices/PnL/engine/orders/fullqualification/independentvalidation. Vendor semantics remain inference; upstream clientimplementation is corroboration notYahoo warranty. Keep original gate and new policy/version separately.
+
+
+2026-11-20 fresh-response normalization evidence:
+- Freeze03classifier before acquiringnewresponses. Actual04ETF16/source24 covered4completehours with01/02canonicalprefix missing0/changed0; quarantinefuture3/incomplete4/strictmetadata-live1. This is a new ingestion check, not independent financialvalidation or full/PIT/AccountState qualification. Old254tests are reused, notrerun.
+- Preserve originalcollector first-hour strictlabels alongside4hourclassifier/coverage result; transport/legacyhelperlabels and currentinputqualification are different fields. Keep01firsttrustedprefix plus04accessreference hashes, no full-accountpromotion. Unknownoffclock/revisions fail; currentincomplete-tail rules do not coverpostclose/laterNYdays. Raw/publicrefusal policy unchanged.

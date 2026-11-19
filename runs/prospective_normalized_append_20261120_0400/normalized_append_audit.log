@@ -1,0 +1,62 @@
+{
+  "status": "FRESH_PARTIAL_NORMALIZATION_PREFIX_PASS_NO_EXECUTION",
+  "cutoff": "2026-11-19T19:07:11Z",
+  "ETF_rows": 16,
+  "source_rows": 24,
+  "new_unique_ETF_vs02": 8,
+  "new_unique_source_vs02": 4,
+  "ETF_period": [
+    "2026-11-19T14:30:00Z",
+    "2026-11-19T18:30:00Z"
+  ],
+  "source_period": [
+    "2026-11-19T06:30:00Z",
+    "2026-11-19T18:30:00Z"
+  ],
+  "quarantine_totals": {
+    "INCOMPLETE_REGULAR_BAR": 4,
+    "FUTURE_TIMESTAMP": 3,
+    "METADATA_MATCHED_ZERO_VOLUME_LIVE_TAIL": 1
+  },
+  "prefix_comparisons": {
+    "prospective_access_retry_20261120_0100": {
+      "ETF": {
+        "prior_rows": 4,
+        "missing": 0,
+        "changed": 0,
+        "unchanged": true
+      },
+      "source": {
+        "prior_rows": 18,
+        "missing": 0,
+        "changed": 0,
+        "unchanged": true
+      }
+    },
+    "prospective_append_retry_20261120_0200": {
+      "ETF": {
+        "prior_rows": 8,
+        "missing": 0,
+        "changed": 0,
+        "unchanged": true
+      },
+      "source": {
+        "prior_rows": 20,
+        "missing": 0,
+        "changed": 0,
+        "unchanged": true
+      }
+    }
+  },
+  "classifier_sha256": "133c2c642725f13dea1aef968226668af69a4b84e83f73cf552587d8302d44b9",
+  "full_session_qualified": false,
+  "PIT_qualified": false,
+  "qualified_account_continuation": false,
+  "terminal_backtest_allowed": false,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "new_independent_validation": false,
+  "raw_public_upload": "NOT_ATTEMPTED",
+  "limitation": "Fresh ingestion test of unchangedclassifier, not independent financialvalidation. Laterreceipt nothistoricalavailability; metadata pattern not vendorwarranty. Fullcoverage/parity/NEW FULLAccountState/execution remainmissing."
+}
