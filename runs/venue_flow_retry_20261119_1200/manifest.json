@@ -1,0 +1,47 @@
+{
+  "status": "COMPLETE_VENUE_FLOW_RESEARCH",
+  "actual_new_calls": 631,
+  "reset_actual_calls": 598,
+  "continuous_actual_calls": 33,
+  "logical_reset_cells": 808,
+  "prior_unique_calls_reused": 0,
+  "prior_logical_cells_reused": 0,
+  "logical_month_segments": 66,
+  "unique_month_schedule_paths": 3,
+  "definitions": 64,
+  "new_alpha_threshold_trials": 32,
+  "shortlist": [
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8"
+  ],
+  "diagnostic_pool": [
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8"
+  ],
+  "development_screen_pass": [],
+  "approved": [],
+  "hashes": {
+    "scripts/venue_flow_signals_20261119.py": "08f5ac2f8c6758ae6bea250e49ab97786239aa1b9fcbb1f6595e65dc3b2fca73",
+    "scripts/venue_flow_context_20261119.py": "075a88a7f1cb04b01004224d920259fb6aa14f2ec7fecf36ad9f802f88099e36",
+    "scripts/venue_flow_retry_20261119.py": "d6411b2191f2545b2bbc9a281a78b55c86605dc1dba3ae32b9bae79a704c8a7a",
+    "tests/test_venue_flow_signals.py": "f991eb83c880e560b7df62e187e5fa1c3e04574440121d76167c764216c0ed35",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  },
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "raw_upload": "not attempted"
+}

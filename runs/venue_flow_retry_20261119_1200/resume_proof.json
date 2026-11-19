@@ -1,0 +1,17 @@
+{
+  "schedule_key": "f23a8a60ad8494fc4b2e76c3d13b7de4d7c1efcde0ca01c89f4bf7f68f99ee8a",
+  "call_id": 599,
+  "ledger_sha256": "ac97908244f9dd8c99bb32dc06b3178466aaea157528da7d2617edab631cf41a",
+  "state": {
+    "equity": 100180905.47167273,
+    "peak": 100491984.32689275,
+    "daily_start": 100180905.47167273,
+    "current_date": "2026-01-29",
+    "cooldown_until": -1,
+    "loss_streak": 0,
+    "killed": false
+  },
+  "checkpoint_sha256": "d5fa6d42458643c19694a7173fa7502499580a2d429bfc427061458855f21d9a",
+  "actual_calls_at_pause": 599,
+  "phase": "ONE_MONTH_COMMITTED_VERIFIED_BEFORE_RESUME"
+}
