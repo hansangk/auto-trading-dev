@@ -1,0 +1,26 @@
+          name family  duration    arm      start end_exclusive  onset_upper_bound  changed_vs_price  changed_days
+legacy__source legacy       NaN source 2025-01-01    2025-07-01                109               106            78
+legacy__source legacy       NaN source 2025-07-01    2026-01-01                112               114            77
+   h60__source    h60      60.0 source 2025-01-01    2025-07-01                 69                62            54
+   h60__source    h60      60.0 source 2025-07-01    2026-01-01                 66                69            56
+  h120__source   h120     120.0 source 2025-01-01    2025-07-01                 51                41            38
+  h120__source   h120     120.0 source 2025-07-01    2026-01-01                 46                47            43
+  c120__source   c120     120.0 source 2025-01-01    2025-07-01                 51                41            38
+  c120__source   c120     120.0 source 2025-07-01    2026-01-01                 46                47            43
+  h180__source   h180     180.0 source 2025-01-01    2025-07-01                 25                21            21
+  h180__source   h180     180.0 source 2025-07-01    2026-01-01                 21                21            21
+  c180__source   c180     180.0 source 2025-01-01    2025-07-01                 25                21            21
+  c180__source   c180     180.0 source 2025-07-01    2026-01-01                 21                21            21
+ legacy__price legacy       NaN  price 2025-01-01    2025-07-01                199                 0             0
+ legacy__price legacy       NaN  price 2025-07-01    2026-01-01                200                 0             0
+    h60__price    h60      60.0  price 2025-01-01    2025-07-01                125                 0             0
+    h60__price    h60      60.0  price 2025-07-01    2026-01-01                123                 0             0
+   h120__price   h120     120.0  price 2025-01-01    2025-07-01                 88                 0             0
+   h120__price   h120     120.0  price 2025-07-01    2026-01-01                 87                 0             0
+   c120__price   c120     120.0  price 2025-01-01    2025-07-01                 88                 0             0
+   c120__price   c120     120.0  price 2025-07-01    2026-01-01                 87                 0             0
+   h180__price   h180     180.0  price 2025-01-01    2025-07-01                 46                 0             0
+   h180__price   h180     180.0  price 2025-07-01    2026-01-01                 42                 0             0
+   c180__price   c180     180.0  price 2025-01-01    2025-07-01                 46                 0             0
+   c180__price   c180     180.0  price 2025-07-01    2026-01-01                 42                 0             0
+eligible ['h120__source', 'h120__price', 'c120__source', 'c120__price', 'h180__source', 'h180__price', 'c180__source', 'c180__price']
