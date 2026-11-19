@@ -1,25 +1,30 @@
-# Latest handoff — 2026-11-20 06시 KST
+# Latest handoff — 2026-11-20 07시 KST
 
-prospective_postclose_access_20261120_0600 /Codex. **POSTCLOSE_RAW_GATE_REJECTED_NO_EXECUTION; NO ACTIVE WORKER.** Parent 26bf9035169f0842c4026f003cea2112a8f7ad99; claim/preregister 2ee77294910d7a67cec03714ac9240993044ed5e. ReadAGENTS/state/protocol/report,CASclaim beforework; otherRUNNING=>no duplicate/overwrite/intentclearing. Externalworkerliveness notdirectlyobservable.
+Run `prospective_close_policy_20261120_0700`, owner Codex. **INPUT_STRUCTURE_PASS_EXECUTION_BLOCKED; worker=false.**
+Research parent `759c5a7bffaab97d112beed5d48e24483f8fc0e3`; claim/preregister `ddf77dcd0cd7c795ddacfc788806053a0ad7aded`.
+Read AGENTS/state/protocol/latest report and check remote head before work. Other RUNNING: no duplicate/overwrite/lock clearing. Publish expected-parent CAS, never force.
 
-- [Latestreport](PROSPECTIVE_POSTCLOSE_REPORT_20261120_0600.md), [actualaudit](runs/prospective_postclose_access_20261120_0600/postclose_audit.json), [manifest](runs/prospective_postclose_access_20261120_0600/analysis_manifest.json), [quant](runs/prospective_postclose_access_20261120_0600/quant_review.json).
-- Prior [05](PROSPECTIVE_FIVE_HOUR_REPORT_20261120_0500.md), [04](PROSPECTIVE_NORMALIZED_APPEND_REPORT_20261120_0400.md), [03](PROSPECTIVE_TAIL_REPORT_20261120_0300.md), [02](PROSPECTIVE_APPEND_REPORT_20261120_0200.md), [01](PROSPECTIVE_ACCESS_REPORT_20261120_0100.md).
-- Latest PERFORMANCE remains [14시](VENUE_LATENCY_RETRY_REPORT_20261119_1400.md), old669callsnotnew; [fulloldhandoff](handoffs/RESEARCH_HANDOFF_THROUGH_20261119_1700.md), originalblob265e395018945ee6e05ab8d6f0bd09a5effdd2c4, failuresintact.
+- [Latest report](PROSPECTIVE_CLOSE_POLICY_REPORT_20261120_0700.md), [actual replay](runs/prospective_close_policy_20261120_0700/actual_replay.json), [manifest](runs/prospective_close_policy_20261120_0700/analysis_manifest.json), [failures](runs/prospective_close_policy_20261120_0700/observed_failures.json), [quant](runs/prospective_close_policy_20261120_0700/quant_review.json).
+- [Prior06 actual postclose/raw rejection](PROSPECTIVE_POSTCLOSE_REPORT_20261120_0600.md) and its earlier links remain immutable. [Latest performance](VENUE_LATENCY_RETRY_REPORT_20261119_1400.md) is still14시; old669 calls are not current work. [Old handoff archive](handoffs/RESEARCH_HANDOFF_THROUGH_20261119_1700.md).
 
-ETFrequestcutoff2026-11-19T21:04:07Z,receipts21:04:14.515279–21:04:14.547955UTC. Source29requestedONLYafterverified2026-11-19T21:05:51Z>=21:05,hostbracket2026-11-19T21:05:51Z–2026-11-19T21:05:52Z. ActualregularcandidateETF28[14:30,21:00),source29[06:30,21:00).01prefix4/18 and05prefix20/26 missing0changed0. Sourcefullcoverage/schema passed; **candidatecoverage not raw/PIT/accounteligibility**.
+## Completed07 checkpoint
 
-ACTUALPOSTCLOSESHAPE:
-TQQQ/SQQQ/IBIT8rows=7regular+extra21:00:00,zeroVolume/flatOHLC. TQQQ+IBITmetaMarketTime21:00:01;SQQQ21:00:00. Frozen03classifier rejectsall3: Off-clock tail lacks an incomplete regular predecessor.
-BITI7regular-onlypasses, last20:30positiveVolume28072. **NEVERblanketdroplastrow** or silentlymerge/shift/tolerancefit. Rawgatefail=>fullqualifierSKIPPED, fullpass0. NoAccountState/PIT/parity/executionpermission. Engine/trades/orders/financialmetrics/adoption/independentvalidation0. New/fulltests0, old254PASSreusedonly.
+NEW `scripts/prospective_postclose_partition_20261120.py` handles only verified NYNov19: exact7 normal starts14:30..20:30; optional eighth row exactly21:00, own finite positive flatOHLC/zeroVolume, strict-int metadata regularMarketTime in [close, cutoff]. No fitted seconds tolerance. Seven-row path keeps frozen03 metadata behavior. No merge/shift or auxiliary price use. BITI final20:30 positive-volume regular bar remains.
 
-Nextsubstantivework:NEWmodule+preregisteredcriteria+negativetests forpostcloseauxiliaryrow policy grounded intheseactualshapes. Keep03module and06rawrejection immutable; do not merelyloosenincompletecondition orfit1secondtolerance. Requireexactcalendarclose/7regularcoverage/shape+timestamps/prefixevidence; unknownreject. Samepayloaddiagnosisnot independentvalidation. Then separately authenticPIT/signalparity/prefixinvariance/NEW FULLAccountState/model-control-stress/protectedexecutionintegration (stillunimplemented).
+One actual06 same-payload replay: TQQQ/SQQQ/IBIT each7regular+1quarantine; BITI7+0. All28 regular values equal original06candidateCSV. Actual source29 covers06:30–21:00; ETF covers14:30–21:00 Nov19UTC.01ETF4/source18 and05ETF20/source26 missing0changed0. Full structural API PASS for first time, **terminal=false/PIT=false/signalparity=false/NEW FULL AccountState=false**. Same-payload after observed failure is not independent validation/vendor warranty. Original03 module SHA133c2c... unchanged; original03 still rejects3, original06 raw/gate untouched.
+Verified106 unique immutable paths including prior original/private data and frozen17. New market requests0, engine/trades/orders0, all financial metricsNA, no return period/adoption. Entire269testsPASS,15new methods; one fullsuite18.762s. Tests synthetic, not market observations.
 
-01trustedprefixes/05accessrefs remainstate unchanged,06candidatefilesnotpromoted. Newprivate7 hashes separate; legacy36 and01/02/04/05 hashespreserved. RawLOCAL/publicrefusalrespected; hashcannotrecreatemissingdata; sourcehashserializedconnectornotHTTPbodybytes. Laterreceiptcannot bebackdated.
+## Next substantive work
 
-Freshguard uniqueoutput:
+Do not rerun07 checkpoint (protected output), closed grids or completed monthly prefixes. Next implement/version signal parity/prefix invariance using actual recorded receipts, completed higher timeframes, and NEW FULL AccountState per model/control/stress plus protected execution adapter. Current snapshots observed after original bar times cannot prove original PIT. Preserve first receipt and evaluate earliest truly observable decision; no backdating. Freeze next contract before integrating. No partial-lastbar forced exits, prior state/PnL resets, missing intent/state/ledger bypasses.
+
+Start read-only:
 ```bash
-python scripts/prospective_shadow_guard_20261119.py --plan runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json --plan-blob-sha1 3595a3d7fc07401252a205f615f5fd743e77ab49 --calendar runs/prospective_readiness_retry_20261119_1700/calendar_20261119.csv --now "$(date -u +%Y-%m-%dT%H:%M:%SZ)" --out "runs/prospective_recheck_$(date -u +%Y%m%d_%H%M%S)/readiness.json"
+rg -n 'AccountState|available|release|prefix|receipt|signal' scripts/venue_latency_retry_20261119.py scripts/venue_flow_signals_20261119.py scripts/session_signal_provenance.py src/autogrid/engine.py
 ```
-NYNov19despiteKSTNov20,officialcalendarONLYNov19; laterNYdayextendofficialcalendar. Calendarcompletionnotexecutionproof; CRLF/LFcorrectionretained.
-FrozenplanGitblob3595a3d7fc07401252a205f615f5fd743e77ab49/SHA614f75e7cbb83e9eb9b6272d04743236b9ba32385fcfe9607001c0bf9b139155; h120hold2/c180calendar-onlyhold4/same15%pricecontrols/riskcost unchanged,17depsverified. ActualTQQQ/SQQQ/IBIT/BITI BUYuniverse/currentBitcoinproxyIBIT/BITI. Oldflow32/isolation4/calendarholding8 CLOSED;32conditionalproposals PROPOSED_ONLY.
-No partialforcedexit/resetP&Lcopy/bypassingintent/state/ledger. Min20ACTUALtrades(notbars)/multipleperiods/cost2/delay/pairedsupport beforeadoption. Recent3/6fit vsstrictprior3/6nextmonth separate;reused2026notindependent.
+The readiness-only command in RETRY_STATE.next_command remains safe for a NEW unique output, but it is not next substantive research. Official calendar/current policy covers ONLY NYNov19; later session requires official extension.
+
+All old hash dictionaries remain RETRY_STATE. New normalized CSV staysLOCAL with exact hash in actual_replay/manifest/state; it is structural diagnostic, not promoted accountcheckpoint.01trusted/05access refs unchanged. Refused raw public uploads not retried, hashes cannot recover lostinputs. Binance connector envelope hash is serialized response, not original HTTP bytes. ETF receipt21:04:14.515279–21:04:14.547955; source bracket21:05:51–52; cutoff21:04:07 is not receipt. Calendar LOCALCRLF/publicLF provenance preserved.
+
+Frozen plan Gitblob3595a3d7fc07401252a205f615f5fd743e77ab49 / SHA614f75e7cbb83e9eb9b6272d04743236b9ba32385fcfe9607001c0bf9b139155; h120hold2/c180calendar-onlyhold4/same15%price controls/riskcost/17deps unchanged. TQQQ/SQQQ/IBIT/BITI actual ETF BUY directions; Bitcoin currently IBIT/BITI proxy. No news/macroPIT or realorders.
+4families×8=32 conditional proposals reviewed, still PROPOSED_ONLY (no seasonalhistory/NBBO/pairedsupport); no arbitrary new thresholds. Future development ≤64, shortlist≤8 for cost2/delay, ≥20actualtrades and multiple periods before adoption. Recent3/6 fit differs from strictprior3/6→nextmonth; reused2026 never independent. Latest14 h120 delay weakness/c180 sample and causal loss unresolved.

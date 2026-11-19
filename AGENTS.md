@@ -38,3 +38,7 @@ prospective_access_retry_20261120_0100 acquired real4ETF first-hour rows and18BT
 
 ## Strict quote-tail diagnosis (2026-11-20 03시)
 Read latest03report and prospective_quote_tail_20261120.py before newaccess. The narrow classifier quarantines only a metadata-matched flatzero-volume finalquote inside an incomplete exactregular interval; it never merges/shifts prices. Unknownoffclock/completedinterval cases stillreject, postclose/otherNYdays unsupported. Original02gate/raw unchanged; new03diagnosis is not full/PIT/AccountState qualification. Keep trusted01prefix refs, no automaticcandidatepromotion. Signalparity/NEW FULLAccountState/execution integration stillrequired.
+
+
+## Separate postclose policy continuation (2026-11-20 07시 KST)
+Read latest07 report and NEW prospective_postclose_partition_20261120.py before further work. Preserve frozen03 and original06 rejection. Exact7 regular bars, optional exact-close flat0volume auxiliary with bounded strict integer metadata, no merge/shift/tolerance fit; verified NYNov19 only. Actual06 same-payload28ETF/29source full structure PASS is not independent/PIT/signal parity/AccountState/engine permission. Keep terminal=false. New269 tests PASS includes15 new synthetic methods. Next is receipt-aware prefix invariance/parity and NEW FULL AccountState/protected execution integration; do not resweep closed grids or backdate late observations.07 replay output is protected; no repeat to fill time. Original/private hash dictionaries and LOCAL-only/refused-public-upload restrictions persist.
