@@ -1,0 +1,9 @@
+[
+  {
+    "scenario": "base",
+    "plan_hash": "2090d5cdc0463f32e967627792236e8a1c99bed5c83e81c73421ab2fce8b8e7f",
+    "prefix_months": 0,
+    "verified_call_refs": [],
+    "checkpoint_sha256": "b8050d870e3e04dcb006a4c25fe2d6726189f95d060f8311be2482f225e2ebb9"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "70b06486fd3b93fb304dd37341eff5324195b4ac9532f480447bcba57ec0a789": {
+    "schedule": [
+      "coin_only",
+      "coin_only",
+      "coin_only",
+      "coin_only",
+      "coin_only",
+      "coin_only",
+      "coin_only",
+      "coin_only",
+      "coin_only",
+      "coin_only",
+      "coin_only"
+    ],
+    "scenario": "base",
+    "plan_hash": "2090d5cdc0463f32e967627792236e8a1c99bed5c83e81c73421ab2fce8b8e7f",
+    "segments": [
+      {
+        "month": "2026-01-01",
+        "selected": "coin_only",
+        "call_ref": "new:37",
+        "total_return": -0.00012595302328322067,
+        "max_drawdown": 0.00012595302328322067,
+        "sharpe": 0.0,
+        "sortino": 0.0,
+        "calmar": -1.0,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "trades": 1,
+        "rounds": 1,
+        "turnover": 0.3,
+        "costs": 6900.0,
+        "long_pnl": 0.0,
+        "short_pnl": -5695.302328324047,
+        "bitcoin_etf_pnl": -5695.302328324047,
+        "hard_halts": 0,
+        "mdd_halt": false,
+        "state": {
+          "equity": 99987404.69767168,
+          "peak": 100000000.0,
+          "daily_start": 99987404.69767168,
+          "current_date": "2026-01-29",
+          "cooldown_until": -1,
+          "loss_streak": 1,
+          "killed": false
+        }
+      }
+    ]
+  }
+}
