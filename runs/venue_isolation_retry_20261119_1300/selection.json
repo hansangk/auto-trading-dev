@@ -1,0 +1,121 @@
+{
+  "shortlist": [
+    "coin__body55__source",
+    "coin__body55__price",
+    "coin__body35__source",
+    "coin__body35__price"
+  ],
+  "diagnostic_pool": [
+    "coin__body55__source",
+    "coin__body35__source"
+  ],
+  "development_screen_pass": [],
+  "approved": [],
+  "failures": [
+    {
+      "name": "full__body55__source",
+      "reasons": [
+        "IMMUTABLE_FULL_REFERENCE_CACHE_ONLY"
+      ]
+    },
+    {
+      "name": "full__body55__price",
+      "reasons": [
+        "IMMUTABLE_FULL_REFERENCE_CACHE_ONLY"
+      ]
+    },
+    {
+      "name": "full__body35__source",
+      "reasons": [
+        "IMMUTABLE_FULL_REFERENCE_CACHE_ONLY"
+      ]
+    },
+    {
+      "name": "full__body35__price",
+      "reasons": [
+        "IMMUTABLE_FULL_REFERENCE_CACHE_ONLY"
+      ]
+    },
+    {
+      "name": "sync__body55__source",
+      "reasons": [
+        "OPPORTUNITY_UPPER_BOUND_LT20",
+        "FLOW_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "sync__body55__price",
+      "reasons": [
+        "OPPORTUNITY_UPPER_BOUND_LT20",
+        "FLOW_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "sync__body35__source",
+      "reasons": [
+        "OPPORTUNITY_UPPER_BOUND_LT20",
+        "FLOW_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "sync__body35__price",
+      "reasons": [
+        "FLOW_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "async__body55__source",
+      "reasons": [
+        "PAIRED_ROLE_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "async__body55__price",
+      "reasons": [
+        "PAIRED_ROLE_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "async__body35__source",
+      "reasons": [
+        "PAIRED_ROLE_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "async__body35__price",
+      "reasons": [
+        "PAIRED_ROLE_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "coin__body55__source",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_FLOW_INCREMENT_VS_SAME15PCT_PRICE"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "coin__body55__price",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "coin__body35__source",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_FLOW_INCREMENT_VS_SAME15PCT_PRICE"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "coin__body35__price",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS"
+      ],
+      "independent_history_missing": true
+    }
+  ]
+}
