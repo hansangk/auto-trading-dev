@@ -1,0 +1,16 @@
+{
+  "run_id": "prospective_tail_diagnosis_20261120_0300",
+  "hypothesis": "02offclock tail may be metadata-matched zero-volume live quote in uncompleted regular interval, not an eligiblebar. Strict classifier can quarantine it without merging/shifting/usingOHLC; unknownoffclock stillfails.",
+  "criteria": [
+    "Offclockrow is finalrow only, timestamp==meta.regularMarketTime",
+    "finitepositive identical OHLC on tail, volume exactly0",
+    "immediately preceding timestamp is exactNYregularstart and tail strictlywithin its stillincomplete1h interval atfixedcutoff",
+    "allotheroffclock rows at/beforecutoff rejected",
+    "No merging/pricerounding/timestamp shifting; oldraw/gate preserved; fullsession/terminal/account/PIT gates unchanged"
+  ],
+  "scope": "New normalizer module+synthetic negative tests and actual existing8payload diagnosis, no newprices/backtest",
+  "engine_calls": 0,
+  "orders": 0,
+  "new_strategy_definitions": 0,
+  "new_independent_validation": false
+}
