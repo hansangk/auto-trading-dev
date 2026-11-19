@@ -1,0 +1,93 @@
+{
+  "shortlist": [
+    "ETF__L20",
+    "ETF__current",
+    "ETF__none",
+    "source__L20",
+    "source__current",
+    "source__none",
+    "ETF__L40",
+    "source__L40"
+  ],
+  "diagnostic_pool": [],
+  "development_screen_pass": [],
+  "approved": [],
+  "failures": [
+    {
+      "name": "ETF__L20",
+      "reasons": [
+        "STRESS_MIN20_OR_HALT_FAILED",
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_BITCOIN_BACKGROUND",
+        "AVAILABILITY_INTERVENTION_NOT_IDENTIFIED_IN_BOTH_HALVES"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "ETF__current",
+      "reasons": [
+        "STRESS_MIN20_OR_HALT_FAILED",
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_BITCOIN_BACKGROUND",
+        "AVAILABILITY_INTERVENTION_NOT_IDENTIFIED_IN_BOTH_HALVES"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "ETF__none",
+      "reasons": [
+        "STRESS_MIN20_OR_HALT_FAILED",
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_BITCOIN_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__L20",
+      "reasons": [
+        "STRESS_MIN20_OR_HALT_FAILED",
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_BITCOIN_BACKGROUND",
+        "AVAILABILITY_INTERVENTION_NOT_IDENTIFIED_IN_BOTH_HALVES"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__current",
+      "reasons": [
+        "STRESS_MIN20_OR_HALT_FAILED",
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_BITCOIN_BACKGROUND",
+        "AVAILABILITY_INTERVENTION_NOT_IDENTIFIED_IN_BOTH_HALVES"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__none",
+      "reasons": [
+        "STRESS_MIN20_OR_HALT_FAILED",
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_BITCOIN_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "ETF__L40",
+      "reasons": [
+        "STRESS_MIN20_OR_HALT_FAILED",
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_BITCOIN_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "source__L40",
+      "reasons": [
+        "STRESS_MIN20_OR_HALT_FAILED",
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_BITCOIN_BACKGROUND"
+      ],
+      "independent_history_missing": true
+    }
+  ]
+}
