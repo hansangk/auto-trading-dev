@@ -3,15 +3,14 @@
   "owner": "Codex",
   "run_id": "availability_ablation_20261119_0800",
   "research_parent": "a6cc86ebfff97fc25cc62dd10ba2ed73279f19c0",
-  "parent": "72433780b7dc271f41150427a7a1d8067f2565a7",
+  "parent": "a12318715c1c35b6fef3bc7aaaa1915ddc82baa2",
   "updated_utc": "2026-11-19 02:03:36 UTC",
   "latest_report": "SOURCE_ACTIVITY_RETRY_REPORT_20261119_0700.md",
-  "phase": "DEVELOPMENT_COMPLETE_POOL_FROZEN",
-  "checkpoint": "36newdevelopmentcalls,60logicalcells including12uniquepriorcachedcalls.8supportdefinitionsstressed,max8. Allfailednohalt/net/safetycriteria,diagnosticpool0 BEFORE2026. Next onlyfixedreference/cash-path recovery regression,notnew2026candidate research. Storage-onlyprefix-integrity guard being added per independentreview.",
+  "phase": "GUARDED_REFERENCE_RESUME_REGRESSION",
+  "checkpoint": "Developmentpool0frozen. Addedstorage-onlystrictprefixledger/stateguardbefore anymonthlycall,3testsPASS. Soft-threshold-touchderivedauditrecordsplanmeasurementlimitation; no candidateadded. Nextfirstmonthlyfixedreferencecallwillpauseatomicallyforrealresumecheck.",
   "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
   "context_sha256": "d3a2dea122e11166865e199b9290d91f9f135a57874536786668a9fc4ca1560c",
-  "engine_calls": 36,
+  "engine_calls": 0,
   "orders": 0,
-  "raw_upload": "not attempted",
-  "plan_commit": "72433780b7dc271f41150427a7a1d8067f2565a7"
+  "raw_upload": "not attempted"
 }
