@@ -190,3 +190,12 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 - A recent3month allstresspositive fitted winner may remain useful for research while failing a strictprior3/6 nextmonth selector. Preserve the empty selections rather than loosen MDD/benchmark criteria after seeing them. Current22decisions allBitcoincash+priorNasdaq; do not call background profit newflowalpha.
 - Decompose grossBitcoin/Nasdaq/cost contributions while recognizing jointslot/protection path changes. Frozenpricecontrol literalflow admission, actualsource onsets and fullaccount replay are different estimands. Here conditional block intervals included0 and noadoption.
 - Latest VENUE_FLOW_RETRY_REPORT_20261119_1200.md:631unique calls,212testsPASS,48250ledger records verified,source/price partiallossreduction but alldevprofitscreensfailed. Actualpause/fullstate/hashprefixresume no duplicatefirstmonth. Sameflowgridclosed without newindependentdata/mechanism; rawpublicupload not retried.
+
+
+2026-11-19 frozen Bitcoin-role isolation evidence:
+- Full-account Bitcoinleg contribution is not Bitcoin-only replay. Role removal changes actualjointclose/protection/slots/entries/exits at15% vs30%gross; usefrozenfull labels AND actual15%account, nevercallthem riskmatched.
+- Count BOTH pairedarms intervention support beforePnL. syncsource7~12events/half meansasync-removal information isalso sparseevenwhenasync standaloneevents>100. Preserveprice-only eligibilityasymmetry attemptbeforefix; do not useonlythehigher-supportarmtoqualifyapair.
+- Forone-role research, compareflow to SAME15%priceandusepredeclaredabsoluteMDDscreen. RequiringMDD<=cash0mechanicallyrejectsnonflatpolicies; usingold30%backgroundMDDcanmisreadexposurereduction asalpha. Here3%selectionscreen didnotchangeengine5%kill.
+- Twoanchors chosen partlyafterseeing2026recentwinnerremainretrospectiveevenifnew2025poolfrozenbeforefurther2026calls. Freezingpreventsadditionalleakagebutdoesnotrestoreindependence.
+- Cache verifiesactualcost/delayvaluestogetherwithscenario andhashes/periods/exactexecutionarrays. Originalfull30cellswereverifiednotrerun. CurrentwholecashmonthlyfallbackisdistinctfrompriorBitcoinCash+Nasdaq;0return/0tradesisnotalphasuccessandwinrateNA.
+- Latest VENUE_ISOLATION_RETRY_REPORT_20261119_1300.md:336newcalls+30priorunique,215testsPASS,26908new/3062priortraderows. Basic2025profitimprovedfromfull,butbothhalvesdelaynegative,reused2026negative,0adopted. Samefrozenisolationresweepclosed; nextfixed-event latency/holdingcommon-supportaudit oruntouchedshadow,notthresholdrescue.

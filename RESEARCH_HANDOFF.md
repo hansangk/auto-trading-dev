@@ -1,3 +1,27 @@
+# Latest research handoff — 2026-11-19 13시 KST
+
+Run venue_isolation_retry_20261119_1300 /Codex COMPLETE_REJECTED. Report [VENUE_ISOLATION_RETRY_REPORT_20261119_1300.md](VENUE_ISOLATION_RETRY_REPORT_20261119_1300.md). Researchparent91925951180909e9ec2cd57130539c3cfcb08cd8;publicationparent4a6752e14b60c9d9d645b7fa2edf6bbf338cf723. Read latestbranch/AGENTS/state/protocol/report before nextcall; expectedparentCAS,neverforce. PriorCOMPLETE/noactive localengine/nointentlock atclaim; externalworkerlivenessnotdirectlyobservable.
+
+Actualnew336=303reset+33FULLstatecontinuousmonths;30prioruniquefull/Nasdaqrefs reused exacthashonly;333logicalreset/66logicalmonths. Creativequant isolation_quant_1300 proposed2frozenanchors55/35×source/price×full/coin/sync/async16nominal. Flow.10/L4/riskunchanged. full4cacheonly,sync/async8rejected BEFOREPnL forsource intervention7~12/half<20; actualnewPnLdefinitions4Bitcoin-only. No newthresholdgrid. .35existed2025pool buthereanchorchoicealsoinfluencedbyseen2026recentbest;retrospective2025→2026freezedoesnotrestoreindependence.
+
+Development source1st coin__body55__source: H1base+1.7226/cost2+1.1418/delay-.6427%;H2+1.5148/+.8865/-.3129%. Basic83/90rounds,win48.19/54.44%,MDD.8702/.5213%. Previousfullbasic-.8575/-.3719%; same15%price+.4451/-.0295%. Partial2025basic/cost/MDDimprovement; noalphaadoption becausealldevprofit/relativepricecriterianotpassed. Source .35 also bothdelaynegative. Full30%vscoin15%notriskmatched. RemovingNasdaqchangesactualprotection/slots/coinexit,notsplicingoldlegPnL.
+
+Researchpool2SOURCEonly(sample20botharms/all6cells,nohalts,MDD<=3%screen;engine5%killunchanged),pricepaircomparisononly. Recent3fit2026-08-14..11-13best.55 +.4368/+.1808/-.2135%,37/37/33rounds;recent6May14..Nov13-.3114/-.8671/-1.1754%. Entire reused2026Jan1..Nov13-.55source -1.7456/-2.7305/-2.7175%. All22strictprior3/6month choices0eligible→WHOLECASH,33actualmonthly/66logical segments0trades/0return/MDD0,winNA; notoldBitcoinCash+Nasdaq andnotalphasuccess. All44candidate/monthsource training had>=1nonpositivestress. No independentuntouchedperiod/noNewsMacro/noorders.
+
+Provenance unchanged sourceBinanceBTCUSDT30m2024-11-14T00:00Z..2026-11-14T00:00Z35040actualbars,2contiguous30m→1h:30+prior4h,exactETFspan,end+assumed5min<=decision,age30/60. ActualBUYIBIT/BITI BitcoinETFproxy,notspotBTC/borrowshort. TQQQ/SQQQ preservedfullcache actualbuys. NewtradesIBIT12539/BITI14369,Nasdaq0;priorrefsTQQQ545/SQQQ275/IBIT1135/BITI1303. Counts aggregate overlappingresearchcalls,notsingleportfolio.
+
+Hashes: ETF163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7;calendar754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296;oldNasdaqcontext3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0;venuecontextabd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c. Raw36hashes/requests in priorrun context_manifest/acquisition_requests; currentplan/analysis_manifest allcode/input/config/rawledger hashes. Originalrawpublicuploadrefusalrespected, noacquisition/uploadthisrun. LOCALraw/context/ledgersrequired; hashcannotreconstructdata. Missingexactfiles=>BLOCKEDreplay,donotfabricaterecoveryorretakedifferentvintageunderoldhash.
+
+Checkpoint allcomplete/nointentlock;215testsPASS,26908new+3062priorledgerrows checkedcost/equity/PIT/actualBUY; prior631ledgerfiles/checkpointverifiedagainstremote-pinnedmanifest. 33months FULLstate/prefix verified;actualfirstmonthpause+resume0replayedprefix. Currentallcashprefixprovesstoragecontinuitywithnotrading;no claimnewnonzeroriskstatepath. Initialreturnblind asymmetry(priceasync35passedown20/26,butsource10/12) correctedBEFOREPnL torequirebotharms;attempt1manifest/plan/preflight/logretained. Noengine/verificationfailures. Scenarioactualcost/delayassertpreventswrong-namecache. MDD/dailyguardsrealizedpostround,softskipcountunmeasured. Completedrunnerimmutable;read-onlyverification:
+```bash
+PYTHONPATH=src:scripts python scripts/venue_isolation_verify_20261119.py
+```
+
+Do notreruncompletedprepare/development/research/clearlocks. Sameflow32/samecoin-only4resweepclosed. Next: frozen.55/.10/L4 Bitcoin-only delayedloss sameevent/ticker attribution, sameexit vs actualequalminutes; RETURNBLINDcommonsupport>=20events/10days EACHhalf beforepathlabels/replay,otherwiseNOT_IDENTIFIED. No later/syntheticETFprices. Or unusedcompleted-periodshadow with separatelyversionedsource+ETF,notnewvalidationuntilsamples. Neitherfollowuphasrun. ClaimnewID/CAS/isolatedoutput first. Keep stop/leverage/hold unchanged andrisk-exposureinterpretationsseparate.
+
+---
+Previous handoff retained:
+
 # Latest research handoff — 2026-11-19 12시 KST
 
 Run: venue_flow_retry_20261119_1200 / Codex. COMPLETE; no active worker claimed. Research parent 623e91b276dcb882e045c29cd29571fa99361dc4; completion publication parent f2745e6263a408ee0c297bbfbed43d86a174b3fe. CAS only, never force. Latest report: [VENUE_FLOW_RETRY_REPORT_20261119_1200.md](VENUE_FLOW_RETRY_REPORT_20261119_1200.md).

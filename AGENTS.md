@@ -10,3 +10,7 @@ The completed source_activity_grid_20261119_0700 runner is immutable research. F
 
 ## Availability audit continuation (2026-11-19)
 For availability_ablation_20261119_0800, never invoke the raw research phase to bypass the storage-only amendment. Any newly authorized copy resumes through scripts/availability_guarded_research_20261119.py with exact prefix ledger hashes, complete carried AccountState and plan/schedule provenance. Unresolved intent/missing state blocks replay; do not clear manifests/locks. The completed run is verified with scripts/availability_verify_20261119.py. Report postround soft-threshold contacts separately from uninstrumented actual soft-skip counts.
+
+
+## Frozen venue isolation continuation (2026-11-19)
+The completed venue_flow_retry_20261119_1200 and venue_isolation_retry_20261119_1300 outputs are immutable. Do not bypass manifests, clear unresolved intents, or replay completed months. Read exact original hashes and verified full AccountState/ledger prefixes before any authorized isolated reproduction. Distinguish wholecash isolation fallback from Bitcoin cash plus Nasdaq background. Paired source/control intervention support is required in both arms; new isolation profit must not be inferred by splicing a prior full-account leg. Same cost/delay labels with different actual values are not cache hits.
