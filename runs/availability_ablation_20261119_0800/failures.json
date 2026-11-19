@@ -1,5 +1,5 @@
 {
-  "status": "PREEXECUTION_OBSERVATIONS",
+  "status": "COMPLETE_REJECTED",
   "research_calls_before_resume": 0,
   "interruption": "Priorquantturn reportedusage limit; sameownedRUNNINGclaim resumed,nolocalengine/lock/intent/resultsfound",
   "agent_fixture_failure": {
@@ -11,5 +11,13 @@
     "later_agent_test_result": "8tests0.100sOK"
   },
   "root_suite": "197tests10.788sPASS",
-  "no_backtest_abort_evidence": true
+  "no_backtest_abort_evidence": true,
+  "new_actual_calls": 69,
+  "new_research_reset_calls": 36,
+  "new_storage_regression_calls": 33,
+  "backtest_aborts": 0,
+  "verifier_failures": 0,
+  "approved": [],
+  "plan_measurement_mismatch": "soft/hard wording exceeded engineinstrumentation;hard/MDDdirectlyscreened,postroundsoftthresholdtouches separatelyaudited;poolalready0,no relaxation",
+  "storage_findings": "Originalrestorecheckedplan/scheduleonly;additionalguardverifiedprefixledgerSHA/callmonth/fullstate/equitypeakbeforeactualresume.197suite+3prefixguardPASS;firstmonthreplays0;pausedckhashreconstructedexactly."
 }

@@ -7,3 +7,6 @@ User's retry scope: a creative quant subagent proposes varied strategy families 
 
 ## Source-activity continuation guard (2026-11-19)
 The completed source_activity_grid_20261119_0700 runner is immutable research. For any newly authorized reproduction, prepare a new output and use scripts/source_activity_resume_guard_20261119.py; never restart the original research phase directly. A partial continuous-month prefix without recoverable exact AccountState is a blocker, not permission to replay completed months. Distinguish Nasdaq cash with a fixed Bitcoin research background from whole-account cash and from actual zero-trade months.
+
+## Availability audit continuation (2026-11-19)
+For availability_ablation_20261119_0800, never invoke the raw research phase to bypass the storage-only amendment. Any newly authorized copy resumes through scripts/availability_guarded_research_20261119.py with exact prefix ledger hashes, complete carried AccountState and plan/schedule provenance. Unresolved intent/missing state blocks replay; do not clear manifests/locks. The completed run is verified with scripts/availability_verify_20261119.py. Report postround soft-threshold contacts separately from uninstrumented actual soft-skip counts.
