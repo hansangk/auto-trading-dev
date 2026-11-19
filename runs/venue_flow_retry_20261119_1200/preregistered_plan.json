@@ -1,0 +1,41 @@
+{
+  "run_id": "venue_flow_retry_20261119_1200",
+  "status": "PREREGISTERED_BEFORE_PNL",
+  "research_parent": "623e91b276dcb882e045c29cd29571fa99361dc4",
+  "previous_failure": "QQQ volume32 and fixedbody.5 availability8 closed; prior basic profits reversed by costs/delay; volume failures not liquidity evidence",
+  "new_mechanism": "Actual singlevenue taker classification adds information beyond same BTC OHLC; four completed-bar flow-pattern families and identical-clock flow-removed price controls",
+  "definitions": 64,
+  "alpha": 32,
+  "matched_controls": 32,
+  "shortlist": "Rank SOURCE by worst/mean2025H1/H2base. At most4 matchedpairs/8definitions. Botharms actualBitcoinBUY>=20 EACHhalf, nohard/MDDhalt; sourcevsprice onset changed>=20 across>=10days EACHhalf; aliasdedup by2025array",
+  "development": [
+    "2025-01-01<=t<2025-07-01",
+    "2025-07-01<=t<2026-01-01"
+  ],
+  "stress": "Only shortlist source/control plus fixedNasdaqreference:base,cost2,delay1eligiblehour; same riskexits; noleverage/stop/horizon rescue",
+  "pool": "Shortlisted actualBitcoinBUY>=20 EACHhalf/EACHstress, nohard/MDDhalt. Negativehistorical PnL may enter RESEARCHonly recent-regime pool; notapproved",
+  "promotion": "All6developmentstress returnspositive,incrementandnomoreMDDvsfixedNasdaq; flow incrementalsourcevsprice examined separately; independentvalidationmissing=>NOADOPTION",
+  "diagnostic": "Freeze2025pool before any2026; reused2026NOTindependent. Recent3/6fit onfrozenpoolONLY; strictpriorcalendar3/6train allstressespositive/minBitcoin20/nohalts/incrementnomoreMDDvsfixedNasdaq, thennextmonthcontinuous AccountState. Bitcoincash+Nasdaqfallback notwholecash",
+  "frozen_attribution": "Partition pricecontrol EXISTING executedcoinrounds by source SAME signal/target; additive frozenround contribution NOTaccountreturns; source-only/control-only onsetcounts separate; full replay protective account separately",
+  "protection": "unchanged15%each/30%totalcap,60bpjointclose stop,nextopen execution,3R,4eligiblebars,lossstreakcooldown2; MDD/daily protectionREALIZEDpostround notintrabar; softskipnotinstrumented",
+  "source": "ActualBTCUSDT30m\u2192exacttwo-contiguousbars1h:30 spans,sourceend+5min<=ETFdecision,age<=65; singlevenueUSDT/nofundflowclaim; IBIT/BITIactualBUYBitcoinETFproxies,notspot24/7",
+  "availability": "CommonETFmatchedspan for source/control, fullycompleted1h+prior4/8hourfeatures; sourcehistoryovernightallowed andaudited. valid2964/3458=85.7% allclockrows byclockpolicy; not90%promise; samecommonpolicyallarms",
+  "news_macro": false,
+  "orders": 0,
+  "raw_upload": "notattempted;localonly originalpublicrefusal respected",
+  "hashes": {
+    "scripts/venue_flow_signals_20261119.py": "08f5ac2f8c6758ae6bea250e49ab97786239aa1b9fcbb1f6595e65dc3b2fca73",
+    "scripts/venue_flow_context_20261119.py": "075a88a7f1cb04b01004224d920259fb6aa14f2ec7fecf36ad9f802f88099e36",
+    "scripts/venue_flow_retry_20261119.py": "d6411b2191f2545b2bbc9a281a78b55c86605dc1dba3ae32b9bae79a704c8a7a",
+    "tests/test_venue_flow_signals.py": "f991eb83c880e560b7df62e187e5fa1c3e04574440121d76167c764216c0ed35",
+    "scripts/availability_runtime_20261119.py": "8fa95f289092ad87bc21c2b2283f67819050a7e7ffa6f526f9a0fa23092429bb",
+    "scripts/availability_guarded_research_20261119.py": "51b1b43c82334cd6cfc632f15edd4185d1d4a5cd107be84a4e357ce7ec966291",
+    "scripts/hourly_night_signals_20261119.py": "0f7fbe5966d8f5122bc9ae009e6abbd2b3bcf7c26dd8938dbb7534088fb57a05",
+    "scripts/session_signal_provenance.py": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "runs/venue_flow_retry_20261119_1200/context_LOCAL.npz": "abd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c",
+    "runs/venue_flow_retry_20261119_1200/scores_LOCAL.npz": "0fc0cb5119846f9b39921e277aa222916d5aba666511b3fee653d32fd1623261",
+    "runs/hourly_clock_retry_20261119_0300/audit_v2/audited_ETF_LOCAL.csv.gz": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7"
+  }
+}

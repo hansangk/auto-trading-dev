@@ -1,0 +1,653 @@
+{
+  "status": "PREPARED_BEFORE_PNL",
+  "definitions": [
+    {
+      "name": "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+      "family": "flow_trend",
+      "efficiency": 0.35,
+      "flow_threshold": 0.1,
+      "lookback": 4,
+      "alpha": "flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+      "family": "flow_trend",
+      "efficiency": 0.35,
+      "flow_threshold": 0.1,
+      "lookback": 4,
+      "alpha": "flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+      "family": "flow_trend",
+      "efficiency": 0.35,
+      "flow_threshold": 0.1,
+      "lookback": 8,
+      "alpha": "flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+      "family": "flow_trend",
+      "efficiency": 0.35,
+      "flow_threshold": 0.1,
+      "lookback": 8,
+      "alpha": "flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=4",
+      "family": "flow_trend",
+      "efficiency": 0.35,
+      "flow_threshold": 0.2,
+      "lookback": 4,
+      "alpha": "flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=4",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=4",
+      "family": "flow_trend",
+      "efficiency": 0.35,
+      "flow_threshold": 0.2,
+      "lookback": 4,
+      "alpha": "flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=4",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=8",
+      "family": "flow_trend",
+      "efficiency": 0.35,
+      "flow_threshold": 0.2,
+      "lookback": 8,
+      "alpha": "flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=8",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=8",
+      "family": "flow_trend",
+      "efficiency": 0.35,
+      "flow_threshold": 0.2,
+      "lookback": 8,
+      "alpha": "flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=8",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+      "family": "flow_trend",
+      "efficiency": 0.55,
+      "flow_threshold": 0.1,
+      "lookback": 4,
+      "alpha": "flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+      "family": "flow_trend",
+      "efficiency": 0.55,
+      "flow_threshold": 0.1,
+      "lookback": 4,
+      "alpha": "flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+      "family": "flow_trend",
+      "efficiency": 0.55,
+      "flow_threshold": 0.1,
+      "lookback": 8,
+      "alpha": "flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+      "family": "flow_trend",
+      "efficiency": 0.55,
+      "flow_threshold": 0.1,
+      "lookback": 8,
+      "alpha": "flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=4",
+      "family": "flow_trend",
+      "efficiency": 0.55,
+      "flow_threshold": 0.2,
+      "lookback": 4,
+      "alpha": "flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=4",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=4",
+      "family": "flow_trend",
+      "efficiency": 0.55,
+      "flow_threshold": 0.2,
+      "lookback": 4,
+      "alpha": "flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=4",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=8",
+      "family": "flow_trend",
+      "efficiency": 0.55,
+      "flow_threshold": 0.2,
+      "lookback": 8,
+      "alpha": "flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=8",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=8",
+      "family": "flow_trend",
+      "efficiency": 0.55,
+      "flow_threshold": 0.2,
+      "lookback": 8,
+      "alpha": "flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=8",
+      "arm": "price"
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35",
+      "family": "absorption_release",
+      "prior_efficiency": 0.25,
+      "flow_threshold": 0.15,
+      "efficiency": 0.35,
+      "alpha": "absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35",
+      "arm": "source"
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35",
+      "family": "absorption_release",
+      "prior_efficiency": 0.25,
+      "flow_threshold": 0.15,
+      "efficiency": 0.35,
+      "alpha": "absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35",
+      "arm": "price"
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55",
+      "family": "absorption_release",
+      "prior_efficiency": 0.25,
+      "flow_threshold": 0.15,
+      "efficiency": 0.55,
+      "alpha": "absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55",
+      "arm": "source"
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55",
+      "family": "absorption_release",
+      "prior_efficiency": 0.25,
+      "flow_threshold": 0.15,
+      "efficiency": 0.55,
+      "alpha": "absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55",
+      "arm": "price"
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.35",
+      "family": "absorption_release",
+      "prior_efficiency": 0.25,
+      "flow_threshold": 0.25,
+      "efficiency": 0.35,
+      "alpha": "absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.35",
+      "arm": "source"
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.35",
+      "family": "absorption_release",
+      "prior_efficiency": 0.25,
+      "flow_threshold": 0.25,
+      "efficiency": 0.35,
+      "alpha": "absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.35",
+      "arm": "price"
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.55",
+      "family": "absorption_release",
+      "prior_efficiency": 0.25,
+      "flow_threshold": 0.25,
+      "efficiency": 0.55,
+      "alpha": "absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.55",
+      "arm": "source"
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.55",
+      "family": "absorption_release",
+      "prior_efficiency": 0.25,
+      "flow_threshold": 0.25,
+      "efficiency": 0.55,
+      "alpha": "absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.55",
+      "arm": "price"
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35",
+      "family": "absorption_release",
+      "prior_efficiency": 0.4,
+      "flow_threshold": 0.15,
+      "efficiency": 0.35,
+      "alpha": "absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35",
+      "arm": "source"
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35",
+      "family": "absorption_release",
+      "prior_efficiency": 0.4,
+      "flow_threshold": 0.15,
+      "efficiency": 0.35,
+      "alpha": "absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35",
+      "arm": "price"
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55",
+      "family": "absorption_release",
+      "prior_efficiency": 0.4,
+      "flow_threshold": 0.15,
+      "efficiency": 0.55,
+      "alpha": "absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55",
+      "arm": "source"
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55",
+      "family": "absorption_release",
+      "prior_efficiency": 0.4,
+      "flow_threshold": 0.15,
+      "efficiency": 0.55,
+      "alpha": "absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55",
+      "arm": "price"
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.35",
+      "family": "absorption_release",
+      "prior_efficiency": 0.4,
+      "flow_threshold": 0.25,
+      "efficiency": 0.35,
+      "alpha": "absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.35",
+      "arm": "source"
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.35",
+      "family": "absorption_release",
+      "prior_efficiency": 0.4,
+      "flow_threshold": 0.25,
+      "efficiency": 0.35,
+      "alpha": "absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.35",
+      "arm": "price"
+    },
+    {
+      "name": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.55",
+      "family": "absorption_release",
+      "prior_efficiency": 0.4,
+      "flow_threshold": 0.25,
+      "efficiency": 0.55,
+      "alpha": "absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.55",
+      "arm": "source"
+    },
+    {
+      "name": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.55",
+      "family": "absorption_release",
+      "prior_efficiency": 0.4,
+      "flow_threshold": 0.25,
+      "efficiency": 0.55,
+      "alpha": "absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.55",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=0",
+      "family": "flow_flip",
+      "efficiency": 0.35,
+      "flow_threshold": 0.1,
+      "prior_ceiling": 0.0,
+      "alpha": "flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=0",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=0",
+      "family": "flow_flip",
+      "efficiency": 0.35,
+      "flow_threshold": 0.1,
+      "prior_ceiling": 0.0,
+      "alpha": "flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=0",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=-0.1",
+      "family": "flow_flip",
+      "efficiency": 0.35,
+      "flow_threshold": 0.1,
+      "prior_ceiling": -0.1,
+      "alpha": "flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=-0.1",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=-0.1",
+      "family": "flow_flip",
+      "efficiency": 0.35,
+      "flow_threshold": 0.1,
+      "prior_ceiling": -0.1,
+      "alpha": "flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=-0.1",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=0",
+      "family": "flow_flip",
+      "efficiency": 0.35,
+      "flow_threshold": 0.2,
+      "prior_ceiling": 0.0,
+      "alpha": "flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=0",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=0",
+      "family": "flow_flip",
+      "efficiency": 0.35,
+      "flow_threshold": 0.2,
+      "prior_ceiling": 0.0,
+      "alpha": "flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=0",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=-0.1",
+      "family": "flow_flip",
+      "efficiency": 0.35,
+      "flow_threshold": 0.2,
+      "prior_ceiling": -0.1,
+      "alpha": "flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=-0.1",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=-0.1",
+      "family": "flow_flip",
+      "efficiency": 0.35,
+      "flow_threshold": 0.2,
+      "prior_ceiling": -0.1,
+      "alpha": "flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=-0.1",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=0",
+      "family": "flow_flip",
+      "efficiency": 0.55,
+      "flow_threshold": 0.1,
+      "prior_ceiling": 0.0,
+      "alpha": "flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=0",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=0",
+      "family": "flow_flip",
+      "efficiency": 0.55,
+      "flow_threshold": 0.1,
+      "prior_ceiling": 0.0,
+      "alpha": "flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=0",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=-0.1",
+      "family": "flow_flip",
+      "efficiency": 0.55,
+      "flow_threshold": 0.1,
+      "prior_ceiling": -0.1,
+      "alpha": "flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=-0.1",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=-0.1",
+      "family": "flow_flip",
+      "efficiency": 0.55,
+      "flow_threshold": 0.1,
+      "prior_ceiling": -0.1,
+      "alpha": "flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=-0.1",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=0",
+      "family": "flow_flip",
+      "efficiency": 0.55,
+      "flow_threshold": 0.2,
+      "prior_ceiling": 0.0,
+      "alpha": "flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=0",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=0",
+      "family": "flow_flip",
+      "efficiency": 0.55,
+      "flow_threshold": 0.2,
+      "prior_ceiling": 0.0,
+      "alpha": "flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=0",
+      "arm": "price"
+    },
+    {
+      "name": "source__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=-0.1",
+      "family": "flow_flip",
+      "efficiency": 0.55,
+      "flow_threshold": 0.2,
+      "prior_ceiling": -0.1,
+      "alpha": "flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=-0.1",
+      "arm": "source"
+    },
+    {
+      "name": "price__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=-0.1",
+      "family": "flow_flip",
+      "efficiency": 0.55,
+      "flow_threshold": 0.2,
+      "prior_ceiling": -0.1,
+      "alpha": "flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=-0.1",
+      "arm": "price"
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5",
+      "family": "burst_hold",
+      "efficiency": 0.35,
+      "flow_threshold": 0.15,
+      "retention": 0.5,
+      "alpha": "burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5",
+      "arm": "source"
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5",
+      "family": "burst_hold",
+      "efficiency": 0.35,
+      "flow_threshold": 0.15,
+      "retention": 0.5,
+      "alpha": "burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5",
+      "arm": "price"
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75",
+      "family": "burst_hold",
+      "efficiency": 0.35,
+      "flow_threshold": 0.15,
+      "retention": 0.75,
+      "alpha": "burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75",
+      "arm": "source"
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75",
+      "family": "burst_hold",
+      "efficiency": 0.35,
+      "flow_threshold": 0.15,
+      "retention": 0.75,
+      "alpha": "burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75",
+      "arm": "price"
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.5",
+      "family": "burst_hold",
+      "efficiency": 0.35,
+      "flow_threshold": 0.25,
+      "retention": 0.5,
+      "alpha": "burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.5",
+      "arm": "source"
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.5",
+      "family": "burst_hold",
+      "efficiency": 0.35,
+      "flow_threshold": 0.25,
+      "retention": 0.5,
+      "alpha": "burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.5",
+      "arm": "price"
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.75",
+      "family": "burst_hold",
+      "efficiency": 0.35,
+      "flow_threshold": 0.25,
+      "retention": 0.75,
+      "alpha": "burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.75",
+      "arm": "source"
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.75",
+      "family": "burst_hold",
+      "efficiency": 0.35,
+      "flow_threshold": 0.25,
+      "retention": 0.75,
+      "alpha": "burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.75",
+      "arm": "price"
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5",
+      "family": "burst_hold",
+      "efficiency": 0.55,
+      "flow_threshold": 0.15,
+      "retention": 0.5,
+      "alpha": "burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5",
+      "arm": "source"
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5",
+      "family": "burst_hold",
+      "efficiency": 0.55,
+      "flow_threshold": 0.15,
+      "retention": 0.5,
+      "alpha": "burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5",
+      "arm": "price"
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75",
+      "family": "burst_hold",
+      "efficiency": 0.55,
+      "flow_threshold": 0.15,
+      "retention": 0.75,
+      "alpha": "burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75",
+      "arm": "source"
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75",
+      "family": "burst_hold",
+      "efficiency": 0.55,
+      "flow_threshold": 0.15,
+      "retention": 0.75,
+      "alpha": "burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75",
+      "arm": "price"
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.5",
+      "family": "burst_hold",
+      "efficiency": 0.55,
+      "flow_threshold": 0.25,
+      "retention": 0.5,
+      "alpha": "burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.5",
+      "arm": "source"
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.5",
+      "family": "burst_hold",
+      "efficiency": 0.55,
+      "flow_threshold": 0.25,
+      "retention": 0.5,
+      "alpha": "burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.5",
+      "arm": "price"
+    },
+    {
+      "name": "source__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.75",
+      "family": "burst_hold",
+      "efficiency": 0.55,
+      "flow_threshold": 0.25,
+      "retention": 0.75,
+      "alpha": "burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.75",
+      "arm": "source"
+    },
+    {
+      "name": "price__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.75",
+      "family": "burst_hold",
+      "efficiency": 0.55,
+      "flow_threshold": 0.25,
+      "retention": 0.75,
+      "alpha": "burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.75",
+      "arm": "price"
+    }
+  ],
+  "aliases": {
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4": "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8": "source__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=8": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=4": "source__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=4",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=4": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=8": "source__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=8",
+    "price__flow_trend__efficiency=0.35__flow_threshold=0.2__lookback=8": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4": "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8": "source__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=8": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=4": "source__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=4",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=4": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "source__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=8": "source__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=8",
+    "price__flow_trend__efficiency=0.55__flow_threshold=0.2__lookback=8": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35",
+    "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35",
+    "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55",
+    "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55",
+    "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.35": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.35",
+    "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.35": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.35",
+    "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.55": "source__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.55",
+    "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.25__efficiency=0.55": "price__absorption_release__prior_efficiency=0.25__flow_threshold=0.15__efficiency=0.55",
+    "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35",
+    "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35",
+    "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55",
+    "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55",
+    "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.35": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.35",
+    "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.35": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.35",
+    "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.55": "source__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.55",
+    "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.25__efficiency=0.55": "price__absorption_release__prior_efficiency=0.4__flow_threshold=0.15__efficiency=0.55",
+    "source__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=0": "source__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=0",
+    "price__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=0": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=-0.1": "source__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=-0.1",
+    "price__flow_flip__efficiency=0.35__flow_threshold=0.1__prior_ceiling=-0.1": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=0": "source__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=0",
+    "price__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=0": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=-0.1": "source__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=-0.1",
+    "price__flow_flip__efficiency=0.35__flow_threshold=0.2__prior_ceiling=-0.1": "price__flow_trend__efficiency=0.35__flow_threshold=0.1__lookback=4",
+    "source__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=0": "source__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=0",
+    "price__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=0": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "source__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=-0.1": "source__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=-0.1",
+    "price__flow_flip__efficiency=0.55__flow_threshold=0.1__prior_ceiling=-0.1": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "source__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=0": "source__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=0",
+    "price__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=0": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "source__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=-0.1": "source__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=-0.1",
+    "price__flow_flip__efficiency=0.55__flow_threshold=0.2__prior_ceiling=-0.1": "price__flow_trend__efficiency=0.55__flow_threshold=0.1__lookback=4",
+    "source__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5": "source__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5",
+    "price__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5": "price__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5",
+    "source__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75": "source__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75",
+    "price__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75": "price__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75",
+    "source__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.5": "source__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.5",
+    "price__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.5": "price__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.5",
+    "source__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.75": "source__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.75",
+    "price__burst_hold__efficiency=0.35__flow_threshold=0.25__retention=0.75": "price__burst_hold__efficiency=0.35__flow_threshold=0.15__retention=0.75",
+    "source__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5": "source__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5",
+    "price__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5": "price__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5",
+    "source__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75": "source__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75",
+    "price__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75": "price__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75",
+    "source__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.5": "source__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.5",
+    "price__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.5": "price__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.5",
+    "source__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.75": "source__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.75",
+    "price__burst_hold__efficiency=0.55__flow_threshold=0.25__retention=0.75": "price__burst_hold__efficiency=0.55__flow_threshold=0.15__retention=0.75"
+  },
+  "score_prefix_checks": 192,
+  "scores_sha256": "0fc0cb5119846f9b39921e277aa222916d5aba666511b3fee653d32fd1623261",
+  "crypto_scores_sha256": "c186f53fae7cc9bde0dd0eb42e69a806b3d030165e3eaea35dfe79c0d0faaf34",
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0
+}
