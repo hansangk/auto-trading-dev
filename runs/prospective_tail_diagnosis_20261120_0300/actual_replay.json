@@ -1,0 +1,238 @@
+{
+  "status": "STRICT_LIVE_TAIL_DIAGNOSIS_VERIFIED_ON_SAME_PAYLOADS",
+  "versions": [
+    {
+      "run_id": "prospective_access_retry_20261120_0100",
+      "cutoff": "2026-11-19T16:04:22Z",
+      "completed_rows": 4,
+      "completed_values_equal_original_csv": true,
+      "per_symbol": [
+        {
+          "symbol": "BITI",
+          "counts": {
+            "raw": 3,
+            "completed": 1,
+            "quarantined": 2
+          },
+          "quarantined_records": [
+            {
+              "row_index": 1,
+              "timestamp": "2026-11-19T15:30:00+00:00",
+              "raw_epoch_seconds": 1795102200,
+              "reason": "INCOMPLETE_REGULAR_BAR",
+              "regular_end_exclusive": "2026-11-19T16:30:00+00:00"
+            },
+            {
+              "row_index": 2,
+              "timestamp": "2026-11-19T16:05:39+00:00",
+              "raw_epoch_seconds": 1795104339,
+              "reason": "FUTURE_TIMESTAMP"
+            }
+          ]
+        },
+        {
+          "symbol": "IBIT",
+          "counts": {
+            "raw": 3,
+            "completed": 1,
+            "quarantined": 2
+          },
+          "quarantined_records": [
+            {
+              "row_index": 1,
+              "timestamp": "2026-11-19T15:30:00+00:00",
+              "raw_epoch_seconds": 1795102200,
+              "reason": "INCOMPLETE_REGULAR_BAR",
+              "regular_end_exclusive": "2026-11-19T16:30:00+00:00"
+            },
+            {
+              "row_index": 2,
+              "timestamp": "2026-11-19T16:06:28+00:00",
+              "raw_epoch_seconds": 1795104388,
+              "reason": "FUTURE_TIMESTAMP"
+            }
+          ]
+        },
+        {
+          "symbol": "SQQQ",
+          "counts": {
+            "raw": 3,
+            "completed": 1,
+            "quarantined": 2
+          },
+          "quarantined_records": [
+            {
+              "row_index": 1,
+              "timestamp": "2026-11-19T15:30:00+00:00",
+              "raw_epoch_seconds": 1795102200,
+              "reason": "INCOMPLETE_REGULAR_BAR",
+              "regular_end_exclusive": "2026-11-19T16:30:00+00:00"
+            },
+            {
+              "row_index": 2,
+              "timestamp": "2026-11-19T16:06:28+00:00",
+              "raw_epoch_seconds": 1795104388,
+              "reason": "FUTURE_TIMESTAMP"
+            }
+          ]
+        },
+        {
+          "symbol": "TQQQ",
+          "counts": {
+            "raw": 3,
+            "completed": 1,
+            "quarantined": 2
+          },
+          "quarantined_records": [
+            {
+              "row_index": 1,
+              "timestamp": "2026-11-19T15:30:00+00:00",
+              "raw_epoch_seconds": 1795102200,
+              "reason": "INCOMPLETE_REGULAR_BAR",
+              "regular_end_exclusive": "2026-11-19T16:30:00+00:00"
+            },
+            {
+              "row_index": 2,
+              "timestamp": "2026-11-19T16:06:28+00:00",
+              "raw_epoch_seconds": 1795104388,
+              "reason": "FUTURE_TIMESTAMP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "run_id": "prospective_append_retry_20261120_0200",
+      "cutoff": "2026-11-19T17:07:25Z",
+      "completed_rows": 8,
+      "completed_values_equal_original_csv": true,
+      "per_symbol": [
+        {
+          "symbol": "BITI",
+          "counts": {
+            "raw": 4,
+            "completed": 2,
+            "quarantined": 2
+          },
+          "quarantined_records": [
+            {
+              "row_index": 2,
+              "timestamp": "2026-11-19T16:30:00+00:00",
+              "raw_epoch_seconds": 1795105800,
+              "reason": "INCOMPLETE_REGULAR_BAR",
+              "regular_end_exclusive": "2026-11-19T17:30:00+00:00"
+            },
+            {
+              "row_index": 3,
+              "timestamp": "2026-11-19T17:05:37+00:00",
+              "raw_epoch_seconds": 1795107937,
+              "reason": "METADATA_MATCHED_ZERO_VOLUME_LIVE_TAIL",
+              "preceding_regular_start": "2026-11-19T16:30:00+00:00",
+              "regular_end_exclusive": "2026-11-19T17:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "symbol": "IBIT",
+          "counts": {
+            "raw": 4,
+            "completed": 2,
+            "quarantined": 2
+          },
+          "quarantined_records": [
+            {
+              "row_index": 2,
+              "timestamp": "2026-11-19T16:30:00+00:00",
+              "raw_epoch_seconds": 1795105800,
+              "reason": "INCOMPLETE_REGULAR_BAR",
+              "regular_end_exclusive": "2026-11-19T17:30:00+00:00"
+            },
+            {
+              "row_index": 3,
+              "timestamp": "2026-11-19T17:07:35+00:00",
+              "raw_epoch_seconds": 1795108055,
+              "reason": "FUTURE_TIMESTAMP"
+            }
+          ]
+        },
+        {
+          "symbol": "SQQQ",
+          "counts": {
+            "raw": 4,
+            "completed": 2,
+            "quarantined": 2
+          },
+          "quarantined_records": [
+            {
+              "row_index": 2,
+              "timestamp": "2026-11-19T16:30:00+00:00",
+              "raw_epoch_seconds": 1795105800,
+              "reason": "INCOMPLETE_REGULAR_BAR",
+              "regular_end_exclusive": "2026-11-19T17:30:00+00:00"
+            },
+            {
+              "row_index": 3,
+              "timestamp": "2026-11-19T17:07:35+00:00",
+              "raw_epoch_seconds": 1795108055,
+              "reason": "FUTURE_TIMESTAMP"
+            }
+          ]
+        },
+        {
+          "symbol": "TQQQ",
+          "counts": {
+            "raw": 4,
+            "completed": 2,
+            "quarantined": 2
+          },
+          "quarantined_records": [
+            {
+              "row_index": 2,
+              "timestamp": "2026-11-19T16:30:00+00:00",
+              "raw_epoch_seconds": 1795105800,
+              "reason": "INCOMPLETE_REGULAR_BAR",
+              "regular_end_exclusive": "2026-11-19T17:30:00+00:00"
+            },
+            {
+              "row_index": 3,
+              "timestamp": "2026-11-19T17:07:35+00:00",
+              "raw_epoch_seconds": 1795108055,
+              "reason": "FUTURE_TIMESTAMP"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source_raw_sha256": {
+    "runs/prospective_access_retry_20261120_0100/BITI_raw_LOCAL.json": "34e770f044f271d71a9c002807ce1f8becdef6b6a8323446f433ddd5a7c66f02",
+    "runs/prospective_access_retry_20261120_0100/IBIT_raw_LOCAL.json": "586e58e9e8dc9da7783573a1e16e932dbec3e298aec18adb82173ebd55970f5f",
+    "runs/prospective_access_retry_20261120_0100/SQQQ_raw_LOCAL.json": "1ed0f2d76ce47df2e82529d6ad59abf0257206d104cd7d4fedaab5c6a7424e7d",
+    "runs/prospective_access_retry_20261120_0100/TQQQ_raw_LOCAL.json": "0396a4fbe74977449e29fca92eaf035a63254caa6d5ba74f5e6eee1ba86bdf44",
+    "runs/prospective_append_retry_20261120_0200/BITI_raw_LOCAL.json": "26dffc1f5b2bed67db2c51876b47e7099a0b72146c01392a556919b17f4992c4",
+    "runs/prospective_append_retry_20261120_0200/IBIT_raw_LOCAL.json": "ffd4bfb36cf0e6860c6945ed5e1a644d197f6aa7fa9e5333f6562f942ba491fa",
+    "runs/prospective_append_retry_20261120_0200/SQQQ_raw_LOCAL.json": "67c3a4f991944c0c51b54c4e06708123cb2656ec7a6d4410c11d501b1e60da2f",
+    "runs/prospective_append_retry_20261120_0200/TQQQ_raw_LOCAL.json": "7b252b2fdcf82e1a6d0a766117eb983a83c97cf9ae91fb16c9ca99d57b8289b4"
+  },
+  "quarantine_totals": {
+    "INCOMPLETE_REGULAR_BAR": 8,
+    "FUTURE_TIMESTAMP": 7,
+    "METADATA_MATCHED_ZERO_VOLUME_LIVE_TAIL": 1
+  },
+  "versioned_completed_rows": 12,
+  "unique_completed_ETF_rows": 8,
+  "new_price_requests": 0,
+  "bar_price_modifications": 0,
+  "timestamp_shifts": 0,
+  "merges": 0,
+  "original02_gate_preserved": true,
+  "qualified_input_continuation_allowed": false,
+  "full_session_qualified": false,
+  "terminal_backtest_allowed": false,
+  "account_state_initialized": false,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "new_independent_validation": false,
+  "limitation": "Known narrow incomplete livequote pattern inferred from actualmetadata, not vendorwarranty. Oldraw/gates unchanged. Unknownoffclock rejects. Postclose/fullPIT/signalparity/FULLAccountState/execution remain separate."
+}

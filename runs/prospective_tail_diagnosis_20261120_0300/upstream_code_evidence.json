@@ -1,0 +1,7 @@
+{
+  "url": "https://raw.githubusercontent.com/ranaroussi/yfinance/main/yfinance/utils.py",
+  "source_sha256": "389a231e530946a12aff64f902f506b62bfdb1cb847029a933961f8bc683cd47",
+  "function": "fix_Yahoo_returning_live_separate",
+  "source_type": "Upstream clientimplementation, NOT officialYahoo API guarantee",
+  "interpretation": "Independentcorroboration of separate live row behavior only; use actualpayload strictmetadata conditions, no client merge adopted"
+}

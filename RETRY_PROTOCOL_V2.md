@@ -252,3 +252,8 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 2026-11-20 second-hour prefix vs rawclock evidence:
 - ActualETF8/source20 matched all priorETF4/source18 canonicalkeys/values. That is not full input eligibility: BITI had17:05:37 offclockrow at/before17:07:25cutoff, unlike3otherfuturetails. PreserveRAW_CLOCK_GATE_REJECTED sidecar; do not promote02candidateprefixes to qualifiedcontinuation or silently drop/shift that row.01trustedrefs remain.
 - Lastreturnedrow is not necessarily post-cutoff. Separate rawtimestamp eligibility from unchanged canonical prefix and from AccountState/PnL. Current engine/order/fullqualification0; newdata8/20 nottrades/independentvalidation. Source rawresponse is serializedconnector evidence; hostUTC clock used after unavailable clockMCP and receipt cannot be backdated.
+
+
+2026-11-20 strict metadata live-tail diagnosis:
+- Preserved02rawclock rejection, then preregistered a new narrow partitioner: finaloffclock timestamp==regularMarketTime, flatpositiveOHLC/zeroVolume, inside immediatelyprior exactregular interval stillincomplete atcutoff. Suchrow is quarantined, never merged/shifted into a bar. Unknownoffclock/completedinterval/mismatchedmetadata reject. This does not generalize to postclose/otherNYdays.
+- Same8actualpayload replay yielded future7/incomplete8/strictlivetimestamp1 quarantine; completed01four/02eight values unchanged (8uniqueETFbars). Full254testsPASS(13new). No newprices/PnL/engine/orders/fullqualification/independentvalidation. Vendor semantics remain inference; upstream clientimplementation is corroboration notYahoo warranty. Keep original gate and new policy/version separately.
