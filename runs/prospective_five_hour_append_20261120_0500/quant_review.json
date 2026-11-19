@@ -1,0 +1,23 @@
+{
+  "reviewer": "five_hour_quant_0500",
+  "scope": "Read-only prospectivegate/hash/codeboundary review, no actualpostcloseobservation",
+  "existing32": "PROPOSED_ONLY",
+  "ranges": [
+    "seasonal20/40 x z1/1.5 x confirmation1/2",
+    "costP50/75 x1/2 xconfirmation1/2",
+    "shock20/40 xz1/1.5 xconfirmation1/2",
+    "persistence2/3 xhistory20/40 xactivity1.25/1.5"
+  ],
+  "reference_hashes_verified": true,
+  "postclose_rule": "previous<=cutoff<end impossible at21:05",
+  "existing_test_evidence": [
+    "test_predecessor_must_still_be_incomplete_at_cutoff",
+    "test_tail_strictly_inside_interval"
+  ],
+  "new_tests": 0,
+  "agent_edits": 0,
+  "agent_requests": 0,
+  "engine_calls": 0,
+  "orders": 0,
+  "new_strategy_definitions": 0
+}

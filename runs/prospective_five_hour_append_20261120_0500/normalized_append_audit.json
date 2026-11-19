@@ -1,0 +1,167 @@
+{
+  "status": "FRESH_PARTIAL_NORMALIZATION_PREFIX_PASS_NO_EXECUTION",
+  "cutoff": "2026-11-19T20:03:04Z",
+  "ETF_rows": 20,
+  "source_rows": 26,
+  "new_unique_ETF_vs04": 4,
+  "new_unique_source_vs04": 2,
+  "ETF_period": [
+    "2026-11-19T14:30:00Z",
+    "2026-11-19T19:30:00Z"
+  ],
+  "source_period": [
+    "2026-11-19T06:30:00Z",
+    "2026-11-19T19:30:00Z"
+  ],
+  "quarantine_totals": {
+    "INCOMPLETE_REGULAR_BAR": 4,
+    "FUTURE_TIMESTAMP": 3,
+    "METADATA_MATCHED_ZERO_VOLUME_LIVE_TAIL": 1
+  },
+  "per_symbol": [
+    {
+      "symbol": "TQQQ",
+      "counts": {
+        "raw": 7,
+        "completed": 5,
+        "quarantined": 2
+      },
+      "quarantine": [
+        {
+          "row_index": 5,
+          "timestamp": "2026-11-19T19:30:00+00:00",
+          "raw_epoch_seconds": 1795116600,
+          "reason": "INCOMPLETE_REGULAR_BAR",
+          "regular_end_exclusive": "2026-11-19T20:30:00+00:00"
+        },
+        {
+          "row_index": 6,
+          "timestamp": "2026-11-19T20:03:09+00:00",
+          "raw_epoch_seconds": 1795118589,
+          "reason": "FUTURE_TIMESTAMP"
+        }
+      ]
+    },
+    {
+      "symbol": "SQQQ",
+      "counts": {
+        "raw": 7,
+        "completed": 5,
+        "quarantined": 2
+      },
+      "quarantine": [
+        {
+          "row_index": 5,
+          "timestamp": "2026-11-19T19:30:00+00:00",
+          "raw_epoch_seconds": 1795116600,
+          "reason": "INCOMPLETE_REGULAR_BAR",
+          "regular_end_exclusive": "2026-11-19T20:30:00+00:00"
+        },
+        {
+          "row_index": 6,
+          "timestamp": "2026-11-19T20:03:09+00:00",
+          "raw_epoch_seconds": 1795118589,
+          "reason": "FUTURE_TIMESTAMP"
+        }
+      ]
+    },
+    {
+      "symbol": "IBIT",
+      "counts": {
+        "raw": 7,
+        "completed": 5,
+        "quarantined": 2
+      },
+      "quarantine": [
+        {
+          "row_index": 5,
+          "timestamp": "2026-11-19T19:30:00+00:00",
+          "raw_epoch_seconds": 1795116600,
+          "reason": "INCOMPLETE_REGULAR_BAR",
+          "regular_end_exclusive": "2026-11-19T20:30:00+00:00"
+        },
+        {
+          "row_index": 6,
+          "timestamp": "2026-11-19T20:03:09+00:00",
+          "raw_epoch_seconds": 1795118589,
+          "reason": "FUTURE_TIMESTAMP"
+        }
+      ]
+    },
+    {
+      "symbol": "BITI",
+      "counts": {
+        "raw": 7,
+        "completed": 5,
+        "quarantined": 2
+      },
+      "quarantine": [
+        {
+          "row_index": 5,
+          "timestamp": "2026-11-19T19:30:00+00:00",
+          "raw_epoch_seconds": 1795116600,
+          "reason": "INCOMPLETE_REGULAR_BAR",
+          "regular_end_exclusive": "2026-11-19T20:30:00+00:00"
+        },
+        {
+          "row_index": 6,
+          "timestamp": "2026-11-19T20:01:47+00:00",
+          "raw_epoch_seconds": 1795118507,
+          "reason": "METADATA_MATCHED_ZERO_VOLUME_LIVE_TAIL",
+          "preceding_regular_start": "2026-11-19T19:30:00+00:00",
+          "regular_end_exclusive": "2026-11-19T20:30:00+00:00"
+        }
+      ]
+    }
+  ],
+  "prefix_comparisons": {
+    "prospective_access_retry_20261120_0100": {
+      "ETF": {
+        "prior_rows": 4,
+        "missing": 0,
+        "changed": 0,
+        "unchanged": true
+      },
+      "source": {
+        "prior_rows": 18,
+        "missing": 0,
+        "changed": 0,
+        "unchanged": true
+      }
+    },
+    "prospective_normalized_append_20261120_0400": {
+      "ETF": {
+        "prior_rows": 16,
+        "missing": 0,
+        "changed": 0,
+        "unchanged": true
+      },
+      "source": {
+        "prior_rows": 24,
+        "missing": 0,
+        "changed": 0,
+        "unchanged": true
+      }
+    }
+  },
+  "private_sha256": {
+    "runs/prospective_five_hour_append_20261120_0500/SQQQ_raw_LOCAL.json": "a870659edb6d34bfa246d1eff33e101648677d2ae0dae2bbfa173491dc654819",
+    "runs/prospective_five_hour_append_20261120_0500/BITI_raw_LOCAL.json": "aca009938c0d8f722fef0f6093c2bd83bd60756b1ce5e77a1613ad6b8ee4c9bd",
+    "runs/prospective_five_hour_append_20261120_0500/TQQQ_raw_LOCAL.json": "d63432091e8a10b5a3118c4db7c2cff42787812d9203b842ff359a237e4a97ce",
+    "runs/prospective_five_hour_append_20261120_0500/IBIT_raw_LOCAL.json": "91b883b3629f904451ef41f73727182228a570c101f09bd7ec4c6dd2142ca322",
+    "runs/prospective_five_hour_append_20261120_0500/Binance_connector_response_LOCAL.json": "1d36c4d3ab45e2668564df2027cf37e3fc8dc1b82f07182d3aaf3e3aa1f53d89",
+    "runs/prospective_five_hour_append_20261120_0500/partial_ETF_LOCAL.csv": "4ff112ea1c731dd5632345a505c4ae8897b94e5397d39ee8d312a6da5979ee8f",
+    "runs/prospective_five_hour_append_20261120_0500/BTCUSDT_30m_partial_LOCAL.json": "211d469172994d15f4f1b5935e017ff5560b5b42dd287d1cbe38a6047bf073da"
+  },
+  "classifier_sha256": "133c2c642725f13dea1aef968226668af69a4b84e83f73cf552587d8302d44b9",
+  "full_session_qualified": false,
+  "PIT_qualified": false,
+  "qualified_account_continuation": false,
+  "terminal_backtest_allowed": false,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "new_independent_validation": false,
+  "raw_public_upload": "NOT_ATTEMPTED",
+  "limitation": "Fresh ingestion test of unchangedclassifier, not independent financialvalidation. Laterreceipt nothistoricalavailability; metadata pattern not vendorwarranty. Fullcoverage/parity/NEW FULLAccountState/execution remainmissing."
+}

@@ -1,0 +1,8 @@
+{
+  "request_or_audit_failures": 0,
+  "report_orchestration_failure": "JS SyntaxError from numeric-leading property identifier in initial report assembly; parse failed before any file/price/engine mutation, corrected with valid key",
+  "postclose_rule_not_extended": true,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null
+}

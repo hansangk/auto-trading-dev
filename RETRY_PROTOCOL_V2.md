@@ -262,3 +262,8 @@ Codex↔Claude coordination: read RETRY_STATE.json and RESEARCH_HANDOFF.md first
 2026-11-20 fresh-response normalization evidence:
 - Freeze03classifier before acquiringnewresponses. Actual04ETF16/source24 covered4completehours with01/02canonicalprefix missing0/changed0; quarantinefuture3/incomplete4/strictmetadata-live1. This is a new ingestion check, not independent financialvalidation or full/PIT/AccountState qualification. Old254tests are reused, notrerun.
 - Preserve originalcollector first-hour strictlabels alongside4hourclassifier/coverage result; transport/legacyhelperlabels and currentinputqualification are different fields. Keep01firsttrustedprefix plus04accessreference hashes, no full-accountpromotion. Unknownoffclock/revisions fail; currentincomplete-tail rules do not coverpostclose/laterNYdays. Raw/publicrefusal policy unchanged.
+
+
+2026-11-20 fivehour access/postclose review:
+- FreshETF20/source26 passed frozen03classifier and01/04canonicalprefix0missing0changed.20bars not20trades;engine/PnL/orders0; prior254tests reusedonly.
+- At21:05 the classifier incompletepredecessor condition cannot hold forregularintervals endingby21:00, so unknownoffclock tails stillreject. Regular-onlypayload mayparse. This iscode/existingtestreview, notactualpostcloseevidence. Observeactualnewpayload beforepolicychanges;06:00KSTmustnotuseunreleasedlastsourcebar. FullPIT/parity/NEW FULLAccountState/execution gates remain.
