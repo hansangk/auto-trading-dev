@@ -1,0 +1,38 @@
+{
+  "status": "COMPLETE_AVAILABILITY_RESEARCH",
+  "actual_new_calls": 69,
+  "reset_actual_calls": 36,
+  "continuous_actual_calls": 33,
+  "logical_reset_cells": 129,
+  "prior_unique_calls_reused": 81,
+  "prior_logical_cells_reused": 83,
+  "logical_month_segments": 66,
+  "unique_month_schedule_paths": 3,
+  "definitions": 8,
+  "new_alpha_threshold_trials": 0,
+  "shortlist": [
+    "ETF__L20",
+    "ETF__current",
+    "ETF__none",
+    "source__L20",
+    "source__current",
+    "source__none",
+    "ETF__L40",
+    "source__L40"
+  ],
+  "diagnostic_pool": [],
+  "development_screen_pass": [],
+  "approved": [],
+  "hashes": {
+    "scripts/availability_signals_20261119.py": "1f9c5851024f6b0418573da300a209dac6f2fd2acd7ef4ed43a838ec4be94327",
+    "scripts/availability_runtime_20261119.py": "8fa95f289092ad87bc21c2b2283f67819050a7e7ffa6f526f9a0fa23092429bb",
+    "scripts/availability_retry_20261119.py": "4dabd40000ff95db3e5226119aeef6fddcb40255e55ebf48aefa120c290af8a3",
+    "tests/test_availability_signals.py": "7a311f407761425c74515f2ab655dde0753d98973b62ee397fa1133cb593996e",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  },
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "raw_upload": "not attempted"
+}

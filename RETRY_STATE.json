@@ -3,14 +3,14 @@
   "owner": "Codex",
   "run_id": "availability_ablation_20261119_0800",
   "research_parent": "a6cc86ebfff97fc25cc62dd10ba2ed73279f19c0",
-  "parent": "a355c913d16bf3fbb50de1aed222bbb88a7aa92d",
+  "parent": "010e253ac7d7eead1f14b9a46340c074ff73218d",
   "updated_utc": "2026-11-19 02:03:36 UTC",
   "latest_report": "SOURCE_ACTIVITY_RETRY_REPORT_20261119_0700.md",
-  "phase": "FIRST_MONTH_ATOMIC_CHECKPOINT",
-  "checkpoint": "Deliberatefirstmonthpause afterNEWcall37,fullAccountStatesaved+ledgerhash+plan/schedulekey, no intent/lock.36researchresetcalls plus1fixedreference recoveryregression. Abouttoresumewithstrictprefixverification,no replayofJan.",
+  "phase": "EXECUTION_COMPLETE_VERIFY_REPORTING",
+  "checkpoint": "69newactualcalls=36developmentreset+33fixedBitcoinmonthlycheckpoint-regressions,81priorunique/83logicalcachecellsreused.8supportcasesfaileddev,diagnosticpool0/recentcandidatefit0. Realpauseaftermonth1+resumecompletedwithoutprefixreplay; finalindependentaccount/attributionverification/reportpending.",
   "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
   "context_sha256": "d3a2dea122e11166865e199b9290d91f9f135a57874536786668a9fc4ca1560c",
-  "engine_calls": 0,
+  "engine_calls": 69,
   "orders": 0,
   "raw_upload": "not attempted"
 }
