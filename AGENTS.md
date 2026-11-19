@@ -26,3 +26,7 @@ Readiness-only WAITING is not a completed backtest and has NA financial metrics.
 
 ## Prospective input qualification (2026-11-19 20시 KST)
 Read scripts/prospective_input_audit_20261119.py and its latest report before actual shadow integration. The new adapter validates supplied snapshot structure/coverage and optional API previous-prefix integrity; CLI previous snapshot wiring is not implemented. It never permits terminal execution. Calendar provenance/full target-session coverage, authentic price/vintage/PIT receipts, signal parity and NEW FULL AccountState/execution integration remain prerequisites. All10 new fixtures are synthetic unit tests, not actual price acquisition or backtests. Preserve whole-source overnight/weekend continuity and refuse revised history rather than silently resuming a prior account.
+
+
+## Previous-snapshot CLI continuation (2026-11-19 23시)
+The older API-only CLI limitation is resolved: prospective_input_audit_20261119.py accepts --previous-etf-csv and --previous-source-json, records their raw SHA and calls existing prefix checks. Supplied empty prior snapshots are rejected; omitted flags mean no prefix check for that stream. Independently verify each previous file against the trusted last-checkpoint hash first. A file hash computed by this auditor does not establish checkpoint lineage. CLI structural pass still never permits terminal backtesting; actual provenance, signal parity and NEW FULL AccountState/execution integration remain separate prerequisites.

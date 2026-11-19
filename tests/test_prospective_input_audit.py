@@ -37,6 +37,40 @@ class ProspectiveInputAuditTests(unittest.TestCase):
         args.update(kw)
         return audit_snapshot(**args)
 
+    def write_csv(self, root, name, rows, fieldnames=None):
+        with (root/name).open('w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames or list(rows[0]))
+            writer.writeheader()
+            writer.writerows(rows)
+
+    def cli_args(self, root):
+        """Write synthetic CLI inputs, including a synthetic frozen plan."""
+        script = Path(__file__).resolve().parents[1]/'scripts/prospective_input_audit_20261119.py'
+        self.write_csv(root, 'etf.csv', self.etfs)
+        self.write_csv(root, 'calendar.csv', self.calendar)
+        (root/'source.json').write_text(json.dumps(self.source))
+        dependencies = {}
+        for k in range(17):
+            name = 'SYNTHETIC_UNIT_ONLY_dependency_'+str(k)
+            payload = ('SYNTHETIC_UNIT_ONLY '+str(k)).encode()
+            (root/name).write_bytes(payload)
+            dependencies[name] = hashlib.sha256(payload).hexdigest()
+        plan = dict(real_orders=0, news_macro=False, frozen_at_utc=self.freeze,
+                    code_dependency_hashes=dependencies, models=[
+                        dict(name=name, body_efficiency=.55, directional_taker_pressure=.1,
+                             prior_flow_mean_hours=4, calendar_common_duration_minutes=duration,
+                             hold_eligible_bars=hold)
+                        for name, duration, hold in (('h120__source', 120, 2), ('c180__source', 180, 4))])
+        payload = json.dumps(plan).encode()
+        (root/'plan.json').write_bytes(payload)
+        blob = hashlib.sha1(b'blob '+str(len(payload)).encode()+b'\0'+payload).hexdigest()
+        return [sys.executable, str(script), '--etf-csv', 'etf.csv', '--source-json',
+                'source.json', '--calendar', 'calendar.csv', '--plan', 'plan.json',
+                '--plan-blob-sha1', blob, '--now', self.now, '--out', 'audit.json']
+
+    def input_bytes(self, root):
+        return {path.name: path.read_bytes() for path in root.iterdir() if path.is_file()}
+
     def test_full_completed_session_synthetic_unit_only(self):
         result = self.audit(etf_rows=list(reversed(self.etfs)), source_rows=list(reversed(self.source)))
         self.assertTrue(result['input_audited'])
@@ -138,33 +172,10 @@ class ProspectiveInputAuditTests(unittest.TestCase):
             self.audit(source_rows=[row]+self.source)
 
     def test_cli_synthetic_unit_only_and_protected_output(self):
-        script = Path(__file__).resolve().parents[1]/'scripts/prospective_input_audit_20261119.py'
         with tempfile.TemporaryDirectory(prefix='SYNTHETIC_UNIT_ONLY_') as directory:
             root = Path(directory)
-            for name, rows in (('etf.csv', self.etfs), ('calendar.csv', self.calendar)):
-                with (root/name).open('w', newline='') as f:
-                    writer = csv.DictWriter(f, fieldnames=list(rows[0]))
-                    writer.writeheader()
-                    writer.writerows(rows)
-            (root/'source.json').write_text(json.dumps(self.source))
-            dependencies = {}
-            for k in range(17):
-                name = 'SYNTHETIC_UNIT_ONLY_dependency_'+str(k)
-                payload = ('SYNTHETIC_UNIT_ONLY '+str(k)).encode()
-                (root/name).write_bytes(payload)
-                dependencies[name] = hashlib.sha256(payload).hexdigest()
-            plan = dict(real_orders=0, news_macro=False, frozen_at_utc=self.freeze,
-                        code_dependency_hashes=dependencies, models=[
-                            dict(name=name, body_efficiency=.55, directional_taker_pressure=.1,
-                                 prior_flow_mean_hours=4, calendar_common_duration_minutes=duration,
-                                 hold_eligible_bars=hold)
-                            for name, duration, hold in (('h120__source', 120, 2), ('c180__source', 180, 4))])
-            payload = json.dumps(plan).encode()
-            (root/'plan.json').write_bytes(payload)
-            blob = hashlib.sha1(b'blob '+str(len(payload)).encode()+b'\0'+payload).hexdigest()
-            args = [sys.executable, str(script), '--etf-csv', 'etf.csv', '--source-json',
-                    'source.json', '--calendar', 'calendar.csv', '--plan', 'plan.json',
-                    '--plan-blob-sha1', blob, '--now', self.now, '--out', 'audit.json']
+            args = self.cli_args(root)
+            inputs = self.input_bytes(root)
             good = subprocess.run(args, cwd=root, capture_output=True, text=True)
             self.assertEqual(good.returncode, 0, good.stderr)
             result = json.loads((root/'audit.json').read_text())
@@ -173,6 +184,12 @@ class ProspectiveInputAuditTests(unittest.TestCase):
             self.assertTrue(result['calendar_provenance_independently_required'])
             self.assertEqual(result['engine_calls'], 0)
             self.assertIsNone(result['metrics'])
+            self.assertIsNone(result['profit_metrics'])
+            self.assertEqual(result['snapshot_prefix_checked'], {'etf': False, 'source': False})
+            for key in ('previous_etf', 'previous_source'):
+                self.assertNotIn(key, result['input_file_sha256'])
+                self.assertIsNone(result['input_raw_hashes'][key+'_rows_sha256'])
+            self.assertEqual(inputs, {name: (root/name).read_bytes() for name in inputs})
             original = (root/'audit.json').read_bytes()
             again = subprocess.run(args, cwd=root, capture_output=True, text=True)
             self.assertNotEqual(again.returncode, 0)
@@ -182,6 +199,118 @@ class ProspectiveInputAuditTests(unittest.TestCase):
             bad = subprocess.run(args, cwd=root, capture_output=True, text=True)
             self.assertNotEqual(bad.returncode, 0)
             self.assertFalse((root/'bad_audit.json').exists())
+
+    def test_cli_previous_snapshots_unchanged_prefix_and_raw_hashes(self):
+        for include_etf, include_source in ((True, True), (True, False), (False, True)):
+            with self.subTest(etf=include_etf, source=include_source), \
+                    tempfile.TemporaryDirectory(prefix='SYNTHETIC_UNIT_ONLY_') as directory:
+                root = Path(directory)
+                args = self.cli_args(root)
+                if include_etf:
+                    # Ordering/number formatting may differ; prefix comparison uses normalized values.
+                    previous = deepcopy(list(reversed(self.etfs[:8])))
+                    previous[0]['close'] = '101.000'
+                    self.write_csv(root, 'previous_etf.csv', previous)
+                    args += ['--previous-etf-csv', 'previous_etf.csv']
+                if include_source:
+                    previous = deepcopy(list(reversed(self.source[:10])))
+                    previous[0][1] = '100.000'
+                    (root/'previous_source.json').write_text(json.dumps(previous, indent=2)+'\n')
+                    args += ['--previous-source-json', 'previous_source.json']
+                inputs = self.input_bytes(root)
+                run = subprocess.run(args, cwd=root, capture_output=True, text=True)
+                self.assertEqual(run.returncode, 0, run.stderr)
+                result = json.loads((root/'audit.json').read_text())
+                self.assertEqual(result['snapshot_prefix_checked'],
+                                 {'etf': include_etf, 'source': include_source})
+                self.assertEqual(result, json.loads(run.stdout))
+                for key, included, filename in (
+                        ('previous_etf', include_etf, 'previous_etf.csv'),
+                        ('previous_source', include_source, 'previous_source.json')):
+                    if included:
+                        self.assertEqual(result['input_file_sha256'][key],
+                                         hashlib.sha256(inputs[filename]).hexdigest())
+                        self.assertEqual(len(result['input_raw_hashes'][key+'_rows_sha256']), 64)
+                    else:
+                        self.assertNotIn(key, result['input_file_sha256'])
+                        self.assertIsNone(result['input_raw_hashes'][key+'_rows_sha256'])
+                self.assertFalse(result['terminal_backtest_allowed'])
+                self.assertEqual(result['engine_calls'], 0)
+                self.assertEqual(result['real_orders'], 0)
+                self.assertIsNone(result['metrics'])
+                self.assertIsNone(result['profit_metrics'])
+                self.assertFalse(result['new_independent_validation'])
+                self.assertEqual(inputs, {name: (root/name).read_bytes() for name in inputs})
+
+    def test_cli_previous_revisions_and_removals_refused_before_output(self):
+        for kind, change in (('etf', 'revision'), ('source', 'revision'),
+                             ('etf', 'removal'), ('source', 'removal')):
+            with self.subTest(kind=kind, change=change), \
+                    tempfile.TemporaryDirectory(prefix='SYNTHETIC_UNIT_ONLY_') as directory:
+                root = Path(directory)
+                args = self.cli_args(root)
+                if kind == 'etf':
+                    self.write_csv(root, 'previous_etf.csv', self.etfs)
+                    args += ['--previous-etf-csv', 'previous_etf.csv']
+                    current = deepcopy(self.etfs)
+                    if change == 'revision':
+                        current[0]['close'] = '100.5'
+                    else:
+                        # A structurally complete later session has dropped the actual old ETF rows.
+                        for row in current:
+                            row['timestamp'] = (timestamp(row['timestamp'])+timedelta(days=1)).isoformat()
+                        calendar = [{'day': '2026-11-20', 'open': '2026-11-20T14:30:00Z',
+                                     'close': '2026-11-20T21:00:00Z'}]
+                        self.write_csv(root, 'calendar.csv', calendar)
+                        source = deepcopy(self.source)
+                        for row in source:
+                            row[0] += 86400000
+                            row[6] += 86400000
+                        (root/'source.json').write_text(json.dumps(source))
+                        args[args.index('--now')+1] = '2026-11-20T21:05:00Z'
+                    self.write_csv(root, 'etf.csv', current)
+                else:
+                    previous = deepcopy(self.source)
+                    if change == 'revision':
+                        current = deepcopy(self.source)
+                        current[0][9] = '249'
+                        (root/'source.json').write_text(json.dumps(current))
+                    else:
+                        # Old warmup was actually supplied, but is absent from otherwise valid new coverage.
+                        old = deepcopy(previous[0])
+                        old[0] -= 1800000
+                        old[6] -= 1800000
+                        previous.insert(0, old)
+                    (root/'previous_source.json').write_text(json.dumps(previous))
+                    args += ['--previous-source-json', 'previous_source.json']
+                inputs = self.input_bytes(root)
+                run = subprocess.run(args, cwd=root, capture_output=True, text=True)
+                self.assertNotEqual(run.returncode, 0)
+                self.assertIn(('ETF' if kind == 'etf' else 'Source')+
+                              ' snapshot revision/removal refused', run.stderr)
+                self.assertEqual(run.stdout, '')
+                self.assertFalse((root/'audit.json').exists())
+                self.assertEqual(inputs, self.input_bytes(root))
+
+    def test_cli_supplied_empty_previous_snapshot_refused(self):
+        for kind in ('etf', 'source'):
+            with self.subTest(kind=kind), \
+                    tempfile.TemporaryDirectory(prefix='SYNTHETIC_UNIT_ONLY_') as directory:
+                root = Path(directory)
+                args = self.cli_args(root)
+                if kind == 'etf':
+                    self.write_csv(root, 'previous_etf.csv', [], fieldnames=list(self.etfs[0]))
+                    args += ['--previous-etf-csv', 'previous_etf.csv']
+                else:
+                    (root/'previous_source.json').write_text('[]\n')
+                    args += ['--previous-source-json', 'previous_source.json']
+                inputs = self.input_bytes(root)
+                run = subprocess.run(args, cwd=root, capture_output=True, text=True)
+                self.assertNotEqual(run.returncode, 0)
+                self.assertIn('snapshot must contain rows', run.stderr)
+                self.assertEqual(run.stdout, '')
+                self.assertFalse((root/'audit.json').exists())
+                self.assertEqual(inputs, self.input_bytes(root))
 
 
 if __name__ == '__main__':

@@ -2,6 +2,8 @@
 
 Passing this audit does not prove historical receipt/release times, vendor
 authenticity, signal parity, or a complete carried AccountState.
+Callers must independently match previous snapshot file hashes to a trusted
+prior checkpoint; recording a supplied file hash does not establish lineage.
 """
 from datetime import timedelta
 from decimal import Decimal, InvalidOperation
@@ -213,6 +215,8 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     for arg in ('etf-csv', 'source-json', 'calendar', 'plan', 'plan-blob-sha1', 'now', 'out'):
         p.add_argument('--'+arg, required=True)
+    p.add_argument('--previous-etf-csv', help='Prior nonempty ETF snapshot; independently verify its checkpoint hash')
+    p.add_argument('--previous-source-json', help='Prior nonempty source snapshot; independently verify its checkpoint hash')
     a = p.parse_args()
     out = Path(a.out)
     if out.exists():
@@ -222,6 +226,17 @@ def main():
             raise RuntimeError('Unresolved local worker/intent')
     raw = {name: Path(path).read_bytes() for name, path in (
         ('plan', a.plan), ('etf', a.etf_csv), ('source', a.source_json), ('calendar', a.calendar))}
+    previous_etf_rows, previous_source_rows = None, None
+    if a.previous_etf_csv is not None:
+        raw['previous_etf'] = Path(a.previous_etf_csv).read_bytes()
+        previous_etf_rows = list(csv.DictReader(raw['previous_etf'].decode().splitlines()))
+        if not previous_etf_rows:
+            raise ValueError('Previous ETF snapshot must contain rows')
+    if a.previous_source_json is not None:
+        raw['previous_source'] = Path(a.previous_source_json).read_bytes()
+        previous_source_rows = json.loads(raw['previous_source'])
+        if not previous_source_rows:
+            raise ValueError('Previous source snapshot must contain rows')
     blob = hashlib.sha1(b'blob '+str(len(raw['plan'])).encode()+b'\0'+raw['plan']).hexdigest()
     if blob != a.plan_blob_sha1:
         raise RuntimeError('Frozen plan differs from expected Git blob')
@@ -236,7 +251,9 @@ def main():
     result = audit_snapshot(list(csv.DictReader(raw['etf'].decode().splitlines())),
                             json.loads(raw['source']),
                             list(csv.DictReader(raw['calendar'].decode().splitlines())),
-                            plan['frozen_at_utc'], a.now)
+                            plan['frozen_at_utc'], a.now,
+                            previous_etf_rows=previous_etf_rows,
+                            previous_source_rows=previous_source_rows)
     result.pop('output_audit_sha256')
     result.update(input_file_sha256={k: hashlib.sha256(v).hexdigest() for k, v in raw.items()},
                   plan_git_blob_sha1=blob, frozen_dependency_hashes=dependencies,

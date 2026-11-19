@@ -1,0 +1,3 @@
+Observed storage process creation failure after tests, before final publish:
+exec-server rejected request (-32603): Argument list too long (os error 7).
+A single python -c carrying all artifacts exceeded process argument size; process did not start, no file writes or engine calls occurred. Retried as one bounded write per file. Source/test contents and passing tests unchanged.

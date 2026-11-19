@@ -1,0 +1,48 @@
+{
+  "reviewer": "prefix_cli_quant_2300",
+  "scope": "Creative independent review of existing32 proposals and implementation of preregistered CLI prefix integration; no alpha change",
+  "proposal_status": "32_PROPOSED_ONLY_UNIMPLEMENTED_UNSELECTED",
+  "families": [
+    {
+      "name": "seasonal_taker_pressure_residual",
+      "combinations": 8,
+      "ranges": "20/40sessions x z1/1.5 x confirmation1/2",
+      "missing": "Authentic same-slot taker/volume history, adequate causal history and PIT receipts"
+    },
+    {
+      "name": "actual_execution_cost_gate",
+      "combinations": 8,
+      "ranges": "spreadP50/75 x costmultiplier1/2 x confirmation1/2",
+      "missing": "Actual ETF NBBO/execution-cost history and orderable timestamps"
+    },
+    {
+      "name": "asynchronous_shock_recovery",
+      "combinations": 8,
+      "ranges": "lookback20/40 x shockz1/1.5 x confirmation1/2",
+      "missing": "Completed BTC/QQQ common clocks, ETF BUY prices/receipts, prior-failure overlap review"
+    },
+    {
+      "name": "flow_persistence_with_activity",
+      "combinations": 8,
+      "ranges": "bars2/3 x history20/40 x activity1.25/1.5",
+      "missing": "Actual taker and positive volumes, causal historical activity and paired support"
+    }
+  ],
+  "changed_files": [
+    "scripts/prospective_input_audit_20261119.py",
+    "tests/test_prospective_input_audit.py"
+  ],
+  "focused_tests": {
+    "passed": 13,
+    "new_test_methods": 3,
+    "new_subcases": 9,
+    "failures": 0
+  },
+  "actual_price_acquisitions": 0,
+  "actual_new_input_audits": 0,
+  "engine_calls": 0,
+  "orders": 0,
+  "new_thresholds": 0,
+  "new_strategy_definitions": 0,
+  "remaining": "CLI prefix check compares supplied files only; trusted prior checkpoint lineage/hash matching, signal parity, NEW FULL AccountState and protected execution integration remain separate. No adopted model or independent validation."
+}
