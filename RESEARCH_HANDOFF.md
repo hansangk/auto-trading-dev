@@ -1,3 +1,24 @@
+# Latest research handoff — 2026-11-19 12시 KST
+
+Run: venue_flow_retry_20261119_1200 / Codex. COMPLETE; no active worker claimed. Research parent 623e91b276dcb882e045c29cd29571fa99361dc4; completion publication parent f2745e6263a408ee0c297bbfbed43d86a174b3fe. CAS only, never force. Latest report: [VENUE_FLOW_RETRY_REPORT_20261119_1200.md](VENUE_FLOW_RETRY_REPORT_20261119_1200.md).
+
+Actual 631 unique engine calls = 598 reset + 33 carried-state months; 808 logical reset cells/66 logical monthly segments. Grid32 actual taker-flow hypotheses +32 same-BTC-price flow-removed controls;42 effective2025 arrays. Development4matchedpairs/8nominal (6effective) stressed;8nominal research-only pool frozen on2025 before2026, no adoption. Development SOURCE1st flow_trend .55/.10/L4: H1 base/cost2/delay -0.8575/-1.5529/-0.1012%, H2 -0.3719/-1.1185/-1.3513%. Sameprice basic losses -1.5710/-0.9213%. Improvement is partial loss reduction, no validated profitable strategy.
+
+Recent3fit2026-08-14..11-13 top .35/.10/L4 +1.1390/+0.6935/+0.0751%,62/62/54 rounds; these are fitted on reused2026. Recent6top .55/.10/L4 base+.2979% but worststress-1.3984%. Causal strictprior3/6 monthly22decisions all Bitcoincash+fixedNasdaq; 2026-01-01..11-13 fallback +2.4382/+2.0785/+1.6061% belongs entirely to priorNasdaq background. NewBitcoinpolicyneverselected, not validation success. No new untouched period. No news/macro feeds. Realorders0.
+
+Inputs: Binance BTCUSDT actual30m 2024-11-14T00:00Z<=t<2026-11-14T00:00Z,35040rows,0missing/duplicates/zeroV; actual2adjacent30m→1h:30; exactETFstart/end support, +5min assumed release,age30/60min. Not investor fund flow; singlevenueUSDT. IBIT/BITI are Bitcoin ETF proxies; TQQQ/SQQQ actualBUY also verified. ETFsha163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7; oldNasdaqcontext3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0; newcontextabd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c. Raw36page hashes in runs/venue_flow_retry_20261119_1200/context_manifest.json; requests in acquisition_requests.json. Originalraw/publicupload refusal respected; raw/context/ledgers LOCAL only, not recoverable from hashes alone. Do not reacquire different vintage and silently call it exact reproduction.
+
+Checkpoint: all complete, intent/lock absent, manifests/results/verification saved. 212unit testsPASS;48250trade rows,allfour actualBUY tickers/cost/equity/MDD/PIT verified;33full AccountState months verified. Intentbeforeeachcall +atomiccommit; actualpauseafterfirstmonth+prefixhash/fullstateverify thenresume, zero prefixreplay. Initialprepare metadata-key failure BEFOREPnL retained prepare.log; correctedprepare_attempt2.log. No engine-call failures. Detailed failures selection.json and monthly_training_rejections.csv. Rawoutput tool display truncation recovered by reading saved files, no duplicate acquisition.
+
+Next command (read-only verification, requires exact surviving LOCALraw/ledgers):
+```bash
+PYTHONPATH=src:scripts python scripts/venue_flow_verify_20261119.py
+```
+Do NOT restart completed prepare/development/research or clear manifests/locks. Next runner first reads this/state/protocol/latest report and checks remote branch. Missing exact inputs/state means BLOCKED exact replay, no inferred metrics. Before any new calls claim a newrun with expected parent and isolatedoutput. Closed: same2025/2026 32flow grid at same risk; previousQQQactivity32/body.5availability8 remainclosed. Do not tune on recent3fit. New falsifiable options: freeze .55/.10/L4 +.35/.10/L4 on genuinely unused completed-period shadow (min20 before inference), OR preregister same15% Bitcoin-only account isolation against fixed full account/Nasdaq background to separate joint path effects; no alteredstops/leverage/hold at same time. Neither follow-up ran. Preserve recentfit vs causalselection distinction and role samples. Next selector should canonicalize paired price alias names before diagnostics; engine already deduplicated exact arrays/cells here.
+
+---
+Previous handoff retained below:
+
 # Codex ↔ Claude 인계 — 2026-11-19 KST
 
 최신 [AVAILABILITY_ABLATION_REPORT_20261119_0800.md](AVAILABILITY_ABLATION_REPORT_20261119_0800.md). COMPLETE_REJECTED, ownerCodex,run_id availability_ablation_20261119_0800. 새69actual=36개발reset+33월별저장/재개회귀. 기존81unique/83logicalcache 재사용,논리reset129.197suite+3prefixguardPASS;new4432/prior2187원장검증,33physical/66logical월state. 백테스트abort/검증실패/채택/실주문0.

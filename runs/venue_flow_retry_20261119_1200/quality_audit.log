@@ -1,0 +1,27 @@
+{
+  "raw_rows": 35040,
+  "first_open": "2024-11-14 00:00:00+00:00",
+  "end_exclusive": "2026-11-14 00:00:00+00:00",
+  "missing": 0,
+  "duplicate": 0,
+  "positive_volume_fraction": 1,
+  "all_OHLC_valid": true,
+  "taker_base_quote_bounds": true,
+  "sample_overlap_exact_rows": 48,
+  "source_hour_rows": 17519,
+  "valid_ETF_decision_rows": 2964,
+  "age_minutes": [
+    30.0,
+    60.0
+  ],
+  "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+  "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
+  "context_sha256": "abd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c",
+  "source": "Binance public spot BTCUSDT klines30m,12 columns,reported taker buy base volume; quoteUSDT,singlevenue",
+  "source_documentation": "https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md#klinecandlestick-data",
+  "release_assumption_minutes": 5,
+  "raw_access": "LOCAL only; previous public raw upload refusal respected",
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0
+}
