@@ -1,0 +1,15 @@
+{
+  "status": "PREEXECUTION_OBSERVATIONS",
+  "research_calls_before_resume": 0,
+  "interruption": "Priorquantturn reportedusage limit; sameownedRUNNINGclaim resumed,nolocalengine/lock/intent/resultsfound",
+  "agent_fixture_failure": {
+    "source": "agent-reported originaltoolstdout; no originalrawlogfilepreserved",
+    "test": "test_price_support_is_shared_and_current_quote_failure_not_consumed",
+    "observed": "line85 self.assertEqual(s[1,0],1.); AssertionError: np.float64(0.0) != 1.0; Ran8tests0.101s FAILED(failures=1)",
+    "cause": "fixturebody1.8/range4=.45<.5,incorrecttrueexpectation",
+    "fix": "testonlysource/ETFrow1low=99 givesrange3efficiency.6; strategyunchanged",
+    "later_agent_test_result": "8tests0.100sOK"
+  },
+  "root_suite": "197tests10.788sPASS",
+  "no_backtest_abort_evidence": true
+}

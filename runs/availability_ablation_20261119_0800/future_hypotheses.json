@@ -1,0 +1,109 @@
+{
+  "status": "PROPOSED_ONLY_NOT_EXECUTED",
+  "families": [
+    {
+      "id": "constituent_breadth_diffusion",
+      "mechanism": "PIT Nasdaq constituent breadth may distinguish broad participation from a narrow QQQ price move",
+      "requires": "Historical membership and actual completed constituent OHLCV with availability timestamps",
+      "parameters": {
+        "breadth_hours": [
+          1,
+          3
+        ],
+        "breadth_z": [
+          1.0,
+          2.0
+        ],
+        "confirmation_hours": [
+          1,
+          2
+        ],
+        "hold_hours": [
+          2,
+          4
+        ]
+      },
+      "maximum_combinations": 16,
+      "status": "PROPOSED_ONLY_MISSING_PIT_CONSTITUENTS",
+      "reject": "Survivorship/revised membership, absent timestamps, or fewer than20 changed events per development window"
+    },
+    {
+      "id": "cross_venue_basis_reconvergence",
+      "mechanism": "Observed BTC cross-venue premium reconvergence may add information beyond a common spot return",
+      "requires": "Actual synchronized exchange BTC/USD and BTC/USDT quotes, USD/USDT conversion and receipt clocks",
+      "parameters": {
+        "basis_history_hours": [
+          24,
+          72
+        ],
+        "basis_z": [
+          1.5,
+          2.5
+        ],
+        "confirmation_hours": [
+          1,
+          2
+        ],
+        "hold_hours": [
+          2,
+          4
+        ]
+      },
+      "maximum_combinations": 16,
+      "status": "PROPOSED_ONLY_MISSING_VENUE_QUOTES",
+      "reject": "Assumed quote synchronization, missing stablecoin conversion, feed gaps treated as zero basis, or insufficient interventions"
+    },
+    {
+      "id": "volatility_term_state",
+      "mechanism": "An actual volatility term-structure state may condition price continuation without enlarging position risk",
+      "requires": "Vintaged volatility-index/term-contract marks and actual release clocks",
+      "parameters": {
+        "history_sessions": [
+          20,
+          60
+        ],
+        "slope_threshold": [
+          0.0,
+          0.05
+        ],
+        "completed_hour_confirmations": [
+          1,
+          2
+        ],
+        "hold_hours": [
+          2,
+          4
+        ]
+      },
+      "maximum_combinations": 16,
+      "status": "PROPOSED_ONLY_MISSING_TERM_HISTORY",
+      "reject": "Backfilled/revised index history, maturity lookahead, price-only alias, or inadequate changed-event support"
+    },
+    {
+      "id": "finalized_exchange_flow_shock",
+      "mechanism": "Newly finalized, timestamped on-chain exchange transfer shocks may identify BTC pressure beyond price/volume",
+      "requires": "Historically vintaged address labels, block/publication/receipt times and transfer revisions",
+      "parameters": {
+        "block_confirmations": [
+          6,
+          12
+        ],
+        "history_days": [
+          30,
+          90
+        ],
+        "shock_z": [
+          1.5,
+          2.5
+        ],
+        "post_release_wait_hours": [
+          1,
+          3
+        ]
+      },
+      "maximum_combinations": 16,
+      "status": "PROPOSED_ONLY_MISSING_VINTAGED_CHAIN_LABELS",
+      "reject": "Retroactive address labels, unknown publication latency, transfer/flow semantics not established, or inadequate support"
+    }
+  ]
+}

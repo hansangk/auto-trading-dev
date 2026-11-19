@@ -1,0 +1,17 @@
+name,feed,gate,start,end_exclusive,price_support_rows,onsets,changed_vs_none,changed_days,development_alias
+source__none,source,none,2025-01-01,2025-07-01,732,238,0,0,source__none
+source__none,source,none,2025-07-01,2026-01-01,750,236,0,0,source__none
+source__current,source,current,2025-01-01,2025-07-01,732,238,0,0,source__current
+source__current,source,current,2025-07-01,2026-01-01,738,233,5,4,source__current
+source__L20,source,L20,2025-01-01,2025-07-01,732,238,0,0,source__L20
+source__L20,source,L20,2025-07-01,2026-01-01,631,199,43,34,source__L20
+source__L40,source,L40,2025-01-01,2025-07-01,657,213,25,13,source__L40
+source__L40,source,L40,2025-07-01,2026-01-01,580,188,56,40,source__L40
+ETF__none,ETF,none,2025-01-01,2025-07-01,732,234,0,0,ETF__none
+ETF__none,ETF,none,2025-07-01,2026-01-01,750,233,0,0,ETF__none
+ETF__current,ETF,current,2025-01-01,2025-07-01,732,234,0,0,ETF__current
+ETF__current,ETF,current,2025-07-01,2026-01-01,738,230,5,4,ETF__current
+ETF__L20,ETF,L20,2025-01-01,2025-07-01,732,234,0,0,ETF__L20
+ETF__L20,ETF,L20,2025-07-01,2026-01-01,631,192,45,35,ETF__L20
+ETF__L40,ETF,L40,2025-01-01,2025-07-01,657,208,26,13,ETF__L40
+ETF__L40,ETF,L40,2025-07-01,2026-01-01,580,182,59,41,ETF__L40

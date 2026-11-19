@@ -1,0 +1,11 @@
+{
+  "parent_commit": "a6cc86ebfff97fc25cc62dd10ba2ed73279f19c0",
+  "remote_git_blobs_verified": {
+    "runs/source_activity_grid_20261119_0700/preregistered_plan.json": "e1068db4f7f518c6867641512e1dad6907c2b2c7",
+    "runs/source_activity_grid_20261119_0700/manifest.json": "6dd786d9acbd550ddc92ff6647bc58b91d5844bf",
+    "runs/source_activity_grid_20261119_0700/reset_window_results.csv": "2fc69b83457163bcc6224422f97aad43dff46a9e",
+    "runs/source_activity_grid_20261119_0700/score_manifest.json": "fad7c0050390f46dca69e132ca5bbccd2c51671c"
+  },
+  "all_prior_plan_dependencies_sha256_verified": 16,
+  "cache_scope": "Onlyexact2025baseL20/L40source no_volume cells afternewarrayregression; no2026resultselection"
+}
