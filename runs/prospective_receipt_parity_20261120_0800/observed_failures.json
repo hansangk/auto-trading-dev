@@ -1,0 +1,26 @@
+{
+  "run_id": "prospective_receipt_parity_20261120_0800",
+  "attempts": [
+    {
+      "id": 1,
+      "log": "runs/prospective_receipt_parity_20261120_0800/receipt_audit_attempt1.log",
+      "exit_code": 1,
+      "stage": "Receipt helper interface",
+      "error": "ValueError: Timestamp must be an aware string",
+      "cause": "Runner retained source first-receipt datetime objects for min comparison and passed them directly to strict aware-string API.",
+      "resolution": "Serialize actual stored receipt datetimes to ISO aware strings at helper boundary. No refetch, no engine, no original output overwrite.",
+      "financial_metrics": null
+    },
+    {
+      "id": 2,
+      "log": "runs/prospective_receipt_parity_20261120_0800/receipt_audit_attempt2.log",
+      "exit_code": 0,
+      "result": "Algebraic parity passed; frozen original-decision receipt gate rejected."
+    }
+  ],
+  "logical_rejection": "No frozen context/calendar opportunity had complete required ETF/source observations by original decision. Later-entry-only metadata pass is not original signal-time availability or captured execution price.",
+  "preserved_prior_failures": "Original03,06,07 unchanged; current audit is new output, not repeated completed strategygrid.",
+  "engine_failures": 0,
+  "engine_calls": 0,
+  "real_orders": 0
+}

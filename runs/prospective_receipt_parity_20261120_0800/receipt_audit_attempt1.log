@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/prospective_receipt_audit_20261120.py", line 198, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/prospective_receipt_audit_20261120.py", line 162, in main
+    gate=receipt_gate(decision,er,source_first,item['guard_source_starts'],entry)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/prospective_receipt_context_20261120.py", line 92, in receipt_gate
+    required.append(timestamp(source_receipts[canonical]))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/prospective_shadow_guard_20261119.py", line 16, in timestamp
+    if not isinstance(value,str):raise ValueError('Timestamp must be an aware string')
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Timestamp must be an aware string
