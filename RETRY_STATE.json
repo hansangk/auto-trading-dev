@@ -1,17 +1,16 @@
 {
-  "status": "COMPLETE",
+  "status": "RUNNING",
   "owner": "Codex",
-  "run_id": "venue_isolation_retry_20261119_1300",
-  "research_parent": "91925951180909e9ec2cd57130539c3cfcb08cd8",
-  "parent": "4a6752e14b60c9d9d645b7fa2edf6bbf338cf723",
-  "updated_utc": "2026-11-19 04:13:06 UTC",
+  "run_id": "venue_latency_retry_20261119_1400",
+  "research_parent": "0d015d814a563fb75fcb3afce4dad623442da65e",
+  "parent": "0d015d814a563fb75fcb3afce4dad623442da65e",
+  "updated_utc": "2026-11-19 05:01:46 UTC",
   "latest_report": "VENUE_ISOLATION_RETRY_REPORT_20261119_1300.md",
-  "phase": "ALL_RESULTS_REPORT_HANDOFF_VERIFIED",
-  "checkpoint": "336newunique actual=303reset+33continuousmonths;30verifiedpriorunique. 215testsPASS,26908new+3062priortrade records/accounting/PIT/BUY. Prior631checkpoint/ledgers exacthashverified. 16nominalrolescopedefs=>4newcoin-only,8sparsepreflightrejected,4cachedfull. New2025base/costprofitimprovedbutdelaybothnegative,2026diagnosticnegative,0adoption. 22strictprior3/6choicesallWHOLECASH =>0trades/0returns/notalphasuccess. 33FULLstate monthly/intent+pauseprefixverifiedfirstmonthreplay0. Alloutcomes,failures,report,nextactions saved;noactiveworkerclaimed/noLOCALintentlock.",
-  "engine_calls": 336,
+  "phase": "RETURNBLIND_LATENCY_SUPPORT_DESIGN",
+  "checkpoint": "Readlatestbranch/AGENTS/state/handoff/protocol/report. PriorCOMPLETE/noactive localengine/nointentlock. Frozeninput/code hashes and336priorledgers verified. Independentcreativequant reviewing sameevent latency/holding common-calendar support before newPnL. Sameflow/isolation gridsclosed,noresweep. Externalworker liveness notdirectlyobservable.",
+  "engine_calls": 0,
   "orders": 0,
-  "raw_upload": "not attempted; no newacquisition; original public refusal respected",
-  "next_command": "PYTHONPATH=src:scripts python scripts/venue_isolation_verify_20261119.py",
+  "raw_upload": "not attempted; no raw acquisition; original refusal respected",
   "original_data_hashes": {
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_000_LOCAL.json": "d6ca3f23067f7c787e2c74de25204cd686b075174b322e9a5fb9ec622c72310e",
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_001_LOCAL.json": "485fabe72eb58102e59053999a7797c37b33876a71d2f3083e86d15c535fdd57",
@@ -50,17 +49,5 @@
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_034_LOCAL.json": "6733f3bdba2325fdd54480b36b4ae599c1415b4884cb08ff9e3da9ed6d5b44e6",
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_035_LOCAL.json": "f8cd5377a03da9ef2714124af8f33b4b9899dce32aafb812bec78b3a74997663"
   },
-  "prior_unique_calls_reused": 30,
-  "next_action": "Read latestremote state/AGENTS/protocol/handoff/report. Neverreruncompletedcopy/clearintent. NewCASclaim/output forfrozen.55/.10/L4Bitcoin-only same-event latency/holdingcommon-supportaudit>=20events/10days EACHhalf elseNOT_IDENTIFIED;ORunusedcompletedperiodshadow separatelyversioned. Sameflow/isolationthresholdresweepclosed.",
-  "context_sha256": "abd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c",
-  "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
-  "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
-  "new_signal_sha256": "022d4b3bb8929300f6115684de4f107fd0710d9326502221d7f309a6ccbdb6d4",
-  "source_period": {
-    "start": "2024-11-14 00:00:00+00:00",
-    "end_exclusive": "2026-11-14 00:00:00+00:00"
-  },
-  "approved": [],
-  "new_independent_validation": false,
-  "news_macro": false
+  "next_command": "Prepare calendar-common-support and preregister fixed-event latency/holding decomposition; no manufactured RTHprices."
 }
