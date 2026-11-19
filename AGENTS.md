@@ -22,3 +22,7 @@ venue_latency_retry_20261119_1400 is completed immutable research. Do not replay
 
 ## Prospective shadow readiness (2026-11-19)
 Readiness-only WAITING is not a completed backtest and has NA financial metrics. Use scripts/prospective_shadow_guard_20261119.py with the frozen plan Git blob and a freshly verified calendar/current UTC. The current official fallback calendar covers ONLY2026-11-19; later NY dates require extension. Complete calendar hours do not prove actual source/ETF price coverage. Do not force-close positions at a partial download's last bar, count crossing-freeze warmup as new evaluation, or replay closed grids while waiting. Actual shadow execution still needs separate versioned input audit and new FULL AccountState per model/control/stress; currentguard never grants terminal backtest by calendar alone.
+
+
+## Prospective input qualification (2026-11-19 20시 KST)
+Read scripts/prospective_input_audit_20261119.py and its latest report before actual shadow integration. The new adapter validates supplied snapshot structure/coverage and optional API previous-prefix integrity; CLI previous snapshot wiring is not implemented. It never permits terminal execution. Calendar provenance/full target-session coverage, authentic price/vintage/PIT receipts, signal parity and NEW FULL AccountState/execution integration remain prerequisites. All10 new fixtures are synthetic unit tests, not actual price acquisition or backtests. Preserve whole-source overnight/weekend continuity and refuse revised history rather than silently resuming a prior account.
