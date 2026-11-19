@@ -1,0 +1,19 @@
+{
+  "status": "PREREGISTERED_INPUT_QUALIFICATION_ONLY_NO_STRATEGY_BACKTEST",
+  "run_id": "prospective_input_audit_retry_20261119_2000",
+  "research_parent": "fe1b84c7c31060c3076fcaf8c14af129ecb4c2ae",
+  "claim": "c0041dcca36c46a6d56bb7e15a4a2df501aefb89",
+  "hypothesis": "A strict actual-snapshot audit closes the documented gap between calendar readiness and verified ETF/source inputs; schema/coverage/prefix checks do not establish alpha or actual historical PIT receipt.",
+  "new_strategy_definitions": 0,
+  "existing_conditional_proposals": 32,
+  "frozen_models_unchanged": true,
+  "actual_engine_calls_planned_this_cycle": 0,
+  "actual_market_acquisitions_planned": 0,
+  "tests": "SYNTHETIC_UNIT_ONLY; full28ETFrows/day plus29real30m-shapedsource rows fixture; no PnL. Test incomplete session/missing ticker/bargap/duplicates/OHLC/taker bounds/future/freeze boundary/prefix revision.",
+  "acceptance": "ExactactualTQQQ/SQQQ/IBIT/BITI7starts each pernormalverifiedclosedNYsession; finitepositiveOHLCVbounds; source12cols actual30m contiguous,8hprecedingRTHwarmup throughclose,positivevolume/takerbounds/release+5min<=asof; previoussnapshot keys/values unchanged orrejectrevision; frozenplan/codehash checkedCLI.",
+  "remaining_after_audit": "Calendarprovenance/actualpriceauthenticity/historicalPITreceipt remainexternal audits; separate signalparity+FULLAccountState+execution integration stillrequired. terminal_backtest_allowed staysFALSE,financialmetricsNULL.",
+  "no_model_hold_stop_leverage_or_cost_change": true,
+  "raw_public_upload": "Never retryrefusedrawuploads;actualfuturedataLOCAL/hashpubliconly",
+  "new_independent_validation": false,
+  "real_orders": 0
+}
