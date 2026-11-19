@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/venue_latency_labels_20261119.py", line 67, in <module>
+    elif sys.argv[1:]==['paths']:paths()
+                                 ^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/venue_latency_labels_20261119.py", line 33, in paths
+    r=Runner();cal=pd.read_csv(BASE/'calendar_schedule.csv',index_col='day')
+      ^^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/venue_latency_retry_20261119.py", line 74, in __init__
+    if (OUT/'call_intent_LOCAL.json').exists():raise RuntimeError('In-flight intent exists; verify commit/ledger/state before any replay')
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: In-flight intent exists; verify commit/ledger/state before any replay
