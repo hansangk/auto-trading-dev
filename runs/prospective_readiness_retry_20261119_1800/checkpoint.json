@@ -1,0 +1,9 @@
+{
+  "status": "WAITING_FOR_COMPLETED_SHADOW_BARS",
+  "worker_active": false,
+  "shadow_account_initialized": false,
+  "engine_calls": 0,
+  "next_phase": "Freshclock/calendarreadiness;actualpostfreezeETF/sourcevintage/PIT/coverage/hash+FULLAccountStatebeforefutureexecution",
+  "do_not_replay_closed_grids": true,
+  "do_not_claim_zero_percent_return": true
+}
