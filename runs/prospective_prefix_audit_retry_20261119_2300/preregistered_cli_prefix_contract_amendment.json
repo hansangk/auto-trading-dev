@@ -1,0 +1,10 @@
+{
+  "status": "PREREGISTERED_CLIPREFIX_ACCEPTANCE_AMENDMENT_BEFORE_TEST_RESULTS",
+  "run_id": "prospective_prefix_audit_retry_20261119_2300",
+  "parent_contract_commit": "f9252f5f09ec4b3715866ac42d33cd79a14f36fe",
+  "reason": "An explicitly supplied empty prior snapshot would make prefix comparison vacuous while marking prefix_checked true.",
+  "additional_acceptance": "Reject supplied previous ETF/source snapshots with zero parsed rows before output; omitflags means firstsnapshot mode. Record prior raw hashes but do not claim file identity with a trusted previous checkpoint unless separately verified.",
+  "scope": "CLI and synthetic tests only; existing audit API/model/17 frozen deps unchanged",
+  "engine_calls": 0,
+  "price_fetches": 0
+}
