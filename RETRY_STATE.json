@@ -1,17 +1,17 @@
 {
-  "status": "RUNNING",
+  "status": "PARTIAL_SESSION_OBSERVATIONS_ONLY_NO_TERMINAL_BACKTEST",
   "owner": "Codex",
   "run_id": "prospective_access_retry_20261120_0100",
   "research_parent": "5c66a149a3f08e32af704c14b7de869c41ae9969",
-  "parent": "5c66a149a3f08e32af704c14b7de869c41ae9969",
-  "updated_utc": "2026-11-19 16:04:17 UTC",
-  "latest_report": "PROSPECTIVE_READINESS_REPORT_20261120_0000.md",
+  "parent": "9e2cfac0aaaa3f72009f55f66ff4a15a48492abc",
+  "updated_utc": "2026-11-19 16:13:32 UTC",
+  "latest_report": "PROSPECTIVE_ACCESS_REPORT_20261120_0100.md",
   "latest_performance_report": "VENUE_LATENCY_RETRY_REPORT_20261119_1400.md",
-  "phase": "FIRST_COMPLETED_HOUR_ACCESS_ONLY_AUDIT",
-  "checkpoint": "Latest docs/report read, priorWAITING/workerfalse,00artifacts/raw36hashesmatch, no localintent/lock. Calendar now permits one completed RTHhour; acquire bounded source and4ETF snapshots into newLOCALonly files, noengine/grid/PNL. Separate actualreturnedcoverage/firstseenreceipt from calendar and historicrelease assumptions. Externalworker liveness not directly observable.",
+  "phase": "FIRST_REAL_PARTIAL_SNAPSHOT_OBSERVED_NOT_EXECUTABLE",
+  "checkpoint": "Calendar permits1completehour. Acquired4HTTP200 ETF snapshots+1Binance connector response; actualcompletedETFrows4/source30mrows18 verified aspartial only. Guardfetched0 preceded acquisition; actualcollection sidecar preserved. Excluded incomplete15:30ETF starts and postcutoffoffclocktails; original strictcollector0status retained. Adapter datetime/string failure1 recovered fromsamepayloads, bothlogs retained. Fullsession qualifier rejects incomplete horizon, passed0; engine/orders0, metricsNA. Newcode2accessauditscripts only, frozen17 unchanged. No activeworker/external liveness unobservable.",
   "engine_calls": 0,
   "orders": 0,
-  "raw_upload": "Not attempted; original refused public raw files preserved local.",
+  "raw_upload": "NOT_ATTEMPTED; new4ETF/raw connector/extracted data and prior refused originals stayLOCAL; publish hashes only.",
   "original_data_hashes": {
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_000_LOCAL.json": "d6ca3f23067f7c787e2c74de25204cd686b075174b322e9a5fb9ec622c72310e",
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_001_LOCAL.json": "485fabe72eb58102e59053999a7797c37b33876a71d2f3083e86d15c535fdd57",
@@ -51,14 +51,14 @@
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_035_LOCAL.json": "f8cd5377a03da9ef2714124af8f33b4b9899dce32aafb812bec78b3a74997663"
   },
   "next_command": "python scripts/prospective_shadow_guard_20261119.py --plan runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json --plan-blob-sha1 3595a3d7fc07401252a205f615f5fd743e77ab49 --calendar runs/prospective_readiness_retry_20261119_1700/calendar_20261119.csv --now \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" --out \"runs/prospective_recheck_$(date -u +%Y%m%d_%H%M%S)/readiness.json\"",
-  "worker_active": true,
-  "checked_at_utc": "2026-11-19 15:05:57 UTC",
+  "worker_active": false,
+  "checked_at_utc": "2026-11-19 16:04:22 UTC",
   "latest_completed_backtest_run": "venue_latency_retry_20261119_1400",
   "latest_completed_backtest_engine_calls": 669,
-  "new_price_acquisitions": 0,
+  "new_price_acquisitions": 5,
   "new_real_orders": 0,
   "financial_metrics": null,
-  "next_action": "Fresh UTC and official target-session calendar; acquire authentic completed actualETF/source separately versioned snapshots with vendor/PIT/hash/coverage. CLI now supports nonempty previousETF/source files; independently verify previous-file hashes against trusted lastcheckpoint BEFORE CLI and supply both when both streams continue. Absent flag means firstsnapshot/unprotected stream. Signal parity/prefixinvariance, NEW FULLAccountState/model-control-stress and actual execution integration remain unimplemented; terminalfalse after structural audit. No closedgrid/completedmonthlyprefix replay. Calendar onlyNov19; extend beyond it, preserve CRLF/LF hashes. Min20/multipleperiods/cost2/delay before adoption; reused2026 not independent.",
+  "next_action": "Fresh clock/NYcalendar and NEW unique acquisition checkpoint. Current1h snapshot is immutable; do not rerun its collector output. Acquire only newly complete actualhorizon, preserve vendor response tails and firstobserved receipts; exclude future/incomplete before features. Compare previous ETF/source canonicalprefix and exacttrusted hashes listed here; revisions => separatevintage, no accountcontinuation. Need fullsession coverage/sourceassumedend+5m; signal parity/prefixinvariance and NEW FULLAccountState/model-control-stress protectedexecution integration still missing. Structural accessaudit cannot grantterminal; no partialendforcedclose or historicresetP&L copy. No oldgrid/monthlyprefix reruns, no adoption before min20/multipleperiods/cost2/delay. Reused2026 notindependent.",
   "context_sha256": "abd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c",
   "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
   "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
@@ -68,7 +68,7 @@
   },
   "prospective_shadow_plan": "runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json",
   "prospective_frozen_at_utc": "2026-11-19 05:20:49 UTC",
-  "prospective_new_observations": 0,
+  "prospective_new_observations": 4,
   "current_official_calendar_sha256": "5f993b55f18a91bb37b80516181389733238568b966275cf3f5aa1e6682cc03d",
   "current_official_calendar_days": [
     "2026-11-19"
@@ -85,9 +85,9 @@
   "prior_test_log": "runs/prospective_prefix_audit_retry_20261119_2300/tests_final.log",
   "new_strategy_definitions": 0,
   "existing_conditional_proposals": 32,
-  "claim_commit": "fb01b3648b3f9ae7c98d65825e1d92752e14f1e3",
-  "preregistration_commit": null,
-  "actual_input_audits": 0,
+  "claim_commit": "9e2cfac0aaaa3f72009f55f66ff4a15a48492abc",
+  "preregistration_commit": "9e2cfac0aaaa3f72009f55f66ff4a15a48492abc",
+  "actual_input_audits": 1,
   "new_tests_this_cycle": 0,
   "full_tests_passed": 241,
   "input_audit_adapter": "scripts/prospective_input_audit_20261119.py",
@@ -102,9 +102,55 @@
   "preregistration_amendment_commit": null,
   "input_audit_previous_snapshot_cli_supported": true,
   "input_audit_previous_snapshot_empty_rejected": true,
-  "next_input_audit_command": "python scripts/prospective_input_audit_20261119.py --etf-csv NEW_ACTUAL_ETF_LOCAL.csv --source-json NEW_ACTUAL_SOURCE_LOCAL.json --previous-etf-csv TRUSTED_PREVIOUS_ETF_LOCAL.csv --previous-source-json TRUSTED_PREVIOUS_SOURCE_LOCAL.json --calendar VERIFIED_COMPLETE_CALENDAR.csv --plan runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json --plan-blob-sha1 3595a3d7fc07401252a205f615f5fd743e77ab49 --now VERIFIED_CURRENT_UTC --out NEW_UNIQUE_CHECKPOINT/input_audit.json",
+  "next_input_audit_command": "python scripts/prospective_input_audit_20261119.py --etf-csv NEW_ACTUAL_ETF_LOCAL.csv --source-json NEW_ACTUAL_SOURCE_LOCAL.json --previous-etf-csv runs/prospective_access_retry_20261120_0100/partial_ETF_LOCAL.csv --previous-source-json runs/prospective_access_retry_20261120_0100/BTCUSDT_30m_partial_LOCAL.json --calendar runs/prospective_readiness_retry_20261119_1700/calendar_20261119.csv --plan runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json --plan-blob-sha1 3595a3d7fc07401252a205f615f5fd743e77ab49 --now VERIFIED_CURRENT_UTC --out NEW_UNIQUE_CHECKPOINT/input_audit.json",
   "calendar_evaluated_ny_session": "2026-11-19",
   "current_kst_date": "2026-11-20",
   "session_open_has_passed": true,
-  "first_hour_completed": false
+  "first_hour_completed": true,
+  "price_acquisition_count_unit": "4 HTTP200 ETF responses plus1 connector response, not full qualifications",
+  "new_actual_ETF_completed_rows": 4,
+  "new_actual_source_30m_rows": 18,
+  "prospective_observation_unit": "actual completed ETF bar rows, not trades",
+  "actual_partial_input_audits_passed": 1,
+  "full_session_audit_attempts_including_interface_failure": 2,
+  "full_session_audits_passed": 0,
+  "partial_audit_recovery_failures": 1,
+  "new_private_input_hashes": {
+    "runs/prospective_access_retry_20261120_0100/BITI_raw_LOCAL.json": "34e770f044f271d71a9c002807ce1f8becdef6b6a8323446f433ddd5a7c66f02",
+    "runs/prospective_access_retry_20261120_0100/IBIT_raw_LOCAL.json": "586e58e9e8dc9da7783573a1e16e932dbec3e298aec18adb82173ebd55970f5f",
+    "runs/prospective_access_retry_20261120_0100/SQQQ_raw_LOCAL.json": "1ed0f2d76ce47df2e82529d6ad59abf0257206d104cd7d4fedaab5c6a7424e7d",
+    "runs/prospective_access_retry_20261120_0100/TQQQ_raw_LOCAL.json": "0396a4fbe74977449e29fca92eaf035a63254caa6d5ba74f5e6eee1ba86bdf44",
+    "runs/prospective_access_retry_20261120_0100/Binance_connector_response_LOCAL.json": "3a9951f6878232f595f7962342425c830d041ea11ff557e052d896802076af22",
+    "runs/prospective_access_retry_20261120_0100/BTCUSDT_30m_partial_LOCAL.json": "7d6d6eaf8ea98808f781ecf363de12e84972125336bed0696c717503b1911090",
+    "runs/prospective_access_retry_20261120_0100/partial_ETF_LOCAL.csv": "89ddb737486b7a768e0daab76933aad9496ff57af2b360c1371c8ef000c566b2"
+  },
+  "prospective_first_snapshot_prefixes": {
+    "ETF": {
+      "path": "runs/prospective_access_retry_20261120_0100/partial_ETF_LOCAL.csv",
+      "sha256": "89ddb737486b7a768e0daab76933aad9496ff57af2b360c1371c8ef000c566b2"
+    },
+    "source": {
+      "path": "runs/prospective_access_retry_20261120_0100/BTCUSDT_30m_partial_LOCAL.json",
+      "sha256": "7d6d6eaf8ea98808f781ecf363de12e84972125336bed0696c717503b1911090"
+    }
+  },
+  "new_ETF_period": {
+    "start_inclusive": "2026-11-19T14:30:00Z",
+    "end_exclusive": "2026-11-19T15:30:00Z"
+  },
+  "new_source_period": {
+    "start_inclusive": "2026-11-19T06:30:00Z",
+    "end_exclusive": "2026-11-19T15:30:00Z"
+  },
+  "partial_input_audit_manifest": "runs/prospective_access_retry_20261120_0100/session_access_audit.json",
+  "actual_source_receipt_verified_bracket": [
+    "2026-11-19 16:06:20 UTC",
+    "2026-11-19 16:06:22 UTC"
+  ],
+  "ETF_actual_first_received_host_utc_range": [
+    "2026-11-19T16:06:29.519121+00:00",
+    "2026-11-19T16:06:29.524025+00:00"
+  ],
+  "availability_at_fixed_cutoff_proven": false,
+  "prospective_new_account_state_initialized": false
 }

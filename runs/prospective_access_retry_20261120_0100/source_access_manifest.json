@@ -1,0 +1,29 @@
+{
+  "status": "PARTIAL_SOURCE_STRUCTURE_ACCESS_ONLY",
+  "source": "ConnectedBinance public spotBTCUSDT30m",
+  "request": {
+    "symbol": "BTCUSDT",
+    "interval": "30m",
+    "startTime": 1795069800000,
+    "endTime": 1795102199999,
+    "limit": 18
+  },
+  "request_start_verified_utc": "2026-11-19 16:06:20 UTC",
+  "response_seen_by_verified_utc": "2026-11-19 16:06:22 UTC",
+  "exact_receipt_timestamp_not_provided_by_connector": true,
+  "HTTP_response_bytes_available": false,
+  "payload_evidence": "Serialized tool envelope plus extracted rows; not original HTTP wire bytes",
+  "connector_envelope_sha256": "3a9951f6878232f595f7962342425c830d041ea11ff557e052d896802076af22",
+  "extracted_rows_sha256": "7d6d6eaf8ea98808f781ecf363de12e84972125336bed0696c717503b1911090",
+  "rows": 18,
+  "first_open_utc": "2026-11-19T06:30:00+00:00",
+  "end_exclusive_utc": "2026-11-19T15:30:00+00:00",
+  "schema12_OHLCV_volume_taker_contiguous_checks_passed": true,
+  "bar_end_cutoff_utc": "2026-11-19 16:04:22 UTC",
+  "availability_at_cutoff_or_barclose_proven": false,
+  "new_independent_validation": false,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "raw_public_upload": "NOT_ATTEMPTED"
+}

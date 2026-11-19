@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/prospective_partial_audit_20261120.py", line 47, in main
+    try:audit_snapshot(rows,source_rows,calendar,'2026-11-19T05:20:49Z',cutoff)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/prospective_input_audit_20261119.py", line 146, in audit_snapshot
+    frozen, now = timestamp(freeze), timestamp(asof)
+                                     ^^^^^^^^^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/prospective_shadow_guard_20261119.py", line 16, in timestamp
+    if not isinstance(value,str):raise ValueError('Timestamp must be an aware string')
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Timestamp must be an aware string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/prospective_partial_audit_20261120.py", line 66, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/prospective_partial_audit_20261120.py", line 50, in main
+    assert full_rejection=='Incomplete/future ETF session refused',full_rejection
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Timestamp must be an aware string
