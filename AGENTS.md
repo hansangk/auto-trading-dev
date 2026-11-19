@@ -18,3 +18,7 @@ The completed venue_flow_retry_20261119_1200 and venue_isolation_retry_20261119_
 
 ## Calendar/holding continuation (2026-11-19)
 venue_latency_retry_20261119_1400 is completed immutable research. Do not replay closed grids or completed monthly prefixes. Cache identity includes hold/exit settings plus actual cost/delay values; identical h/c score arrays are different execution hypotheses. Duration60/hold1 has no intermediate joint-close protection and is label-only. Known-calendar common support must not inspect future quotes. Read prospective_shadow_plan.json before later collection; only newly completed post-freeze observations with separately audited ETF/source vintages qualify as shadow, never rename reused2026 a pristine holdout. Missing original state/ledgers or unresolved intent blocks exact replay.
+
+
+## Prospective shadow readiness (2026-11-19)
+Readiness-only WAITING is not a completed backtest and has NA financial metrics. Use scripts/prospective_shadow_guard_20261119.py with the frozen plan Git blob and a freshly verified calendar/current UTC. The current official fallback calendar covers ONLY2026-11-19; later NY dates require extension. Complete calendar hours do not prove actual source/ETF price coverage. Do not force-close positions at a partial download's last bar, count crossing-freeze warmup as new evaluation, or replay closed grids while waiting. Actual shadow execution still needs separate versioned input audit and new FULL AccountState per model/control/stress; currentguard never grants terminal backtest by calendar alone.

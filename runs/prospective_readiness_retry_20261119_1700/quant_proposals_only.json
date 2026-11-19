@@ -1,0 +1,110 @@
+{
+  "status": "PROPOSED_ONLY_NOT_IMPLEMENTED_NOT_TESTED_NOT_SELECTED",
+  "agent": "shadow_readiness_quant_1700",
+  "max_nominal_combinations": 32,
+  "frozen_shadow_plan_unchanged": true,
+  "requires_prior_failure_registry_dedup_before_any_execution": true,
+  "families": [
+    {
+      "name": "seasonal_taker_pressure_residual",
+      "grid": {
+        "lookback_sessions": [
+          20,
+          40
+        ],
+        "z_threshold": [
+          1,
+          1.5
+        ],
+        "completed_confirmation_bars": [
+          1,
+          2
+        ]
+      },
+      "combinations": 8,
+      "roles": [
+        "IBIT",
+        "BITI"
+      ],
+      "input": "actualtakerclassificationandpositivevolume;matchedhourhistory",
+      "status": "PROPOSAL_ONLY_NEEDS_NEWHYPOTHESIS_PREREGISTRATION"
+    },
+    {
+      "name": "actual_execution_cost_gate",
+      "grid": {
+        "spread_percentile": [
+          50,
+          75
+        ],
+        "cost_margin_multiplier": [
+          1,
+          2
+        ],
+        "confirmation_bars": [
+          1,
+          2
+        ]
+      },
+      "combinations": 8,
+      "roles": [
+        "TQQQ",
+        "SQQQ",
+        "IBIT",
+        "BITI"
+      ],
+      "input": "actualPITETFNBBOandtradecosthistory",
+      "status": "PROPOSAL_ONLY_REQUIRED_INPUT_NOT_AVAILABLE"
+    },
+    {
+      "name": "asynchronous_shock_recovery",
+      "grid": {
+        "lookback": [
+          20,
+          40
+        ],
+        "shock_z": [
+          1,
+          1.5
+        ],
+        "confirmation_bars": [
+          1,
+          2
+        ]
+      },
+      "combinations": 8,
+      "roles": [
+        "TQQQ",
+        "SQQQ",
+        "IBIT",
+        "BITI"
+      ],
+      "input": "exactcompletedcommonBTC/QQQclockwithactualETFBUYprices",
+      "status": "PROPOSAL_ONLY_ACCESS_AND_DUPLICATE_REVIEW_REQUIRED"
+    },
+    {
+      "name": "flow_persistence_with_activity",
+      "grid": {
+        "persistence_bars": [
+          2,
+          3
+        ],
+        "activity_history_sessions": [
+          20,
+          40
+        ],
+        "activity_surprise": [
+          1.25,
+          1.5
+        ]
+      },
+      "combinations": 8,
+      "roles": [
+        "IBIT",
+        "BITI"
+      ],
+      "input": "qualitypassedreportedvolumeandactualtakerclassification",
+      "status": "PROPOSAL_ONLY_NOT_APPROVED_AS_NEW_EVIDENCE"
+    }
+  ],
+  "invariants": "No frozenparameterchanges,noleverage/stopremoval,actualinverseETFbuys,noreused2026independence,norealorders"
+}

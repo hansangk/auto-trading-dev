@@ -1,17 +1,17 @@
 {
-  "status": "RUNNING",
+  "status": "WAITING_FOR_COMPLETED_SHADOW_BARS",
   "owner": "Codex",
   "run_id": "prospective_readiness_retry_20261119_1700",
   "research_parent": "8ed09ea33362c01c5e76435d30c15d741f89aadd",
-  "parent": "8ed09ea33362c01c5e76435d30c15d741f89aadd",
-  "updated_utc": "2026-11-19 08:03:21 UTC",
-  "latest_report": "VENUE_LATENCY_RETRY_REPORT_20261119_1400.md",
+  "parent": "cc2f5217623fc28fe104d2d25f76aa16332842ff",
+  "updated_utc": "2026-11-19 08:13:49 UTC",
+  "latest_report": "PROSPECTIVE_READINESS_REPORT_20261119_1700.md",
   "latest_performance_report": "VENUE_LATENCY_RETRY_REPORT_20261119_1400.md",
-  "phase": "PROSPECTIVE_CALENDAR_READINESS_AUDIT",
-  "checkpoint": "PriorCOMPLETE/branch8ed09ea...; frozenplan05:20:49UTC/2modelsunchanged. ReadAGENTS/state/handoff/protocol/latestreport. Priorhashes/checkpointexact/intentlockabsent; externalworkerlivenessnotdirectlyobservable. No postfreezeRTH ETFhourcancomplete yet. exchange_calendars importmissing retainedasfailure; officialNYSEhours+holidayprimarysource fallbackforONEauditedday only. Newguardwillseparateexpectedcalendarcompletion from actualinputreadiness; noenginecalls.",
+  "phase": "READINESS_AUDIT_COMPLETE_NO_NEW_BACKTEST",
+  "checkpoint": "Readinessauditcomplete,WAITING/noactiveworker. No completedpostfreezeRTHETFhourpossibleasof08:06UTC;noemptypricefeedclaim/noquery. Frozen2models unchanged;228testsPASS incl7newguardboundaries. PlanGitblob/dependencies/hashesverified. CalendarpackageModuleNotFound recorded;officialNYSEONEdayNov19fallbackonly,nohistoricaldowngrade. Guardseparatescalendarfromactualpricecoverage/fullhorizon,NOterminalbacktestallowedbeforeseparateaudit. 0engine/acquisition/order;metricsNA,not0%return. Fourquantfamilies32combosPROPOSEDONLY,notimplemented. Old669studyimmutable/notrerun.",
   "engine_calls": 0,
   "orders": 0,
-  "raw_upload": "not attempted; no raw acquisition; previous refusal respected",
+  "raw_upload": "not attempted; no newacquisition; previouspublicrawrefusalrespected",
   "original_data_hashes": {
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_000_LOCAL.json": "d6ca3f23067f7c787e2c74de25204cd686b075174b322e9a5fb9ec622c72310e",
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_001_LOCAL.json": "485fabe72eb58102e59053999a7797c37b33876a71d2f3083e86d15c535fdd57",
@@ -50,5 +50,32 @@
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_034_LOCAL.json": "6733f3bdba2325fdd54480b36b4ae599c1415b4884cb08ff9e3da9ed6d5b44e6",
     "runs/venue_flow_retry_20261119_1200/BTCUSDT_30m_page_035_LOCAL.json": "f8cd5377a03da9ef2714124af8f33b4b9899dce32aafb812bec78b3a74997663"
   },
-  "next_command": "Audit current officialRTH calendar and frozen dependency hashes; record WAITING ratherthan rerun closedgrids."
+  "next_command": "python scripts/prospective_shadow_guard_20261119.py --plan runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json --plan-blob-sha1 3595a3d7fc07401252a205f615f5fd743e77ab49 --calendar runs/prospective_readiness_retry_20261119_1700/calendar_20261119.csv --now \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\" --out \"runs/prospective_recheck_$(date -u +%Y%m%d_%H%M%S)/readiness.json\"",
+  "worker_active": false,
+  "checked_at_utc": "2026-11-19 08:06:26 UTC",
+  "latest_completed_backtest_run": "venue_latency_retry_20261119_1400",
+  "latest_completed_backtest_engine_calls": 669,
+  "new_price_acquisitions": 0,
+  "new_real_orders": 0,
+  "financial_metrics": null,
+  "next_action": "Check freshUTC+officialcalendar+newreadinesscheckpoint ONLY whilewaiting; don'trerunclosedgrids oroldmonthlyprefixes. AftercompletedpostfreezeRTHsource+ETFprices exist, separatelyauditcalendar/vintage/overlap/PIT/coverage/hash. NewshadowFULLAccountState permodel/control/stress;don'timporthistoricalresetaccount. Currentguardisreadinessonlynotactualexecutionintegration. Calendaronlycovers2026-11-19,extendforlaterNYday. Min20/multipleperiods/cost2/delaybeforeclaim;reused2026notindependent.",
+  "context_sha256": "abd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c",
+  "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+  "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
+  "source_period": {
+    "start": "2024-11-14 00:00:00+00:00",
+    "end_exclusive": "2026-11-14 00:00:00+00:00"
+  },
+  "prospective_shadow_plan": "runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json",
+  "prospective_frozen_at_utc": "2026-11-19 05:20:49 UTC",
+  "prospective_new_observations": 0,
+  "current_official_calendar_sha256": "5f993b55f18a91bb37b80516181389733238568b966275cf3f5aa1e6682cc03d",
+  "current_official_calendar_days": [
+    "2026-11-19"
+  ],
+  "expected_first_new_hour_complete_utc": "2026-11-19T15:30:00+00:00",
+  "expected_session_close_utc": "2026-11-19T21:00:00+00:00",
+  "approved": [],
+  "new_independent_validation": false,
+  "news_macro": false
 }
