@@ -1,0 +1,20 @@
+{
+  "run_id": "prospective_receipt_parity_20261120_0800",
+  "research_parent": "2543a95ea25251dfcc85c0365ef7e6892021a571",
+  "hypothesis": "Frozen exact-span source context and h120/c180 source+price scores can be reproduced independently and remain prefix-invariant on actual06 data; actual completed-bar first receipts may still make original fixed-clock execution impossible. No backdating or PnL from unavailable inputs.",
+  "criteria": [
+    "Verify prior07manifest/artifacts/allraw/state dictionaries and17frozen deps; no locks/intents; preserve original03/06/07 outputs",
+    "Build :30-start one-hour source ONLY from exact adjacent actual30m pairs, sum reported base/taker quantities then ratio, no start-index parity assumption on partial06:30 snapshot",
+    "Use original context gate j>=8, end+5<=scheduleddecision, age5..65, sameNYday/sourcehourstart matches actualETFgrid; prior flow mean4 excludescurrent; reproduce frozen flow_trend .55/.10/L4 source and flowremoved price, calendar120/180 and originalsessiondelay",
+    "Compare new sourcecontext to independent copy of frozen batch logic and scores through original functions; compare all actual1..7prefixes on finalized known-entry rows, leave trailing1+delay unknown rows out of parity comparison",
+    "First observed completedETFbar values must match finalvintage; do not use incomplete bars or quote tails. Source firstobserved upperreceipt comes from actual host brackets. Calendar/assumedrelease is not receipt; missing receipt must fail closed",
+    "Audit source dependency firstreceipts and targetETF completed quote at each frozen decision and executionclock for base/cost2/delay1. Late/missing records => nohistoricalPIT execution; observedafterdecisioncannotbeassumedavailableearlier",
+    "Zero eligible opportunities is evidence of missing execution support, not0%cash or alpha. No engine before genuinePIT/parity/FULLAccountState/protectedexecution and full horizon; no oldgrid/newfit/financialmetrics",
+    "New module+focusednegative tests, one fullsuite only after codechanges. Same2026payload diagnostic notindependent validation"
+  ],
+  "new_market_requests": 0,
+  "orders": 0,
+  "engine_calls": 0,
+  "financial_metrics": null,
+  "new_independent_validation": false
+}
