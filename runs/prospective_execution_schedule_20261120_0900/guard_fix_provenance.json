@@ -1,0 +1,7 @@
+{
+  "audit_original_scheduler_sha256": "6cb53a96d0dab5649871f391f52e4909f5800cf7cc990c240c22f4623d6bb735",
+  "final_scheduler_sha256": "40eb51d1f4276048232606730f5305e277705755b5d081d13450f3ff58bed356",
+  "cause": "Focused negative test caught naive receipt map key being treated as missing; normalize and strictly validate all supplied aware-string keys/values, reject canonical duplicates.",
+  "actual_audit_valid_metadata_unchanged": true,
+  "original_actual_audit_preserved": true
+}
