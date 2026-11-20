@@ -1,0 +1,89 @@
+[
+  {
+    "scenario": "base",
+    "plan_hash": "2090d5cdc0463f32e967627792236e8a1c99bed5c83e81c73421ab2fce8b8e7f",
+    "prefix_months": 0,
+    "verified_call_refs": [],
+    "checkpoint_sha256": "b8050d870e3e04dcb006a4c25fe2d6726189f95d060f8311be2482f225e2ebb9"
+  },
+  {
+    "scenario": "base",
+    "plan_hash": "2090d5cdc0463f32e967627792236e8a1c99bed5c83e81c73421ab2fce8b8e7f",
+    "prefix_months": 1,
+    "verified_call_refs": [
+      "new:37"
+    ],
+    "checkpoint_sha256": "6f02b83b1719d51dc1235b661e5909e377941998abe55b119a5497b368877381"
+  },
+  {
+    "scenario": "cost2",
+    "plan_hash": "2090d5cdc0463f32e967627792236e8a1c99bed5c83e81c73421ab2fce8b8e7f",
+    "prefix_months": 0,
+    "verified_call_refs": [],
+    "checkpoint_sha256": "83c5350253ac1108d1316136d2aa4f7c28fb732f90cef12df0f0ca1ff49e2a12"
+  },
+  {
+    "scenario": "delay1",
+    "plan_hash": "2090d5cdc0463f32e967627792236e8a1c99bed5c83e81c73421ab2fce8b8e7f",
+    "prefix_months": 0,
+    "verified_call_refs": [],
+    "checkpoint_sha256": "6dc8d8a3ff05bca0c64948db244dc957ce188dc4f5e88858b2da7197bb1da5ef"
+  },
+  {
+    "scenario": "base",
+    "plan_hash": "2090d5cdc0463f32e967627792236e8a1c99bed5c83e81c73421ab2fce8b8e7f",
+    "prefix_months": 11,
+    "verified_call_refs": [
+      "new:37",
+      "new:38",
+      "new:39",
+      "new:40",
+      "new:41",
+      "new:42",
+      "new:43",
+      "new:44",
+      "new:45",
+      "new:46",
+      "new:47"
+    ],
+    "checkpoint_sha256": "68c1d717e308342d542c9860149aef87eecee09970fc0bf107b2be438bc07307"
+  },
+  {
+    "scenario": "cost2",
+    "plan_hash": "2090d5cdc0463f32e967627792236e8a1c99bed5c83e81c73421ab2fce8b8e7f",
+    "prefix_months": 11,
+    "verified_call_refs": [
+      "new:48",
+      "new:49",
+      "new:50",
+      "new:51",
+      "new:52",
+      "new:53",
+      "new:54",
+      "new:55",
+      "new:56",
+      "new:57",
+      "new:58"
+    ],
+    "checkpoint_sha256": "68c1d717e308342d542c9860149aef87eecee09970fc0bf107b2be438bc07307"
+  },
+  {
+    "scenario": "delay1",
+    "plan_hash": "2090d5cdc0463f32e967627792236e8a1c99bed5c83e81c73421ab2fce8b8e7f",
+    "prefix_months": 11,
+    "verified_call_refs": [
+      "new:59",
+      "new:60",
+      "new:61",
+      "new:62",
+      "new:63",
+      "new:64",
+      "new:65",
+      "new:66",
+      "new:67",
+      "new:68",
+      "new:69"
+    ],
+    "checkpoint_sha256": "68c1d717e308342d542c9860149aef87eecee09970fc0bf107b2be438bc07307"
+  }
+]

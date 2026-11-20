@@ -1,0 +1,15 @@
+{
+  "status": "DEVELOPMENT_COMPLETE_POOL_FROZEN_BEFORE_2026",
+  "actual_calls": 115,
+  "logical_reset_cells": 156,
+  "pool": [
+    "source__participation_follow_L20_a1.25_b0.5",
+    "ETF__participation_follow_L20_a1.25_b0.5",
+    "source__participation_follow_L40_a1.25_b0.5",
+    "ETF__participation_follow_L40_a1.25_b0.5"
+  ],
+  "source_shortlist": [
+    "source__participation_follow_L40_a1.25_b0.5",
+    "source__participation_follow_L20_a1.25_b0.5"
+  ]
+}

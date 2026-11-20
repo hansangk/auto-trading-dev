@@ -1,0 +1,52 @@
+{
+  "run_id": "prospective_execution_schedule_20261120_0900",
+  "observations": [
+    {
+      "stage": "Focused synthetic negative test attempt1",
+      "test_methods": 17,
+      "passed": 16,
+      "failed": 1,
+      "log": "focused_tests_attempt1.log",
+      "failure": "Naive receipt map key was classified missing instead of raising strict timestamp error.",
+      "fix": "Validate/canonicalize every supplied timestamp key/value and reject duplicate canonical marks before comparison.",
+      "root_guard_fix": "guard_fix_provenance.json"
+    },
+    {
+      "stage": "Focused attempt2",
+      "test_methods": 18,
+      "passed": 18,
+      "failed": 0,
+      "log": "focused_tests_attempt2.log"
+    },
+    {
+      "stage": "Final strict guard actual metadata requalification",
+      "plans": 3,
+      "changed_results": 0,
+      "evidence": "postfix_requalification.json"
+    },
+    {
+      "stage": "Quant review correction",
+      "initial": "AccountState described as8fields",
+      "corrected": "Root dataclasses.fields and agent confirmed7 flat-risk fields; open position/pendingintent absent.",
+      "fields": [
+        "equity",
+        "peak",
+        "daily_start",
+        "current_date",
+        "cooldown_until",
+        "loss_streak",
+        "killed"
+      ]
+    }
+  ],
+  "strategy_support_rejections": {
+    "actual_source_freshness": "97.594min atfirstreceipt >65min for shared15:30event",
+    "protective_receipts": "Required18:30/19:30 completedmarks firstobserved19:07/20:03, after sameclock nextOPEN action",
+    "holding": "h120later event and c180hold4 lack equalfullhour common horizons; no tailclamp"
+  },
+  "new_market_requests": 0,
+  "engine_calls": 0,
+  "real_orders": 0,
+  "financial_metrics": null,
+  "prior03_06_07_08_preserved": true
+}

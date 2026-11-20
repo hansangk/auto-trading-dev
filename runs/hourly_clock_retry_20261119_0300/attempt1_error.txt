@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/hourly_night_retry_20261119.py", line 138, in <module>
+    try:main()
+        ^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/hourly_night_retry_20261119.py", line 52, in main
+    base.append(evaluate(c['name'],a,b));evaluate(c['name']+'__control',a,b)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/hourly_night_retry_20261119.py", line 46, in evaluate
+    call=actual[ck];ident=call['call_id'];row=dict(name=n,start=a,end_exclusive=b,scenario=scenario,purpose=purpose,call_id=ident,**{k:v for k,v in call.items() if k not in ('kind','first_policy','start','end_exclusive','scenario','purpose')});rows.append(row);logical[key]=row
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'call_id'

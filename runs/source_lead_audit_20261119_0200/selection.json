@@ -1,0 +1,121 @@
+{
+  "support_passing": [],
+  "information_passing": [],
+  "shortlist": [],
+  "diagnostic_selected": [],
+  "development_screen_pass": [],
+  "approved": [],
+  "failures": [
+    {
+      "name": "wick_pressure_lag0",
+      "family": "wick_pressure",
+      "lag": 0,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "wick_pressure_lag1",
+      "family": "wick_pressure",
+      "lag": 1,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "wick_pressure_lag3",
+      "family": "wick_pressure",
+      "lag": 3,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "path_chop_lag0",
+      "family": "path_chop",
+      "lag": 0,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT",
+        "BASE_MIN20_ROUNDS_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "path_chop_lag1",
+      "family": "path_chop",
+      "lag": 1,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT",
+        "BASE_MIN20_ROUNDS_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "path_chop_lag3",
+      "family": "path_chop",
+      "lag": 3,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT",
+        "BASE_MIN20_ROUNDS_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "vol_compression_lag0",
+      "family": "vol_compression",
+      "lag": 0,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "vol_compression_lag1",
+      "family": "vol_compression",
+      "lag": 1,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "vol_compression_lag3",
+      "family": "vol_compression",
+      "lag": 3,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "tail_energy_lag0",
+      "family": "tail_energy",
+      "lag": 0,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "tail_energy_lag1",
+      "family": "tail_energy",
+      "lag": 1,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "tail_energy_lag3",
+      "family": "tail_energy",
+      "lag": 3,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true
+    }
+  ]
+}

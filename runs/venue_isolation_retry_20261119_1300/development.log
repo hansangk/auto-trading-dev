@@ -1,0 +1,6 @@
+                name     worst     mean  min_Bitcoin_rounds  any_halt  max_hard_halts  max_mdd
+coin__body55__source  0.015148 0.016187                  83     False               0 0.008702
+coin__body35__source  0.012560 0.013411                  99     False               0 0.011558
+ coin__body55__price -0.000295 0.002078                 120     False               0 0.012349
+ coin__body35__price -0.001929 0.006557                 152     False               0 0.014467
+pool ['coin__body55__source', 'coin__body35__source'] passed []

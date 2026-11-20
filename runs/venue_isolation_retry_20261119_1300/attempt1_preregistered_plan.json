@@ -1,0 +1,52 @@
+{
+  "status": "PREREGISTERED_BEFORE_NEW_PNL",
+  "run_id": "venue_isolation_retry_20261119_1300",
+  "research_parent": "91925951180909e9ec2cd57130539c3cfcb08cd8",
+  "previous_failure": "fullcrypto grosspositive butfullaccount2025negative;sourceflowgridclosed;recentwinnernotcausalmonthlyselected",
+  "mechanism": "RemoveNasdaqrole atsame15%Bitcoin budget andfullprotectiveaccount replay; notfrozenBitcoinlegsum. Twofixedthresholds,no resweep.",
+  "four_role_families": "fullreference,Bitcoin-only,Nasdaqcoincident,noncoincident;2frozenbodyanchors55/35\u00d72flowarms=16nominal;full4cacheonly,sync/async8preflightrejected;actualnewPnLdefinitions4",
+  "selection_history": "body35 existed2025pool butchoiceherealsoinfluencedbyseen2026recentfit. Thisisretrospectiveresearch.2025\u21922026freezeonlypreventsfurtherselection,doesnotrestoreindependence.",
+  "returnblind": ">=20onsets/20changedroles/10days EACH2025half forbothflowandroleintervention. sync9/7 or10/12 fails;async removesonlythose sparseonsets,noteligibleforalpha/informationinference.",
+  "shortlist": "RankonlyneweligibleSOURCE byworst2025H1/H2basicthenmean; source+same15%pricepair<=8nominal;actualBitcoinBUY>=20/nohardorMDDhalts/realizedMDD<=3%EACHhalf;flowchange20+10days",
+  "stress": "base(1,0),cost2(2,0),delay1(1,1)onlyshortlist; unchangedcommission.3/slippage2bps eachside andspec/risk. scenario-valueassertbeforecache.",
+  "diagnostic_pool": "SOURCEONLY requiringbothsource+pairBitcoinBUY20/nohalts/MDD<=3%ALL6devcells. NegativehistoricalPnLmayresearchrecentregimeONLY,nopromotion.",
+  "development_profit": "all6sourceprofitpositive AND source>same15%price/nohigherMDD eachcell. absoluteriskMDD3%screenwhileengine5%killunchanged. NocashMDDzeroinequality,nofull30%riskmatchedclaim.",
+  "recent": "sourcepoolONLY current3/6fitrankseparatefromcausalstrictpriorcalendar3/6 selection nextmonth;sourceallstressespositive+min20both/source>pairprice/nohigherMDD/MDD3%. FallbackWHOLECASH,newNasdaqroleexcluded; exactFULLAccountState carry&verifiedprefix.",
+  "periods": {
+    "dev": [
+      "2025-01-01<=t<2025-07-01",
+      "2025-07-01<=t<2026-01-01"
+    ],
+    "diagnostic": "2026-01-01<=t<2026-11-14",
+    "recent3": "2026-08-14<=t<2026-11-14",
+    "recent6": "2026-05-14<=t<2026-11-14"
+  },
+  "protection": "unchanged15%role,max30%full/max15%isolation;60bpjointclose/nextopen,3R,4eligiblebars,cooldown2;realizedpostroundMDD/daily,softskipunmeasured. One-role jointclose changesexitpath vsfull intentionally.",
+  "input_source": "unchangedactualBinanceBTCUSDT30m twobars\u21921h:30+4hmean /existingNasdaqcontext dailycompleted;sourceend+5min<=ETFdecision age<=65/currentday;ETFactualTQQQ/SQQQ/IBIT/BITI BUY,BitcoinETFproxy notspot",
+  "raw_access": "LOCALonly,previousrawpublicrefusalrespected,noacquisition/upload",
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "hashes": {
+    "scripts/venue_flow_signals_20261119.py": "08f5ac2f8c6758ae6bea250e49ab97786239aa1b9fcbb1f6595e65dc3b2fca73",
+    "scripts/venue_flow_context_20261119.py": "075a88a7f1cb04b01004224d920259fb6aa14f2ec7fecf36ad9f802f88099e36",
+    "scripts/venue_flow_retry_20261119.py": "d6411b2191f2545b2bbc9a281a78b55c86605dc1dba3ae32b9bae79a704c8a7a",
+    "tests/test_venue_flow_signals.py": "f991eb83c880e560b7df62e187e5fa1c3e04574440121d76167c764216c0ed35",
+    "scripts/availability_runtime_20261119.py": "8fa95f289092ad87bc21c2b2283f67819050a7e7ffa6f526f9a0fa23092429bb",
+    "scripts/availability_guarded_research_20261119.py": "51b1b43c82334cd6cfc632f15edd4185d1d4a5cd107be84a4e357ce7ec966291",
+    "scripts/hourly_night_signals_20261119.py": "0f7fbe5966d8f5122bc9ae009e6abbd2b3bcf7c26dd8938dbb7534088fb57a05",
+    "scripts/session_signal_provenance.py": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "runs/venue_flow_retry_20261119_1200/context_LOCAL.npz": "abd16a0e98fb10834c187d485eafbc09fbb470459afdef8bc6638fcc92733d8c",
+    "runs/venue_flow_retry_20261119_1200/scores_LOCAL.npz": "0fc0cb5119846f9b39921e277aa222916d5aba666511b3fee653d32fd1623261",
+    "runs/hourly_clock_retry_20261119_0300/audit_v2/audited_ETF_LOCAL.csv.gz": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+    "scripts/venue_isolation_signals_20261119.py": "6153664a18a37267b98b83d170ab8a935c967979ea74010a537b448cebc83235",
+    "scripts/venue_isolation_retry_20261119.py": "cafb0366ec84fd05d8ca6e686cd39676a0bd25a037e72a6a8ae9cfec04e88762",
+    "tests/test_venue_isolation_signals.py": "0dd713d23723fb50b2d230fde96e13fd691ab59f0fbfbf6eb0c5697fd35be868",
+    "runs/venue_isolation_retry_20261119_1300/scores_LOCAL.npz": "022d4b3bb8929300f6115684de4f107fd0710d9326502221d7f309a6ccbdb6d4",
+    "runs/venue_isolation_retry_20261119_1300/cache_provenance.json": "4c767f4fd2a3b0e8b5a4129b747dddf733c87c44d878e6d1293c5e1d4e2948e5",
+    "runs/venue_flow_retry_20261119_1200/crypto_scores_LOCAL.npz": "c186f53fae7cc9bde0dd0eb42e69a806b3d030165e3eaea35dfe79c0d0faaf34",
+    "runs/venue_flow_retry_20261119_1200/checkpoint_LOCAL.json": "fbc231aa9d5b22372756bccdb9b511b8bfd6c2704aec02845eab0421a5b03d56"
+  }
+}

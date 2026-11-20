@@ -1,0 +1,9 @@
+name,start,end_exclusive,cost,old_call_id,old_policy,old_scenario
+A_source_native,2025-01-01,2025-07-01,1,1,source,base
+A_source_native,2025-07-01,2026-01-01,1,17,source,base
+A_parent_native,2025-01-01,2025-07-01,1,4,qqq_consensus,base
+A_parent_native,2025-07-01,2026-01-01,1,20,qqq_consensus,base
+B_source_native,2025-01-01,2025-07-01,1,34,source,delay1
+B_source_native,2025-07-01,2026-01-01,1,50,source,delay1
+B_parent_native,2025-01-01,2025-07-01,1,36,qqq_consensus,delay1
+B_parent_native,2025-07-01,2026-01-01,1,52,qqq_consensus,delay1

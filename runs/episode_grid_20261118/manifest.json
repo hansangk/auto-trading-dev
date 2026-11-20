@@ -1,0 +1,63 @@
+{
+  "status": "COMPLETE_SHORT_SAMPLE",
+  "calls": 91,
+  "candidates": 16,
+  "shortlist": [
+    "compression_0.75_4",
+    "chasecancel_1_0.25",
+    "chasecancel_3_0.5",
+    "onset_2_0",
+    "onset_2_3",
+    "chasecancel_3_0.25",
+    "chasecancel_1_0.5",
+    "onset_1_3"
+  ],
+  "selected": [
+    "compression_0.75_4",
+    "chasecancel_1_0.25",
+    "chasecancel_3_0.5"
+  ],
+  "approved": [],
+  "sessions": [
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-26",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "input_sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836",
+  "complete_input_sha256": "9f0aaf935a5ebca0139d77c681d3b3ed87f3d3057dbf4e188cfd2c60612d5478",
+  "prefix_checks": 48,
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "hashes": {
+    "scripts/episode_grid_20261118.py": "d5410be24f60a4bedb66bfbbaa71723f1e3862f9677aa39ad269fd660c2f26a7",
+    "scripts/episode_signals_20261118.py": "25a0a1ee1902739d4b128b36005ef2dce1984d6a02d1b834f432d170b45b8136",
+    "scripts/five_minute_grid_20261118.py": "9483727bdd06f1d0d6ebdb3be04c22972e487b026f2fb54c2bb33cb47b3b7d84",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "scripts/session_signal_provenance.py": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c"
+  },
+  "tests": {
+    "count": 101,
+    "seconds": 7.299,
+    "result": "PASS"
+  },
+  "raw_signal_arrays": 16,
+  "executable_arrays": 16
+}

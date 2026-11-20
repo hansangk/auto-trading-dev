@@ -1,0 +1,25 @@
+{
+  "status": "RECOVERY_REPLAY_COMPLETE_FRESH_DATA_BLOCKED",
+  "engine_calls": 9,
+  "new_candidates": 0,
+  "independent_validation": false,
+  "news_macro": false,
+  "real_orders": false,
+  "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "input_path": "/workspace/scratch/290b763eac4f/auto-trading-dev/runs/inverse_etf_retry_20261116/market.csv.gz",
+  "parent": "f29c81567ed4ce033df7d8ddeb9f9e2146472fd7",
+  "hashes": {
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "scripts/recovery_retry_20261118.py": "881c3e79f87baddca35dba50035b279b0bec23961ff368d1fefb4cac95f64b16",
+    "scripts/inverse_etf_retry_20261116.py": "ab1ec4abb4a5001aba3aae3f4a2ee7082f61b7939c2dce32479ff74eb4824081",
+    "scripts/microstructure_signals_20261117.py": "442cda7a261473d9c1b95929efb054a4655295796b2d53b4fe0fc3367edee1b7",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "runs/snapshot_shadow_retry_20261117/frozen_models.json": "fdfa51f4bb5ad33b02eb068d3c4f7a5fd4ee4b29b693b4dfec576f8587d7d185"
+  },
+  "tests": 85,
+  "test_result": "PASS",
+  "test_seconds": 12.006,
+  "python": "3.12.14",
+  "fresh_data_error": "HTTP429 Too Many Requests",
+  "prior_unpublished_artifacts": "Missing after workspace maintenance; no exact reconstruction claimed"
+}

@@ -1,0 +1,34 @@
+{
+  "downloaded_utc": "2026-11-16T11:23:05.784864+00:00",
+  "source": "Yahoo 1h actual ETF OHLCV; IBIT spot Bitcoin proxy, BITI inverse futures ETF, not identical spot hedge",
+  "files": [
+    {
+      "symbol": "TQQQ",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/TQQQ?range=2y&interval=1h&includePrePost=false&events=div%2Csplits",
+      "raw_sha256": "4f5c68642f2ef977776e2225658f80b6accb4eaa4307db7f94cc164c5ccf04af",
+      "rows": 3484
+    },
+    {
+      "symbol": "SQQQ",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/SQQQ?range=2y&interval=1h&includePrePost=false&events=div%2Csplits",
+      "raw_sha256": "12678cc7ccdb32f5d3518e83b272d6b0086b578ed5ec37bd8c219b809d5be22b",
+      "rows": 3484
+    },
+    {
+      "symbol": "IBIT",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/IBIT?range=2y&interval=1h&includePrePost=false&events=div%2Csplits",
+      "raw_sha256": "f9cb765969482805d26e68b997440a0c235e519421b70df1700c0550f8021791",
+      "rows": 3484
+    },
+    {
+      "symbol": "BITI",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITI?range=2y&interval=1h&includePrePost=false&events=div%2Csplits",
+      "raw_sha256": "d0486a36fe123821292cd745efe5799d14892c3bf27d3b9544218922102c0b78",
+      "rows": 3483
+    }
+  ],
+  "sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "first": "2024-11-14 14:30:00+00:00",
+  "last": "2026-11-13 20:30:00+00:00",
+  "csv_sha256": "138106dac1c0cc7fb80abd68dff3e01c7316da5d23e91ef9a9e364003b6c38f6"
+}

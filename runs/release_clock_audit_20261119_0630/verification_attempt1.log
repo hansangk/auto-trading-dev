@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/release_clock_verify_20261119.py", line 67, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/release_clock_verify_20261119.py", line 46, in main
+    assert np.isclose(equity*t['net_return'],t['pnl'],rtol=1e-6)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

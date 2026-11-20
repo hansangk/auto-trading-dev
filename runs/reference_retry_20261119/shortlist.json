@@ -1,0 +1,25 @@
+{
+  "shortlist": [
+    "cross_reference_sync_3_0.5",
+    "cross_reference_sync_6_0.5"
+  ],
+  "selection_data": "development only",
+  "aliases": {
+    "tracking_catchup_3_1": "tracking_catchup_3_1",
+    "tracking_catchup_3_2": "tracking_catchup_3_2",
+    "tracking_catchup_6_1": "tracking_catchup_6_1",
+    "tracking_catchup_6_2": "tracking_catchup_6_2",
+    "sweep_reclaim_15m_6_0.65": "sweep_reclaim_15m_6_0.65",
+    "sweep_reclaim_15m_6_0.8": "sweep_reclaim_15m_6_0.8",
+    "sweep_reclaim_15m_12_0.65": "sweep_reclaim_15m_12_0.65",
+    "sweep_reclaim_15m_12_0.8": "sweep_reclaim_15m_12_0.8",
+    "shock_exhaustion_1_1.5": "shock_exhaustion_1_1.5",
+    "shock_exhaustion_1_2": "shock_exhaustion_1_2",
+    "shock_exhaustion_3_1.5": "shock_exhaustion_3_1.5",
+    "shock_exhaustion_3_2": "shock_exhaustion_3_2",
+    "cross_reference_sync_3_0.5": "cross_reference_sync_3_0.5",
+    "cross_reference_sync_3_1": "cross_reference_sync_3_1",
+    "cross_reference_sync_6_0.5": "cross_reference_sync_6_0.5",
+    "cross_reference_sync_6_1": "cross_reference_sync_6_1"
+  }
+}

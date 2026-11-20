@@ -1,0 +1,29 @@
+{
+  "status": "PREREGISTERED_ACCESS_ONLY_NO_BACKTEST",
+  "run_id": "prospective_access_retry_20261120_0100",
+  "research_parent": "5c66a149a3f08e32af704c14b7de869c41ae9969",
+  "hypothesis": "The first completed postfreeze RTH hour may now be available in real source/ETF snapshots; test actual returned timestamps/coverage and preserve first-observed receipt time without assuming calendar equals availability.",
+  "requests": {
+    "ETF_symbols": [
+      "TQQQ",
+      "SQQQ",
+      "IBIT",
+      "BITI"
+    ],
+    "ETF_vendor": "Yahoo public chart API1h; direct public read-only access attempt, exactresponse bytes LOCAL",
+    "ETF_session": "NY2026-11-19 09:30-16:00, onlybarend<=fixedasof accepted",
+    "source_symbol": "Binance spotBTCUSDT",
+    "source_interval": "30m",
+    "source_start_utc": "2026-11-19T06:30:00Z",
+    "source_end_exclusive_utc": "2026-11-19T15:30:00Z",
+    "source_expected_rows": 18,
+    "source_provider": "Connected public Binance kline API"
+  },
+  "acceptance": "Record every error/actualraw hash and firstobservedreceipt; source12cols positivevolume/takerbounds/contiguity; ETFsymbol/instrument/OHLCV/timezone/sessionclock, ignoreincompletebars and rejectoffclock/missing/duplicates. Partial access is not full input qualification, untouchedindependentvalidation or trade eligibility.",
+  "rejection": "No synthetic/fill/shifted bars or inferredETFnegative returns, no expectedprices fabricated, no terminalbacktest onpartialhorizon. NoETF/sourceorder APIs.",
+  "engine_calls_planned": 0,
+  "orders": 0,
+  "new_strategy_definitions": 0,
+  "new_independent_validation": false,
+  "raw_public_upload": "Not attempted; refuse to retry previous raw uploads; newrawalsoLOCAL/hashonly"
+}

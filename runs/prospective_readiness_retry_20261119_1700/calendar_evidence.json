@@ -1,0 +1,17 @@
+{
+  "status": "ONE_DAY_OFFICIAL_SNAPSHOT_NOT_FULL_CALENDAR_PACKAGE",
+  "verified_day": "2026-11-19",
+  "sources": [
+    "https://www.nyse.com/trade/trading-information",
+    "https://ir.theice.com/press/news-details/2025/NYSE-Group-Announces-2026-2027-and-2028-Holiday-and-Early-Closings-Calendar/"
+  ],
+  "facts": {
+    "regular_core_local": "09:30-16:00 America/New_York",
+    "2026_November_holiday": "2026-11-26",
+    "2026_November_early_close": "2026-11-27"
+  },
+  "derivation": "Nov19 isThursdayandnotlistedholiday/earlyclose; UTCderivedusingzoneinfo. Officialscheduledsession,notguaranteetherewillbenohalt.",
+  "runtime_calendar_failure": "ModuleNotFoundError: exchange_calendars; no cachedwheel. Didnotdowngrade/modifyfrozenhistoricalcalendar; explicit1dayofficialsnapshotfallback.",
+  "no_market_price_query": true,
+  "no_news_macro_signal": true
+}

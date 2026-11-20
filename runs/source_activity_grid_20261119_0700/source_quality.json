@@ -1,0 +1,112 @@
+{
+  "QQQ": {
+    "raw": {
+      "raw_rows": 3499,
+      "null_rows": 33,
+      "invalid_days": {
+        "2026-07-14": 7,
+        "2026-07-13": 7,
+        "2026-01-30": 5,
+        "2026-07-10": 5,
+        "2026-02-02": 4,
+        "2024-11-29": 1,
+        "2024-12-24": 1,
+        "2025-12-24": 1,
+        "2025-07-03": 1,
+        "2025-11-28": 1
+      },
+      "finite_offgrid_rows": 6,
+      "accepted_rows": 3459,
+      "first_start": "2024-11-18 16:30:00+00:00",
+      "last_end": "2026-11-18 16:30:00+00:00",
+      "raw_sha256": "a62a158a1f6a3fc85ef803c277543408e7b46c629630787013427218827271ad"
+    },
+    "volume": [
+      {
+        "start": "2025-01-01",
+        "end_exclusive": "2025-07-01",
+        "bars": 854,
+        "positive": 854,
+        "zero": 0,
+        "unique_positive": 854,
+        "positive_fraction": 1.0,
+        "adjacent_same_fraction": 0.0
+      },
+      {
+        "start": "2025-07-01",
+        "end_exclusive": "2026-01-01",
+        "bars": 884,
+        "positive": 877,
+        "zero": 7,
+        "unique_positive": 877,
+        "positive_fraction": 0.9920814479638009,
+        "adjacent_same_fraction": 0.0
+      },
+      {
+        "start": "2026-01-01",
+        "end_exclusive": "2026-11-14",
+        "bars": 1505,
+        "positive": 1482,
+        "zero": 23,
+        "unique_positive": 1482,
+        "positive_fraction": 0.9847176079734219,
+        "adjacent_same_fraction": 0.0
+      }
+    ],
+    "positive_values": 3428,
+    "zeros": 31
+  },
+  "BTC-USD": {
+    "raw": {
+      "raw_rows": 17522,
+      "null_rows": 33,
+      "invalid_days": {
+        "2025-11-29": 14,
+        "2025-10-28": 10,
+        "2025-11-28": 6,
+        "2025-01-02": 1,
+        "2025-10-27": 1,
+        "2026-05-07": 1
+      },
+      "finite_offgrid_rows": 1,
+      "accepted_rows": 17487,
+      "first_start": "2024-11-18 17:00:00+00:00",
+      "last_end": "2026-11-18 17:00:00+00:00",
+      "raw_sha256": "5a470cea79415bc73c87eaeeb5740fe8c5e1f95c2b72e9f05e68e8def54cb206"
+    },
+    "volume": [
+      {
+        "start": "2025-01-01",
+        "end_exclusive": "2025-07-01",
+        "bars": 4343,
+        "positive": 2102,
+        "zero": 2241,
+        "unique_positive": 2101,
+        "positive_fraction": 0.4839972369329956,
+        "adjacent_same_fraction": 0.3265776140027637
+      },
+      {
+        "start": "2025-07-01",
+        "end_exclusive": "2026-01-01",
+        "bars": 4385,
+        "positive": 2181,
+        "zero": 2204,
+        "unique_positive": 2179,
+        "positive_fraction": 0.49737742303306726,
+        "adjacent_same_fraction": 0.3072536496350365
+      },
+      {
+        "start": "2026-01-01",
+        "end_exclusive": "2026-11-14",
+        "bars": 7607,
+        "positive": 3818,
+        "zero": 3789,
+        "unique_positive": 3806,
+        "positive_fraction": 0.5019061390824241,
+        "adjacent_same_fraction": 0.34052064159873785
+      }
+    ],
+    "positive_values": 8661,
+    "zeros": 8826
+  }
+}

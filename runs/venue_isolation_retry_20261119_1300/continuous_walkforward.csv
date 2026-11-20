@@ -1,0 +1,7 @@
+months,scenario,start,end_exclusive,schedule_key,total_return,rounds,Nasdaq_rounds,Bitcoin_rounds,win_rate,max_drawdown,ever_halted,Bitcoin_cash_months,actual_zero_trade_months
+3,base,2026-01-01,2026-11-14,3ecca072a5752175d00d86c89eb0fe2cbb83d560416f1709d92d243fb65b37df,0.0,0,0,0,0,0.0,False,11,11
+3,cost2,2026-01-01,2026-11-14,ae371627b0d308627b561f404e008aed4f8d7c3112e6bc747336f7ae21c57ad9,0.0,0,0,0,0,0.0,False,11,11
+3,delay1,2026-01-01,2026-11-14,cf9128957b03fa592ea9c3f4df6db4ffc19c4a66883171e334c2aaf3916f25bc,0.0,0,0,0,0,0.0,False,11,11
+6,base,2026-01-01,2026-11-14,3ecca072a5752175d00d86c89eb0fe2cbb83d560416f1709d92d243fb65b37df,0.0,0,0,0,0,0.0,False,11,11
+6,cost2,2026-01-01,2026-11-14,ae371627b0d308627b561f404e008aed4f8d7c3112e6bc747336f7ae21c57ad9,0.0,0,0,0,0,0.0,False,11,11
+6,delay1,2026-01-01,2026-11-14,cf9128957b03fa592ea9c3f4df6db4ffc19c4a66883171e334c2aaf3916f25bc,0.0,0,0,0,0,0.0,False,11,11

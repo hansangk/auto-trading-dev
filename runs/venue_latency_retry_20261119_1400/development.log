@@ -1,0 +1,10 @@
+        name     worst     mean  min_Bitcoin_rounds  any_halt  max_hard_halts  max_mdd
+h120__source  0.010289 0.012582                  46     False               0 0.005084
+c120__source  0.008250 0.014625                  46     False               0 0.007278
+h180__source  0.006652 0.007095                  21     False               0 0.005387
+c180__source  0.004245 0.007819                  21     False               0 0.005145
+ h180__price  0.002104 0.002892                  42     False               0 0.010244
+ h120__price  0.000052 0.000190                  81     False               0 0.014096
+ c120__price -0.001885 0.002204                  81     False               0 0.009839
+ c180__price -0.003825 0.001875                  42     False               0 0.010274
+pool ['h120__source', 'c120__source', 'h180__source', 'c180__source'] passed ['c180__source']

@@ -1,0 +1,13 @@
+{
+  "status": "WAITING_FOR_COMPLETED_SHADOW_BARS",
+  "shadow_account_initialized": false,
+  "reason": "No postfreeze completeRTHETFsession/priceaudit; do not import a historical reset-study account state as prospective account",
+  "next_required_inputs": [
+    "separatelyversionedactualTQQQ/SQQQ/IBIT/BITIbars",
+    "BTCUSDTactual30mwarmup+newbars",
+    "overlaprevision/hashcoverage/PITcalendarchecks",
+    "FULLAccountState permodel/control/stress beforecontinuousreplay"
+  ],
+  "engine_calls": 0,
+  "orders": 0
+}

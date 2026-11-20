@@ -1,0 +1,35 @@
+{
+  "status": "COMPLETE_VENUE_ISOLATION_RESEARCH",
+  "actual_new_calls": 336,
+  "reset_actual_calls": 303,
+  "continuous_actual_calls": 33,
+  "logical_reset_cells": 333,
+  "prior_unique_calls_reused": 30,
+  "prior_logical_cells_reused": 30,
+  "logical_month_segments": 66,
+  "unique_month_schedule_paths": 3,
+  "definitions": 16,
+  "new_alpha_threshold_trials": 0,
+  "shortlist": [
+    "coin__body55__source",
+    "coin__body55__price",
+    "coin__body35__source",
+    "coin__body35__price"
+  ],
+  "diagnostic_pool": [
+    "coin__body55__source",
+    "coin__body35__source"
+  ],
+  "development_screen_pass": [],
+  "approved": [],
+  "hashes": {
+    "scripts/venue_isolation_signals_20261119.py": "6153664a18a37267b98b83d170ab8a935c967979ea74010a537b448cebc83235",
+    "scripts/venue_isolation_retry_20261119.py": "d1c67d9b70f2bc4f2c6e9c05d220ff3c50a3155a3582bf018a270ca1e4f6f843",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  },
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "raw_upload": "not attempted"
+}

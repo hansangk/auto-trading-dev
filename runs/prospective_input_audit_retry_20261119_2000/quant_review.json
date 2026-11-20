@@ -1,0 +1,85 @@
+{
+  "agent": "prospective_input_quant_2000",
+  "scope": "Independent creative quant review; existing ranges only, no strategy execution/selection",
+  "source": "runs/prospective_readiness_retry_20261119_1700/quant_proposals_only.json",
+  "status": "32_PROPOSED_ONLY_UNIMPLEMENTED",
+  "families": [
+    {
+      "name": "seasonal_taker_pressure_residual",
+      "combinations": 8,
+      "ranges": {
+        "history_sessions": [
+          20,
+          40
+        ],
+        "z": [
+          1,
+          1.5
+        ],
+        "confirmation_bars": [
+          1,
+          2
+        ]
+      },
+      "required_evidence": "Actual same-time-of-day history, taker classification and positive volume authenticity, PIT receipts"
+    },
+    {
+      "name": "actual_execution_cost_gate",
+      "combinations": 8,
+      "ranges": {
+        "spread_percentile": [
+          50,
+          75
+        ],
+        "cost_multiplier": [
+          1,
+          2
+        ],
+        "confirmation_bars": [
+          1,
+          2
+        ]
+      },
+      "required_evidence": "Actual ETF point-in-time NBBO and execution-cost history, not supplied by OHLCV audit"
+    },
+    {
+      "name": "asynchronous_shock_recovery",
+      "combinations": 8,
+      "ranges": {
+        "lookback": [
+          20,
+          40
+        ],
+        "shock_z": [
+          1,
+          1.5
+        ],
+        "confirmation_bars": [
+          1,
+          2
+        ]
+      },
+      "required_evidence": "Actual QQQ/BTC common completed clock, ETF BUY prices and receipt provenance; prior rejected-combination review"
+    },
+    {
+      "name": "flow_persistence_with_activity",
+      "combinations": 8,
+      "ranges": {
+        "persistent_bars": [
+          2,
+          3
+        ],
+        "history_sessions": [
+          20,
+          40
+        ],
+        "activity": [
+          1.25,
+          1.5
+        ]
+      },
+      "required_evidence": "Actual volume/taker quality and sufficient historical activity"
+    }
+  ],
+  "conclusion": "Schema/coverage/prefix audit does not prove calendar/price authenticity, PIT receipt, signal parity or FULL AccountState. No new thresholds, model changes, acquisition, engine calls or adoption."
+}

@@ -1,0 +1,8 @@
+{
+  "context_prefix_checks": 4,
+  "score_prefix_checks": 32,
+  "first_hour_buffer_minutes": 5,
+  "source_buffer_minutes": 5,
+  "no_shifted_dynamic_hourly_row": true,
+  "coarse_clock_mask_before_onsets": true
+}

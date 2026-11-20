@@ -1,0 +1,146 @@
+[
+  {
+    "name": "surprise_20_1.25",
+    "family": "surprise",
+    "p1": 20,
+    "p2": 1.25,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "surprise_20_2.0",
+    "family": "surprise",
+    "p1": 20,
+    "p2": 2.0,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "surprise_40_1.25",
+    "family": "surprise",
+    "p1": 40,
+    "p2": 1.25,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "surprise_40_2.0",
+    "family": "surprise",
+    "p1": 40,
+    "p2": 2.0,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "rejection_20_0.7",
+    "family": "rejection",
+    "p1": 20,
+    "p2": 0.7,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "rejection_20_0.9",
+    "family": "rejection",
+    "p1": 20,
+    "p2": 0.9,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "rejection_40_0.7",
+    "family": "rejection",
+    "p1": 40,
+    "p2": 0.7,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "rejection_40_0.9",
+    "family": "rejection",
+    "p1": 40,
+    "p2": 0.9,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "pressure_20_0.75",
+    "family": "pressure",
+    "p1": 20,
+    "p2": 0.75,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "pressure_20_0.9",
+    "family": "pressure",
+    "p1": 20,
+    "p2": 0.9,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "pressure_40_0.75",
+    "family": "pressure",
+    "p1": 40,
+    "p2": 0.75,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "pressure_40_0.9",
+    "family": "pressure",
+    "p1": 40,
+    "p2": 0.9,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "compression_20_0.15",
+    "family": "compression",
+    "p1": 20,
+    "p2": 0.15,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "compression_20_0.3",
+    "family": "compression",
+    "p1": 20,
+    "p2": 0.3,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "compression_40_0.15",
+    "family": "compression",
+    "p1": 40,
+    "p2": 0.15,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  {
+    "name": "compression_40_0.3",
+    "family": "compression",
+    "p1": 40,
+    "p2": 0.3,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  }
+]

@@ -1,0 +1,418 @@
+{
+  "source_shortlist": [
+    "source__participation_follow_L40_a1.25_b0.5",
+    "source__participation_follow_L20_a1.25_b0.5"
+  ],
+  "stressed_grid_definitions": [
+    "source__participation_follow_L40_a1.25_b0.5",
+    "ETF__participation_follow_L40_a1.25_b0.5",
+    "source__participation_follow_L20_a1.25_b0.5",
+    "ETF__participation_follow_L20_a1.25_b0.5"
+  ],
+  "diagnostic_pool": [
+    "source__participation_follow_L20_a1.25_b0.5",
+    "ETF__participation_follow_L20_a1.25_b0.5",
+    "source__participation_follow_L40_a1.25_b0.5",
+    "ETF__participation_follow_L40_a1.25_b0.5"
+  ],
+  "development_screen_pass": [],
+  "approved": [],
+  "rejections": [
+    {
+      "name": "participation_follow_L20_a1.25_b0.25",
+      "family": "participation_follow",
+      "lookback": 20,
+      "a": 1.25,
+      "b": 0.25,
+      "reasons": [
+        "BASE_ACCOUNT_HALT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "participation_follow_L20_a1.25_b0.5",
+      "family": "participation_follow",
+      "lookback": 20,
+      "a": 1.25,
+      "b": 0.5,
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_INCREMENT_VS_MATCHED_ETF",
+        "MDD_WORSE_THAN_MATCHED_ETF",
+        "NO_UNIFORM_IMPROVEMENT_VS_FIXED_BITCOIN_BACKGROUND",
+        "BASE_VOLUME_ABLATION_NO_UNIFORM_INCREMENT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "participation_follow_L20_a1.75_b0.25",
+      "family": "participation_follow",
+      "lookback": 20,
+      "a": 1.75,
+      "b": 0.25,
+      "reasons": [
+        "BASE_ACCOUNT_HALT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "participation_follow_L20_a1.75_b0.5",
+      "family": "participation_follow",
+      "lookback": 20,
+      "a": 1.75,
+      "b": 0.5,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "participation_follow_L40_a1.25_b0.25",
+      "family": "participation_follow",
+      "lookback": 40,
+      "a": 1.25,
+      "b": 0.25,
+      "reasons": [
+        "BASE_ACCOUNT_HALT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "participation_follow_L40_a1.25_b0.5",
+      "family": "participation_follow",
+      "lookback": 40,
+      "a": 1.25,
+      "b": 0.5,
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "MDD_WORSE_THAN_MATCHED_ETF",
+        "NO_UNIFORM_IMPROVEMENT_VS_FIXED_BITCOIN_BACKGROUND",
+        "BASE_VOLUME_ABLATION_NO_UNIFORM_INCREMENT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "participation_follow_L40_a1.75_b0.25",
+      "family": "participation_follow",
+      "lookback": 40,
+      "a": 1.75,
+      "b": 0.25,
+      "reasons": [
+        "BASE_ACCOUNT_HALT"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "participation_follow_L40_a1.75_b0.5",
+      "family": "participation_follow",
+      "lookback": 40,
+      "a": 1.75,
+      "b": 0.5,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "absorption_recovery_L20_a1.25_b0.2",
+      "family": "absorption_recovery",
+      "lookback": 20,
+      "a": 1.25,
+      "b": 0.2,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED",
+        "VOLUME_REMOVAL_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "absorption_recovery_L20_a1.25_b0.4",
+      "family": "absorption_recovery",
+      "lookback": 20,
+      "a": 1.25,
+      "b": 0.4,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "absorption_recovery_L20_a1.75_b0.2",
+      "family": "absorption_recovery",
+      "lookback": 20,
+      "a": 1.75,
+      "b": 0.2,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "absorption_recovery_L20_a1.75_b0.4",
+      "family": "absorption_recovery",
+      "lookback": 20,
+      "a": 1.75,
+      "b": 0.4,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "absorption_recovery_L40_a1.25_b0.2",
+      "family": "absorption_recovery",
+      "lookback": 40,
+      "a": 1.25,
+      "b": 0.2,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED",
+        "VOLUME_REMOVAL_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "absorption_recovery_L40_a1.25_b0.4",
+      "family": "absorption_recovery",
+      "lookback": 40,
+      "a": 1.25,
+      "b": 0.4,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "absorption_recovery_L40_a1.75_b0.2",
+      "family": "absorption_recovery",
+      "lookback": 40,
+      "a": 1.75,
+      "b": 0.2,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED",
+        "VOLUME_REMOVAL_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "absorption_recovery_L40_a1.75_b0.4",
+      "family": "absorption_recovery",
+      "lookback": 40,
+      "a": 1.75,
+      "b": 0.4,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "thin_move_reversal_L20_a0.5_b0.25",
+      "family": "thin_move_reversal",
+      "lookback": 20,
+      "a": 0.5,
+      "b": 0.25,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "thin_move_reversal_L20_a0.5_b0.5",
+      "family": "thin_move_reversal",
+      "lookback": 20,
+      "a": 0.5,
+      "b": 0.5,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "EXACT_DEVELOPMENT_ALIAS_OF_thin_move_reversal_L20_a0.5_b0.25",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "thin_move_reversal_L20_a0.75_b0.25",
+      "family": "thin_move_reversal",
+      "lookback": 20,
+      "a": 0.75,
+      "b": 0.25,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "thin_move_reversal_L20_a0.75_b0.5",
+      "family": "thin_move_reversal",
+      "lookback": 20,
+      "a": 0.75,
+      "b": 0.5,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "thin_move_reversal_L40_a0.5_b0.25",
+      "family": "thin_move_reversal",
+      "lookback": 40,
+      "a": 0.5,
+      "b": 0.25,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "thin_move_reversal_L40_a0.5_b0.5",
+      "family": "thin_move_reversal",
+      "lookback": 40,
+      "a": 0.5,
+      "b": 0.5,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "EXACT_DEVELOPMENT_ALIAS_OF_thin_move_reversal_L40_a0.5_b0.25",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "thin_move_reversal_L40_a0.75_b0.25",
+      "family": "thin_move_reversal",
+      "lookback": 40,
+      "a": 0.75,
+      "b": 0.25,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "thin_move_reversal_L40_a0.75_b0.5",
+      "family": "thin_move_reversal",
+      "lookback": 40,
+      "a": 0.75,
+      "b": 0.5,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "burst_quiet_hold_L20_a1.5_b0.25",
+      "family": "burst_quiet_hold",
+      "lookback": 20,
+      "a": 1.5,
+      "b": 0.25,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED",
+        "VOLUME_REMOVAL_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "burst_quiet_hold_L20_a1.5_b0.5",
+      "family": "burst_quiet_hold",
+      "lookback": 20,
+      "a": 1.5,
+      "b": 0.5,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "burst_quiet_hold_L20_a2_b0.25",
+      "family": "burst_quiet_hold",
+      "lookback": 20,
+      "a": 2.0,
+      "b": 0.25,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED",
+        "VOLUME_REMOVAL_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "burst_quiet_hold_L20_a2_b0.5",
+      "family": "burst_quiet_hold",
+      "lookback": 20,
+      "a": 2.0,
+      "b": 0.5,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "EXACT_DEVELOPMENT_ALIAS_OF_burst_quiet_hold_L20_a2_b0.25",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "burst_quiet_hold_L40_a1.5_b0.25",
+      "family": "burst_quiet_hold",
+      "lookback": 40,
+      "a": 1.5,
+      "b": 0.25,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED",
+        "VOLUME_REMOVAL_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "burst_quiet_hold_L40_a1.5_b0.5",
+      "family": "burst_quiet_hold",
+      "lookback": 40,
+      "a": 1.5,
+      "b": 0.5,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "burst_quiet_hold_L40_a2_b0.25",
+      "family": "burst_quiet_hold",
+      "lookback": 40,
+      "a": 2.0,
+      "b": 0.25,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED",
+        "VOLUME_REMOVAL_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "burst_quiet_hold_L40_a2_b0.5",
+      "family": "burst_quiet_hold",
+      "lookback": 40,
+      "a": 2.0,
+      "b": 0.5,
+      "reasons": [
+        "NASDAQAUTUALBUY_MIN20_FAILED",
+        "EXACT_DEVELOPMENT_ALIAS_OF_burst_quiet_hold_L40_a2_b0.25",
+        "SOURCE_VS_ETF_INTERVENTION_SUPPORT_FAILED"
+      ],
+      "independent_history_missing": true
+    }
+  ],
+  "crypto": "Fixed signal only; actualBitcointrades andPNL recomputed ineachwholeaccount"
+}

@@ -1,0 +1,109 @@
+{
+  "agent": "receipt_quant_0800",
+  "role": "Creative quant independent read-only review, plus10new synthetic negative test methods",
+  "findings": [
+    "Frozenh120/c180 are coin-only .55/.10/L4 with no RSI/FeatureCache dependency;29source30m rows suffice for inherited8h warmup",
+    "Calendar/source support: h120 signalrows15:30,16:30; c18015:30 UTCNov19, opportunities not trades",
+    "15:30row firstcompleteobserved17:07 vsoriginaldecision16:30; delayed17:30deadlinecanpass forinputreceipt alone. 16:30rowfirstseen19:07 afterbothentries. Never blanketclaimall delayedentriesimpossible",
+    "Formula dependencies10halfhours; frozen j>=8/history8 supportguard18halfhours. Gate union18; actualearlierwarmupshares01connectorreceipt",
+    "Prefix test excludes trailing1+delay unresolved entry rows per frozen sessionmask; no missingRSI blocker invented"
+  ],
+  "file_evidence": [
+    "scripts/venue_latency_retry_20261119.py:39",
+    "scripts/venue_isolation_retry_20261119.py:29",
+    "scripts/venue_isolation_signals_20261119.py:15",
+    "scripts/venue_flow_context_20261119.py:45",
+    "scripts/session_signal_provenance.py:17"
+  ],
+  "families": [
+    {
+      "name": "Seasonal activity",
+      "parameters": {
+        "sessions": [
+          20,
+          40
+        ],
+        "z": [
+          1,
+          1.5
+        ],
+        "confirmation": [
+          1,
+          2
+        ]
+      },
+      "n": 8,
+      "missing": "Causal same-clock seasonal history"
+    },
+    {
+      "name": "Cost hurdle",
+      "parameters": {
+        "percentile": [
+          50,
+          75
+        ],
+        "multiplier": [
+          1,
+          2
+        ],
+        "confirmation": [
+          1,
+          2
+        ]
+      },
+      "n": 8,
+      "missing": "Authentic executable spread/NBBO history"
+    },
+    {
+      "name": "Shock response",
+      "parameters": {
+        "history": [
+          20,
+          40
+        ],
+        "z": [
+          1,
+          1.5
+        ],
+        "confirmation": [
+          1,
+          2
+        ]
+      },
+      "n": 8,
+      "missing": "Matched events/directions/controls"
+    },
+    {
+      "name": "Persistence",
+      "parameters": {
+        "persistence": [
+          2,
+          3
+        ],
+        "history": [
+          20,
+          40
+        ],
+        "activity": [
+          1.25,
+          1.5
+        ]
+      },
+      "n": 8,
+      "missing": "Prior-only history/pairedintervention support"
+    }
+  ],
+  "status": "EXISTING32_PROPOSED_ONLY, no newthresholds/gridexecution/selection",
+  "future_limits": {
+    "base_combinations_max": 64,
+    "stress_shortlist_max": 8,
+    "min_actual_trades_per_model_scenario": 20
+  },
+  "recommendation": "Finish preregistered receipt/context/scoreaudit with executionblocked; then separately preregister real receipt-aware future decisions and actual executionquotes, no backdating. No closedgridrepeat. Currentparity/structure is not independentfinancial/PIT confirmation.",
+  "focused_tests": {
+    "command": "PYTHONPATH=src python -m unittest discover -s tests -p test_prospective_receipt_context.py -v",
+    "new_methods": 10,
+    "passed": 10,
+    "synthetic_only": true
+  }
+}

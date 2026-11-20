@@ -1,0 +1,76 @@
+{
+  "cutoff_utc": "2026-11-18 03:58:27.997747+00:00",
+  "sources": [
+    {
+      "symbol": "TQQQ",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/TQQQ?range=1mo&interval=5m&includePrePost=false",
+      "sha256": "1437d7b134db0317113b342582eac6de9e504302ff66cbcaad09fbf522889fd6",
+      "original_rows": 1717,
+      "accepted_rows": 1716,
+      "first": "2026-10-19 13:30:00+00:00",
+      "last": "2026-11-17 20:55:00+00:00"
+    },
+    {
+      "symbol": "SQQQ",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/SQQQ?range=1mo&interval=5m&includePrePost=false",
+      "sha256": "13bc94b15ea718ecfbac1e0e4f4666f49db245ac8f666a016246a5c6535eb2c4",
+      "original_rows": 1717,
+      "accepted_rows": 1716,
+      "first": "2026-10-19 13:30:00+00:00",
+      "last": "2026-11-17 20:55:00+00:00"
+    },
+    {
+      "symbol": "IBIT",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/IBIT?range=1mo&interval=5m&includePrePost=false",
+      "sha256": "a0662b6527ec8266c091054761101b2b578dd83179dc93d41f080cbfa22a5b20",
+      "original_rows": 1717,
+      "accepted_rows": 1716,
+      "first": "2026-10-19 13:30:00+00:00",
+      "last": "2026-11-17 20:55:00+00:00"
+    },
+    {
+      "symbol": "BITI",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITI?range=1mo&interval=5m&includePrePost=false",
+      "sha256": "13ffc471cb21ad44429219a87c893e5bd212e217a1ab4a82632aba2da279448d",
+      "original_rows": 1717,
+      "accepted_rows": 1710,
+      "first": "2026-10-19 13:30:00+00:00",
+      "last": "2026-11-17 20:55:00+00:00"
+    }
+  ],
+  "sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836",
+  "common_starts": 1710,
+  "noncommon_rows": 18,
+  "starts_by_day": {
+    "2026-10-19": 75,
+    "2026-10-20": 78,
+    "2026-10-21": 78,
+    "2026-10-22": 78,
+    "2026-10-23": 78,
+    "2026-10-26": 78,
+    "2026-10-27": 77,
+    "2026-10-28": 76,
+    "2026-10-29": 78,
+    "2026-10-30": 78,
+    "2026-11-02": 78,
+    "2026-11-03": 78,
+    "2026-11-04": 78,
+    "2026-11-05": 78,
+    "2026-11-06": 78,
+    "2026-11-09": 78,
+    "2026-11-10": 78,
+    "2026-11-11": 78,
+    "2026-11-12": 78,
+    "2026-11-13": 78,
+    "2026-11-16": 78,
+    "2026-11-17": 78
+  },
+  "new_dates_after_archived_end": [
+    "2026-11-16",
+    "2026-11-17"
+  ],
+  "calendar_verified": false,
+  "independent_validation": false,
+  "publication": "raw local only",
+  "bar_minutes": 5
+}

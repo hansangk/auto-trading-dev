@@ -1,0 +1,16 @@
+{
+  "local_path": "runs/prospective_readiness_retry_20261119_1700/calendar_20261119.csv",
+  "local_bytes": 80,
+  "local_sha256": "5f993b55f18a91bb37b80516181389733238568b966275cf3f5aa1e6682cc03d",
+  "local_git_blob_sha1": "07615ffae2648a7e361d82a0608ab898126e0b44",
+  "public_ref": "f4bc9e6a50f9d2dbe48817bfcce556f55fd99d9c",
+  "public_git_blob_sha1": "f077238e83ce42b8679e7c3ca7fa52a29f3bd2cb",
+  "public_sha256": "c1542f649163d91e9ece62300021e00bc8de166616164d98b116edadc1d9495f",
+  "public_bytes": 78,
+  "raw_bytes_equal": false,
+  "parsed_rows_equal": true,
+  "only_difference": "LOCAL CRLF vs PUBLIC LF",
+  "original_overwritten": false,
+  "action": "Use original LOCAL CRLF snapshot for readiness to match frozen recorded SHA256; public LF is a distinct byte representation. A future replay from public LF must declare its different hash. Never call the two blobs byte-identical.",
+  "previous_assertion_correction": "Prior broad calendar remote-blob match assertions were too broad; plan/guard/auditor match, calendar only semantic equality established now."
+}

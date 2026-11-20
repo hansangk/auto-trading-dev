@@ -1,0 +1,14 @@
+{
+  "source_shortlist": [
+    "source__participation_follow_L40_a1.25_b0.5",
+    "source__participation_follow_L20_a1.25_b0.5"
+  ],
+  "stressed_grid_definitions": [
+    "source__participation_follow_L40_a1.25_b0.5",
+    "ETF__participation_follow_L40_a1.25_b0.5",
+    "source__participation_follow_L20_a1.25_b0.5",
+    "ETF__participation_follow_L20_a1.25_b0.5"
+  ],
+  "budget": 8,
+  "chosen_from_2025_only": true
+}

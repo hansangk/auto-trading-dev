@@ -1,0 +1,232 @@
+{
+  "status": "ACTUAL06_SAME_PAYLOAD_PARTITION_AND_FULL_STRUCTURE_PASS_NO_EXECUTION",
+  "original06_manifest_sha256": "03d7fb7d2336f07016fec67187a026810ef0aa6dd7ca7046cb4b7b738364f920",
+  "verified_immutable_hash_count": 106,
+  "frozen17_dependency_sha256": {
+    "scripts/venue_latency_calendar_20261119.py": "0dd6a616710d05c3febd147b642c11a27c6fbbb05fb277aef9f79042d3b3744d",
+    "scripts/venue_latency_retry_20261119.py": "5aa5e29f8808f30ea54f19184364e36b3117d3074f9a6af20eb2461e32a330e5",
+    "scripts/venue_latency_labels_20261119.py": "3272f616ededca9a117f88b8c307b5f20e277c13d77c3af48a46bd663903619f",
+    "scripts/venue_latency_verify_20261119.py": "e53fa8e760f4afd135a45f750e713f10e3460b0b3de177c9487da6b49128608d",
+    "scripts/venue_latency_analysis_20261119.py": "da322c48bcff62f8ce7e869b3105b5137cd0e84a58fd28e8c3e2403c472d717d",
+    "tests/test_venue_latency_calendar.py": "d6ac058f192fdb953b9dac460f0d98493eb854766c37364ddc1a94559fc69925",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "scripts/availability_runtime_20261119.py": "8fa95f289092ad87bc21c2b2283f67819050a7e7ffa6f526f9a0fa23092429bb",
+    "scripts/availability_guarded_research_20261119.py": "51b1b43c82334cd6cfc632f15edd4185d1d4a5cd107be84a4e357ce7ec966291",
+    "scripts/venue_flow_signals_20261119.py": "08f5ac2f8c6758ae6bea250e49ab97786239aa1b9fcbb1f6595e65dc3b2fca73",
+    "scripts/venue_flow_context_20261119.py": "075a88a7f1cb04b01004224d920259fb6aa14f2ec7fecf36ad9f802f88099e36",
+    "scripts/venue_flow_retry_20261119.py": "d6411b2191f2545b2bbc9a281a78b55c86605dc1dba3ae32b9bae79a704c8a7a",
+    "scripts/hourly_night_signals_20261119.py": "0f7fbe5966d8f5122bc9ae009e6abbd2b3bcf7c26dd8938dbb7534088fb57a05",
+    "scripts/session_signal_provenance.py": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c",
+    "scripts/venue_isolation_signals_20261119.py": "6153664a18a37267b98b83d170ab8a935c967979ea74010a537b448cebc83235",
+    "scripts/venue_isolation_retry_20261119.py": "d1c67d9b70f2bc4f2c6e9c05d220ff3c50a3155a3582bf018a270ca1e4f6f843"
+  },
+  "frozen_plan_git_blob": "3595a3d7fc07401252a205f615f5fd743e77ab49",
+  "per_symbol": {
+    "TQQQ": {
+      "symbol": "TQQQ",
+      "cutoff_utc": "2026-11-19T21:04:07+00:00",
+      "quarantined_records": [
+        {
+          "row_index": 7,
+          "timestamp": "2026-11-19T21:00:00+00:00",
+          "raw_epoch_seconds": 1795122000,
+          "reason": "POSTCLOSE_ZERO_VOLUME_BOUNDARY_AUXILIARY",
+          "regular_market_time_utc": "2026-11-19T21:00:01+00:00",
+          "preceding_regular_start": "2026-11-19T20:30:00+00:00",
+          "regular_end_exclusive": "2026-11-19T21:00:00+00:00"
+        }
+      ],
+      "counts": {
+        "raw": 8,
+        "completed": 7,
+        "quarantined": 1
+      },
+      "terminal_backtest_allowed": false
+    },
+    "SQQQ": {
+      "symbol": "SQQQ",
+      "cutoff_utc": "2026-11-19T21:04:07+00:00",
+      "quarantined_records": [
+        {
+          "row_index": 7,
+          "timestamp": "2026-11-19T21:00:00+00:00",
+          "raw_epoch_seconds": 1795122000,
+          "reason": "POSTCLOSE_ZERO_VOLUME_BOUNDARY_AUXILIARY",
+          "regular_market_time_utc": "2026-11-19T21:00:00+00:00",
+          "preceding_regular_start": "2026-11-19T20:30:00+00:00",
+          "regular_end_exclusive": "2026-11-19T21:00:00+00:00"
+        }
+      ],
+      "counts": {
+        "raw": 8,
+        "completed": 7,
+        "quarantined": 1
+      },
+      "terminal_backtest_allowed": false
+    },
+    "IBIT": {
+      "symbol": "IBIT",
+      "cutoff_utc": "2026-11-19T21:04:07+00:00",
+      "quarantined_records": [
+        {
+          "row_index": 7,
+          "timestamp": "2026-11-19T21:00:00+00:00",
+          "raw_epoch_seconds": 1795122000,
+          "reason": "POSTCLOSE_ZERO_VOLUME_BOUNDARY_AUXILIARY",
+          "regular_market_time_utc": "2026-11-19T21:00:01+00:00",
+          "preceding_regular_start": "2026-11-19T20:30:00+00:00",
+          "regular_end_exclusive": "2026-11-19T21:00:00+00:00"
+        }
+      ],
+      "counts": {
+        "raw": 8,
+        "completed": 7,
+        "quarantined": 1
+      },
+      "terminal_backtest_allowed": false
+    },
+    "BITI": {
+      "symbol": "BITI",
+      "cutoff_utc": "2026-11-19T21:04:07+00:00",
+      "quarantined_records": [],
+      "counts": {
+        "raw": 7,
+        "completed": 7,
+        "quarantined": 0
+      },
+      "terminal_backtest_allowed": false
+    }
+  },
+  "original03_same_payload_replay": {
+    "TQQQ": {
+      "status": "REJECTED",
+      "error": "Off-clock tail lacks an incomplete regular predecessor"
+    },
+    "SQQQ": {
+      "status": "REJECTED",
+      "error": "Off-clock tail lacks an incomplete regular predecessor"
+    },
+    "IBIT": {
+      "status": "REJECTED",
+      "error": "Off-clock tail lacks an incomplete regular predecessor"
+    },
+    "BITI": {
+      "status": "PARSED",
+      "completed_rows": 7
+    }
+  },
+  "raw_unchanged": true,
+  "regular_values_equal_original06_candidates": true,
+  "prefix_comparisons": {
+    "01": {
+      "etf_rows": 4,
+      "source_rows": 18,
+      "missing": 0,
+      "changed": 0,
+      "etf_raw_sha256": "89ddb737486b7a768e0daab76933aad9496ff57af2b360c1371c8ef000c566b2",
+      "source_raw_sha256": "7d6d6eaf8ea98808f781ecf363de12e84972125336bed0696c717503b1911090"
+    },
+    "05": {
+      "etf_rows": 20,
+      "source_rows": 26,
+      "missing": 0,
+      "changed": 0,
+      "etf_raw_sha256": "4ff112ea1c731dd5632345a505c4ae8897b94e5397d39ee8d312a6da5979ee8f",
+      "source_raw_sha256": "211d469172994d15f4f1b5935e017ff5560b5b42dd287d1cbe38a6047bf073da"
+    }
+  },
+  "full_structural_audit": {
+    "status": "INPUTS_AUDITED_SIGNAL_PARITY_AND_ACCOUNT_STATE_STILL_REQUIRED",
+    "input_audited": true,
+    "terminal_backtest_allowed": false,
+    "engine_calls": 0,
+    "real_orders": 0,
+    "metrics": null,
+    "profit_metrics": null,
+    "new_independent_validation": false,
+    "calendar_provenance_independently_required": true,
+    "actual_price_authenticity_independently_required": true,
+    "point_in_time_receipt_provenance_independently_required": true,
+    "frozen_at_utc": "2026-11-19T05:20:49+00:00",
+    "asof_utc": "2026-11-19T21:05:51+00:00",
+    "verified_calendar_days": [
+      "2026-11-19"
+    ],
+    "rows": {
+      "etf": 28,
+      "source": 29
+    },
+    "counts": {
+      "sessions": 1,
+      "etf_rows_per_session": 28,
+      "etf_rows_per_symbol": {
+        "TQQQ": 7,
+        "SQQQ": 7,
+        "IBIT": 7,
+        "BITI": 7
+      },
+      "required_source_rows": 29,
+      "required_source_rows_per_session": 29
+    },
+    "period": {
+      "etf_first_bar_start_utc": "2026-11-19T14:30:00+00:00",
+      "etf_last_session_close_utc": "2026-11-19T21:00:00+00:00",
+      "source_first_open_utc": "2026-11-19T06:30:00+00:00",
+      "source_last_end_exclusive_utc": "2026-11-19T21:00:00+00:00"
+    },
+    "warmup": {
+      "required_hours_before_each_session": 8,
+      "required_source_warmup_rows": 16,
+      "additional_source_rows": 0,
+      "etf_warmup_rows_in_evaluation": 0,
+      "source_warmup_may_cross_freeze": true
+    },
+    "source_snapshot_requires_contiguous_actual_overnight_and_weekend_bars": true,
+    "snapshot_prefix_checked": {
+      "etf": true,
+      "source": true
+    },
+    "input_raw_hashes": {
+      "etf_rows_sha256": "fd200b6b4b816818c5d7266d4a5fb5871415b1ae1b4bf747b12329cf0e24cb04",
+      "source_rows_sha256": "206a81eb46c22ce391044a171acbf6ce99a2064a72a515b27f0b4b6fe4752c75",
+      "calendar_rows_sha256": "21ec501c60166a99e5bfdb4a05e7c7281eac1336f3780c9d5a2dc3da53c53d73",
+      "previous_etf_rows_sha256": "01847cfc3eee74b982386c7705ccf5bfe80564d1263fcb8f4ed658ace67b2666",
+      "previous_source_rows_sha256": "0ce1d8027ff76cc0b2cd32237d442a4053afc9266c873c0a01bb74675698a087"
+    },
+    "price_audit_limitation": "Structure and supplied snapshot coverage only. Calendar hours do not prove actual price acquisition, vendor authenticity, official-calendar provenance, or PIT receipt. Source end+5 minutes is an assumed minimum availability; ETF bar start timestamps do not establish publication/receipt times. Actual versioned acquisition provenance, signal parity, new FULL AccountState per model/control/stress, and engine integration remain required. No source bars synthesized or interpolated.",
+    "output_audit_sha256": "0ca261bab19ce3ec7ffd4c4108744f9b6e48917b69ac8a2c1858c43e57fb24ca"
+  },
+  "private_input_sha256": {
+    "runs/prospective_postclose_access_20261120_0600/SQQQ_raw_LOCAL.json": "b3faef1a1fc2c35072589a91e55b03ae40e856565f45cdbaee402cffa3cb6671",
+    "runs/prospective_postclose_access_20261120_0600/BITI_raw_LOCAL.json": "f4d512c8cce951147520169f777a4a800c961d9525c62a11660c6bc22ddb5405",
+    "runs/prospective_postclose_access_20261120_0600/TQQQ_raw_LOCAL.json": "de67d65474ea351632cc9b11d4ee23de052bb6e559ff9fb43fc902f0fecca9f0",
+    "runs/prospective_postclose_access_20261120_0600/IBIT_raw_LOCAL.json": "e5cf686afe16808551a3384a92e4b3d4cbb7f3483202669f038e566ec020a27c",
+    "runs/prospective_postclose_access_20261120_0600/Binance_connector_response_LOCAL.json": "5ca2b64e59821af6e3d539513bc4e62095bffc0b7574718c16a25f36c916eafc",
+    "runs/prospective_postclose_access_20261120_0600/regular_candidates_ETF_LOCAL.csv": "f267a8a365ca811d2425b224f512b5f2e1c8a7089434cd4a933e5661baf722b9",
+    "runs/prospective_postclose_access_20261120_0600/BTCUSDT_30m_LOCAL.json": "1dc08daf5751a8566ae2263f2d187c67a0c3245553365026f978d90065a48f03"
+  },
+  "calendar_local_sha256": "5f993b55f18a91bb37b80516181389733238568b966275cf3f5aa1e6682cc03d",
+  "normalized_etf_local_sha256": "f267a8a365ca811d2425b224f512b5f2e1c8a7089434cd4a933e5661baf722b9",
+  "normalized_local_path": "runs/prospective_close_policy_20261120_0700/normalized_ETF_LOCAL.csv",
+  "new_market_requests": 0,
+  "engine_calls": 0,
+  "real_orders": 0,
+  "account_trades": 0,
+  "financial_metrics": null,
+  "terminal_backtest_allowed": false,
+  "PIT_qualified": false,
+  "signal_parity_verified": false,
+  "new_full_AccountState_initialized": false,
+  "new_independent_validation": false,
+  "models_adopted": [],
+  "source_receipt_host_bracket": [
+    "2026-11-19T21:05:51Z",
+    "2026-11-19T21:05:52Z"
+  ],
+  "ETF_host_receipt_range": [
+    "2026-11-19T21:04:14.515279+00:00",
+    "2026-11-19T21:04:14.547955+00:00"
+  ],
+  "limitation": "Same actual06payload diagnostic after observed failure, not independent financial validation or vendor warranty. Receipt cannot be backdated to bar cutoff. Source envelope is serialized connector result, not original HTTP body bytes. Full input structure pass does not grant PIT/signal parity/AccountState/engine permission. No performance period exists for current cycle."
+}

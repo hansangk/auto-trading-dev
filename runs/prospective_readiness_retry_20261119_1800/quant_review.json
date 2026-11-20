@@ -1,0 +1,19 @@
+{
+  "agent": "shadow_wait_quant_1800",
+  "status": "READ_ONLY_REVIEW_COMPLETE_NO_NEW_STRATEGY",
+  "families": 4,
+  "nominal_existing_proposals": 32,
+  "proposal_path": "runs/prospective_readiness_retry_20261119_1700/quant_proposals_only.json",
+  "new_thresholds": 0,
+  "new_implementations": 0,
+  "new_engine_calls": 0,
+  "conclusion": "Existing4x8proposalsremainPROPOSEDONLY; reusewithoutinventingnewthresholds. Documentsprovidenoactualnewshadowpriceevidence. Validate separatelyversionedsource/ETFstart-end-release/commonclock/hash andcrossingfreeze-warmup before anyfutureexecution.",
+  "frozen_models_unchanged": [
+    "h120__source",
+    "c180__source"
+  ],
+  "roles": "ActualTQQQ/SQQQ/IBIT/BITIBUYuniverse;activefrozenIBIT/BITIBitcoinETFproxy",
+  "new_independent_validation": false,
+  "news_macro": false,
+  "real_orders": 0
+}

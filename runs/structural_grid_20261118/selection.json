@@ -1,0 +1,20 @@
+{
+  "shortlist": [
+    "compression_expiry_1_0",
+    "compression_expiry_1_1",
+    "participation_10_0.4",
+    "compression_expiry_3_1",
+    "participation_10_0.2",
+    "compression_expiry_3_0",
+    "own_confirmation_1_0.25",
+    "participation_5_0.4"
+  ],
+  "selected": [
+    "compression_expiry_1_0",
+    "compression_expiry_1_1",
+    "participation_10_0.4"
+  ],
+  "research_pass": [],
+  "approved": [],
+  "reason": "Reused2026, no independent confirmation"
+}

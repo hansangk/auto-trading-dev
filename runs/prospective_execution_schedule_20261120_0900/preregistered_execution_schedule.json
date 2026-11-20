@@ -1,0 +1,22 @@
+{
+  "run_id": "prospective_execution_schedule_20261120_0900",
+  "research_parent": "79c76bc64fdfe07ae3dcf5d7862cde34f7b19690",
+  "hypothesis": "A calendar-only strictly-future receipt scheduler can expose entry, stale-source and protective-mark support separately. Deferring original event to next scheduled OPEN does not repair stale actual-decision source or backdated CLOSE→OPEN protection.",
+  "scope": "New pure scheduler/negative tests and actual08 metadata cohort audit only; no oldscore/PnL replay, engine, newmarketprices or AccountState initialization.",
+  "criteria": [
+    "Preserve frozen17/03/06/07/08outputs and allraw hashes. Newoutputprotected; known NYnormal calendar only, no futurequote selection",
+    "Fixed event packet comparator only, no refreshing source/features/onsets. Choose earliest scheduledstart STRICTLY after recordedready; never equality-at-OPEN fills; same originalNYday, no nextdaycarry",
+    "Primary gate retain sourceage<=65min at actualready; separately show original-event age vs actualready/entry age. Carried stale-event mapping is diagnostic, not frozenmodel success or relaxed adoptedstrategy",
+    "Require both base and1bar-delayed full same-session hold paths using exactscheduled bar closes. h120hold2 means120min in botharms; c180 remainshold4 and cannot be called180min. No final30minclamp to fabricateequalhorizon, no hold1/stopremoval",
+    "Independently audit each intermediate joint_close protective mark: first recorded completedmark must be no later than required nextOPEN; absent/late => no receipt-protected engine. Signalbar receipts and future executionquote evidence are different",
+    "Actual08metadatareusedonly: unionreceiptready andoriginalsource_end, finalfirstreceipt reconstructions pinned; no reruncompleted08audit. Report combinationalsupport vsnonzeroonsets vsactualtrades separately",
+    "Planningfreeze timestamp precedes only future-session research; historicalNov19packet is forensic/priorobserved and cannotbeprospective simply because nextOPEN>oldready",
+    "Verify officialNYNov20normal calendar fromNYSEhours/holidaypage andcalendar; recordinference/timezone/sourceURL/hash; notgeneralholiday/DST/shortdayrepair",
+    "Newtestedgecases then onefullsuite; no numericalreturns before genuinefutureinput/actualexecutionprice/protection/fullhorizon/newFULLAccountState gates"
+  ],
+  "new_market_requests": 0,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "new_independent_validation": false
+}

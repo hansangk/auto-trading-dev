@@ -1,0 +1,37 @@
+{
+  "status": "completed",
+  "evaluations": 36,
+  "development": 30,
+  "diagnostic": 6,
+  "source": "Yahoo chart 1h redownload 2026-11-16; Bitcoin represented by IBIT ETF",
+  "source_sha256": "6cf724195d16ce30cd669e7388b8650b16d3088e5f5b35609c0fe6bfe96c535d",
+  "input_period": [
+    "2024-11-14 14:30:00+00:00",
+    "2026-11-13 20:30:00+00:00"
+  ],
+  "periods": {
+    "2025H1": [
+      "2025-01-01",
+      "2025-07-01"
+    ],
+    "2025H2": [
+      "2025-07-01",
+      "2026-01-01"
+    ],
+    "2026": [
+      "2026-01-01",
+      "2026-11-14"
+    ]
+  },
+  "code_parent": "08388d0dffb113e4f608226513c3c1d0237e1f4f",
+  "signal": {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 0.75
+  },
+  "config_sha256": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+  "script_sha256": "ac89e54b185e11148547b75ec20e5bbd1d445c3a983fceffd00cd092df563a26",
+  "prefix_checks": 3,
+  "news_macro": false,
+  "independent_holdout": false
+}

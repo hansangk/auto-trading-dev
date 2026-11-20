@@ -1,0 +1,22 @@
+{
+  "source_sha256": "8d4ea66a1e551c079cb43891583904f4fa4ddbe482b72d7045df26b441344dcd",
+  "policies": [
+    "anchor",
+    "two_agree",
+    "two_oppose",
+    "daily_agree",
+    "daily_oppose",
+    "both_agree",
+    "either_agree",
+    "eff_low",
+    "eff_mid",
+    "eff_high",
+    "eff_not_high"
+  ],
+  "selection": "Require >=20 rounds per development scenario for diagnostic shortlist; sort worst net return then mean then ID; top 3 plus anchor. Promotion requires every development scenario positive AND better than anchor; 2026 cannot alter selection.",
+  "change_to_retry": "One-factor ablation; fixed anchor entry/exit parameters; frozen-ledger attribution distinguished from full replay; explicit reject gate; no 2026 winner picking.",
+  "warning": "All periods reused, no independent holdout. Attribution sums are NOT portfolio returns. Account risk unchanged. No news/macro.",
+  "account_evaluations": 78,
+  "development_evaluations": 66,
+  "diagnostic_evaluations": 12
+}

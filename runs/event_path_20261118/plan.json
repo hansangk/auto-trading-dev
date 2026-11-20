@@ -1,0 +1,8 @@
+{
+  "run_id": "event_path_20261118",
+  "status": "RUNNING",
+  "owner": "Codex",
+  "parent": "cc1e017a341c54d9ea7998ecbd9048883c5a645a",
+  "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "checkpoint": "Freeze previous 40/.90 signal; 2x2 fade vs continuation, next open vs extra one-bar wait (same session after signal for waiting). Fixed event cohort compare both fills sharing exit close after later entry, constant15% weight per active role. Account replays separate. Fixed hold4,3R,60bp. Require 20 rounds, positive returns and anchor outperformance, no worse drawdown or permanent halt across six 2025 cells. Top3 sample-eligible for diagnostic only. Recent fitted vs causal monthly continuous replay."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PAUSED_AFTER_COMMITTED_NEW_MONTH",
+  "new_calls_at_pause": 37,
+  "completed_month": "2026-01-01",
+  "prefix_call_ref": "new:37",
+  "carried_state": {
+    "equity": 99987404.69767168,
+    "peak": 100000000.0,
+    "daily_start": 99987404.69767168,
+    "current_date": "2026-01-29",
+    "cooldown_until": -1,
+    "loss_streak": 1,
+    "killed": false
+  },
+  "checkpoint_sha256": "6f02b83b1719d51dc1235b661e5909e377941998abe55b119a5497b368877381",
+  "plan_hash": "2090d5cdc0463f32e967627792236e8a1c99bed5c83e81c73421ab2fce8b8e7f",
+  "intent_absent": true,
+  "worker_lock_absent": true
+}

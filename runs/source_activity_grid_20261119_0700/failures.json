@@ -1,0 +1,20 @@
+{
+  "run_id": "source_activity_grid_20261119_0700",
+  "status": "COMPLETE_REJECTED",
+  "actual_backtest_calls": 511,
+  "aborted_backtests": 0,
+  "verifier_failures": 0,
+  "strategy_failures": "selection.json preserves all32source reasons; matched32ETFcontrol cells in fullCSV. No developmentpasses/approval.",
+  "blocked_before_grid": {
+    "BTC_volume": "positive48.40/49.74percent <95%perhalf,zerosunavailable"
+  },
+  "resume_vulnerability": {
+    "found_by": "independentquantcodeaudit",
+    "observed_run_interruption": false,
+    "issue": "Originalmonthlystateprefixpersistedonlyatend,automaticpartialrestartcouldduplicatecalls",
+    "fix": "Separatefail-closedresume_guard,4tests; immutableexecutedrunnerandprereghashpreserved",
+    "partial_restart_policy": "recoverexactAccountStatewithprovenanceorreportblocker,no prefix replay"
+  },
+  "next_hypothesis": "Price-only bodyefficiency.5 with no volume support vs L20/L40availabilityonly; costs/delayoriginalnovolunrun",
+  "approved": []
+}

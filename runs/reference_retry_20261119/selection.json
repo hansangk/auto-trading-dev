@@ -1,0 +1,130 @@
+{
+  "shortlist": [
+    "cross_reference_sync_3_0.5",
+    "cross_reference_sync_6_0.5"
+  ],
+  "diagnostic_selected": [
+    "cross_reference_sync_3_0.5",
+    "cross_reference_sync_6_0.5"
+  ],
+  "development_screen_pass": [],
+  "approved": [],
+  "failures": [
+    {
+      "name": "tracking_catchup_3_1",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "tracking_catchup_3_2",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "tracking_catchup_6_1",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "tracking_catchup_6_2",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "sweep_reclaim_15m_6_0.65",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "sweep_reclaim_15m_6_0.8",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "sweep_reclaim_15m_12_0.65",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "sweep_reclaim_15m_12_0.8",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "shock_exhaustion_1_1.5",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "shock_exhaustion_1_2",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "shock_exhaustion_3_1.5",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "shock_exhaustion_3_2",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "cross_reference_sync_3_0.5",
+      "reasons": [
+        "nonpositive_development_cell",
+        "not_better_than_ETF_control_each_cell",
+        "drawdown_worse_than_ETF_control"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "cross_reference_sync_3_1",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "cross_reference_sync_6_0.5",
+      "reasons": [
+        "nonpositive_development_cell",
+        "not_better_than_ETF_control_each_cell",
+        "drawdown_worse_than_ETF_control"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "cross_reference_sync_6_1",
+      "reasons": [
+        "base_min_rounds<20_or_below_top8"
+      ],
+      "independent_history_missing": true
+    }
+  ]
+}

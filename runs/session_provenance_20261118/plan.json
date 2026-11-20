@@ -1,0 +1,10 @@
+{
+  "owner": "Codex",
+  "status": "RUNNING",
+  "run_id": "session_provenance_20261118",
+  "parent": "3809df76685d9489a45a3dd2bc735f2e6fd76178",
+  "checkpoint": "Read latest COMPLETE state, local no worker. New5min fetch pending. Audit next-session stale signals: fixed previous4models plus anchor, compare legacy/scoreday/eventday. No threshold search. Dev2025halves with3stresses; select top1>=20rounds allcells then diagnostics only. Report fixed-event ledger attribution separately from full replay. Prior2026 reused.",
+  "criteria": "Promote only all6devpositive, >=20rounds, nohalts, beat anchor net and MDD. Correction semantic audit regardless profitability; don't assume crossingday is universally wrong.",
+  "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "next_command": "PYTHONPATH=src:scripts python scripts/session_provenance_20261118.py"
+}

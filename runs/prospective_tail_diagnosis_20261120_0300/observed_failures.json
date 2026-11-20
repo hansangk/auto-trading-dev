@@ -1,0 +1,8 @@
+{
+  "web_raw_open_find": "DisabledError on raw URL, recovered with renderedGitHub and directHTTP code read; hash recorded",
+  "preimplementation_file_checks": "Two inspection calls before agent wrote files returned exit2 for missingpaths; no mutation/engine/test failure",
+  "unit_failures": 0,
+  "actual_replay_failures": 0,
+  "engine_calls": 0,
+  "orders": 0
+}

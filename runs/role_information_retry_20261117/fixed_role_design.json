@@ -1,0 +1,20 @@
+{
+  "source_union": "gap(.5,.6), volume(6,2), per-role gap priority",
+  "candidate": "daily_regime(.4,.15), hold4,target3,stop60",
+  "seed": 20261117,
+  "permutation_draws": 2000,
+  "bootstrap_draws": 2000,
+  "conditional_strata": [
+    "half",
+    "month",
+    "role",
+    "signal_hour_ny",
+    "actual_weight"
+  ],
+  "bootstrap_blocks": [
+    1,
+    5
+  ],
+  "futility": "Fail unless each role >=20 retained in each half/stress, net advantage vs conditional permutation mean >0 in all six half/stress cells, and session and 5-day block net CI lower>0 in every cell. No promotion without untouched data.",
+  "warning": "Frozen union-ledger additive capital-weighted amounts, not routed portfolio returns or a causal effect. Baseline stops/equity/halt truncate opportunities. Replacement ETF returns are unobserved. Exact-count conditional cash selections are fitted ex post; exchangeability is unproved. Reused 2025 is development; 2026 is excluded. No real orders."
+}

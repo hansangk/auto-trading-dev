@@ -1,0 +1,574 @@
+{
+  "immutable_parent_commit": "a6cc86ebfff97fc25cc62dd10ba2ed73279f19c0",
+  "scope_note": "Initialcache_provenance proposedL20/L40base scope;preregisteredplan additionallyallowed exactfixedBitcoin/legacyreferencewindows. No2026candidateoutcome selection. Currentused81unique/83logicalcellsverified.",
+  "unique_prior_calls": 81,
+  "cells": {
+    "old:114": {
+      "first_policy": "no_volume__participation_follow_L20_a1.25_b0.5",
+      "start": "2025-01-01",
+      "end_exclusive": "2025-07-01",
+      "scenario": "base",
+      "ledger_sha256": "39125bf3d61b8f1a21cbaac312708c68c9b8e5b2f006dd0c45a03ea13dbc55fa"
+    },
+    "old:115": {
+      "first_policy": "no_volume__participation_follow_L20_a1.25_b0.5",
+      "start": "2025-07-01",
+      "end_exclusive": "2026-01-01",
+      "scenario": "base",
+      "ledger_sha256": "12f2cf18bb44d5faef314687e9d3949a0290deae449e0340f530612279060e19"
+    },
+    "old:112": {
+      "first_policy": "no_volume__participation_follow_L40_a1.25_b0.5",
+      "start": "2025-01-01",
+      "end_exclusive": "2025-07-01",
+      "scenario": "base",
+      "ledger_sha256": "37fa2a9644458f9fae1c1f5f128902f43da0add1733f1cddb0700ce8d7135440"
+    },
+    "old:113": {
+      "first_policy": "no_volume__participation_follow_L40_a1.25_b0.5",
+      "start": "2025-07-01",
+      "end_exclusive": "2026-01-01",
+      "scenario": "base",
+      "ledger_sha256": "65b0c1f815d141b64287d01bacceeba4068900388a2502572149ec34cd45d79f"
+    },
+    "old:66": {
+      "first_policy": "coin_only",
+      "start": "2025-01-01",
+      "end_exclusive": "2025-07-01",
+      "scenario": "base",
+      "ledger_sha256": "4cef48651278f4d55ace3baf93f3ed4414847ac04cf92571883b2750d98769e7"
+    },
+    "old:108": {
+      "first_policy": "coin_only",
+      "start": "2025-01-01",
+      "end_exclusive": "2025-07-01",
+      "scenario": "cost2",
+      "ledger_sha256": "e02aedc2d6887a05cf12df90d04029589a4dd75ec2704dd2521f7e8e8c4ef295"
+    },
+    "old:109": {
+      "first_policy": "coin_only",
+      "start": "2025-01-01",
+      "end_exclusive": "2025-07-01",
+      "scenario": "delay1",
+      "ledger_sha256": "b35ecf0938c1860fbad1d18d7c7a484e3e91d8896cb854e48ecfbda14fb24fe1"
+    },
+    "old:75": {
+      "first_policy": "coin_only",
+      "start": "2025-07-01",
+      "end_exclusive": "2026-01-01",
+      "scenario": "base",
+      "ledger_sha256": "a68e103c8ded182592d3e616ae0cd37d3f6e4ff8152219f17c70aad3fce554b8"
+    },
+    "old:110": {
+      "first_policy": "coin_only",
+      "start": "2025-07-01",
+      "end_exclusive": "2026-01-01",
+      "scenario": "cost2",
+      "ledger_sha256": "e0e162e3a9eaf3c1110bc6283210c018db3a6fc144711787d1b33be28459fd5c"
+    },
+    "old:111": {
+      "first_policy": "coin_only",
+      "start": "2025-07-01",
+      "end_exclusive": "2026-01-01",
+      "scenario": "delay1",
+      "ledger_sha256": "9bdc9c5574a2669c24fffe3106a3feeec5d1d0c0c0f03e1ed3c6023a0c4d4fec"
+    },
+    "old:90": {
+      "first_policy": "legacy_nasdaq",
+      "start": "2025-01-01",
+      "end_exclusive": "2025-07-01",
+      "scenario": "base",
+      "ledger_sha256": "08d3fcbf73a41801da4f90f0ffbdb12f2af81687aa97b4788469f429edd4f501"
+    },
+    "old:91": {
+      "first_policy": "legacy_nasdaq",
+      "start": "2025-07-01",
+      "end_exclusive": "2026-01-01",
+      "scenario": "base",
+      "ledger_sha256": "8b1578b166a47591b6d2c00c60d73538bcd04568ce2b9996928a52cfcfc35a7b"
+    },
+    "old:116": {
+      "first_policy": "coin_only",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-11-14",
+      "scenario": "base",
+      "ledger_sha256": "8d4edff102c232a294399e7aacddabbe7fc4789d601cc84437848e59598a6bd3"
+    },
+    "old:117": {
+      "first_policy": "coin_only",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-11-14",
+      "scenario": "cost2",
+      "ledger_sha256": "a9bd12d243072968356bdc5d4c547a1fd42e3f8860ced2eb56f1b405b1eddf3c"
+    },
+    "old:118": {
+      "first_policy": "coin_only",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-11-14",
+      "scenario": "delay1",
+      "ledger_sha256": "8de3773b87fb00646af2e80fd9cd820292d424a81250b3cfb9d8abb2feed08b3"
+    },
+    "old:119": {
+      "first_policy": "legacy_nasdaq",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-11-14",
+      "scenario": "base",
+      "ledger_sha256": "21eb87657fd06b7fa019ebe704d0bed5b3945df06ace64af0660c9385b095fa3"
+    },
+    "old:120": {
+      "first_policy": "legacy_nasdaq",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-11-14",
+      "scenario": "cost2",
+      "ledger_sha256": "49e496047ce95cd9765388d129eb2386b06a7607ba8a325d023f1c144cbeab4a"
+    },
+    "old:121": {
+      "first_policy": "legacy_nasdaq",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-11-14",
+      "scenario": "delay1",
+      "ledger_sha256": "0b7316820739d09492f30490c57ef183b78213555481e11e37547a09a494710d"
+    },
+    "old:164": {
+      "first_policy": "coin_only",
+      "start": "2025-10-01",
+      "end_exclusive": "2026-01-01",
+      "scenario": "base",
+      "ledger_sha256": "d04b3619b7ac5840fb4ea40f4447cfd2caed5dc1e09d594b85b400c60508c2c8"
+    },
+    "old:165": {
+      "first_policy": "coin_only",
+      "start": "2025-10-01",
+      "end_exclusive": "2026-01-01",
+      "scenario": "cost2",
+      "ledger_sha256": "880ae84eb4cab4d0d217bdf2df640e1ef44ce2eec902ad8a046b8ca0b263c279"
+    },
+    "old:166": {
+      "first_policy": "coin_only",
+      "start": "2025-10-01",
+      "end_exclusive": "2026-01-01",
+      "scenario": "delay1",
+      "ledger_sha256": "2b56d71345dcade0bf3a499c6465c56a17f990258730548e9a172153bb6993f3"
+    },
+    "old:179": {
+      "first_policy": "coin_only",
+      "start": "2025-11-01",
+      "end_exclusive": "2026-02-01",
+      "scenario": "base",
+      "ledger_sha256": "bb5d0e782d123d637123efbc2a90841d689826a930e9a07b2976b6e7c8e85f9a"
+    },
+    "old:180": {
+      "first_policy": "coin_only",
+      "start": "2025-11-01",
+      "end_exclusive": "2026-02-01",
+      "scenario": "cost2",
+      "ledger_sha256": "b21300d990f9f7b31bafa48f6fc512a4a21be41ec5f7c4a6b0283458530d573e"
+    },
+    "old:181": {
+      "first_policy": "coin_only",
+      "start": "2025-11-01",
+      "end_exclusive": "2026-02-01",
+      "scenario": "delay1",
+      "ledger_sha256": "0258ca3e25dce0c5c15dfa10fc547d5c5aeac15b53a62e99ecd8c06811306952"
+    },
+    "old:194": {
+      "first_policy": "coin_only",
+      "start": "2025-12-01",
+      "end_exclusive": "2026-03-01",
+      "scenario": "base",
+      "ledger_sha256": "65d191fd080ae1d68eb49084e0e176c42d609a6d38579955b15f6fcdf978d365"
+    },
+    "old:195": {
+      "first_policy": "coin_only",
+      "start": "2025-12-01",
+      "end_exclusive": "2026-03-01",
+      "scenario": "cost2",
+      "ledger_sha256": "9cc9e26ecd777175a3076d7b0bcb0e6898ea784f6c2d2c968cee60e0ec122a36"
+    },
+    "old:196": {
+      "first_policy": "coin_only",
+      "start": "2025-12-01",
+      "end_exclusive": "2026-03-01",
+      "scenario": "delay1",
+      "ledger_sha256": "1354cc185d3022fbcdbbb4554ed6c56374604df5103321f4cb738a48b2929a0c"
+    },
+    "old:209": {
+      "first_policy": "coin_only",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-04-01",
+      "scenario": "base",
+      "ledger_sha256": "12078802e2d971677a40f551a323571a6b64317d44e8b4bbb19aa63d29712216"
+    },
+    "old:210": {
+      "first_policy": "coin_only",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-04-01",
+      "scenario": "cost2",
+      "ledger_sha256": "394967b52b5c3a983e4dcfcfcc04f6716a73ef53cbf4571d50a097d469b2cfd8"
+    },
+    "old:211": {
+      "first_policy": "coin_only",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-04-01",
+      "scenario": "delay1",
+      "ledger_sha256": "a3101b5643bd8928e69572ce61ccb7d2cdefed039af0bf0241cc1da5916beaf7"
+    },
+    "old:224": {
+      "first_policy": "coin_only",
+      "start": "2026-02-01",
+      "end_exclusive": "2026-05-01",
+      "scenario": "base",
+      "ledger_sha256": "eb92de68602dc00470e5c40716331eb61792f3210b79750baa29455b1832cab4"
+    },
+    "old:225": {
+      "first_policy": "coin_only",
+      "start": "2026-02-01",
+      "end_exclusive": "2026-05-01",
+      "scenario": "cost2",
+      "ledger_sha256": "7371be526aa3421ab8337a63571fc44c78640fd4e1ddc1efa5d3ca5ed3fd7db0"
+    },
+    "old:226": {
+      "first_policy": "coin_only",
+      "start": "2026-02-01",
+      "end_exclusive": "2026-05-01",
+      "scenario": "delay1",
+      "ledger_sha256": "918c0dcbed6a97efdc990d266ac5dd55de02505a99fe3c3947239267a1c1a68e"
+    },
+    "old:239": {
+      "first_policy": "coin_only",
+      "start": "2026-03-01",
+      "end_exclusive": "2026-06-01",
+      "scenario": "base",
+      "ledger_sha256": "bf6f4a5a603d3d97aa2034ae9ccc1618cf470d8368d41f6346d3df59d8cc1d5b"
+    },
+    "old:240": {
+      "first_policy": "coin_only",
+      "start": "2026-03-01",
+      "end_exclusive": "2026-06-01",
+      "scenario": "cost2",
+      "ledger_sha256": "18489213b030b926eb29be013f596333682875ac393bec39ea64cea5416ccb0b"
+    },
+    "old:241": {
+      "first_policy": "coin_only",
+      "start": "2026-03-01",
+      "end_exclusive": "2026-06-01",
+      "scenario": "delay1",
+      "ledger_sha256": "2f025db9175ad483149cae91fcd87debcce642d50b1cdc7427ad407f07533016"
+    },
+    "old:254": {
+      "first_policy": "coin_only",
+      "start": "2026-04-01",
+      "end_exclusive": "2026-07-01",
+      "scenario": "base",
+      "ledger_sha256": "5176e0de9d30710f60438596c9bcb4ac3eda3c4cc96e1b7dec12c9f39e25430b"
+    },
+    "old:255": {
+      "first_policy": "coin_only",
+      "start": "2026-04-01",
+      "end_exclusive": "2026-07-01",
+      "scenario": "cost2",
+      "ledger_sha256": "025de720faec11c9dad3ba4d94ccb542f546365f68e277f3db566f2c3be1405d"
+    },
+    "old:256": {
+      "first_policy": "coin_only",
+      "start": "2026-04-01",
+      "end_exclusive": "2026-07-01",
+      "scenario": "delay1",
+      "ledger_sha256": "af439b55730dd2fe3f88550ca418d06d4528cecf1edd12811b35b6abe80222d5"
+    },
+    "old:269": {
+      "first_policy": "coin_only",
+      "start": "2026-05-01",
+      "end_exclusive": "2026-08-01",
+      "scenario": "base",
+      "ledger_sha256": "b9d502bb2fc07b77ed2e3313ea80541e9fab345c819495fd165faf088ea9936d"
+    },
+    "old:270": {
+      "first_policy": "coin_only",
+      "start": "2026-05-01",
+      "end_exclusive": "2026-08-01",
+      "scenario": "cost2",
+      "ledger_sha256": "a48c14da035644feb6dd7f8ff5b2188705da90291984c608297ab64cf8dcf7df"
+    },
+    "old:271": {
+      "first_policy": "coin_only",
+      "start": "2026-05-01",
+      "end_exclusive": "2026-08-01",
+      "scenario": "delay1",
+      "ledger_sha256": "047a487c1b03833f3cb1e054929d832a620173119c6a98ee21ffae936d062a3f"
+    },
+    "old:284": {
+      "first_policy": "coin_only",
+      "start": "2026-06-01",
+      "end_exclusive": "2026-09-01",
+      "scenario": "base",
+      "ledger_sha256": "2d0a9cacb6814c2512dbfdce878168529e027fd6852522e7759e458dfa7449fe"
+    },
+    "old:285": {
+      "first_policy": "coin_only",
+      "start": "2026-06-01",
+      "end_exclusive": "2026-09-01",
+      "scenario": "cost2",
+      "ledger_sha256": "5bae62b7c0e2feabd3b56d9ae1a672cf06fec210ed2ce53d51619c514bcca57c"
+    },
+    "old:286": {
+      "first_policy": "coin_only",
+      "start": "2026-06-01",
+      "end_exclusive": "2026-09-01",
+      "scenario": "delay1",
+      "ledger_sha256": "a8153e4a05217079f7c8e34cdf9078f5957f324238545277ecc9d95545dfba81"
+    },
+    "old:299": {
+      "first_policy": "coin_only",
+      "start": "2026-07-01",
+      "end_exclusive": "2026-10-01",
+      "scenario": "base",
+      "ledger_sha256": "11c2c1fd46e02ad2aa776f5cf44a3cc1599ed129f0281565aa8da084d7f5cebf"
+    },
+    "old:300": {
+      "first_policy": "coin_only",
+      "start": "2026-07-01",
+      "end_exclusive": "2026-10-01",
+      "scenario": "cost2",
+      "ledger_sha256": "2e6ab07ad9fa1ecef328e539e890605367bc2c8e080369c37ab5f54592492b57"
+    },
+    "old:301": {
+      "first_policy": "coin_only",
+      "start": "2026-07-01",
+      "end_exclusive": "2026-10-01",
+      "scenario": "delay1",
+      "ledger_sha256": "153f54a3c3bc8339175a6910cc92e2f2060ae0e4736e7c12d79ad3288513a30e"
+    },
+    "old:314": {
+      "first_policy": "coin_only",
+      "start": "2026-08-01",
+      "end_exclusive": "2026-11-01",
+      "scenario": "base",
+      "ledger_sha256": "11f282f30021ad42e1bfb780d25d8c24a9ad58fba211d129d2af0b7095ad8db4"
+    },
+    "old:315": {
+      "first_policy": "coin_only",
+      "start": "2026-08-01",
+      "end_exclusive": "2026-11-01",
+      "scenario": "cost2",
+      "ledger_sha256": "69b2d5d1446ca97f03a4b45da0461ae5d6a7b9018ca88bb6b202ea3a4a644b99"
+    },
+    "old:316": {
+      "first_policy": "coin_only",
+      "start": "2026-08-01",
+      "end_exclusive": "2026-11-01",
+      "scenario": "delay1",
+      "ledger_sha256": "dd71c88dd6272ee8d027e4489469073f9040d8bfafc764f3246402c570d1f69e"
+    },
+    "old:329": {
+      "first_policy": "coin_only",
+      "start": "2025-08-01",
+      "end_exclusive": "2026-02-01",
+      "scenario": "base",
+      "ledger_sha256": "d7974d5ff4571c5a070234b0cf5cf253f3b67dfc23ee21052a527c970aae2953"
+    },
+    "old:330": {
+      "first_policy": "coin_only",
+      "start": "2025-08-01",
+      "end_exclusive": "2026-02-01",
+      "scenario": "cost2",
+      "ledger_sha256": "a1e3ccb288a4ed798291b169ff477fc72241ebed934a7aa6b4b22ce5a256cdc6"
+    },
+    "old:331": {
+      "first_policy": "coin_only",
+      "start": "2025-08-01",
+      "end_exclusive": "2026-02-01",
+      "scenario": "delay1",
+      "ledger_sha256": "bc4df0335d3940de1fadb49f38a8326acb1c50a106b8ae740626bcd277ad7fac"
+    },
+    "old:344": {
+      "first_policy": "coin_only",
+      "start": "2025-09-01",
+      "end_exclusive": "2026-03-01",
+      "scenario": "base",
+      "ledger_sha256": "094c370526a84051ccadc88d0c973febbd9438b8825981a2b90dc6cba77911a0"
+    },
+    "old:345": {
+      "first_policy": "coin_only",
+      "start": "2025-09-01",
+      "end_exclusive": "2026-03-01",
+      "scenario": "cost2",
+      "ledger_sha256": "3e969cfd51ade9fe28945513f2b54ec00912b6f4de2bcf9109f12e844e3ceca6"
+    },
+    "old:346": {
+      "first_policy": "coin_only",
+      "start": "2025-09-01",
+      "end_exclusive": "2026-03-01",
+      "scenario": "delay1",
+      "ledger_sha256": "9a1220682b43d07411f7951009a1372a376ea7f2f8cd0ef925cba260f86c4048"
+    },
+    "old:359": {
+      "first_policy": "coin_only",
+      "start": "2025-10-01",
+      "end_exclusive": "2026-04-01",
+      "scenario": "base",
+      "ledger_sha256": "30c5685de004ae283f1bfc946d829c3d52bb04507ddc47731854853f89500725"
+    },
+    "old:360": {
+      "first_policy": "coin_only",
+      "start": "2025-10-01",
+      "end_exclusive": "2026-04-01",
+      "scenario": "cost2",
+      "ledger_sha256": "0b5c54a15e39a0049d834cbf3d91a25071cba5976d04d0a12e13a516ec0bd283"
+    },
+    "old:361": {
+      "first_policy": "coin_only",
+      "start": "2025-10-01",
+      "end_exclusive": "2026-04-01",
+      "scenario": "delay1",
+      "ledger_sha256": "c7f7dd36500d53d999039b22528df7b7339a2dfbcc04ea704f61de5c5a52e55d"
+    },
+    "old:374": {
+      "first_policy": "coin_only",
+      "start": "2025-11-01",
+      "end_exclusive": "2026-05-01",
+      "scenario": "base",
+      "ledger_sha256": "5a0d5d88800c63da00c6068ca2504e0c7a8c66b6b390057daff1becf520b7a81"
+    },
+    "old:375": {
+      "first_policy": "coin_only",
+      "start": "2025-11-01",
+      "end_exclusive": "2026-05-01",
+      "scenario": "cost2",
+      "ledger_sha256": "f1640b7f51199ea3853265de35350e14718b690007d6254e31296df157f179b3"
+    },
+    "old:376": {
+      "first_policy": "coin_only",
+      "start": "2025-11-01",
+      "end_exclusive": "2026-05-01",
+      "scenario": "delay1",
+      "ledger_sha256": "5c1e0794422e869f61334e43502089d6fcf7906ec0bb31afcce0b80fb5d93e3d"
+    },
+    "old:389": {
+      "first_policy": "coin_only",
+      "start": "2025-12-01",
+      "end_exclusive": "2026-06-01",
+      "scenario": "base",
+      "ledger_sha256": "14a51b07b1af17877759b796b1b898fc3edbfa979c32ebedb0f723bf978ceba8"
+    },
+    "old:390": {
+      "first_policy": "coin_only",
+      "start": "2025-12-01",
+      "end_exclusive": "2026-06-01",
+      "scenario": "cost2",
+      "ledger_sha256": "5a6af78b802c4301fdb1b84622c26c460473bcbb7bbbd109fc272e9fa9202ab3"
+    },
+    "old:391": {
+      "first_policy": "coin_only",
+      "start": "2025-12-01",
+      "end_exclusive": "2026-06-01",
+      "scenario": "delay1",
+      "ledger_sha256": "46432209b23aafbc96ca2f6c0d24c4e0dd61a5415c8c605f388dba7699afbf19"
+    },
+    "old:404": {
+      "first_policy": "coin_only",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-07-01",
+      "scenario": "base",
+      "ledger_sha256": "c293b6ef9ee6b19fed9680df658f275356e5dba31f0fc502607591e7fd670afb"
+    },
+    "old:405": {
+      "first_policy": "coin_only",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-07-01",
+      "scenario": "cost2",
+      "ledger_sha256": "4164fa514e7cc479bcdf40eda1d8c2278df05a54ebfb1c4908942ff45dc3f9c8"
+    },
+    "old:406": {
+      "first_policy": "coin_only",
+      "start": "2026-01-01",
+      "end_exclusive": "2026-07-01",
+      "scenario": "delay1",
+      "ledger_sha256": "1e64584c6ea2f27ad08d4e957ae326d413d4ab6fa7de82d130dde6a45f12e793"
+    },
+    "old:419": {
+      "first_policy": "coin_only",
+      "start": "2026-02-01",
+      "end_exclusive": "2026-08-01",
+      "scenario": "base",
+      "ledger_sha256": "808ac0203c12d8549b8f77df0080910bbc50f9b498270eaed1e1bba9c4fad5ea"
+    },
+    "old:420": {
+      "first_policy": "coin_only",
+      "start": "2026-02-01",
+      "end_exclusive": "2026-08-01",
+      "scenario": "cost2",
+      "ledger_sha256": "431eb14bba039eb79082dffe3983223dc36c70ce101bf37b6533dbbb0ead4f75"
+    },
+    "old:421": {
+      "first_policy": "coin_only",
+      "start": "2026-02-01",
+      "end_exclusive": "2026-08-01",
+      "scenario": "delay1",
+      "ledger_sha256": "e7811c39d28964d9231194d06a061e06420b4a064e78e5b24013dce89975d00e"
+    },
+    "old:434": {
+      "first_policy": "coin_only",
+      "start": "2026-03-01",
+      "end_exclusive": "2026-09-01",
+      "scenario": "base",
+      "ledger_sha256": "bb85e4b1fa9d0178b9fcfcd2251aa0672bef70c0b068c75584a4e0b0156f39ab"
+    },
+    "old:435": {
+      "first_policy": "coin_only",
+      "start": "2026-03-01",
+      "end_exclusive": "2026-09-01",
+      "scenario": "cost2",
+      "ledger_sha256": "a84b0a6a677eaab72a02c4f069e82489012798901be71a1dabbbb6849343938d"
+    },
+    "old:436": {
+      "first_policy": "coin_only",
+      "start": "2026-03-01",
+      "end_exclusive": "2026-09-01",
+      "scenario": "delay1",
+      "ledger_sha256": "20fb1d730e1ec7410e84c6ea1b228e1082e1cad618aef20e14c6d6f75e6aeae4"
+    },
+    "old:449": {
+      "first_policy": "coin_only",
+      "start": "2026-04-01",
+      "end_exclusive": "2026-10-01",
+      "scenario": "base",
+      "ledger_sha256": "78b842729e49cb58a14b26fd18e70d5ccc0de84f15116b39d0e1d9023d36d7c9"
+    },
+    "old:450": {
+      "first_policy": "coin_only",
+      "start": "2026-04-01",
+      "end_exclusive": "2026-10-01",
+      "scenario": "cost2",
+      "ledger_sha256": "84ad415dcee2b69ecdfcdc6a37d1cfb89ac5b7a7813f03d1ef1f1201af97c0c9"
+    },
+    "old:451": {
+      "first_policy": "coin_only",
+      "start": "2026-04-01",
+      "end_exclusive": "2026-10-01",
+      "scenario": "delay1",
+      "ledger_sha256": "825b71cf20344f3af954a40785077a3faf3fc31c49c2f8397125b01e28cac626"
+    },
+    "old:464": {
+      "first_policy": "coin_only",
+      "start": "2026-05-01",
+      "end_exclusive": "2026-11-01",
+      "scenario": "base",
+      "ledger_sha256": "a55428a57c2d03a256fbcf3a524302dc9a698254bcf3da2716435acfdd98c56c"
+    },
+    "old:465": {
+      "first_policy": "coin_only",
+      "start": "2026-05-01",
+      "end_exclusive": "2026-11-01",
+      "scenario": "cost2",
+      "ledger_sha256": "c6b56a8922301044d3f10efcfc900eabee06abe6ba7f9fef3fb14f8c4082bc7a"
+    },
+    "old:466": {
+      "first_policy": "coin_only",
+      "start": "2026-05-01",
+      "end_exclusive": "2026-11-01",
+      "scenario": "delay1",
+      "ledger_sha256": "264bcd3988d18e36743f8dadbc153a783cc19a9f479cbf0a3d5e7802c0c34132"
+    }
+  }
+}

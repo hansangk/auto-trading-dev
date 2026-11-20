@@ -1,0 +1,21 @@
+{
+  "hashes": {
+    "compression_expiry_1_0": "18a31cb074a54f37415fc4cd6b6af636efe14c8ffe3b0721929d8b41b8e8cf68",
+    "compression_expiry_1_1": "18a31cb074a54f37415fc4cd6b6af636efe14c8ffe3b0721929d8b41b8e8cf68",
+    "compression_expiry_3_0": "878be88c02d0e7310bf222f192e1f16957970ea6e8a04b7e1d88181e1176e293",
+    "compression_expiry_3_1": "41f8819278719b184e1ef180d770ecd2d72dc03f7edbb81575926308507001b3",
+    "adverse_chase_1_0.25": "85779c239c8e3929feed7b30cb97bc87b41a0776056c345be0e2dd2c0ad09f2d",
+    "adverse_chase_1_0.75": "b3a42f5f3c8a4b028f8df7bfacdf3f8e485e7d3a2a9b820d5692d66a06a7511a",
+    "adverse_chase_3_0.25": "388041cca092ad91610daf8ef00cd8efeeac5398974d65efaeef2df47a3acd74",
+    "adverse_chase_3_0.75": "7c7e12a247e824b0a28c164dd1f9fa56e176c7439af885b480948f1833edaae0",
+    "own_confirmation_1_0.0": "2c50d15158a84c3a34f07d88591aadc1382a2b029a9b5aebce4c1d282c83705d",
+    "own_confirmation_1_0.25": "692113b864d7d78b10a4412f711fc184f53ce2eed4df2329a49e9de14bafb13f",
+    "own_confirmation_3_0.0": "ffa21299bbb0456bf1beaf24c70f44e81c1c2e5f482db89c130a3ebaab4385ae",
+    "own_confirmation_3_0.25": "598c3943f5c5e0276ab0ba6cb247cd29dcd8bb40df51916d038a8d73e6c16d32",
+    "participation_5_0.2": "2ef4a2d24c4860bd818398412578e8378908204816fa271a1f08a423d9d6264a",
+    "participation_5_0.4": "0db4f9410d8d33eda0b104fe72f27f28ab14bf6c6d22ded09141a6befe9a3244",
+    "participation_10_0.2": "d668289a115391c8449787cbedd6bff45bcd4f9d3782a4c4f3312fc7f148ce5d",
+    "participation_10_0.4": "2ebb7abb094148aed1f67c1c619a02a40cdd828f164ba2073a0701d2becc6326"
+  },
+  "distinct": 15
+}

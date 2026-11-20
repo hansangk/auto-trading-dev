@@ -1,0 +1,20 @@
+{
+  "tests_passed": 166,
+  "test_seconds": 11.337,
+  "new_engine_calls": 144,
+  "cached_old_reset_cells": 8,
+  "monthly_state_segments": 88,
+  "new_trade_provenance_checks": 3146,
+  "strict240_support_zero": true,
+  "strict180_duration_pass": true,
+  "source_under20_stress_diag_skipped": true,
+  "cache_commit": "4cc0f400e3fa89f102ea940a49863355f6740a85",
+  "cache_dependency_result_blobs_verified": 13,
+  "exit_phase_unique_new_rounds": 3136,
+  "exit_phase_ambiguous_new_rounds": 10,
+  "actual_clock_before_reserved_release_new_rounds": 1078,
+  "max_reserved_gap_minutes": 180.0,
+  "code_config_hashes_pass": true,
+  "engine_unchanged": true,
+  "verifier_sha256": "b12f209b7663827f5b516d49cb6602c9a9d047e0804aa13f32cd3351ffce290d"
+}

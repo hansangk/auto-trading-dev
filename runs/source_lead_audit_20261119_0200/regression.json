@@ -1,0 +1,119 @@
+[
+  {
+    "start": "2026-09-21",
+    "scenario": "base",
+    "passed": true,
+    "fields": [
+      "total_return",
+      "max_drawdown",
+      "rounds",
+      "win_rate",
+      "costs",
+      "trades"
+    ]
+  },
+  {
+    "start": "2026-09-21",
+    "scenario": "cost2",
+    "passed": true,
+    "fields": [
+      "total_return",
+      "max_drawdown",
+      "rounds",
+      "win_rate",
+      "costs",
+      "trades"
+    ]
+  },
+  {
+    "start": "2026-09-21",
+    "scenario": "delay1",
+    "passed": true,
+    "fields": [
+      "total_return",
+      "max_drawdown",
+      "rounds",
+      "win_rate",
+      "costs",
+      "trades"
+    ]
+  },
+  {
+    "start": "2026-10-01",
+    "scenario": "base",
+    "passed": true,
+    "fields": [
+      "total_return",
+      "max_drawdown",
+      "rounds",
+      "win_rate",
+      "costs",
+      "trades"
+    ]
+  },
+  {
+    "start": "2026-10-01",
+    "scenario": "cost2",
+    "passed": true,
+    "fields": [
+      "total_return",
+      "max_drawdown",
+      "rounds",
+      "win_rate",
+      "costs",
+      "trades"
+    ]
+  },
+  {
+    "start": "2026-10-01",
+    "scenario": "delay1",
+    "passed": true,
+    "fields": [
+      "total_return",
+      "max_drawdown",
+      "rounds",
+      "win_rate",
+      "costs",
+      "trades"
+    ]
+  },
+  {
+    "start": "2026-10-19",
+    "scenario": "base",
+    "passed": true,
+    "fields": [
+      "total_return",
+      "max_drawdown",
+      "rounds",
+      "win_rate",
+      "costs",
+      "trades"
+    ]
+  },
+  {
+    "start": "2026-10-19",
+    "scenario": "cost2",
+    "passed": true,
+    "fields": [
+      "total_return",
+      "max_drawdown",
+      "rounds",
+      "win_rate",
+      "costs",
+      "trades"
+    ]
+  },
+  {
+    "start": "2026-10-19",
+    "scenario": "delay1",
+    "passed": true,
+    "fields": [
+      "total_return",
+      "max_drawdown",
+      "rounds",
+      "win_rate",
+      "costs",
+      "trades"
+    ]
+  }
+]

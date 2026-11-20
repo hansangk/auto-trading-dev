@@ -1,0 +1,74 @@
+[
+  {
+    "name": "fade_0",
+    "family": "fade",
+    "p1": 0,
+    "p2": 0,
+    "hold": 4,
+    "target": 3
+  },
+  {
+    "name": "fade_0.5",
+    "family": "fade",
+    "p1": 0.5,
+    "p2": 0,
+    "hold": 4,
+    "target": 3
+  },
+  {
+    "name": "fade_1.0",
+    "family": "fade",
+    "p1": 1.0,
+    "p2": 0,
+    "hold": 4,
+    "target": 3
+  },
+  {
+    "name": "opening_1",
+    "family": "opening",
+    "p1": 1,
+    "p2": 0,
+    "hold": 4,
+    "target": 3
+  },
+  {
+    "name": "opening_2",
+    "family": "opening",
+    "p1": 2,
+    "p2": 0,
+    "hold": 4,
+    "target": 3
+  },
+  {
+    "name": "pullback_4",
+    "family": "pullback",
+    "p1": 4,
+    "p2": 0,
+    "hold": 4,
+    "target": 3
+  },
+  {
+    "name": "pullback_8",
+    "family": "pullback",
+    "p1": 8,
+    "p2": 0,
+    "hold": 4,
+    "target": 3
+  },
+  {
+    "name": "relative_2",
+    "family": "relative",
+    "p1": 2,
+    "p2": 0,
+    "hold": 4,
+    "target": 3
+  },
+  {
+    "name": "relative_3",
+    "family": "relative",
+    "p1": 3,
+    "p2": 0,
+    "hold": 4,
+    "target": 3
+  }
+]

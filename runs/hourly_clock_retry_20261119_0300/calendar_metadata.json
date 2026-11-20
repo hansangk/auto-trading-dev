@@ -1,0 +1,12 @@
+{
+  "package": "exchange_calendars",
+  "version": "4.13.3",
+  "calendar": "XNYS",
+  "start": "2024-11-14",
+  "end": "2026-11-18",
+  "official_sources": [
+    "https://ir.theice.com/press/news-details/2023/NYSE-Group-Announces-2024-2025-and-2026-Holiday-and-Early-Closings-Calendar/default.aspx",
+    "https://ir.theice.com/press/news-details/2024/The-New-York-Stock-Exchange-Will-Close-Markets-on-January-9-to-Honor-the-Passing-of-Former-President-Jimmy-Carter-on-National-Day-of-Mourning/default.aspx"
+  ],
+  "use": "Calendar-only; no news/macro strategyfeatures"
+}

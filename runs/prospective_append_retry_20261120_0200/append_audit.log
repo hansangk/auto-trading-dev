@@ -1,0 +1,36 @@
+{
+  "status": "PARTIAL_APPEND_PREFIX_UNCHANGED",
+  "asof_bar_end_cutoff": "2026-11-19T17:07:25Z",
+  "ETF_rows": 8,
+  "source_rows": 20,
+  "ETF_end_exclusive": "2026-11-19T16:30:00Z",
+  "source_start": "2026-11-19T06:30:00Z",
+  "source_end_exclusive": "2026-11-19T16:30:00Z",
+  "prefix_comparisons": {
+    "ETF": {
+      "previous_rows": 4,
+      "current_rows": 8,
+      "missing_old_keys": 0,
+      "changed_old_values": 0,
+      "unchanged": true,
+      "error": null
+    },
+    "source": {
+      "previous_rows": 18,
+      "current_rows": 20,
+      "missing_old_keys": 0,
+      "changed_old_values": 0,
+      "unchanged": true,
+      "error": null
+    }
+  },
+  "raw_public_upload": "NOT_ATTEMPTED",
+  "terminal_backtest_allowed": false,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "new_independent_validation": false,
+  "full_session_qualified": false,
+  "account_state_initialized": false,
+  "limitation": "Partialprice structures only. Preserve original collector tails/errors and actualreceipt. Source serializedconnector is not HTTPwirebytes. No retrospectivePIT claim; signalparity/FULLAccountState/execution integration stillmissing."
+}

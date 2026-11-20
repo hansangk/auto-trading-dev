@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "new_actual_calls": 69,
+  "new_research_reset_calls": 36,
+  "new_storage_regression_month_calls": 33,
+  "prior_unique_calls_reused": 81,
+  "prior_logical_cells_reused": 83,
+  "logical_reset_cells": 129,
+  "new_trade_records_checked": 4432,
+  "prior_trade_records_checked": 2187,
+  "new_Nasdaq_buy_rounds": 3638,
+  "new_Bitcoin_buy_rounds": 1052,
+  "new_two_role_rounds": 258,
+  "source_release_trade_checks": 4000,
+  "price_phase_ambiguous_records_new_plus_prior": 41,
+  "physical_month_state_checks": 33,
+  "logical_month_segments": 66,
+  "causal_cash_decisions_checked": 22,
+  "fixed_opportunity_label_records": 2823,
+  "prepause_checkpoint_reconstructed_hash_matches": true,
+  "first_month_replay_count": 0,
+  "old_frozen_background_path_regression_pass": true,
+  "base_suite_tests": 197,
+  "prefix_guard_tests": 3,
+  "diagnostic_candidates": 0,
+  "new_independent_validation": false,
+  "engine_unchanged": true,
+  "orders": 0,
+  "raw_upload": "not attempted",
+  "verifier_sha256": "cd70d0de5e62f08bf0717f8fd50a5fa3293d90837204b29f3f6ce1432819e451"
+}
+symbol
+BITI     477
+IBIT     575
+SQQQ    1631
+TQQQ    2007

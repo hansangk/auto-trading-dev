@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE_REJECTED",
+  "research_calls_before_resume": 0,
+  "interruption": "Priorquantturn reportedusage limit; sameownedRUNNINGclaim resumed,nolocalengine/lock/intent/resultsfound",
+  "agent_fixture_failure": {
+    "source": "agent-reported originaltoolstdout; no originalrawlogfilepreserved",
+    "test": "test_price_support_is_shared_and_current_quote_failure_not_consumed",
+    "observed": "line85 self.assertEqual(s[1,0],1.); AssertionError: np.float64(0.0) != 1.0; Ran8tests0.101s FAILED(failures=1)",
+    "cause": "fixturebody1.8/range4=.45<.5,incorrecttrueexpectation",
+    "fix": "testonlysource/ETFrow1low=99 givesrange3efficiency.6; strategyunchanged",
+    "later_agent_test_result": "8tests0.100sOK"
+  },
+  "root_suite": "197tests10.788sPASS",
+  "no_backtest_abort_evidence": true,
+  "new_actual_calls": 69,
+  "new_research_reset_calls": 36,
+  "new_storage_regression_calls": 33,
+  "backtest_aborts": 0,
+  "verifier_failures": 0,
+  "approved": [],
+  "plan_measurement_mismatch": "soft/hard wording exceeded engineinstrumentation;hard/MDDdirectlyscreened,postroundsoftthresholdtouches separatelyaudited;poolalready0,no relaxation",
+  "storage_findings": "Originalrestorecheckedplan/scheduleonly;additionalguardverifiedprefixledgerSHA/callmonth/fullstate/equitypeakbeforeactualresume.197suite+3prefixguardPASS;firstmonthreplays0;pausedckhashreconstructedexactly."
+}

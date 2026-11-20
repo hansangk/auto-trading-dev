@@ -1,0 +1,18 @@
+{
+  "recent3_fit": {
+    "period": [
+      "2026-08-14",
+      "2026-11-14"
+    ],
+    "status": "NOT_RUN_INSUFFICIENT_FINE_COVERAGE"
+  },
+  "recent6_fit": {
+    "period": [
+      "2026-05-14",
+      "2026-11-14"
+    ],
+    "status": "NOT_RUN_INSUFFICIENT_FINE_COVERAGE"
+  },
+  "causal3_6_next_month": "NOT_RUN; priorhourly selectorresults cachedonly,notthis clockmodel",
+  "new_independent_validation": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "READINESS_AUDIT_COMPLETE_NOT_BACKTEST_COMPLETE",
+  "new_engine_calls": 0,
+  "new_price_acquisitions": 0,
+  "new_market_rows": 0,
+  "new_real_orders": 0,
+  "new_independent_validation": false,
+  "hashes": {
+    "scripts/prospective_shadow_guard_20261119.py": "31adf7308eb0ce1c9c0b0b4e53bfee7fff2bbce2ebd639139ecd0728b00d18b2",
+    "tests/test_prospective_shadow_guard.py": "4934738d599b1c27402fa8d18589b33c35f45eb20ddacd44659b4dca5cf6056c",
+    "runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json": "614f75e7cbb83e9eb9b6272d04743236b9ba32385fcfe9607001c0bf9b139155",
+    "runs/venue_latency_retry_20261119_1400/analysis_manifest.json": "25f04988888a7d31075ef3f4a5e1c7595bfd0c5b2fcca7570cc082f0e232390e",
+    "runs/venue_latency_retry_20261119_1400/checkpoint_LOCAL.json": "d382dc707316f2d34ce301c5221c1b050f0c2d35f5175c88cf2f0e2e3321c351",
+    "runs/prospective_readiness_retry_20261119_1700/calendar_20261119.csv": "5f993b55f18a91bb37b80516181389733238568b966275cf3f5aa1e6682cc03d",
+    "runs/prospective_readiness_retry_20261119_1700/calendar_evidence.json": "c7728e46db362dc92cd8febbb3812d2a34be8f1b52bff09233ebec95150d20c4"
+  },
+  "python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "exchange_calendars_available": false,
+  "numpy_available": true,
+  "pandas_available": true,
+  "calendar_scope": "explicitofficialNYSE2026-11-19ONLY;requiresextensionforlaterNYdates",
+  "raw_public_upload": "not attempted;originalrefusalrespected",
+  "metrics": "NA;noengineexecution,sodonotlabel0%return",
+  "history": "Previous669callstudyunchanged,closedgridnotrerun"
+}

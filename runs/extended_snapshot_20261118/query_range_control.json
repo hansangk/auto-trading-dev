@@ -1,0 +1,131 @@
+{
+  "old_month_vs_new_month": {
+    "shared_keys": 6858,
+    "revised_rows": 1027,
+    "changed_fields": {
+      "open": 290,
+      "high": 0,
+      "low": 0,
+      "close": 39,
+      "volume": 799
+    },
+    "per_symbol": {
+      "TQQQ": {
+        "open": 146,
+        "high": 0,
+        "low": 0,
+        "close": 18,
+        "volume": 375
+      },
+      "SQQQ": {
+        "open": 75,
+        "high": 0,
+        "low": 0,
+        "close": 9,
+        "volume": 175
+      },
+      "IBIT": {
+        "open": 52,
+        "high": 0,
+        "low": 0,
+        "close": 9,
+        "volume": 156
+      },
+      "BITI": {
+        "open": 17,
+        "high": 0,
+        "low": 0,
+        "close": 3,
+        "volume": 93
+      }
+    },
+    "added_keys": 0,
+    "dropped_keys": 0
+  },
+  "same_day_month_vs_60d": {
+    "shared_keys": 6858,
+    "revised_rows": 0,
+    "changed_fields": {
+      "open": 0,
+      "high": 0,
+      "low": 0,
+      "close": 0,
+      "volume": 0
+    },
+    "per_symbol": {
+      "TQQQ": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0
+      },
+      "SQQQ": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0
+      },
+      "IBIT": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0
+      },
+      "BITI": {
+        "open": 0,
+        "high": 0,
+        "low": 0,
+        "close": 0,
+        "volume": 0
+      }
+    },
+    "added_keys": 11843,
+    "dropped_keys": 0
+  },
+  "old_month_vs_60d": {
+    "shared_keys": 6858,
+    "revised_rows": 1027,
+    "changed_fields": {
+      "open": 290,
+      "high": 0,
+      "low": 0,
+      "close": 39,
+      "volume": 799
+    },
+    "per_symbol": {
+      "TQQQ": {
+        "open": 146,
+        "high": 0,
+        "low": 0,
+        "close": 18,
+        "volume": 375
+      },
+      "SQQQ": {
+        "open": 75,
+        "high": 0,
+        "low": 0,
+        "close": 9,
+        "volume": 175
+      },
+      "IBIT": {
+        "open": 52,
+        "high": 0,
+        "low": 0,
+        "close": 9,
+        "volume": 156
+      },
+      "BITI": {
+        "open": 17,
+        "high": 0,
+        "low": 0,
+        "close": 3,
+        "volume": 93
+      }
+    },
+    "added_keys": 11843,
+    "dropped_keys": 0
+  }
+}

@@ -1,0 +1,18 @@
+                       name     worst      mean  min_rounds  min_matched_events  min_matched_days  sample_eligible
+    qqq_parent_coarse60_240  0.006392  0.008051           9                   9                 9            False
+    qqq_parent_coarse60_180  0.005503  0.009709          14                  14                14            False
+ nasdaq_source_release5_240 -0.000016  0.002532           3                   2                 2            False
+ nasdaq_source_release5_180 -0.000752  0.002245           5                   3                 3            False
+ nasdaq_source_coarse60_240 -0.001226  0.001578           2                   2                 2            False
+btc_exhaustion_release5_240 -0.001441 -0.000880           4                   4                 4            False
+btc_acceptance_coarse60_240 -0.001622 -0.000807           6                   0                 0            False
+btc_exhaustion_coarse60_240 -0.001856 -0.000897           4                   4                 4            False
+ nasdaq_source_coarse60_180 -0.002492  0.001484           3                   3                 3            False
+btc_exhaustion_coarse60_180 -0.002559 -0.002180           4                   5                 4            False
+btc_acceptance_release5_180 -0.002992 -0.001555           6                   0                 0            False
+btc_exhaustion_release5_180 -0.003180 -0.002070           4                   5                 4            False
+btc_acceptance_release5_240 -0.003421 -0.002123           6                   0                 0            False
+btc_acceptance_coarse60_180 -0.004055 -0.001960           6                   0                 0            False
+    qqq_parent_release5_240 -0.008656 -0.000708          14                   9                 9            False
+    qqq_parent_release5_180 -0.009376 -0.000777          21                  14                14            False
+new actual calls 32 trade records 252 shortlist []

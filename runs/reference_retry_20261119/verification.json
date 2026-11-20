@@ -1,0 +1,51 @@
+{
+  "tests": 121,
+  "seconds": 8.917,
+  "status": "PASS",
+  "baseline_regression": [
+    {
+      "scenario": "base",
+      "passed": true,
+      "fields": [
+        "total_return",
+        "max_drawdown",
+        "rounds",
+        "win_rate",
+        "costs",
+        "trades"
+      ]
+    },
+    {
+      "scenario": "cost2",
+      "passed": true,
+      "fields": [
+        "total_return",
+        "max_drawdown",
+        "rounds",
+        "win_rate",
+        "costs",
+        "trades"
+      ]
+    },
+    {
+      "scenario": "delay1",
+      "passed": true,
+      "fields": [
+        "total_return",
+        "max_drawdown",
+        "rounds",
+        "win_rate",
+        "costs",
+        "trades"
+      ]
+    }
+  ],
+  "raw_checks": {
+    "QQQ": true,
+    "BTC-USD": true
+  },
+  "overlap_reproduction": "PASS: same aggregate source-overlap reproduced without engine calls",
+  "supplementary_analysis_sha256": {
+    "scripts/reference_overlap_20261119.py": "cdf7b8de88a5d1b5942280d603bcc47259014ad8cc20cfb290eab10853631b73"
+  }
+}

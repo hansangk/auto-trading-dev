@@ -1,0 +1,35 @@
+{
+  "initial_tool_failure": "TypeError: tools.clock__curr_time is not a function; before claim/requests; recovered using hostUTC date command",
+  "HTTP_failures": 0,
+  "prefix_missing_or_changed": 0,
+  "raw_clock_rejections": [
+    {
+      "symbol": "TQQQ",
+      "timestamp": "2026-11-19T17:07:35+00:00",
+      "reason": "OFF_CLOCK",
+      "classification": "POST_CUTOFF_EXCLUDED"
+    },
+    {
+      "symbol": "SQQQ",
+      "timestamp": "2026-11-19T17:07:35+00:00",
+      "reason": "OFF_CLOCK",
+      "classification": "POST_CUTOFF_EXCLUDED"
+    },
+    {
+      "symbol": "IBIT",
+      "timestamp": "2026-11-19T17:07:35+00:00",
+      "reason": "OFF_CLOCK",
+      "classification": "POST_CUTOFF_EXCLUDED"
+    },
+    {
+      "symbol": "BITI",
+      "timestamp": "2026-11-19T17:05:37+00:00",
+      "reason": "OFF_CLOCK",
+      "classification": "AT_OR_BEFORE_CUTOFF_OFFCLOCK_REJECTED"
+    }
+  ],
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "qualified_continuation": false
+}

@@ -1,0 +1,104 @@
+{
+  "shortlist": [
+    "h120__source",
+    "h120__price",
+    "c120__source",
+    "c120__price",
+    "h180__source",
+    "h180__price",
+    "c180__source",
+    "c180__price"
+  ],
+  "diagnostic_pool": [
+    "h120__source",
+    "c120__source",
+    "h180__source",
+    "c180__source"
+  ],
+  "development_screen_pass": [
+    "c180__source"
+  ],
+  "approved": [],
+  "failures": [
+    {
+      "name": "legacy__source",
+      "reasons": [
+        "IMMUTABLE_REFERENCE_AND_SAMEEXIT_LABEL_ONLY"
+      ]
+    },
+    {
+      "name": "legacy__price",
+      "reasons": [
+        "IMMUTABLE_REFERENCE_AND_SAMEEXIT_LABEL_ONLY"
+      ]
+    },
+    {
+      "name": "h60__source",
+      "reasons": [
+        "NO_INTERMEDIATE_PROTECTION_OBSERVATION_LABEL_ONLY"
+      ]
+    },
+    {
+      "name": "h60__price",
+      "reasons": [
+        "NO_INTERMEDIATE_PROTECTION_OBSERVATION_LABEL_ONLY"
+      ]
+    },
+    {
+      "name": "h120__source",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_FLOW_INCREMENT_VS_SAME15PCT_PRICE"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "h120__price",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "c120__source",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS",
+        "NO_UNIFORM_FLOW_INCREMENT_VS_SAME15PCT_PRICE"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "c120__price",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "h180__source",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "h180__price",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS"
+      ],
+      "independent_history_missing": true
+    },
+    {
+      "name": "c180__source",
+      "reasons": [],
+      "independent_history_missing": true
+    },
+    {
+      "name": "c180__price",
+      "reasons": [
+        "NONPOSITIVE_DEVELOPMENT_STRESS"
+      ],
+      "independent_history_missing": true
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "name": "participation_follow_L20_a1.25_b0.25",
+    "family": "participation_follow",
+    "lookback": 20,
+    "a": 1.25,
+    "b": 0.25
+  },
+  {
+    "name": "participation_follow_L20_a1.25_b0.5",
+    "family": "participation_follow",
+    "lookback": 20,
+    "a": 1.25,
+    "b": 0.5
+  },
+  {
+    "name": "participation_follow_L20_a1.75_b0.25",
+    "family": "participation_follow",
+    "lookback": 20,
+    "a": 1.75,
+    "b": 0.25
+  },
+  {
+    "name": "participation_follow_L20_a1.75_b0.5",
+    "family": "participation_follow",
+    "lookback": 20,
+    "a": 1.75,
+    "b": 0.5
+  },
+  {
+    "name": "participation_follow_L40_a1.25_b0.25",
+    "family": "participation_follow",
+    "lookback": 40,
+    "a": 1.25,
+    "b": 0.25
+  },
+  {
+    "name": "participation_follow_L40_a1.25_b0.5",
+    "family": "participation_follow",
+    "lookback": 40,
+    "a": 1.25,
+    "b": 0.5
+  },
+  {
+    "name": "participation_follow_L40_a1.75_b0.25",
+    "family": "participation_follow",
+    "lookback": 40,
+    "a": 1.75,
+    "b": 0.25
+  },
+  {
+    "name": "participation_follow_L40_a1.75_b0.5",
+    "family": "participation_follow",
+    "lookback": 40,
+    "a": 1.75,
+    "b": 0.5
+  },
+  {
+    "name": "absorption_recovery_L20_a1.25_b0.2",
+    "family": "absorption_recovery",
+    "lookback": 20,
+    "a": 1.25,
+    "b": 0.2
+  },
+  {
+    "name": "absorption_recovery_L20_a1.25_b0.4",
+    "family": "absorption_recovery",
+    "lookback": 20,
+    "a": 1.25,
+    "b": 0.4
+  },
+  {
+    "name": "absorption_recovery_L20_a1.75_b0.2",
+    "family": "absorption_recovery",
+    "lookback": 20,
+    "a": 1.75,
+    "b": 0.2
+  },
+  {
+    "name": "absorption_recovery_L20_a1.75_b0.4",
+    "family": "absorption_recovery",
+    "lookback": 20,
+    "a": 1.75,
+    "b": 0.4
+  },
+  {
+    "name": "absorption_recovery_L40_a1.25_b0.2",
+    "family": "absorption_recovery",
+    "lookback": 40,
+    "a": 1.25,
+    "b": 0.2
+  },
+  {
+    "name": "absorption_recovery_L40_a1.25_b0.4",
+    "family": "absorption_recovery",
+    "lookback": 40,
+    "a": 1.25,
+    "b": 0.4
+  },
+  {
+    "name": "absorption_recovery_L40_a1.75_b0.2",
+    "family": "absorption_recovery",
+    "lookback": 40,
+    "a": 1.75,
+    "b": 0.2
+  },
+  {
+    "name": "absorption_recovery_L40_a1.75_b0.4",
+    "family": "absorption_recovery",
+    "lookback": 40,
+    "a": 1.75,
+    "b": 0.4
+  },
+  {
+    "name": "thin_move_reversal_L20_a0.5_b0.25",
+    "family": "thin_move_reversal",
+    "lookback": 20,
+    "a": 0.5,
+    "b": 0.25
+  },
+  {
+    "name": "thin_move_reversal_L20_a0.5_b0.5",
+    "family": "thin_move_reversal",
+    "lookback": 20,
+    "a": 0.5,
+    "b": 0.5
+  },
+  {
+    "name": "thin_move_reversal_L20_a0.75_b0.25",
+    "family": "thin_move_reversal",
+    "lookback": 20,
+    "a": 0.75,
+    "b": 0.25
+  },
+  {
+    "name": "thin_move_reversal_L20_a0.75_b0.5",
+    "family": "thin_move_reversal",
+    "lookback": 20,
+    "a": 0.75,
+    "b": 0.5
+  },
+  {
+    "name": "thin_move_reversal_L40_a0.5_b0.25",
+    "family": "thin_move_reversal",
+    "lookback": 40,
+    "a": 0.5,
+    "b": 0.25
+  },
+  {
+    "name": "thin_move_reversal_L40_a0.5_b0.5",
+    "family": "thin_move_reversal",
+    "lookback": 40,
+    "a": 0.5,
+    "b": 0.5
+  },
+  {
+    "name": "thin_move_reversal_L40_a0.75_b0.25",
+    "family": "thin_move_reversal",
+    "lookback": 40,
+    "a": 0.75,
+    "b": 0.25
+  },
+  {
+    "name": "thin_move_reversal_L40_a0.75_b0.5",
+    "family": "thin_move_reversal",
+    "lookback": 40,
+    "a": 0.75,
+    "b": 0.5
+  },
+  {
+    "name": "burst_quiet_hold_L20_a1.5_b0.25",
+    "family": "burst_quiet_hold",
+    "lookback": 20,
+    "a": 1.5,
+    "b": 0.25
+  },
+  {
+    "name": "burst_quiet_hold_L20_a1.5_b0.5",
+    "family": "burst_quiet_hold",
+    "lookback": 20,
+    "a": 1.5,
+    "b": 0.5
+  },
+  {
+    "name": "burst_quiet_hold_L20_a2_b0.25",
+    "family": "burst_quiet_hold",
+    "lookback": 20,
+    "a": 2.0,
+    "b": 0.25
+  },
+  {
+    "name": "burst_quiet_hold_L20_a2_b0.5",
+    "family": "burst_quiet_hold",
+    "lookback": 20,
+    "a": 2.0,
+    "b": 0.5
+  },
+  {
+    "name": "burst_quiet_hold_L40_a1.5_b0.25",
+    "family": "burst_quiet_hold",
+    "lookback": 40,
+    "a": 1.5,
+    "b": 0.25
+  },
+  {
+    "name": "burst_quiet_hold_L40_a1.5_b0.5",
+    "family": "burst_quiet_hold",
+    "lookback": 40,
+    "a": 1.5,
+    "b": 0.5
+  },
+  {
+    "name": "burst_quiet_hold_L40_a2_b0.25",
+    "family": "burst_quiet_hold",
+    "lookback": 40,
+    "a": 2.0,
+    "b": 0.25
+  },
+  {
+    "name": "burst_quiet_hold_L40_a2_b0.5",
+    "family": "burst_quiet_hold",
+    "lookback": 40,
+    "a": 2.0,
+    "b": 0.5
+  }
+]

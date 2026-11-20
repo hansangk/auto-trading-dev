@@ -1,0 +1,74 @@
+{
+  "definitions": {
+    "source": "Frozen old night_nasdaq(5,.5) source",
+    "drop_strength": "QQQ consensus plus BTC night sign agreement only",
+    "drop_direction": "QQQ consensus plus BTC night strength >=.5 only",
+    "qqq_consensus": "QQQ5 regime/current completed-hour agreement; common source validity retained",
+    "qqq_gap_side": "Source event clock; actual ETF chosen by QQQ gap sign; zero is cash",
+    "opposite": "Source event clock; opposite actual ETF BUY",
+    "hash_side_0": "Source event clock; NY-day hash side seed0",
+    "hash_side_1": "Source event clock; NY-day hash side seed1",
+    "session_cash_0": "QQQ parent session keep by NY-day hash seed0; fixed count-only probability",
+    "session_cash_1": "QQQ parent session keep by NY-day hash seed1; fixed count-only probability",
+    "session_cash_2": "QQQ parent session keep by NY-day hash seed2; fixed count-only probability",
+    "session_cash_3": "QQQ parent session keep by NY-day hash seed3; fixed count-only probability",
+    "stale_1": "QQQ parent with BTC night gate from 1 earlier observed normal ETF sessions",
+    "stale_2": "QQQ parent with BTC night gate from 2 earlier observed normal ETF sessions",
+    "stale_3": "QQQ parent with BTC night gate from 3 earlier observed normal ETF sessions",
+    "stale_5": "QQQ parent with BTC night gate from 5 earlier observed normal ETF sessions"
+  },
+  "families": {
+    "A": [
+      "source",
+      "drop_strength",
+      "drop_direction",
+      "qqq_consensus"
+    ],
+    "B": [
+      "qqq_gap_side",
+      "opposite",
+      "hash_side_0",
+      "hash_side_1"
+    ],
+    "C": [
+      "session_cash_0",
+      "session_cash_1",
+      "session_cash_2",
+      "session_cash_3"
+    ],
+    "D": [
+      "stale_1",
+      "stale_2",
+      "stale_3",
+      "stale_5"
+    ]
+  },
+  "calibration": {
+    "start_ny": "2024-12-01",
+    "end_ny": "2024-12-31",
+    "parent_event_count": 21,
+    "source_event_count": 7,
+    "probability": 0.3333333333333333,
+    "calibrated": true,
+    "uncalibrated": false,
+    "fallback_probability": 0.5,
+    "minimum_parent_events": 20,
+    "outcomes_used": false,
+    "trade_start_ny": "2025-01-01",
+    "prefix_caveat": "Calibration-phase p may change; calibration is not traded"
+  },
+  "identities": {
+    "old_source_array_exact": true,
+    "session_fields_frozen": true,
+    "source_equals_day_gated_parent": true,
+    "qqq_regime_side_equals_source": true,
+    "qqq_hour_side_equals_source": true,
+    "aliases_not_additional_controls": [
+      "qqq_regime_side",
+      "qqq_hour_side"
+    ]
+  },
+  "allocation": "Caller-fixed15percent; actual TQQQ/SQQQ BUY only; unused capital cash",
+  "stale_session_definition": "Every observed ETF NY day counts; no skipped missing donors or forward fill",
+  "seed_policy": "Fixed controls; never rank/promote seeds by returns"
+}

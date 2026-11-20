@@ -1,0 +1,7 @@
+trailing_months,scenario,explicit_whole_cash_policy_months,Nasdaq_cash_policy_months,actual_zero_trade_months,actual_Nasdaq_zero_trade_months
+3,base,0,11,1,11
+3,cost2,0,11,1,11
+3,delay1,0,11,1,11
+6,base,0,11,1,11
+6,cost2,0,11,1,11
+6,delay1,0,11,1,11

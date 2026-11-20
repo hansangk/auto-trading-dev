@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "new_actual_calls": 631,
+  "new_reset_calls": 598,
+  "continuous_actual_month_calls": 33,
+  "logical_reset_cells": 808,
+  "new_trade_records_checked": 48250,
+  "new_Nasdaq_buy_rounds": 12924,
+  "new_Bitcoin_buy_rounds": 38767,
+  "two_role_rounds": 3441,
+  "source_release_trade_checks": 38767,
+  "ambiguous_open_close_matches": 697,
+  "all_equity_fee_risk_buy_reconciled": true,
+  "full_month_state_verified": true,
+  "strict_prior_month_choices": 22,
+  "resume_first_prefix_replayed": 0,
+  "frozen_control_labels": 6108,
+  "frozen_attribution_definitions": 32,
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "verifier_sha256": "584bede8b891b6d902c556c2d9795c304b03c26d8a8601af8ff9022d67dfed01"
+}

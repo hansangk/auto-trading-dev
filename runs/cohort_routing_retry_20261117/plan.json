@@ -1,0 +1,15 @@
+{
+  "parent": "3a9e8a8dc3ae842859766dc92ee9d9889fbb1a1f",
+  "audit": "Completed2025same-event base/delay paths and gap/volume overlaps before newgrid. No uniform delayedge; gapH1weak/H2positive,volumeinversepattern; overlap26/22bars. This motivates falsification of exclusive causal routing, not proof.",
+  "hypothesis": "Fixed gap(.5,.6) andvolume(6,2) components may complement with causal per-role state/dailyregime routing; no summedexposure/no newcomponentresweep.",
+  "budget": "4families gapreservation,pressuretakeover,conflictmemory,dailyregime,2\u00d72routingparams\u00d7hold2/4\u00d7target2/3=64nominal. Exclude actual training-signal/exit aliases from shortlisting; report nominalvsunique.",
+  "screen": "2025H1/H2base min20rounds each, max2perfamily/8total worst netthenmeanthenname. Addcost2/delay1; freezeeligible top3 before2026. Approval all6positive,all6greateranchor,noMDDworse,nohalts. Neverpromoteleastbad.",
+  "recent": "Descriptive same-window recent3months08-14..11-13 and6months05-14..11-13; base rankingmin20 then samewindowstress explicitlyin-sample.",
+  "walkforward": "Trainstrictlypreceding3/6months each2026month; stagedshortlistpositiveall3stress/min20/nohalt, cashfallback; decisionpersistedbeforetest. AccountState peak/streak/kill retained. Trainingaliases identified separatelyperwindow, not universal equivalence.",
+  "risk": "ActualTQQQ/SQQQ/IBIT/BITI buys, max15%ETF unusedcash,stop60jointclose nextopen,hold2/4,target2/3, noorders or exposureboost. IBITBitcoinproxy.",
+  "source_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "concurrency": "RemoteCOMPLETE/localnoPythonworker; uniqueoutdir/expectedparentclaim; externalunpublishedworkerunknown",
+  "publication": "No rawdatasetupload. Computedresults/code/provenance/hash only",
+  "independent_holdout": false,
+  "news_macro": false
+}

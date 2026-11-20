@@ -1,0 +1,151 @@
+{
+  "candidates": [
+    {
+      "id": "anchor",
+      "kind": "anchor"
+    },
+    {
+      "id": "cash",
+      "kind": "cash"
+    },
+    {
+      "id": "mr12_z1_c0",
+      "kind": "switch",
+      "window": 12,
+      "threshold": 1.0,
+      "confirm": false
+    },
+    {
+      "id": "mr12_z1_c1",
+      "kind": "switch",
+      "window": 12,
+      "threshold": 1.0,
+      "confirm": true
+    },
+    {
+      "id": "mr12_z1.5_c0",
+      "kind": "switch",
+      "window": 12,
+      "threshold": 1.5,
+      "confirm": false
+    },
+    {
+      "id": "mr12_z1.5_c1",
+      "kind": "switch",
+      "window": 12,
+      "threshold": 1.5,
+      "confirm": true
+    },
+    {
+      "id": "mr12_z2_c0",
+      "kind": "switch",
+      "window": 12,
+      "threshold": 2.0,
+      "confirm": false
+    },
+    {
+      "id": "mr12_z2_c1",
+      "kind": "switch",
+      "window": 12,
+      "threshold": 2.0,
+      "confirm": true
+    },
+    {
+      "id": "mr24_z1_c0",
+      "kind": "switch",
+      "window": 24,
+      "threshold": 1.0,
+      "confirm": false
+    },
+    {
+      "id": "mr24_z1_c1",
+      "kind": "switch",
+      "window": 24,
+      "threshold": 1.0,
+      "confirm": true
+    },
+    {
+      "id": "mr24_z1.5_c0",
+      "kind": "switch",
+      "window": 24,
+      "threshold": 1.5,
+      "confirm": false
+    },
+    {
+      "id": "mr24_z1.5_c1",
+      "kind": "switch",
+      "window": 24,
+      "threshold": 1.5,
+      "confirm": true
+    },
+    {
+      "id": "mr24_z2_c0",
+      "kind": "switch",
+      "window": 24,
+      "threshold": 2.0,
+      "confirm": false
+    },
+    {
+      "id": "mr24_z2_c1",
+      "kind": "switch",
+      "window": 24,
+      "threshold": 2.0,
+      "confirm": true
+    },
+    {
+      "id": "mr48_z1_c0",
+      "kind": "switch",
+      "window": 48,
+      "threshold": 1.0,
+      "confirm": false
+    },
+    {
+      "id": "mr48_z1_c1",
+      "kind": "switch",
+      "window": 48,
+      "threshold": 1.0,
+      "confirm": true
+    },
+    {
+      "id": "mr48_z1.5_c0",
+      "kind": "switch",
+      "window": 48,
+      "threshold": 1.5,
+      "confirm": false
+    },
+    {
+      "id": "mr48_z1.5_c1",
+      "kind": "switch",
+      "window": 48,
+      "threshold": 1.5,
+      "confirm": true
+    },
+    {
+      "id": "mr48_z2_c0",
+      "kind": "switch",
+      "window": 48,
+      "threshold": 2.0,
+      "confirm": false
+    },
+    {
+      "id": "mr48_z2_c1",
+      "kind": "switch",
+      "window": 48,
+      "threshold": 2.0,
+      "confirm": true
+    }
+  ],
+  "selection": "Rank switches by minimum return across six 2025 H1/H2 base/cost2/delay scenarios, then mean return, then ID; freeze top 3 before 2026.",
+  "symbols": [
+    "TQQQ",
+    "IBIT"
+  ],
+  "source_sha256": "8d4ea66a1e551c079cb43891583904f4fa4ddbe482b72d7045df26b441344dcd",
+  "risk": "Account limits unchanged; observer-only halts disabled.",
+  "gate_window": 24,
+  "gate_threshold": 0.0001,
+  "warning": "All periods reused research data; no pristine holdout. Hourly IBIT proxy, no news or multi-timeframe integration.",
+  "development_evaluations": 120,
+  "diagnostic_evaluations": 15,
+  "observer_runs": 3
+}

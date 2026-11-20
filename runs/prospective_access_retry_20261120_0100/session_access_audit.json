@@ -1,0 +1,78 @@
+{
+  "status": "PARTIAL_REAL_INPUTS_OBSERVED_NOT_EXECUTABLE",
+  "fixed_bar_end_cutoff_utc": "2026-11-19T16:04:22+00:00",
+  "per_symbol": [
+    {
+      "symbol": "BITI",
+      "raw_rows": 3,
+      "partition_counts": {
+        "completed": 1,
+        "incomplete": 1,
+        "start_after_cutoff": 1
+      },
+      "received_host_utc": "2026-11-19T16:06:29.519121+00:00"
+    },
+    {
+      "symbol": "IBIT",
+      "raw_rows": 3,
+      "partition_counts": {
+        "completed": 1,
+        "incomplete": 1,
+        "start_after_cutoff": 1
+      },
+      "received_host_utc": "2026-11-19T16:06:29.523920+00:00"
+    },
+    {
+      "symbol": "SQQQ",
+      "raw_rows": 3,
+      "partition_counts": {
+        "completed": 1,
+        "incomplete": 1,
+        "start_after_cutoff": 1
+      },
+      "received_host_utc": "2026-11-19T16:06:29.519993+00:00"
+    },
+    {
+      "symbol": "TQQQ",
+      "raw_rows": 3,
+      "partition_counts": {
+        "completed": 1,
+        "incomplete": 1,
+        "start_after_cutoff": 1
+      },
+      "received_host_utc": "2026-11-19T16:06:29.524025+00:00"
+    }
+  ],
+  "completed_ETF_rows": 4,
+  "source_rows": 18,
+  "ETF_period_start_utc": "2026-11-19T14:30:00+00:00",
+  "ETF_period_end_exclusive_utc": "2026-11-19T15:30:00+00:00",
+  "source_period_start_utc": "2026-11-19T06:30:00+00:00",
+  "source_period_end_exclusive_utc": "2026-11-19T15:30:00+00:00",
+  "raw_local_sha256": {
+    "runs/prospective_access_retry_20261120_0100/BITI_raw_LOCAL.json": "34e770f044f271d71a9c002807ce1f8becdef6b6a8323446f433ddd5a7c66f02",
+    "runs/prospective_access_retry_20261120_0100/IBIT_raw_LOCAL.json": "586e58e9e8dc9da7783573a1e16e932dbec3e298aec18adb82173ebd55970f5f",
+    "runs/prospective_access_retry_20261120_0100/SQQQ_raw_LOCAL.json": "1ed0f2d76ce47df2e82529d6ad59abf0257206d104cd7d4fedaab5c6a7424e7d",
+    "runs/prospective_access_retry_20261120_0100/TQQQ_raw_LOCAL.json": "0396a4fbe74977449e29fca92eaf035a63254caa6d5ba74f5e6eee1ba86bdf44",
+    "runs/prospective_access_retry_20261120_0100/BTCUSDT_30m_partial_LOCAL.json": "7d6d6eaf8ea98808f781ecf363de12e84972125336bed0696c717503b1911090"
+  },
+  "original_strict_collector_status_preserved": true,
+  "original_strict_successful_requests": 0,
+  "actual_HTTP200_ETF_responses": 4,
+  "classification_note": "Original collector marked post-cutoff off-clock tails as strict invalid coverage. This derived audit separates future timestamp rows before clock checks under the original no-future criterion; raw files and original manifest unchanged. No future OHLC values enter rows.",
+  "observation_limitation": "ETF receipts occur after the fixed cutoff; source receipt only bracketed by verified clocks. These observations do not prove availability at cutoff, historical close or assumed release floors.",
+  "full_session_audit_attempts_this_invocation": 1,
+  "prior_failed_attempts": 1,
+  "prior_failure": "First adapter passed datetime where the existing API requires aware string; attempt1log preserved, no newpricefetch or engine.",
+  "full_session_audits_passed": 0,
+  "full_session_rejection": "Incomplete/future ETF session refused",
+  "terminal_backtest_allowed": false,
+  "engine_calls": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "new_independent_validation": false,
+  "frozen_models_unchanged": true,
+  "first_snapshot_mode": true,
+  "raw_public_upload": "NOT_ATTEMPTED",
+  "remaining": "Authentic vendor/vintage/PIT qualification; full actual session coverage; signal parity; NEW FULL AccountState and protected execution integration"
+}

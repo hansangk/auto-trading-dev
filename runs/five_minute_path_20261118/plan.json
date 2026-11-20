@@ -1,0 +1,8 @@
+{
+  "status": "RUNNING",
+  "owner": "Codex",
+  "run_id": "five_minute_path_20261118",
+  "parent": "606b437d3a64ece3499324ccd11d2c368b512fdb",
+  "input_sha256": "bddc0f35373383fd0e74d30dc1d5feae0bc507e40f22916e2f6c9ed0ec2b3836",
+  "checkpoint": "Frozen prior development-selected momentum4/.5,4/.25,rangefade2/.8; no new thresholds. Fixed common event cohort: entries next5mopen and +1/+3 five-min bars, same exit vs equal12barhold; horizons1/3/12. All comparisons require sufficient same-session bars. Full replay frozen3 x costs1/2 x delays0/1/3 across two devwindows and reuseddiagnostic; promotion0 pending longerdata. Label means not portfolio returns. Count signalclose->actualopen gap separately. Tests existing92 plus ledger identities."
+}

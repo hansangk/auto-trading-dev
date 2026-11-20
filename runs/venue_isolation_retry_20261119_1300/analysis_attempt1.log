@@ -1,0 +1,17 @@
+NONPOSITIVE_SOURCE_STRESS        44
+NO_UNIFORM_FLOW_INCREMENT        28
+HIGHER_MDD_VS_SAME15PCT_PRICE    25
+ABS_MDD_GT3PCT                    8
+                name      start end_exclusive scenario  full_return  isolation_return  delta_pp  full_coin_rounds  isolation_coin_rounds  same_signal_target_rounds  common_changed_exit_or_price  full_only  isolation_only  NOT_riskmatched
+coin__body55__source 2025-01-01    2025-07-01     base    -0.008575          0.017226  2.580098                76                     83                         74                             0          2               9             True
+coin__body55__source 2025-01-01    2025-07-01    cost2    -0.015529          0.011418  2.694751                76                     83                         74                             0          2               9             True
+coin__body55__source 2025-01-01    2025-07-01   delay1    -0.001012         -0.006427 -0.541511                66                     74                         66                             2          0               8             True
+coin__body55__source 2025-07-01    2026-01-01     base    -0.003719          0.015148  1.886742                75                     90                         75                             3          0              15             True
+coin__body55__source 2025-07-01    2026-01-01    cost2    -0.011185          0.008865  2.004966                75                     90                         75                             3          0              15             True
+coin__body55__source 2025-07-01    2026-01-01   delay1    -0.013513         -0.003129  1.038452                65                     79                         65                             2          0              14             True
+coin__body35__source 2025-01-01    2025-07-01     base    -0.014440          0.012560  2.700008                91                     99                         89                             0          2              10             True
+coin__body35__source 2025-01-01    2025-07-01    cost2    -0.022366          0.005668  2.803413                91                     99                         89                             0          2              10             True
+coin__body35__source 2025-01-01    2025-07-01   delay1    -0.000541         -0.004665 -0.412373                78                     87                         78                             3          0               9             True
+coin__body35__source 2025-07-01    2026-01-01     base    -0.001495          0.014262  1.575786                95                    112                         94                             3          1              18             True
+coin__body35__source 2025-07-01    2026-01-01    cost2    -0.010208          0.006455  1.666315                95                    112                         94                             3          1              18             True
+coin__body35__source 2025-07-01    2026-01-01   delay1    -0.015113         -0.002429  1.268468                82                     99                         82                             2          0              17             True

@@ -1,0 +1,19 @@
+{
+  "run_id": "prospective_close_policy_20261120_0700",
+  "research_parent": "759c5a7bffaab97d112beed5d48e24483f8fc0e3",
+  "hypothesis": "Actual06extra21:00flat0vol rows can be separately quarantined as boundaryauxiliary candidates without changing7regularbars. Samepayloadingestiondiagnosis, not vendorwarranty or independentfinancialvalidation.",
+  "criteria": [
+    "NEWmodule, frozen03unchanged; cutoff>=Nov19NYclose21:00",
+    "Accept regular-only exact7positiveOHLCVbars unchanged, do notdropBITIlast20:30bar",
+    "Exceptiononlyfor8rows: first7exactorderedNYnormalstarts14:30..20:30 (last30min), finaltimestampEXACTcalendarclose21:00",
+    "FinalOHLCfinitepositiveidentical, volumeexact0, metadataregularMarketTimeinteger>=close and<=cutoff; no fitted1sectolerance orpriceequalmetadata requirement",
+    "Quarantineextrarowasdiagnostic, nevermerge/shift/useprice, rawinputunchanged",
+    "Allotheroffclock/duplicates/missingregular/nonzerovolume/malformedmetadata reject",
+    "Actual06replay outputs28values identical tooriginalcandidateCSV; source29 and01/05prefix checks; fullstructuralAPIallowedonlyafterpolicy; APIterminal/PIT/AccountState/executionstillfalse"
+  ],
+  "scope": "Two agentmodule/test files plus rootreplay; no oldstrategyparameter/risk/cost/frozen17 changes",
+  "engine_calls": 0,
+  "orders": 0,
+  "new_strategy_definitions": 0,
+  "new_independent_validation": false
+}

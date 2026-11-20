@@ -1,0 +1,14 @@
+{
+  "run_id": "prospective_postclose_access_20261120_0600",
+  "research_parent": "26bf9035169f0842c4026f003cea2112a8f7ad99",
+  "hypothesis": "Observe actualpostclose response and whether unchanged03classifier accepts exact28regularETFrows without unknown tail; do not presume vendor shape.",
+  "ETF_target": 28,
+  "ETF_period": "NYNov19 regularsession14:30–21:00UTC,7starts per4tickers including last30min",
+  "source_rule": "Acquire29actual30mrows06:30–21:00 onlyif verified cutoff>=21:05; otherwise28rows through20:30, do not backdate floor.",
+  "criteria": "Preserve raw/firstreceipt/hash; record classifierunknownoffclockerrors ratherthan dropping rows; exactregularcandidatecoverage separate from raweligibility; sourcevolume/taker/contiguity and01/05prefixchecks. No fullaccount or PnL from access. Unknownrow/revision=>reject/separatevintage.",
+  "new_strategy_definitions": 0,
+  "engine_calls": 0,
+  "orders": 0,
+  "raw_upload": "NO, LOCAL only",
+  "new_independent_validation": false
+}

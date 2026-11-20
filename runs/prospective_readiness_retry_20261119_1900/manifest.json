@@ -1,0 +1,21 @@
+{
+  "status": "LIGHT_READINESS_CHECK_COMPLETE_NOT_BACKTEST",
+  "asof_utc": "2026-11-19T10:01:09+00:00",
+  "hashes": {
+    "scripts/prospective_shadow_guard_20261119.py": "31adf7308eb0ce1c9c0b0b4e53bfee7fff2bbce2ebd639139ecd0728b00d18b2",
+    "runs/venue_latency_retry_20261119_1400/prospective_shadow_plan.json": "614f75e7cbb83e9eb9b6272d04743236b9ba32385fcfe9607001c0bf9b139155",
+    "runs/prospective_readiness_retry_20261119_1700/calendar_20261119.csv": "5f993b55f18a91bb37b80516181389733238568b966275cf3f5aa1e6682cc03d",
+    "runs/prospective_readiness_retry_20261119_1700/quant_proposals_only.json": "b73c2786dc8f60e44b496772d78d45bdac5e5c11195ab4cf5369d8af2400bfae"
+  },
+  "new_engine_calls": 0,
+  "new_market_rows": 0,
+  "new_price_acquisitions": 0,
+  "orders": 0,
+  "financial_metrics": null,
+  "new_independent_validation": false,
+  "code_changes": 0,
+  "new_strategy_definitions": 0,
+  "new_full_test_runs": 0,
+  "prior_test_suite": "228PASSat17sirun,notrerun",
+  "raw_public_upload": "not attempted;originalrefusalrespected"
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "prospective_close_policy_20261120_0700",
+  "previous_failure": "Frozen03 rejected observed06 TQQQ/SQQQ/IBIT postclose auxiliary rows; original raw/gate/module preserved.",
+  "operational_observations": [
+    {
+      "event": "Claim state inherited prior06 updated_utc/new_price_acquisitions and historical fields; corrected final07 state to actual0acquisitions and current completion timestamp.",
+      "resolution": "Preserve prior dictionaries, explicitly replace current-cycle counters and fields."
+    },
+    {
+      "event": "One output exceeded context after successful claim; recovered stores/local artifacts and verified remote head equals claim before proceeding.",
+      "duplicate_claims": 0
+    },
+    {
+      "event": "Readiness-only ls before agent files existed exited2; no edit or replay executed.",
+      "resolution": "Wait for agent completion; not a strategy/test failure."
+    },
+    {
+      "event": "One metadata-write helper missed captured q in fresh exec and raised ReferenceError before writes",
+      "resolution": "Defined shell quote helper in same exec and retried metadata only; no market/engine replay"
+    }
+  ],
+  "new_engine_failures": 0,
+  "new_orders": 0,
+  "financial_metrics": null
+}

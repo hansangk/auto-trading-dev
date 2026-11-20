@@ -1,0 +1,62 @@
+{
+  "run_id": "availability_ablation_20261119_0800",
+  "status": "PREREGISTERED_BEFORE_ACCOUNT_PNL",
+  "research_parent": "a6cc86ebfff97fc25cc62dd10ba2ed73279f19c0",
+  "claim_commit": "3626cf44655f08b484dfcffad3a75ace9dcc7e85",
+  "resume_commit": "97665f70f802a9096e5f6562423acede63cb560c",
+  "retrospective": "PriorL20volume-removedbasic+.3115/+1.3231percent in2025 butvolumeavailability retained,cost2/delayUNRUN. Same32activitythresholdresweepclosed. Recoveredownedpreexecutionclaim afterusage-limit interruption; no priorbacktestresult/lock/intent.",
+  "hypothesis": "Fixedbodyefficiency.5 price-only policy undernone/currentpositive/L20/L40support can separate volumeconditionvalue from historicalavailabilityselection.8fixeddefinitionssource/ETF x4support,not8newalphas; nothresholdoptimization.",
+  "definitions": "none=price/sharedactualQQQ-TQQQclock only,ignoresallvolumehistory/featuremasks. current=actualCURRENTsourceQQQ+matchedTQQQvolume finitepositive. L20/L40=oldfinitepositivebothfeedseasonalratioavailability. Gate BEFORE onset. validfalse rearm,missingnotrearm. Exactoldsource/ETFnovolarray regressions required.",
+  "preflight": "Historical40=>20=>current nesting checked; QQQrawOHLCfinitebutvolumeonlyNaNrows0,sooldparsehasnovolume-onlyrowdropcontamination. Current/L20changedonsets0in2025H1; don'tcalltheiravailabilityeffectreplicatedalpha. Strictsourceend+5age<=65 andsameRTH preserved.",
+  "development": [
+    [
+      "2025-01-01",
+      "2025-07-01"
+    ],
+    [
+      "2025-07-01",
+      "2026-01-01"
+    ]
+  ],
+  "shortlist": "8base definitions. Top<=8worst/mean2025onlywithNasdaqactualBUY>=20 BOTHhalves,base noaccount/soft-hardhalts,exactdevelopmentaliasesexcluded. Then cost2/+1eligibleRTHbar. FixedBitcoin/legacyreferencesnotsearchedcandidates. PriorunrunL20stress onlyifbaseeligible.",
+  "promotion": "All6devnetpositive,incrementandnohigherrealizedMDDvsfixedBitcoinbackground. Availabilityforecastclaim additionally>=20changedonsets>=10daysvsnoneEACHhalf,elseNOT_IDENTIFIED. No approvalwithoutnewindependenthistory.",
+  "pool": "Before2026freeze shortlisteddefinitionswithNasdaqBUY>=20all6devstresses/nohalts; negativehistoricalreturns permittedonlyrecentregimeresearch,notadoption. Othersnotdiagnosed.",
+  "portfolio": "ActualTQQQ/SQQQ/IBIT/BITI BUY; identicalBitcoin night_exhaustion(.8,.25)SIGNAL background,actualcrypto trades NOTcached/spliced. Original15%perrole<=30%total,cashunused,60bpjointclose-nextopenstop/3R/hold4eligibleRTH/clippedEOD/2barlossstreakcooldown/accountprotection unchanged. MDDrealizedroundclosesnotintrabar.",
+  "costs": "4.6bproundtrip base,9.2bp cost2;delay1actualeligible1hbar60min,lastRTHbar30min. Equalbarcountnotequalwallminutes; noholding/leverage/stopchanges.",
+  "cache": "ImmutableparentGitblobs+all16priorplanhashes verified. Reuse exactwindowmaskedscore intervals+input/config/spec/scenario only: previous2025novolbase cells,or fixedcoin/legacyreference resetwindows onrequest. No2026candidateoutcomefiltering. Logoldref/originalcall/ledgerhash; don'tcountasnewcalls.",
+  "diagnostic": [
+    "2026-01-01",
+    "2026-11-14"
+  ],
+  "recent": "Frozenpoolonly fullwindowfit rank3mAug14-Nov13 and6mMay14-Nov13,all3stresses/minNasdaqrounds. Theseareinsample,notcausalreturns.",
+  "causal_monthly": "Strictpriorcalendar3/6training each2026monthstart,all3stresspositive,NasdaqBUY>=20,nohalts,return>fixedcoinbackground andMDD<=background eachscenario. ElseNasdaqcash+unapprovedcoin-onlybackground,notwholecash. Samechosenpoolfrozenin2025. ContinuouscompleteAccountState; samefullschedule/scenario/planhash pathreuseexactinitialstate.",
+  "resume_validation": "PersistintentBEFOREeachenginecall; exactledger/call/results/fullAccountState/scheduleprefix/planhash atomicallycheckpointBEFOREclearintent. Unresolvedintent=>failclosed. IntentionallyPAUSEafterfirstNEWmonthlycall,thenreloadsavedfullriskstateandresume remainingmonths; no duplicateprefix. No oldrunnerdirectrestart.",
+  "attribution": "Development-only fixednone-event and literalprice-state-beforegate admission labels vsfullonset/replay,sourceonly/controlonly/same/switch partitions. SameactualETFentry/clippedexit,15%net,doesnotincludeBitcoin/protection/compounding. >=20admitted/rejected10days andblockbootstrapbeforeinformationclaim. No2026hypothesisselection.",
+  "future": "Creativequant4newmechanismsx16ranges proposedonlymissingactualPITinputs; doNOTmixinto8availabilitycontrolaudit.",
+  "independent_validation": false,
+  "news_macro": false,
+  "new_market_observations": 0,
+  "orders": 0,
+  "raw_upload": "not attempted",
+  "approved": [],
+  "hashes": {
+    "scripts/availability_signals_20261119.py": "1f9c5851024f6b0418573da300a209dac6f2fd2acd7ef4ed43a838ec4be94327",
+    "scripts/availability_runtime_20261119.py": "8fa95f289092ad87bc21c2b2283f67819050a7e7ffa6f526f9a0fa23092429bb",
+    "scripts/availability_retry_20261119.py": "4dabd40000ff95db3e5226119aeef6fddcb40255e55ebf48aefa120c290af8a3",
+    "tests/test_availability_signals.py": "7a311f407761425c74515f2ab655dde0753d98973b62ee397fa1133cb593996e",
+    "tests/test_availability_runtime.py": "c295da6a96562811040e5077a83af270c776a0ae34baa8dcc9ad9916e3c259b7",
+    "scripts/source_activity_signals_20261119.py": "0ff66792b31424717762263f84de3322c368ac746e29a25b8c4874ef07566c2c",
+    "scripts/source_activity_context_20261119.py": "8b70c183c52ea964d0685a914e5eedceca01da491b4e00a12025ba16c7282405",
+    "scripts/session_signal_provenance.py": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c",
+    "scripts/latency_statistics_20261119.py": "cc3d0f6d25cdd9c4d623a5e1abf8c60f30406f66486d3283f6f617cb86f196f6",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "runs/source_activity_grid_20261119_0700/activity_context_LOCAL.npz": "d3a2dea122e11166865e199b9290d91f9f135a57874536786668a9fc4ca1560c",
+    "runs/source_activity_grid_20261119_0700/reset_window_results.csv": "7bd6206c32822822c8fc767c498f9186b287645ce9529d37867b8977a2257787",
+    "runs/source_activity_grid_20261119_0700/scores_LOCAL.npz": "710de9f8c8b1b55203855799358f41614cab7e4a292f1a4ee0dd6217f7d7a87f",
+    "runs/hourly_clock_retry_20261119_0300/audit_v2/audited_ETF_LOCAL.csv.gz": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+    "runs/availability_ablation_20261119_0800/masks_LOCAL.npz": "b8f6f1b293aa7d1da6ae6959eb1f00d078ba0ce6591a89b6e696ba0fcf0aa337",
+    "runs/availability_ablation_20261119_0800/scores_LOCAL.npz": "2c10edc142bc5eb86d2b27ad8a444308b2da232d1713e606b83a3a039622ee3a",
+    "runs/availability_ablation_20261119_0800/Nasdaq_scores_LOCAL.npz": "bb49d22c97ef0bce0e91820bd0a5106fbfe467065ed1f15675b5d966004bd175"
+  }
+}

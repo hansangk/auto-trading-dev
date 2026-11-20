@@ -1,0 +1,25 @@
+{
+  "status": "PARTIAL_SESSION_OBSERVATIONS_ONLY_NO_TERMINAL_BACKTEST",
+  "asof_utc": "2026-11-19T17:07:25+00:00",
+  "frozen_at_utc": "2026-11-19T05:20:49+00:00",
+  "verified_calendar_days": [
+    "2026-11-19"
+  ],
+  "expected_completed_postfreeze_ETF_bars": 2,
+  "actual_fetched_ETF_rows": 0,
+  "actual_fetched_source_rows": 0,
+  "first_session_open_utc": "2026-11-19T14:30:00+00:00",
+  "first_possible_hour_complete_utc": "2026-11-19T15:30:00+00:00",
+  "earliest_possible_frozen_model_decision_utc": "2026-11-19T16:30:00+00:00",
+  "first_session_scheduled_close_utc": "2026-11-19T21:00:00+00:00",
+  "calendar_completion_not_input_access_proof": true,
+  "terminal_backtest_allowed": false,
+  "price_coverage_audit_complete": false,
+  "engine_calls": 0,
+  "real_orders": 0,
+  "profit_metrics": null,
+  "new_independent_validation": false,
+  "plan_sha256": "614f75e7cbb83e9eb9b6272d04743236b9ba32385fcfe9607001c0bf9b139155",
+  "calendar_sha256": "5f993b55f18a91bb37b80516181389733238568b966275cf3f5aa1e6682cc03d",
+  "guard_sha256": "31adf7308eb0ce1c9c0b0b4e53bfee7fff2bbce2ebd639139ecd0728b00d18b2"
+}

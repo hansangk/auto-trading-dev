@@ -1,0 +1,23 @@
+{
+  "anchor": {
+    "signal": "funded_relative dual_momentum24/.75",
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  },
+  "gap_reference": {
+    "family": "gap_absorption",
+    "p1": 0.5,
+    "p2": 0.6,
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60,
+    "selection": "Prior2025developmentrank1,notapproved"
+  },
+  "cash": {
+    "signal": "zeros",
+    "hold": 4,
+    "target": 3,
+    "stop_bps": 60
+  }
+}

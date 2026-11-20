@@ -1,0 +1,17 @@
+{
+  "reviewer": "tail_quant_0300",
+  "existing32": "PROPOSED_ONLY",
+  "ranges": [
+    "seasonal20/40 x z1/1.5 x confirmation1/2",
+    "costP50/75 x cost1/2 x confirmation1/2",
+    "shock20/40 x z1/1.5 x confirmation1/2",
+    "persistence2/3 x history20/40 x activity1.25/1.5"
+  ],
+  "missing": "Seasonalhistories/NBBO/pairedsupport/fullPIT/signalparity/NEW FULLAccountState",
+  "focused_tests_passed": 13,
+  "new_strategy_definitions": 0,
+  "new_market_requests": 0,
+  "engine_calls": 0,
+  "orders": 0,
+  "opinion": "Structural quarantine is narrow inference, not vendorwarranty; no merge, no newalpha/selection."
+}

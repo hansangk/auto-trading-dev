@@ -1,0 +1,19 @@
+{
+  "shortlist": [
+    "compression_0.75_4",
+    "chasecancel_1_0.25",
+    "chasecancel_3_0.5",
+    "onset_2_0",
+    "onset_2_3",
+    "chasecancel_3_0.25",
+    "chasecancel_1_0.5",
+    "onset_1_3"
+  ],
+  "diagnostic_selected": [
+    "compression_0.75_4",
+    "chasecancel_1_0.25",
+    "chasecancel_3_0.5"
+  ],
+  "approved": [],
+  "reason": "Short development windows, no2025or3/6month history; promotion disabled"
+}

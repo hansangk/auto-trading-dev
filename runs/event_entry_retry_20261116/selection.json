@@ -1,0 +1,10 @@
+{
+  "selected": [
+    "event_onset8"
+  ],
+  "eligible": true,
+  "promotion_pass": false,
+  "worst": -0.016809769267858266,
+  "worst_delta": -0.01750174372591551,
+  "min_rounds": 115
+}

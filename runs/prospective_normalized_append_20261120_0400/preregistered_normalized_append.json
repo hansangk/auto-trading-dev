@@ -1,0 +1,14 @@
+{
+  "run_id": "prospective_normalized_append_20261120_0400",
+  "research_parent": "6f25796f4d055e0406ebdb54ed76d237b2a5f8e0",
+  "hypothesis": "Frozen03strict quarantine should handle newly acquired same-session payload without changing completed/prior bars; unseen ingestion check, not financial independentvalidation.",
+  "ETF_expected": 16,
+  "ETF_range": "2026-11-19T14:30:00Z <=start<18:30Z,4starts per4tickers",
+  "source_expected": 24,
+  "source_range": "2026-11-19T06:30:00Z <=open<18:30Z,actual30m",
+  "criteria": "Use unchanged03classifier; unknownoffclock fails, no merge/shift/round; exactexpectedcoverage and old01/02key/value equality required. Anyrevision->separatevintage. Preserve raw/receipts and errors, no rawpublicupload. Partial not fullPIT/AccountState/fullsession/backtest.",
+  "engine_calls": 0,
+  "orders": 0,
+  "new_strategy_definitions": 0,
+  "new_independent_validation": false
+}

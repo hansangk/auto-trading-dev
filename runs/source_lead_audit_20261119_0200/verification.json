@@ -1,0 +1,17 @@
+{
+  "tests_pass": 130,
+  "seconds": 11.274,
+  "code_config_hashes_pass": true,
+  "unrestricted_regression_cells": 9,
+  "unrestricted_regression_fields_percell": 6,
+  "overlap_baseline_exact": true,
+  "hourly_access_only": true,
+  "additional_code_sha256": {
+    "scripts/hourly_reference_access_20261119.py": "d24b2c98a030cf94f8c981dfcad3a2212d53105c739910e172b69fef5649653f"
+  },
+  "hourly_raw_rechecked": {
+    "QQQ": true,
+    "BTC-USD": true
+  },
+  "historical_ETF_hourly_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd"
+}

@@ -1,0 +1,4 @@
+ModuleNotFoundError: No module named exchange_calendars
+Primaryruntime numpy/pandas available; no locally cached wheel.
+Historical source hashes/checkpoint matched before module import.
+Fallback: independently verified official NYSE one-day schedule, explicit range only.

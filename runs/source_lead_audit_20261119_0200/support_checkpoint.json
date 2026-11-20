@@ -1,0 +1,6 @@
+{
+  "status": "PRE_PERFORMANCE_SUPPORT_FROZEN",
+  "passing": [],
+  "candidates": 12,
+  "thresholds": ">=20changed,>=20admit/reject,>=3changedNYdays EACHwindow"
+}

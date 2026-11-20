@@ -1,0 +1,20 @@
+{
+  "signatures": [
+    "volatility_trend_w12_z1.25_h4_t3",
+    "volatility_trend_w12_z1.25_h2_t3",
+    "daily_hybrid_w12_z1.25_h2_t3",
+    "zscore_reversion_w24_z0.75_h2_t3",
+    "zscore_reversion_w24_z0.75_h2_t2",
+    "channel_state_w12_z0.75_h4_t3",
+    "channel_state_w12_z0.75_h4_t2",
+    "daily_hybrid_w24_z0.75_h4_t2"
+  ],
+  "scope": "2025twohalf stress screen, not universal proof against recent regimes",
+  "prior_rejected_reports": [
+    "SESSION_CLOCK_REPORT.md",
+    "INVERSE_ETF_RETRY_REPORT_20261116.md",
+    "SINGLE_ASSET_RETRY_REPORT_20261116.md",
+    "SIGNAL_DECAY_RETRY_REPORT_20261116.md",
+    "EVENT_ENTRY_RETRY_REPORT_20261116.md"
+  ]
+}

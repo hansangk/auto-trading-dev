@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-11-20T00:06:00Z",
+  "official_urls": [
+    "https://www.nyse.com/trade/hours-calendars",
+    "https://www.nyse.com/publicdocs/nyse/ICE_NYSE_2026_Yearly_Trading_Calendar.pdf"
+  ],
+  "facts_paraphrased": "NYSE normal core trading session is09:30\u201316:00 America/New_York. Official2026holiday list closesNov26 and earlyclosesNov27, notNov20. Nov20 isFriday.",
+  "inference": "Nov20 classified as normal scheduled session using officialholiday/earlyclose list plus weekday/standardhours; this is schedule evidence, not proof of actual price access/unexpectedhaltabsence.",
+  "zone": "America/New_York",
+  "NY_date": "2026-11-20",
+  "scheduled_open_UTC": "2026-11-20T14:30:00Z",
+  "scheduled_close_UTC": "2026-11-20T21:00:00Z",
+  "scope": "Only Nov20 extension. No automatic laterdates/shortday/DST/generalcalendarrepair.",
+  "not_price_or_news_signal": true,
+  "original_Nov19_calendar_preserved": true,
+  "public_calendar_line_ending": "LF",
+  "official_source_rawbytes_captured": false,
+  "source_evidence_note": "Official URLs were read by web retrieval; this file is our paraphrased provenance/inference, not source HTML/PDF original bytes."
+}

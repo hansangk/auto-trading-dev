@@ -1,0 +1,17 @@
+{
+  "reviewer": "append_quant_0200",
+  "status": "ACCESS_ONLY_NO_ENGINE",
+  "existing_proposals": "32_PROPOSED_ONLY",
+  "ranges": [
+    "seasonal20/40 x z1/1.5 x confirmation1/2",
+    "costP50/75 x cost1/2 x confirmation1/2",
+    "shock20/40 x z1/1.5 x confirmation1/2",
+    "persistence2/3 x history20/40 x activity1.25/1.5"
+  ],
+  "opinion": "Verify all previousfilehashes and canonicalkeys/values. Anyrevision requiresseparatevintage. Partitionfuturetimestamps, rejectoffclock at/beforecutoff, excludeincomplete. Prefixpass alone notexecution. FullPIT/parity/NEW FULLAccountState remainmissing.",
+  "agent_edits": 0,
+  "agent_requests": 0,
+  "engine_calls": 0,
+  "orders": 0,
+  "new_strategy_definitions": 0
+}

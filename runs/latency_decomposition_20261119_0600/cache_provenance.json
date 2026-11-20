@@ -1,0 +1,59 @@
+{
+  "old_commit": "4cc0f400e3fa89f102ea940a49863355f6740a85",
+  "verified": {
+    "runs/nasdaq_gate_audit_20261119_0330/manifest.json": {
+      "git_blob": "49ba3856a53f1f6f08ea2e97320cac8a1586b343",
+      "sha256": "5b7ee5e11d3dbc24333b744cc75e1517cd355fe817a2f2b25af2ffc9524442ab"
+    },
+    "runs/nasdaq_gate_audit_20261119_0330/account_results.csv": {
+      "git_blob": "39f6d01f456a2aa12c8260c6d8b8926ceced61f5",
+      "sha256": "e0743743987e3e80c2a19a29ce9c2377ae06552e785ee26c10a000039b150e60"
+    },
+    "runs/nasdaq_gate_audit_20261119_0330/monthly_counterfactual.csv": {
+      "git_blob": "660be43714df6646126e45e68556f62b3f744d62",
+      "sha256": "0266452a511d00d1bb4cb624a122da6305b1ba8a74f11607ad89def17e2b5a44"
+    },
+    "runs/hourly_clock_retry_20261119_0300/manifest.json": {
+      "git_blob": "df0708e17eb502668c7c20884ed5ca339e87b4ff",
+      "sha256": "7d95fc51f12de159a29c59ff0f52bd24ea9295b9611147b0af0b8872495dbd68"
+    },
+    "scripts/nasdaq_gate_controls_20261119.py": {
+      "git_blob": "ffc54dd540acceaccf4fc2c251109d697dcc0fde",
+      "sha256": "c8901ba49253a103bfe92df01602227e9b76bebb122eed0a8969a42ef44272e3"
+    },
+    "scripts/hourly_night_signals_20261119.py": {
+      "git_blob": "8c507253129ff11c9c026a152a4629115b3b4b88",
+      "sha256": "0f7fbe5966d8f5122bc9ae009e6abbd2b3bcf7c26dd8938dbb7534088fb57a05"
+    },
+    "scripts/session_signal_provenance.py": {
+      "git_blob": "c773bfe7339ce38c821bd6d4a691b3aa597b7649",
+      "sha256": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c"
+    },
+    "scripts/inverse_etf_retry_20261116.py": {
+      "git_blob": "c5dc72c79faf8526fd95871ec457efaf8c03ea51",
+      "sha256": "ab1ec4abb4a5001aba3aae3f4a2ee7082f61b7939c2dce32479ff74eb4824081"
+    },
+    "src/autogrid/engine.py": {
+      "git_blob": "17a365c89287d52e0499fa8c507532c5a687d1f0",
+      "sha256": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5"
+    },
+    "src/autogrid/config.py": {
+      "git_blob": "d3affec17da9ca1565dc0f669495990af8cea0b5",
+      "sha256": "89c31e36d65b835f26c47cd81b94fdb3c9cb0c2b6d0fbadc6a84d53d7626c633"
+    },
+    "src/autogrid/data.py": {
+      "git_blob": "24b7f802e9b40ca3871ca2eeeab87b44b377cf7c",
+      "sha256": "b5bed9b735d7dd27eb3f7c12cfae874a9ac2095e5c0e4935e87343d67993e0eb"
+    },
+    "src/autogrid/strategy.py": {
+      "git_blob": "0c21e7936178e9e52886bdb916730c4a45568252",
+      "sha256": "1baedac12497befade569122cc1acb4246a248581c55cd2b615de6e9a69d5a8b"
+    },
+    "configs/win60_search.yaml": {
+      "git_blob": "46be45cffdc84b787765812e568be99d25772c21",
+      "sha256": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+    }
+  },
+  "cache_scope": "Onlynativehold4delay0or1basecost1 source/parent resetcells; identical auditedinputs/engine/config/causal signal dependencies. No new cohort or newhold cells cached.",
+  "raw_inputs": "SHA256 independentlyverified beforeexecution; originalrawnotuploaded"
+}

@@ -1,0 +1,66 @@
+                                        name     worst      mean  min_Nasdaq_rounds  min_total_rounds  any_halt  max_hard_halts
+  source__absorption_recovery_L20_a1.25_b0.4  0.013965  0.014546                 11                38     False               0
+   ETF__participation_follow_L40_a1.75_b0.25  0.013868  0.017849                 18                44     False               1
+   ETF__participation_follow_L20_a1.75_b0.25  0.012203  0.015180                 22                48     False               1
+  source__absorption_recovery_L20_a1.75_b0.4  0.011090  0.016102                  4                31     False               0
+source__participation_follow_L20_a1.75_b0.25  0.010320  0.020187                 22                47     False               1
+   ETF__participation_follow_L40_a1.25_b0.25  0.010055  0.012261                 50                72     False               1
+  source__absorption_recovery_L40_a1.25_b0.4  0.009639  0.012709                 10                37     False               0
+    ETF__participation_follow_L20_a1.75_b0.5  0.009265  0.010331                 16                43     False               0
+ source__participation_follow_L20_a1.75_b0.5  0.009226  0.011226                 15                41     False               0
+  source__absorption_recovery_L20_a1.25_b0.2  0.009190  0.009457                  5                33     False               0
+      ETF__thin_move_reversal_L40_a0.75_b0.5  0.008755  0.010563                  3                31     False               0
+     ETF__thin_move_reversal_L40_a0.75_b0.25  0.008360  0.009868                  4                32     False               0
+  source__absorption_recovery_L40_a1.75_b0.4  0.007730  0.013010                  3                31     False               0
+     ETF__absorption_recovery_L20_a1.75_b0.2  0.007565  0.007893                  1                29     False               0
+     source__burst_quiet_hold_L40_a1.5_b0.25  0.007333  0.009394                  0                29     False               0
+     source__burst_quiet_hold_L20_a1.5_b0.25  0.007333  0.008851                  1                29     False               0
+      source__burst_quiet_hold_L40_a1.5_b0.5  0.007333  0.008410                  1                29     False               0
+     ETF__absorption_recovery_L40_a1.25_b0.2  0.007195  0.007771                  3                31     False               0
+        ETF__burst_quiet_hold_L20_a1.5_b0.25  0.006473  0.009108                  0                28     False               0
+         ETF__burst_quiet_hold_L20_a1.5_b0.5  0.006473  0.009108                  0                28     False               0
+        ETF__burst_quiet_hold_L40_a1.5_b0.25  0.006473  0.009108                  0                28     False               0
+         ETF__burst_quiet_hold_L40_a1.5_b0.5  0.006473  0.009108                  0                28     False               0
+          ETF__burst_quiet_hold_L40_a2_b0.25  0.006473  0.009108                  0                28     False               0
+           ETF__burst_quiet_hold_L40_a2_b0.5  0.006473  0.009108                  0                28     False               0
+          ETF__burst_quiet_hold_L20_a2_b0.25  0.006473  0.008964                  0                28     False               0
+           ETF__burst_quiet_hold_L20_a2_b0.5  0.006473  0.008964                  0                28     False               0
+      ETF__thin_move_reversal_L40_a0.5_b0.25  0.006473  0.008964                  0                28     False               0
+       ETF__thin_move_reversal_L40_a0.5_b0.5  0.006473  0.008964                  0                28     False               0
+       source__burst_quiet_hold_L40_a2_b0.25  0.006473  0.008964                  0                28     False               0
+        source__burst_quiet_hold_L40_a2_b0.5  0.006473  0.008964                  0                28     False               0
+       source__burst_quiet_hold_L20_a2_b0.25  0.006473  0.008422                  0                28     False               0
+        source__burst_quiet_hold_L20_a2_b0.5  0.006473  0.008422                  0                28     False               0
+     ETF__absorption_recovery_L40_a1.75_b0.2  0.006473  0.007803                  0                28     False               0
+   source__thin_move_reversal_L40_a0.5_b0.25  0.006473  0.006645                  0                28     False               0
+    source__thin_move_reversal_L40_a0.5_b0.5  0.006473  0.006645                  0                28     False               0
+  source__absorption_recovery_L40_a1.25_b0.2  0.006461  0.009199                  4                32     False               0
+      ETF__thin_move_reversal_L20_a0.5_b0.25  0.006171  0.008813                  0                29     False               0
+       ETF__thin_move_reversal_L20_a0.5_b0.5  0.006171  0.008813                  0                29     False               0
+   source__thin_move_reversal_L20_a0.5_b0.25  0.006171  0.006494                  1                29     False               0
+    source__thin_move_reversal_L20_a0.5_b0.5  0.006171  0.006494                  1                29     False               0
+  source__thin_move_reversal_L40_a0.75_b0.25  0.005661  0.005795                  7                35     False               0
+   source__thin_move_reversal_L40_a0.75_b0.5  0.005660  0.006867                  5                33     False               0
+  source__absorption_recovery_L40_a1.75_b0.2  0.005589  0.012336                  1                29     False               0
+  source__absorption_recovery_L20_a1.75_b0.2  0.005589  0.011221                  1                29     False               0
+     ETF__absorption_recovery_L40_a1.75_b0.4  0.005531  0.010600                  5                32     False               0
+     ETF__absorption_recovery_L20_a1.25_b0.2  0.005084  0.007725                  8                36     False               0
+    ETF__participation_follow_L40_a1.75_b0.5  0.005030  0.007908                 11                38     False               0
+   ETF__participation_follow_L20_a1.25_b0.25  0.004832  0.011288                 54                77     False               1
+      source__burst_quiet_hold_L20_a1.5_b0.5  0.004475  0.005904                  1                29     False               0
+     ETF__absorption_recovery_L20_a1.75_b0.4  0.004168  0.009919                  5                32     False               0
+source__participation_follow_L40_a1.75_b0.25  0.003738  0.013554                 20                47     False               1
+ source__participation_follow_L40_a1.75_b0.5  0.003722  0.006003                 14                41     False               0
+   source__thin_move_reversal_L20_a0.75_b0.5  0.002200  0.003513                  7                35     False               0
+      ETF__thin_move_reversal_L20_a0.75_b0.5  0.001424  0.004939                  4                32     False               0
+     ETF__thin_move_reversal_L20_a0.75_b0.25  0.000440  0.002199                  6                34     False               0
+  source__thin_move_reversal_L20_a0.75_b0.25  0.000067  0.001118                 11                39     False               0
+     ETF__absorption_recovery_L20_a1.25_b0.4 -0.000283  0.008203                 13                40     False               0
+ source__participation_follow_L40_a1.25_b0.5 -0.000633  0.005138                 36                62     False               0
+source__participation_follow_L40_a1.25_b0.25 -0.003426  0.004588                 48                72     False               1
+    ETF__participation_follow_L40_a1.25_b0.5 -0.003430  0.003173                 34                58     False               0
+    ETF__participation_follow_L20_a1.25_b0.5 -0.005358  0.002675                 34                60     False               0
+     ETF__absorption_recovery_L40_a1.25_b0.4 -0.007960  0.004800                  8                35     False               0
+source__participation_follow_L20_a1.25_b0.25 -0.010926 -0.007368                 50                73     False               1
+ source__participation_follow_L20_a1.25_b0.5 -0.016564 -0.005814                 38                63     False               0
+shortlist ['source__participation_follow_L40_a1.25_b0.5', 'source__participation_follow_L20_a1.25_b0.5'] pool ['source__participation_follow_L20_a1.25_b0.5', 'ETF__participation_follow_L20_a1.25_b0.5', 'source__participation_follow_L40_a1.25_b0.5', 'ETF__participation_follow_L40_a1.25_b0.5'] actualcalls 115

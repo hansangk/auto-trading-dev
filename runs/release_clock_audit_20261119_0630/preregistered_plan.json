@@ -1,0 +1,63 @@
+{
+  "run_id": "release_clock_audit_20261119_0630",
+  "status": "PREREGISTERED_BEFORE_ACCOUNT_PNL",
+  "research_parent": "1f9493a59cdf60aeb599094dddf3b56e682e7a7f",
+  "claim_commit": "e56e074145cd2308be5e7808a28c66b4b83984aa",
+  "hypothesis": "On identical actual5m price inputs, recomputing frozen hourly source dependencies at release+5min may permit early equal180/240min entries. Separate event-support changes from matched-dependency path labels and protected account replays.",
+  "retrospective": "Prior144call audit found zeroNasdaq strict240A/B coarse support and no stable180timing edge. Do not repeatBTC thresholds or adopt D despite2026positive; D2025bothnegative. Current examines previouslyunavailable actualclock mechanism,not16newalphas.",
+  "definitions": "4frozen policies x2decision clocks(coarse60/release5) x2actual holding minutes(180/240)=16execution definitions<=64; no threshold fitting",
+  "policies": {
+    "nasdaq_source": {
+      "family": "night_nasdaq",
+      "a": 5,
+      "b": 0.5
+    },
+    "qqq_parent": "removeBTCpredicatesonly; retaincommonavailability",
+    "btc_acceptance": {
+      "family": "night_acceptance",
+      "a": 0.5,
+      "b": 0.25
+    },
+    "btc_exhaustion": {
+      "family": "night_exhaustion",
+      "a": 0.8,
+      "b": 0.25
+    }
+  },
+  "development": [
+    [
+      "2026-08-25",
+      "2026-10-01"
+    ],
+    [
+      "2026-10-01",
+      "2026-11-14"
+    ]
+  ],
+  "staging": "All16base x2short windows=32actual calls for fullaccount screen. Then <=8 configurations ranked worst/mean net only if EACHdev >=20actual rounds AND >=20matched dependency events across>=10days. Only shortlist receives cost2 and+1actual5mbar delay. Prereturn support already shows no definition can meet matched20both, so no stress/diagnostics expected. Do not loosen.",
+  "diagnostics": "None; all currentdata repeatedlyresearched2026. Full3/6recent windows and causal trailing3/6 next-month selection unavailable on47actual fine sessions. Priorhourlyrank/selectors remainpriorcached,not newcurrent results.",
+  "execution": "actualTQQQ/SQQQ/IBIT/BITI BUY,one15%ETF/cash. Same5minuteprotection monitoring inbothclocks,60bpjointclose nextopenstop/3R,120mincooldown24finebars,existingaccountprotection unchanged. Hold36/48finebars, calendar signal cutoff allows+5minstress fullsame-session horizon; no clipping/syntheticprices.",
+  "causality": "Clockmaskappliedtoctx.valid BEFOREonset. Copyonly auditedpreopennight/priorclosedailyregime fields; recompute all dynamicQQQ/BTC indices atactualdecision withsourceend+5<=decision andage<=65. FirstETFhour actual12contiguous5mbars, released10:35. Do not backdateoldhourly context.",
+  "gap_origin": "CurrentIBITopen actual5m / previousactual5mclosed session;9missing/boundary priors use audited actualhourlypreviousofficialsessionclose and are listed individually. Bothclocks shareexactarray; hybridvintage limit retained,no silentpricefill.",
+  "matched_labels": "Dependency snapshot+session+ETF. Nasdaq: actualQQQhour plus frozen nightly/regime. Bitcoin: actualcurrentBTChour plus frozenfirstETFhour/night. Unmatched eventsnotforcedpairs. Exact180/240minimum20events10days EACHdev. Paired15%netlabels omitprotection/reentry/compounding andarenotportfolio returns.",
+  "statistics": "paired day/3observedday block bootstrap2000 seed20261119; >=20events>=10days else noCI. Require blocklower>0bothdevelopmentforreplicatedassociation. Noindependentvalidation/adoption regardlessshortsamplewinner.",
+  "data": "47complete actual5m sessions inoverlap Aug25-Nov13; allmarketinputs existing snapshots,none acquired. Auditedcomplete-session sampling andsourcevintage limits retained. Originalhourly comparedtosameinput5m aggregation asmetadata only,notpureclockPnLdelta.",
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "raw_upload": "not attempted",
+  "approved": [],
+  "creative_quant": "release_clock_quant_0630 reviewed clocks,causality,onsets,dependency matching;4futurefeedfamilies conditional/unimplemented",
+  "prepared_hashes": {
+    "runs/release_clock_audit_20261119_0630/five_minute_overlap_LOCAL.csv.gz": "251bf9a42435cb0b5babea3ff6189d225ad187efcb068baa38d8d240e167ae05",
+    "runs/release_clock_audit_20261119_0630/context_LOCAL.npz": "75531cd49b4c17cad36ba985bdfba3be390c32f39041b00a074bc8575c47c7d1",
+    "runs/release_clock_audit_20261119_0630/scores_LOCAL.npz": "f216195a23d5d07ce617940d837ca7a8c831522c753ce0d1269ad1316400086b",
+    "runs/release_clock_audit_20261119_0630/source_trace_LOCAL.csv": "b0533e06c50010cab277ed0e60b734fe156ec5848751893b418c57b176146f71",
+    "runs/release_clock_audit_20261119_0630/paired_events_LOCAL.csv": "79b96a8b0fc5dcfa43b21bdf41d6602b420188e86334532f4a196f3396a3ae1a",
+    "scripts/release_clock_20261119.py": "142c5ef05aee90fe6b5a66b1c8618d97056ea0962baccdc2227dd3a55d475183",
+    "scripts/release_clock_retry_20261119.py": "633f24d41fa011d506d71d31938081aa872b69353f66df3ebe1210720440bd06",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "tests/test_release_clock.py": "8c0b88bc8bce2fc6f921b58d7f7693a3f9cc866f267e7c03ac845107f3c88bad"
+  }
+}

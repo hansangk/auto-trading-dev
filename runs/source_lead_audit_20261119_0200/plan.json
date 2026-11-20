@@ -1,0 +1,53 @@
+{
+  "run_id": "source_lead_audit_20261119_0200",
+  "research_parent": "eeaac2afbbf0e52553d54c4d85e042d23a37a893",
+  "claim": "2d785e8ddb79d00caf2dc37200d62a464fed8319",
+  "status": "PREREGISTERED_BEFORE_OUTCOMES",
+  "scope": "Information-filter audit before any new full strategy optimization. 4families x lag0/1/3 =12sourcefilters plus12matchedETF singlefeature ablations, not24independentalphas.",
+  "families": {
+    "wick_pressure": "mean CLV=(2C-H-L)/(H-L) over3bars; zero range contributes0; directional orientation forinverse source; admit>0",
+    "path_chop": "12returns,11adjacent signreversals/11; >=10nonzeroreturns elseunavailable; admit<=1/3",
+    "tail_energy": "sum(r*abs(r))/sum(r^2) over12returns; inverse sourceorientation; denom0 unavailable; admit>1/4",
+    "vol_compression": "RMSlast4returns/RMSprevious8returns over12pastreturns; denominator0 unavailable; admit<=1"
+  },
+  "lags": [
+    0,
+    1,
+    3
+  ],
+  "decision_clock": "11:00..14:45 NY completedcloseends every15min, actual5minbarstarts10:55..14:40. UnchangedETFmomentum4/.5 direction/roles atdecision. Sameclockcohortbaseline and unrestrictedbaseline separately. Each source/ETF feature uses exactsame lag; no learnedbeta/size.",
+  "development": [
+    [
+      "2026-09-21",
+      "2026-10-01"
+    ],
+    [
+      "2026-10-01",
+      "2026-10-19"
+    ]
+  ],
+  "diagnostic": [
+    "2026-10-19",
+    "2026-11-18"
+  ],
+  "return_blind_support": "Eachdevelopment requires>=20source-vsETF changedrole decisions,>=20sourceadmitted and>=20sourcerejectedroleevents among common-valid same-exit support,>=3changedNYdays. Reporttotal/valid/admit/drop/changes. Failure stops shortlist/optimization, no thresholdrelaxation.",
+  "attribution": "FixedcohortETF baseline allpotentialroleevents with k+12 same-session end; retain originalETFactualBUY and15%budget. Entryk+1 andk+2(delay1) endk+12 both =>delayedholdshorter. Store roleweightedgross/cost/net, source vsETFfilter difference; these are labels notaccountreturns. Paireddailymean, allobserveddaysincl0; 2000daybootstrapseed20261119, one-sidedlower quantile .05/48 for12x2windowsx2latencies. Only supportpassingconfigs evaluatedforinformationgate; no diagnosticlabels.",
+  "information_gate": "Bothdevwindows andbothlabelentrylatencies source-vsETF peroriginalrole mean delta>0, bootstraplower>0. Descriptive observational incrementalfilter evidence, not allETFpastindependence orindependentvalidation.",
+  "staging": "Basewholeaccountreplayall12source+12ETFablation onbothdevforfailureaudit, dedupallactualscorearraysbeforecalls. Max8UNIQUEsourcefilters thatpasssupport+min20roundsperdev+informationgate rankedworstthenmean; pairedETFcontrolstravelwiththem. Additionalcost2/delay1onlytheseandfixedcontrols. Diagnosticmax3 fromdevelopment, allstressmin20; diagnosticneverusedforfitting. Allfailsremain.",
+  "promotion": "All6developmentaccountcellspositive,>=20rounds,nohard/mddhalt,returnsabovebothcohortbaselineandpairedETFcontrol,MDD<=cohortbaseline. No adoptionwithoutindependenthistory, regardlessscreen.",
+  "fixed_controls": [
+    "cohort_baseline",
+    "unrestricted_baseline",
+    "cash"
+  ],
+  "risk": "SameactualTQQQ/SQQQ/IBIT/BITI BUY,15%each,cashunused,hold12x5min,60bpjointclosetriggernextopenstop,3R,2cooldown,originalaccountprotections. Base4.6bp,cost2 9.2bp,delay1 5min. Zeroadditionalpublicationlatencyassumed.",
+  "data": {
+    "ETF": "runs/reference_retry_20261119/aligned_ETF_LOCAL.csv.gz",
+    "ETF_sha256": "a672f4d76a6216e743270abb97fae31f421a955985fa718cd82c6c423430e99c",
+    "reference": "runs/reference_retry_20261119/references_LOCAL.csv.gz",
+    "reference_sha256": "836d92f572b14bf0a622b637b7009ca6e261f09e7b567e36bec4ab206a689075",
+    "sessions": 33,
+    "vintage": "Frozenpreviousrun; no newlyclaimedmarketobservations; sourceURLs/rawhashes inruns/reference_retry_20261119/reference_provenance.json"
+  },
+  "limitations": "Reused2026; no independentvalidation,3/6monthhistoryinsufficientandmonthlywalkforwardnotrun; noactualnews/macro,noquotes/officialcalendar/firstpublicationhistory; no realorders orrawupload."
+}

@@ -1,0 +1,29 @@
+{
+  "parent_commit": "2543a95ea25251dfcc85c0365ef7e6892021a571",
+  "verified_Git_blob_sha1": {
+    "runs/prospective_access_retry_20261120_0100/ETF_access_manifest.json": "e0d9a871234967b9fd3a515da606f61306d4d32e",
+    "runs/prospective_access_retry_20261120_0100/analysis_manifest.json": "06869c18f1cd8f0089b1227b16df072d1cab0c40",
+    "runs/prospective_append_retry_20261120_0200/ETF_access_manifest.json": "ddeea7426013ddd15ffe7eb908fa2b0ee486ffa5",
+    "runs/prospective_append_retry_20261120_0200/analysis_manifest.json": "25fc88fe3de2565ebf18f59dde8f97f793d8d646",
+    "runs/prospective_normalized_append_20261120_0400/ETF_access_manifest.json": "d8c57f9dd1223c3b86ed7ceffeb3d9f80d432955",
+    "runs/prospective_normalized_append_20261120_0400/analysis_manifest.json": "577e8be106660a11bc935118e405d46e2b4a22d3",
+    "runs/prospective_five_hour_append_20261120_0500/ETF_access_manifest.json": "a599512d79ef1d79963fb2b628db6984b0f8cfe4",
+    "runs/prospective_five_hour_append_20261120_0500/analysis_manifest.json": "f58fb2f0d5465fe9762a837317e8f6becb78a5f8",
+    "runs/prospective_postclose_access_20261120_0600/ETF_access_manifest.json": "3710e98baaf42b3f016ff8aec1a183ed01c53610",
+    "runs/prospective_postclose_access_20261120_0600/analysis_manifest.json": "be8d9341bae93b7d5ca04fb8b5d7e659e1e98429"
+  },
+  "sha256": {
+    "runs/prospective_access_retry_20261120_0100/ETF_access_manifest.json": "83ec1c11c81bba043f96c52acd17105d2d548305ef076c020d6cdbbfb56f5557",
+    "runs/prospective_access_retry_20261120_0100/analysis_manifest.json": "55e0cdbb1ae9f251083f616e10b29f57ad071c2f10b745eaf1776d61891f8344",
+    "runs/prospective_append_retry_20261120_0200/ETF_access_manifest.json": "de8e8f0413dfdfc2b9d9c65ca986c28b478d69bf1a4807288a0627d0ef088ec0",
+    "runs/prospective_append_retry_20261120_0200/analysis_manifest.json": "d84736a5df1056287fc1c4a80e7222d0e5296fc7730d3c57f549d6ddf539b693",
+    "runs/prospective_normalized_append_20261120_0400/ETF_access_manifest.json": "5d57d46a3906fe595d6eed162072b91c26ce84ac8779a643a17bc2c0baf7c81f",
+    "runs/prospective_normalized_append_20261120_0400/analysis_manifest.json": "83701599023bb2e825350e2d05049df4dc4c307ccc165ee18cccd4e95cc991c5",
+    "runs/prospective_five_hour_append_20261120_0500/ETF_access_manifest.json": "fe35aedc14ffa2f2ea5c780137cb8c084625fa23af7affd2997660c4264f7355",
+    "runs/prospective_five_hour_append_20261120_0500/analysis_manifest.json": "08257b7e9542620485b81a495b59b8ad6c0237394bfff616ada14ca85841b723",
+    "runs/prospective_postclose_access_20261120_0600/ETF_access_manifest.json": "eb25a4b66e692d6bd1a61905efe13a5d6167148c6e0dcbd5170582dbda7a9b45",
+    "runs/prospective_postclose_access_20261120_0600/analysis_manifest.json": "03d7fb7d2336f07016fec67187a026810ef0aa6dd7ca7046cb4b7b738364f920"
+  },
+  "claim_commit": "2028a4b84722d28e125fe0fd46ca5a1c6001ca72",
+  "scope": "Metadata only; raw hashes separately trusted, no raw upload"
+}

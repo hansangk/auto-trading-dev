@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "new_actual_calls": 336,
+  "new_reset_calls": 303,
+  "continuous_actual_month_calls": 33,
+  "prior_unique_calls_reused": 30,
+  "prior_trade_records_checked": 3062,
+  "logical_reset_cells": 333,
+  "new_trade_records_checked": 26908,
+  "new_Nasdaq_buy_rounds": 0,
+  "new_Bitcoin_buy_rounds": 26908,
+  "two_role_new_rounds": 0,
+  "source_release_trade_checks": 29346,
+  "ambiguous_price_phase": 421,
+  "accounting_PIT_BUY_verified": true,
+  "full_month_state_verified": true,
+  "strict_prior_month_choices": 22,
+  "resume_first_prefix_replayed": 0,
+  "frozen_price_labels": 554,
+  "frozen_full_removal_labels": 1012,
+  "independent_validation": false,
+  "orders": 0,
+  "verifier_sha256": "7f7b0c8a221254edeba70bd968818f1b3ee5339524b2e503b95daf5e87a540ed"
+}
+origin  symbol
+new     BITI      14369
+        IBIT      12539
+        SQQQ          0
+        TQQQ          0
+prior   BITI       1303
+        IBIT       1135
+        SQQQ        275
+        TQQQ        545

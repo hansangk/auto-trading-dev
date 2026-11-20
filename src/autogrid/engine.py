@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
+from datetime import date
 
 import numpy as np
 import pandas as pd
@@ -8,6 +9,24 @@ import pandas as pd
 from .config import ExecutionConfig, RiskConfig
 from .data import BTC_ETFS, MarketData
 from .strategy import StrategySpec
+
+
+@dataclass
+class AccountState:
+    """Mutable, flat-position account state for sequential session segments.
+
+    Leave monetary values unset to initialize them from the first call's capital.
+    Reuse this object with the same MarketData and its original bar indices;
+    cooldown_until is an absolute index. Positions cannot cross call boundaries.
+    """
+
+    equity: float | None = None
+    peak: float | None = None
+    daily_start: float | None = None
+    current_date: date | None = None
+    cooldown_until: int = -1
+    loss_streak: int = 0
+    killed: bool = False
 
 
 @dataclass(frozen=True)
@@ -59,11 +78,56 @@ def run_backtest(
     signal_delay_bars: int = 0,
     regime_plan: tuple[np.ndarray, dict[int, tuple[StrategySpec, np.ndarray]]] | None = None,
     short_exclude_symbols: frozenset[str] = frozenset(),
+    trade_log: list[dict] | None = None,
+    exit_mode: str = 'independent',
+    early_reentry: bool = False,
+    asset_weight_scale: np.ndarray | None = None,
+    funded_pair: bool = False,
+    funded_allow_single: bool = False,
+    account_state: AccountState | None = None,
 ) -> BacktestResult:
+    """Replay a segment, optionally carrying flat account risk state in place.
+
+    Stateful segments must stop at a session boundary (or the data end). They
+    must run in chronological order on the same unsliced MarketData. Returned
+    PnL/costs and returns describe this segment; drawdown includes the inherited
+    peak. Aggregate the trade ledger separately for whole-account statistics.
+    """
+    if funded_allow_single and not funded_pair:
+        raise ValueError('Single funded entries require funded_pair=True')
+    if funded_pair and (spec.long_k != 1 or spec.short_k != 1 or regime_plan is not None):
+        raise ValueError('Funded pair requires fixed one ETF per role')
+    if asset_weight_scale is not None:
+        if asset_weight_scale.shape != data.shape or not np.isfinite(asset_weight_scale).all() or np.any(asset_weight_scale <= 0) or np.any(asset_weight_scale > 1):
+            raise ValueError('Asset scales must match data and be finite in (0,1]')
+        if spec.long_k != 1 or spec.short_k != 1 or regime_plan is not None:
+            raise ValueError('Asset scaling currently supports fixed one-long/one-short specs')
+    if exit_mode not in {'independent', 'joint_close', 'fixed_close'}:
+        raise ValueError('Unsupported exit mode')
     stop = len(data.timestamps) if stop is None else stop
     i = max(start, 1 + signal_delay_bars)
     equity = float(capital); peak = equity; daily_start = equity
     current_date = None; cooldown_until = -1; loss_streak = 0; hard_halts = 0; killed = False
+    dates = pd.to_datetime(data.timestamps, utc=True).date
+    if account_state is not None:
+        if not 0 <= start <= stop <= len(data.timestamps):
+            raise ValueError('Stateful segments require valid original data indices')
+        if 0 < stop < len(dates) and dates[stop - 1] == dates[stop]:
+            raise ValueError('Stateful segments must stop at a session boundary')
+        equity = float(capital if account_state.equity is None else account_state.equity)
+        peak = float(equity if account_state.peak is None else account_state.peak)
+        daily_start = float(equity if account_state.daily_start is None else account_state.daily_start)
+        if not np.isfinite([equity, peak, daily_start]).all() or min(equity, daily_start) <= 0 or peak < equity:
+            raise ValueError('Account values must be finite and positive, with peak >= equity')
+        if account_state.loss_streak < 0:
+            raise ValueError('Account loss streak cannot be negative')
+        current_date = account_state.current_date
+        cooldown_until = account_state.cooldown_until
+        loss_streak = account_state.loss_streak
+        killed = account_state.killed
+    starting_equity = equity
+    starting_peak = peak
+    executed_orders = 0
     returns: list[float] = []; times: list[np.datetime64] = []
     long_pnl = short_pnl = btc_pnl = costs_paid = turnover = 0.0
     stop_fraction = spec.stop_loss_bps / 10_000
@@ -73,7 +137,6 @@ def run_backtest(
     roundtrip_bps = 2 * (execution.commission_bps + execution.slippage_bps) * cost_multiplier
     borrow_per_bar = execution.short_borrow_bps_per_year / 10_000 * data.bar_minutes / (252 * 390)
     btc_indices = {j for j, symbol in enumerate(data.symbols) if symbol in BTC_ETFS}
-    dates = pd.to_datetime(data.timestamps, utc=True).date
 
     while i < stop:
         date = dates[i]
@@ -103,11 +166,23 @@ def run_backtest(
         signal = score[i - 1 - signal_delay_bars]
         if not np.any(signal) or np.allclose(signal, signal[0]):
             i += 1; continue
-        order = np.argsort(signal)
-        long_idx = order[-spec.long_k:]
-        short_idx = np.array([j for j in order if data.symbols[j] not in short_exclude_symbols and j not in long_idx][:spec.short_k], dtype=int)
-        if len(short_idx) != spec.short_k:
-            i += 1; continue
+        if funded_allow_single:
+            # Positive/negative values label the Nasdaq/Bitcoin BUY roles.
+            # Zero-score assets must never become a phantom second holding.
+            long_idx = np.flatnonzero(signal > 0)
+            short_idx = np.flatnonzero(signal < 0)
+            if len(long_idx) > 1 or len(short_idx) > 1:
+                raise ValueError('At most one ETF in each funded role')
+            if len(long_idx) + len(short_idx) == 0:
+                i += 1; continue
+            per_long = side_gross; per_short = side_gross
+            gross = side_gross * (len(long_idx) + len(short_idx))
+        else:
+            order = np.argsort(signal)
+            long_idx = order[-spec.long_k:]
+            short_idx = np.array([j for j in order if data.symbols[j] not in short_exclude_symbols and j not in long_idx][:spec.short_k], dtype=int)
+            if len(short_idx) != spec.short_k:
+                i += 1; continue
         # At the open of bar i, its eventual volume is not yet known.
         if set(short_idx).intersection(long_idx) or np.any(data.volume[i - 1, np.r_[short_idx, long_idx]] <= 0):
             i += 1; continue
@@ -115,6 +190,13 @@ def run_backtest(
         while end > i and dates[end] != date:
             end -= 1
         entry = data.open[i]
+        if asset_weight_scale is not None:
+            # Completed signal-time scales only; reduce, never enlarge, a leg.
+            scales = asset_weight_scale[i - 1 - signal_delay_bars]
+            per_long = side_gross * float(scales[long_idx[0]])
+            per_short = side_gross * float(scales[short_idx[0]])
+            gross = per_long + per_short
+        scheduled_end = end
         tp_fraction = stop_fraction * spec.take_profit_multiple
         long_returns: list[tuple[int, float]] = []
         short_returns: list[tuple[int, float]] = []
@@ -128,6 +210,15 @@ def run_backtest(
                     result = tp_fraction; break
             long_returns.append((int(idx), float(result)))
         for idx in short_idx:
+            if funded_pair:
+                result = data.close[end, idx] / entry[idx] - 1
+                for j in range(i, end + 1):
+                    if data.low[j, idx] <= entry[idx] * (1 - stop_fraction):
+                        result = min(data.open[j, idx]/entry[idx]-1, -stop_fraction); break
+                    if data.high[j, idx] >= entry[idx] * (1 + tp_fraction):
+                        result = tp_fraction; break
+                short_returns.append((int(idx), float(result)))
+                continue
             result = -(data.close[end, idx] / entry[idx] - 1)
             for j in range(i, end + 1):
                 if data.high[j, idx] >= entry[idx] * (1 + stop_fraction):
@@ -136,9 +227,21 @@ def run_backtest(
                 if data.low[j, idx] <= entry[idx] * (1 - tp_fraction):
                     result = tp_fraction; break
             short_returns.append((int(idx), float(result)))
+        if exit_mode != 'independent':
+            exit_prices = data.close[end]
+            if exit_mode == 'joint_close':
+                for j in range(i, end):
+                    pair_move = (per_long * np.sum(data.close[j, long_idx] / entry[long_idx] - 1)
+                                 + (1 if funded_pair else -1) * per_short * np.sum(data.close[j, short_idx] / entry[short_idx] - 1)) / gross
+                    if pair_move <= -stop_fraction or pair_move >= tp_fraction:
+                        end = j + 1
+                        exit_prices = data.open[end]
+                        break
+            long_returns = [(int(k), float(exit_prices[k]/entry[k]-1)) for k in long_idx]
+            short_returns = [(int(k), float((1 if funded_pair else -1)*(exit_prices[k]/entry[k]-1))) for k in short_idx]
         long_contribution = per_long * sum(value for _, value in long_returns)
         short_contribution = per_short * sum(value for _, value in short_returns)
-        cost_return = gross * roundtrip_bps / 10_000 + side_gross * borrow_per_bar * (end - i + 1)
+        cost_return = gross * roundtrip_bps / 10_000 + (0 if funded_pair else per_short * spec.short_k * borrow_per_bar * (end - i + 1))
         round_return = long_contribution + short_contribution - cost_return
         base = equity; equity *= 1 + round_return
         long_pnl += base * long_contribution; short_pnl += base * short_contribution
@@ -147,7 +250,21 @@ def run_backtest(
             + per_short * sum(value for idx, value in short_returns if idx in btc_indices)
         )
         costs_paid += base * cost_return; turnover += gross * 2
+        executed_orders += len(long_idx) + len(short_idx)
         returns.append(round_return); times.append(data.timestamps[end])
+        if trade_log is not None:
+            trade_log.append(dict(entry=str(data.timestamps[i]), end=str(data.timestamps[end]),
+                                  strategy_id=spec.strategy_id, long_symbols=[data.symbols[j] for j in long_idx],
+                                  short_symbols=[data.symbols[j] for j in short_idx],
+                                  gross_return=long_contribution+short_contribution,
+                                  cost_return=cost_return, net_return=round_return,
+                                  pnl=base*round_return, equity=equity,
+                                  signal_index=i-1-signal_delay_bars))
+            if funded_pair:
+                trade_log[-1].update(execution_type='buy_two_etfs', bought_symbols=[data.symbols[j] for j in np.r_[long_idx,short_idx]], bought_weights=[per_long]*len(long_idx)+[per_short]*len(short_idx), role_note='short_symbols/short_gross_return are legacy role names; second role is also bought, no borrow')
+            trade_log[-1].update(long_weight=per_long,short_weight=per_short,
+                                 long_gross_return=long_contribution,
+                                 short_gross_return=short_contribution)
         if round_return < 0:
             loss_streak += 1
             if loss_streak >= risk.max_loss_streak:
@@ -157,21 +274,30 @@ def run_backtest(
         peak = max(peak, equity)
         if equity / peak - 1 <= -risk.max_drawdown:
             killed = True
-        i = end + 1
+        i = (end if early_reentry and end < scheduled_end else scheduled_end) + 1
 
     arr = np.asarray(returns, dtype=float); time_arr = np.asarray(times)
     max_drawdown = 0.0
-    if len(arr):
-        curve = np.r_[capital, capital * np.cumprod(1 + arr)]; peaks = np.maximum.accumulate(curve)
+    if len(arr) or account_state is not None:
+        curve = np.r_[starting_equity, starting_equity * np.cumprod(1 + arr)]
+        peaks = np.maximum(starting_peak, np.maximum.accumulate(curve))
         max_drawdown = abs(float(np.min(curve / peaks - 1)))
     sharpe, sortino = _daily_metrics(arr, time_arr)
     wins = arr[arr > 0]; losses = arr[arr < 0]
     profit_factor = float(wins.sum() / abs(losses.sum())) if len(losses) and losses.sum() else (float("inf") if len(wins) else 0.0)
-    total_return = equity / capital - 1
+    total_return = equity / starting_equity - 1
     calmar = total_return / max_drawdown if max_drawdown > 0 else 0.0
+    if account_state is not None:
+        account_state.equity = equity
+        account_state.peak = peak
+        account_state.daily_start = daily_start
+        account_state.current_date = current_date
+        account_state.cooldown_until = cooldown_until
+        account_state.loss_streak = loss_streak
+        account_state.killed = killed
     return BacktestResult(
         total_return, max_drawdown, sharpe, sortino, calmar,
         float(np.mean(arr > 0)) if len(arr) else 0.0, profit_factor,
-        len(arr) * (spec.long_k + spec.short_k), len(arr), turnover, costs_paid,
+        executed_orders, len(arr), turnover, costs_paid,
         long_pnl, short_pnl, btc_pnl, hard_halts, killed,
     )

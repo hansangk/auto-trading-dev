@@ -1,0 +1,3 @@
+Observed preflight failures before claim (no files mutated, no engine):
+1. Local calendar Gitblob assertion failed. Actual LOCAL CRLF07615ffae2648a7e361d82a0608ab898126e0b44 differs from PUBLIC LF f077238e83ce42b8679e7c3ca7fa52a29f3bd2cb. Resolved as distinct byte representations with identical parsed rows.
+2. Orchestration ReferenceError: structuredClone is not defined. Replaced with JSON.parse(JSON.stringify(state)); no claim had been published by that failed call.

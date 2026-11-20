@@ -1,0 +1,38 @@
+{
+  "events": [
+    {
+      "stage": "initialETFstrictcoverage",
+      "transport_errors": 0,
+      "HTTP200": 4,
+      "strict_coverage_passed": 0,
+      "reason": "Each payload contained one post-cutoff off-clock timestamp; first-hour rows existed. Original raw/manifest preserved.",
+      "resolution": "Derived actual partial audit partitions future timestamps before bar-clock checks under predeclared no-future condition; no future prices used."
+    },
+    {
+      "stage": "partial_audit_attempt1",
+      "exit_code": 1,
+      "error": "Timestamp must be an aware string; adapter passed datetime to existing audit_snapshot API.",
+      "output_created": false,
+      "log": "partial_audit_attempt1.log",
+      "resolution": "Pass cutoff.isoformat(); no new acquisition or engine call."
+    },
+    {
+      "stage": "output_inspection_after_attempt1",
+      "exit_code": 2,
+      "command": "ls session_access_audit.json",
+      "reason": "Expected missing output after failed attempt; later attempt creates it."
+    },
+    {
+      "stage": "partial_audit_attempt2",
+      "exit_code": 0,
+      "log": "partial_audit_attempt2.log",
+      "full_session_result": "Incomplete/future ETF session refused",
+      "full_session_qualifications_passed": 0
+    }
+  ],
+  "engine_calls": 0,
+  "engine_failures": 0,
+  "orders": 0,
+  "new_price_fetches_during_audit_recovery": 0,
+  "unresolved_failure": false
+}

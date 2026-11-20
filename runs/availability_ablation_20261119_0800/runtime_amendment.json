@@ -1,0 +1,13 @@
+{
+  "status": "STORAGE_ONLY_GUARD_BEFORE_MONTHLY_ENGINE_CALLS",
+  "development_frozen_commit": "a12318715c1c35b6fef3bc7aaaa1915ddc82baa2",
+  "original_plan_commit": "72433780b7dc271f41150427a7a1d8067f2565a7",
+  "original_strategy_code_unchanged": true,
+  "files": {
+    "scripts/availability_guarded_research_20261119.py": "51b1b43c82334cd6cfc632f15edd4185d1d4a5cd107be84a4e357ce7ec966291",
+    "tests/test_availability_prefix_guard.py": "cb3cfd105a1487361b33074d3efa53291f6a1e12297fd6955e8aad470d1a565d"
+  },
+  "reason": "Independentreview required prefixledgerhash/callmonthboundary/fullAccountState/equitypeak checks BEFORE restore; originalstatehelpercheckedonlyschedule/plan",
+  "tested": "3prefixguardtestsPASS;original197suitePASS",
+  "soft_scope": "Originalselectiondirectlytracks hard/MDD only; derivedpostroundsoft-thresholdtouchauditadded. Poolalreadyemptybefore2026; no loosenedgate/newcandidate. Do notclaimactualsoftskipcounts."
+}

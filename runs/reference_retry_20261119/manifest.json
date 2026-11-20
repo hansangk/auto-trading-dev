@@ -1,0 +1,41 @@
+{
+  "status": "COMPLETE_RESEARCH_PILOT",
+  "engine_calls": 82,
+  "nominal_candidates": 16,
+  "distinct_development_arrays": 16,
+  "shortlist": [
+    "cross_reference_sync_3_0.5",
+    "cross_reference_sync_6_0.5"
+  ],
+  "selected": [
+    "cross_reference_sync_3_0.5",
+    "cross_reference_sync_6_0.5"
+  ],
+  "development_screen_pass": [],
+  "approved": [],
+  "aligned_sessions": 33,
+  "first": "2026-09-21 13:30:00+00:00",
+  "last_bar_start": "2026-11-17 20:55:00+00:00",
+  "end_bar_completion": "2026-11-17 21:00:00+00:00",
+  "etf_source_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
+  "aligned_etf_sha256": "a672f4d76a6216e743270abb97fae31f421a955985fa718cd82c6c423430e99c",
+  "reference_sha256": "836d92f572b14bf0a622b637b7009ca6e261f09e7b567e36bec4ab206a689075",
+  "code_config_sha256": {
+    "scripts/reference_retry_20261119.py": "4e313e94081d6dfe0a8ee00fa36be248d08eeda0e7aba60aac71bb88b58d242f",
+    "scripts/reference_signals_20261119.py": "102e0dbe46b50d26c446bdea428c73f954611a08f8adc569755e98e25a2f6021",
+    "scripts/fetch_reference_20261119.py": "4a9560d5a1fea6aa738e291f202414996856a27b526c09a2f53ac99fbd71c409",
+    "scripts/five_minute_grid_20261118.py": "9483727bdd06f1d0d6ebdb3be04c22972e487b026f2fb54c2bb33cb47b3b7d84",
+    "scripts/session_signal_provenance.py": "64abf788b4549771db5ce264c44f0d4400598480f51fcf2fc063827b2c5b816c",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "tests/test_reference_signals.py": "b7367b15d6e8e9c657495c206188c86a8bee1ec414350493b64c1420256c0bab"
+  },
+  "independent_validation": false,
+  "recent3_fit": "NOT_RUN_INSUFFICIENT_HISTORY",
+  "recent6_fit": "NOT_RUN_INSUFFICIENT_HISTORY",
+  "monthly_3_6_walkforward": "NOT_RUN_INSUFFICIENT_HISTORY",
+  "news_macro": false,
+  "orders": 0,
+  "publication_latency_assumption": "source t completes t+5min, next-open zeroadditionaldelay; delaystress+5min",
+  "calendar_verified": false
+}

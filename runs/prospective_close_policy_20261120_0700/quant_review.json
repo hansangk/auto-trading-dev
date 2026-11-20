@@ -1,0 +1,103 @@
+{
+  "agent": "postclose_quant_0700",
+  "role": "Creative quant and implementation/negative-test reviewer",
+  "scope": "New postclose partition module and tests only; no market/network/Git/engine/order/upload",
+  "focused_command": "PYTHONPATH=src python -m unittest discover -s tests -p 'test_prospective_postclose_partition.py' -v",
+  "focused_test_methods_passed": 15,
+  "agent_reported_rejection_checks": 152,
+  "agent_reported_positive_cases": 13,
+  "families": [
+    {
+      "name": "Seasonal activity",
+      "parameters": {
+        "history_sessions": [
+          20,
+          40
+        ],
+        "z": [
+          1,
+          1.5
+        ],
+        "confirm": [
+          1,
+          2
+        ]
+      },
+      "combinations": 8,
+      "requires": "Causal same-clock history"
+    },
+    {
+      "name": "Cost hurdle",
+      "parameters": {
+        "cost_percentile": [
+          50,
+          75
+        ],
+        "cost_multiplier": [
+          1,
+          2
+        ],
+        "confirm": [
+          1,
+          2
+        ]
+      },
+      "combinations": 8,
+      "requires": "Authentic executable spread/NBBO history"
+    },
+    {
+      "name": "Shock response",
+      "parameters": {
+        "history": [
+          20,
+          40
+        ],
+        "z": [
+          1,
+          1.5
+        ],
+        "confirm": [
+          1,
+          2
+        ]
+      },
+      "combinations": 8,
+      "requires": "Matched events, directions and controls"
+    },
+    {
+      "name": "Persistence",
+      "parameters": {
+        "persistence": [
+          2,
+          3
+        ],
+        "history": [
+          20,
+          40
+        ],
+        "activity": [
+          1.25,
+          1.5
+        ]
+      },
+      "combinations": 8,
+      "requires": "Prior-only history and paired support"
+    }
+  ],
+  "status": "32_EXISTING_PROPOSED_ONLY_NOT_IMPLEMENTED_EXECUTED_OR_SELECTED",
+  "new_strategy_definitions": 0,
+  "grid_repeats": 0,
+  "reason": "Current ingestion diagnosis supplies no missing causal history, NBBO or paired evidence; avoid arbitrary thresholds and repeating closed failed grids.",
+  "limits": {
+    "development_base_combinations_max": 64,
+    "stress_shortlist_max": 8,
+    "min_actual_trades_each_model_scenario": 20
+  },
+  "limitations": [
+    "Verified Nov19 normal calendar only",
+    "Aware string cutoff>=close",
+    "Strict bounded regularMarketTime required for auxiliary; regular-only path keeps frozen03 behavior",
+    "Same observed06payload is not new independent validation or PIT proof",
+    "Structural pass leaves terminal_backtest_allowed=false"
+  ]
+}

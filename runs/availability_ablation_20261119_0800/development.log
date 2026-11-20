@@ -1,0 +1,10 @@
+           name     worst     mean  min_Nasdaq_rounds  any_halt  max_hard_halts
+       ETF__L20  0.005376 0.008750                110     False               0
+   ETF__current  0.005376 0.006642                124     False               0
+      ETF__none  0.005376 0.006453                127     False               0
+    source__L20  0.003115 0.008173                112     False               0
+source__current  0.003115 0.005965                124     False               0
+   source__none  0.003115 0.005776                127     False               0
+       ETF__L40  0.000937 0.002680                104     False               0
+    source__L40 -0.002706 0.002389                106     False               0
+shortlist ['ETF__L20', 'ETF__current', 'ETF__none', 'source__L20', 'source__current', 'source__none', 'ETF__L40', 'source__L40'] pool []

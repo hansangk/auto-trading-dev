@@ -1,0 +1,23 @@
+{
+  "run_id": "prospective_prefix_audit_retry_20261119_2300",
+  "research_parent": "ca3eb8c8be81a495550c6a693ca04f36a497386d",
+  "status": "PREREGISTERED_CLI_PREFIX_GUARD_INTEGRATION_ONLY",
+  "hypothesis": "Expose existing unchanged-snapshot API checks through explicit optional CLI previous ETF/source paths so supplied revised or removed prior observations fail before audit output; no alpha or performance hypothesis.",
+  "change_scope": [
+    "scripts/prospective_input_audit_20261119.py CLI only",
+    "tests/test_prospective_input_audit.py synthetic tests only"
+  ],
+  "acceptance": [
+    "Optional --previous-etf-csv and --previous-source-json inputs passed to existing audit_snapshot previous arguments",
+    "SHA256 of supplied previous raw files recorded in input_file_sha256; both snapshot_prefix_checked flags reflect actual supplied inputs",
+    "Unchanged old prefix accepted; removed or numerically revised oldETF/source rejected before output creation; input files and existing audit outputs never overwritten",
+    "Absent previous inputs remain first-snapshot mode with flagsfalse; never infer historical prefix protection",
+    "Frozen plan Gitblob and17 dependency checks unchanged; metricsnull/engine0/terminalfalse"
+  ],
+  "actual_input_audits_planned": 0,
+  "price_acquisitions_planned": 0,
+  "engine_calls_planned": 0,
+  "real_orders": 0,
+  "new_strategy_definitions": 0,
+  "new_independent_validation": false
+}

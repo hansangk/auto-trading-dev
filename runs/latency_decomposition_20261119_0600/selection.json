@@ -1,0 +1,11 @@
+{
+  "stress_configs": [
+    "A_parent_common",
+    "B_parent_common",
+    "C_parent_common",
+    "D_parent_common"
+  ],
+  "source_common_rejected": "Returnblindmax12/15<20",
+  "source_equalwall4": "NO_SUPPORT",
+  "alpha_approved": []
+}

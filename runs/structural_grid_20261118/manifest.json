@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE_RESEARCH_ONLY",
+  "engine_calls": 118,
+  "candidates": 16,
+  "shortlist": 8,
+  "selected": [
+    "compression_expiry_1_0",
+    "compression_expiry_1_1",
+    "participation_10_0.4"
+  ],
+  "approved": [],
+  "input_sha256": "ebbdc8b683532ba96bf5c1358f5656833d6c33fe6833268ce1e13a777254b851",
+  "prefix_checks": 48,
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0,
+  "hashes": {
+    "scripts/structural_grid_20261118.py": "0a77f9c1a95cdeff3efa89e94d6c21386a17335e0690bca8441eb50326698340",
+    "scripts/structural_signals_20261118.py": "54aadd2b06708e2eebc563fb7f98dc5f24e89690149c0f970ff526447c379ab1",
+    "scripts/episode_signals_20261118.py": "25a0a1ee1902739d4b128b36005ef2dce1984d6a02d1b834f432d170b45b8136",
+    "scripts/five_minute_grid_20261118.py": "9483727bdd06f1d0d6ebdb3be04c22972e487b026f2fb54c2bb33cb47b3b7d84",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "scripts/structural_source_attribution_20261118.py": "c5b2636f1979abb6ec2b93b4a7e535922c22af5a6fbc651258947400f41abacd",
+    "tests/test_structural_signals.py": "e5440e2279e17d1cbe3e74a71a9a1f941b69493261401a7871f7208a637d41d2"
+  },
+  "phase1_calls": 118,
+  "additional_unique_calls": 7,
+  "total_calls": 125,
+  "distinct_candidates": 15,
+  "final_selected": [
+    "compression_expiry_1_0",
+    "participation_10_0.4",
+    "compression_expiry_3_1"
+  ],
+  "final_research_pass": [],
+  "finalizer_sha256": "c3548b3da6558aed819b1f2fcca452c19cc18dd73eeae0afe40229bce0309e6c",
+  "tests": {
+    "count": 109,
+    "seconds": 8.431,
+    "result": "PASS"
+  },
+  "source_metadata_reconstruction": "3 original compression/chase role arrays match exactly"
+}

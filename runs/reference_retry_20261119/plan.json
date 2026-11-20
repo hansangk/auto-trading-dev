@@ -1,0 +1,90 @@
+{
+  "run_id": "reference_retry_20261119",
+  "parent": "c2eb4730a83644213b0fd1f10e0d6f44208338f9",
+  "claim": "138b31400856491a36083a7804d93609c6cd7188",
+  "status": "PREREGISTERED_BEFORE_OUTCOMES",
+  "families": {
+    "catchup": {
+      "horizon": [
+        3,
+        6
+      ],
+      "z": [
+        1,
+        2
+      ],
+      "qscale_prior": 48,
+      "nominal_mapping": [
+        3,
+        -3,
+        1,
+        -1
+      ]
+    },
+    "sweep": {
+      "completed_15min_range": [
+        6,
+        12
+      ],
+      "location": [
+        0.65,
+        0.8
+      ]
+    },
+    "exhaustion": {
+      "shock_horizon": [
+        1,
+        3
+      ],
+      "z": [
+        1.5,
+        2
+      ],
+      "prior_vol": 12,
+      "reversal_fraction": 0.5
+    },
+    "synchronized": {
+      "horizon": [
+        3,
+        6
+      ],
+      "z": [
+        0.5,
+        1
+      ],
+      "prior_vol": 12
+    }
+  },
+  "development": [
+    [
+      "2026-09-21",
+      "2026-10-01"
+    ],
+    [
+      "2026-10-01",
+      "2026-10-19"
+    ]
+  ],
+  "diagnostic": [
+    "2026-10-19",
+    "2026-11-18"
+  ],
+  "known_complete_sessions": [
+    6,
+    8,
+    19
+  ],
+  "controls": [
+    "ETF_momentum4_0.5",
+    "reference_momentum4_0.5",
+    "cash",
+    "reference_agreement_at_ETF_events"
+  ],
+  "ranking": "worst return then mean; min20 rounds EACH devbase; dedup development arrays BEFORE shortlist <=8; stress only shortlist + fixedcontrols; atmost3sampleeligibledevelopmentranked diagnosticanalysis, no diagnostic tuning",
+  "pass": "all6dev base/cost2/delay1 positive, >=20 rounds each, nohalt, everycellreturn>ETFcontrol, MDD<=ETFcontrol. Regardless screen no adoption without independenthistory.",
+  "protection": "samehold12x5min,60bp jointclose trigger nextopenstop,3R,2barcooldown,15%perETFmax,cashunused,originalaccountprotections",
+  "hypotheses": "source/ETF catchup;15min source sweep;5min shock reversal;source concordance onset. Source vsETFmomentum ablation changes feature source only. Strategies change entrymechanisms independently, no joined overlay.",
+  "raw_policy": "No raw uploads, prior refusal respected. All newrawLOCAL.",
+  "history": "Only33matchedfullsessions. 3/6fit and monthly walkforward unavailable; no mixedhourly results. 2026reused, zero additionalrelease latency base assumption.",
+  "attribution": "All original ETFmomentum events with fixed +12bar same-session exit; retain only same-direction active role if reference_momentum agrees. Compare original and admitted/cash roleweighted gross/cost/net paths, delay0/1 sameexit labels (not accounts); replay agreement-filtered whole account independently. Removing roles changes exposure, not exact riskmatch."
+}

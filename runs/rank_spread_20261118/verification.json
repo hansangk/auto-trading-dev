@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "fresh_engine_calls": 9,
+  "checks": [
+    {
+      "name": "spread_50",
+      "start": "2025-01-01",
+      "cost": 1.0,
+      "delay": 0,
+      "matched": true
+    },
+    {
+      "name": "spread_50",
+      "start": "2025-01-01",
+      "cost": 2.0,
+      "delay": 0,
+      "matched": true
+    },
+    {
+      "name": "spread_50",
+      "start": "2025-01-01",
+      "cost": 1.0,
+      "delay": 1,
+      "matched": true
+    },
+    {
+      "name": "spread_50",
+      "start": "2025-07-01",
+      "cost": 1.0,
+      "delay": 0,
+      "matched": true
+    },
+    {
+      "name": "spread_50",
+      "start": "2025-07-01",
+      "cost": 2.0,
+      "delay": 0,
+      "matched": true
+    },
+    {
+      "name": "spread_50",
+      "start": "2025-07-01",
+      "cost": 1.0,
+      "delay": 1,
+      "matched": true
+    },
+    {
+      "name": "spread_50",
+      "start": "2026-01-01",
+      "cost": 1.0,
+      "delay": 0,
+      "matched": true
+    },
+    {
+      "name": "spread_50",
+      "start": "2026-01-01",
+      "cost": 2.0,
+      "delay": 0,
+      "matched": true
+    },
+    {
+      "name": "spread_50",
+      "start": "2026-01-01",
+      "cost": 1.0,
+      "delay": 1,
+      "matched": true
+    }
+  ],
+  "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "script_sha256": "1f939c0a0fe8c42e888d4c050b883d19ede0cb7a829df0f682c9914b95dc34e4",
+  "note": "Prior657 executions resumed. These9 verification replays are additional; no new candidates."
+}

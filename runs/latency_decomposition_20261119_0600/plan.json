@@ -1,0 +1,65 @@
+{
+  "run_id": "latency_decomposition_20261119_0600",
+  "research_parent": "4cc0f400e3fa89f102ea940a49863355f6740a85",
+  "claim": "de8340b53ec387d1b47a5cb2b95a5c21d0767c1f",
+  "status": "PREREGISTERED_BEFORE_PERFORMANCE",
+  "purpose": "Separate entrydelay,holdingbarcount,wallclockduration,scheduledreservation/opportunityreordering. No newalpha thresholdgrid.",
+  "families": {
+    "A": {
+      "hold": 4,
+      "delay": 0
+    },
+    "B": {
+      "hold": 4,
+      "delay": 1
+    },
+    "C": {
+      "hold": 3,
+      "delay": 1
+    },
+    "D": {
+      "hold": 3,
+      "delay": 0
+    }
+  },
+  "grid": "4fixedschedules x2frozenpolicies(sourceNasdaq5,QQQparent) x2cohorts(nativeclipped,commonfull4+delay)=16definitions <=64. Calendarcohort common originalNYeventordinal<=1, nofuturepriceinput. Price-label strict240min is separate supportflag, notnewoptimizedpolicy.",
+  "preflight": "Sourcecommon12/15events in2025H1/H2,maxpossibleaccount rounds below20. Do NOT cost2/stress/diagnose sourcecommon aseligiblecandidate. Parentcommon65/36raw events. Sourceandparent strict240min A/B support0. FrozenBitcoinlabelcontrol has16/11strict240events,alsoinadequate. Preserveallcounts,notforced20.",
+  "development": [
+    [
+      "2025-01-01",
+      "2025-07-01"
+    ],
+    [
+      "2025-07-01",
+      "2026-01-01"
+    ]
+  ],
+  "diagnostic": [
+    "2026-01-01",
+    "2026-11-14"
+  ],
+  "recent": [
+    [
+      "2026-08-14",
+      "2026-11-14"
+    ],
+    [
+      "2026-05-14",
+      "2026-11-14"
+    ]
+  ],
+  "staging": "All16definitions base2025twohalves; exactoldnativeA/Bbaselines maycacheafterverifyingoldcommitresultblob,data/engine/config/signalcode+reconstructedscore hashes. Atmost8commonconfigs arestressbudget; actualsource4skipbyreturnblindmax12/15. Parent4eligibleonlyifbaseactualrounds>=20bothdev. Onlytheseparentconfigs receivecost2and2026/recentpolicyreplays. Delayalreadyfactor,neveradddelay2. NoPnlseed/parametersearch;diagnoadoption.",
+  "labels": "SameoriginaleventETF frozen; A/B/C/D rawactualclose/open paths,15%gross/netlabelsnotaccountreturns. ContrastC-A sameplannedexit;B-Aequalbarsanddifferentwallminutes;C-Dstrict180min;B-Astrict240min reportNAifzero;A-DandB-C extraexposure. Common/supportfilters declaredbeforeoutcomes,notrelaxed.",
+  "statistics": "Require>=20pairedevents across>=10NYdays EACH2025dev forinferentialcontrast. 2000dayand2000circular3observeddayblock bootstrapseed20261119,allobserveddaysincludingzeroeventdays,recomputepooled-eventmean ratios;>=90%validdraws. Positiveblocklowerinbothdev neededforreplicatedtimingassociation. Strict240 empty ->NOT_IDENTIFIED noCI.2026/recent reuseddiagnosticsnotindependent.",
+  "risk": "AllactualTQQQ/SQQQ/IBIT/BITI BUYuniverse;staticNasdaqTQQQ/SQQQ,monthlykeepscrypto.15%ETF,cashunused,60bpjointclosetriggernextopenstop,3R,2cooldown,existing5%account/soft/hardrisk. No enginechanges orstopremoval. early_reentryFalse reserves throughscheduled_end evenifactualprotectedexitearlier; logexitpricingphase vsreservedrelease.",
+  "monthly": "Previous6mmonthlychoices importedunchanged. FourNasdaq-source-onlyschedulefamiliesA/B/C/D x2cost(1/2)x11months=88newcalls,fullcontinuousAccountState. OtherIBIT/BITIpolicieskeeporiginalh4delay0 inallfamilies. BaselineA cost1/2 mustreproducepreviousoriginalselector. B/C isNasdaq-onlydelay,notgloballydelayedcrypto. Previouslycomputedglobaldelaycomparatorcachedonly,never splicecryptomonthresultsafterchangedstate. No selectorrefit.",
+  "recent_fit_status": "Do not rerankpriorfailed16ornewlatencycontrolson2026. Previous2025frozenpoolrecent3/6fit and3/6causalselectors remaincached; currentonlyeligibleparentexecutiondiagnostics andfixedselectioncounterfactuals.",
+  "promotion": "No adoptionwithoutmin20allrequireddevelopmentcells,nohalts,positivecostnet/stresses andnewindependenthistory. ExistingBTCendpointstrategiesclosed; latencylabels alonecannotproveprotectedstrategyedge. Fourfuturecreativefeed-basedhypothesesunimplemented/actualPITfeedsabsent.",
+  "data": {
+    "ETF_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+    "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
+    "choices_sha256": "6712b3dc75f3ae7587a203168934e21f1d3db4af3b5477b0adb2730b6301b2ae",
+    "scope": "Frozen494normalRTHdays Nov14 2024-Nov13 2026. SourceQQQ/BTCNov19 02:12KSTsnapshot. Sourceend+5minbuffer,age<=65minassumed. Lastbar30min. WholeETFcomplete-dayselectionbias retained."
+  },
+  "limitations": "No newmarketobservations/independentvalidation.2025previouslyresearched,2026reused. Noquotes/news/macroactualPIT orrawupload/realorders. No synthetic16:30exit/finerprices."
+}

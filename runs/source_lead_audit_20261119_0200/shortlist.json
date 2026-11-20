@@ -1,0 +1,18 @@
+{
+  "shortlist": [],
+  "selection": "support and information and developmentbase only",
+  "aliases": {
+    "wick_pressure_lag0": "wick_pressure_lag0",
+    "wick_pressure_lag1": "wick_pressure_lag1",
+    "wick_pressure_lag3": "wick_pressure_lag3",
+    "path_chop_lag0": "path_chop_lag0",
+    "path_chop_lag1": "path_chop_lag1",
+    "path_chop_lag3": "path_chop_lag3",
+    "vol_compression_lag0": "vol_compression_lag0",
+    "vol_compression_lag1": "vol_compression_lag1",
+    "vol_compression_lag3": "vol_compression_lag3",
+    "tail_energy_lag0": "tail_energy_lag0",
+    "tail_energy_lag1": "tail_energy_lag1",
+    "tail_energy_lag3": "tail_energy_lag3"
+  }
+}

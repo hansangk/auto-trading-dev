@@ -1,0 +1,13 @@
+{
+  "parent": "7d41826aa35ea5d1ac7afa31ac2d4eb3eeb7d019",
+  "hypothesis": "Monthly reset masks cumulative protection: preserve account equity/peak/loss-streak/cooldown/halt across selected monthly segments. Fix execution only, hold previously frozen candidate decisions fixed.",
+  "controls": "Old monthly restart cohort results and identical-state single uninterrupted anchor. Same prior64grid,22frozen3/6month decisions; no new parameter fit this run.",
+  "precriteria": "Default engine all previous tests unchanged; split-session vs whole-account same spec matches; halted state never restarts; carry peak and loss-streak; inherited data index valid. No strategy promotion unless old dev+stress screen passes, which none did.",
+  "scenarios": "3/6month selection andanchor, base/cost2/delay1, continuous risk vs monthly-reset reference.2026-01-01..11-13 reused;recent3/6 positive winners also checked for halt.",
+  "input_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "sizing": "Actual TQQQ/SQQQ/IBIT/BITI buys, same15%max perETF, unused cash,stop60bp target2/3R hold2/4;noexposureincrease/nohardstopremoval",
+  "future": "Creative quant to propose diverse next64grid but new grid deferred until reliability fix is tested; prior64signals/cache reused to isolate implementation effect.",
+  "publication": "No rawmarket upload; code/results/hashes/provenance only",
+  "independence": false,
+  "news_macro": false
+}

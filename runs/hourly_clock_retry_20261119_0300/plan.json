@@ -1,0 +1,89 @@
+{
+  "run_id": "hourly_clock_retry_20261119_0300",
+  "research_parent": "dd620daaebc7c82d278dba4438193bbf4c6d64f9",
+  "status": "PREREGISTERED_BEFORE_PERFORMANCE",
+  "mechanism": "New actualETFclosedhours BTCinformation, actual24/48wallhour BTCstructure andcompletedQQQregime. Previoussame-session5minfiltersclosed;notreswept.",
+  "families": {
+    "night_acceptance": {
+      "a": [
+        0.5,
+        1
+      ],
+      "b": [
+        0.25,
+        0.5
+      ],
+      "rule": "|night/nightscale|>=a; firstIBITRTHreturn agrees; BTCpostpreopencutoffretrace<=b*|night|"
+    },
+    "night_exhaustion": {
+      "a": [
+        0.5,
+        0.8
+      ],
+      "b": [
+        0.25,
+        0.5
+      ],
+      "rule": "|night/nightscale|>=.5; signedIBITgapcaptures>=a*night; BTCpostcutoffreversal>=b*night; buyoppositedirection"
+    },
+    "trend_pullback": {
+      "a": [
+        24,
+        48
+      ],
+      "b": [
+        1,
+        3
+      ],
+      "rule": "actualBTCa-wallhourtrend>=prior480hourRMS*sqrt(a); oppositepureRTHb-hourpullback25%-75%trend; nightagreesand>=50%trend"
+    },
+    "night_nasdaq": {
+      "a": [
+        5,
+        10
+      ],
+      "b": [
+        0.5,
+        1
+      ],
+      "rule": "|night/nightscale|>=b; priorcompletedQQQa-normalsessionregime andlatestcurrentQQQcompletedhouragree; actualNasdaqETFBUY"
+    }
+  },
+  "candidate_count": 16,
+  "paired_controls": "F1/F2 replace nightreturn by actualIBITgap withSAMEsourcevolscale;F4 replace byQQQgap withSAMEscale. F2proxycapture mechanically1, preservealiases. F3removeONLYnightconfirmation. Theseisolatepricecontextorconfirmation, notallsourceinformation removal/conditionalindependence.",
+  "controls": [
+    "legacy_funded_relative",
+    "cash"
+  ],
+  "development": [
+    [
+      "2025-01-01",
+      "2025-07-01"
+    ],
+    [
+      "2025-07-01",
+      "2026-01-01"
+    ]
+  ],
+  "diagnostic": [
+    "2026-01-01",
+    "2026-11-14"
+  ],
+  "preflight": "Returnblind rawscore onsetcounts/changedroles/sourcevcontrol perdevelopment beforePnL. Min20sourceaccount rounds perdev forglobalshortlist. Count signalarrayaliases beforestress, notpadthresholds.",
+  "shortlist": "Globalmax8UNIQUEsourcecandidates from2025devbase sortedworstreturnthenmean amongmin20each. Pairedfixedablationtravelwiththem. Onlythesourcesandpairedcontrols receivecost2/delay1; fixedlegacy/cashcontrols allstress. Diagnosticpool onlyglobalshortlistwhose6devstresscellsmin20; selectionfilefrozenbefore2026.",
+  "promotion": "All6devstresspositive,min20each,nohard/mddhalt,returnabovepairedcontrol andMDD<=pairedcontroleachcell; >=20changedroleevents and>=10changedNYdays EACHdev toclaimnightincrement. Evenpassingrequiresindependentvalidation, soadoptiondisabled.",
+  "recentfit": "Exact3/6calendar months ending2026-11-14exclusive, only frozen2025-selecteddiagnosticpool. Recordallfitranksandstressmetrics; do notretrospectivelyalterpool. Noall16diagnosticfitting.",
+  "monthly": "Jan-Nov2026 (lastpartialthroughNov13), atmonthstart eachfrozenpoolcandidate trainedstrictlypreceding3/6calendarmonths using3stressconditions. Requiremin20each,allpositive,nohalts; rankworstthenmean;none=>cash. No futureglobalpoolfitting. Choosecandidateoncepermonth, continuousAccountState for each3/6historyx3executionstress, preserveequity/peak/dailystate/streak/cooldown/kill; sameglobalindices/flatNYsessionmonthboundaries. Noresetonmonthchange.",
+  "risk": "Originalhourlyhold4rows,stop60bpjointclosetriggernextopen,3R,2barcooldown,15%ETFmax,unusedcash,existingdaily/5%accountprotection. AllactualTQQQ/SQQQ/IBIT/BITI BUY,IBITBitcoinETFproxy,BITIfuturesinverse. Base4.6bp,cost2 9.2bp,delay1eligibleRTHbar=60min;lastsessionbar30min; noovernightentries.",
+  "data": {
+    "ETF_original_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+    "ETF_audited_sha256": "163e532099c1465e951543680730951b7b29a6d16021ff3affe31c23fd77e3d7",
+    "context_sha256": "3811f0891d7579401b560ef00794ca7e318311f929ac1455ce47f2e2204572e0",
+    "calendar_sha256": "754c3ce12689e122204594ea3c87d3aea73c98951e736bd5990c5ef90ff4b296",
+    "rawQQQ": "a62a158a1f6a3fc85ef803c277543408e7b46c629630787013427218827271ad",
+    "rawBTC": "5a470cea79415bc73c87eaeeb5740fe8c5e1f95c2b72e9f05e68e8def54cb206",
+    "rows_sampling": "494complete390minETFdays;5earlyshortdays+2missingdays excluded. Sourcefeaturesperbaronly, notcurrentQQQfulldaymask. BTCvalid418days. PrelimQQQgapcoveragebugfixedv2 beforePnL,prelimpreserved.",
+    "availability": "Actualsourceends+5min<=decision,age<=65min; BTCmedian30/QQQmedian60min. FrozenBTCnight frompriorofficialcloseactualBTCend tolastactualBTCendpreopen9:00; missing9:00-9:30notinterpolated. PureRTHBTCpullbacksactualstarts>=09:30. vol480strictcontiguoushours."
+  },
+  "limitations": "Calendarlibrary4.13.3crosscheckedNYSEprimary. Pricehistorycurrentvendorvintagesnottruefirstrelease;bufferassumed,normalcompleteETFsamplingretrospectiveavailabilitybias. Reused2026notindependent,2025alreadyresearchedtoo; no automatic untouchedclaim. Noactualnews/macro/quotes orrealorders; norawupload."
+}

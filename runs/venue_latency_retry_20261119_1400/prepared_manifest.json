@@ -1,0 +1,120 @@
+{
+  "status": "PREPARED_BEFORE_PNL",
+  "definitions": [
+    {
+      "name": "legacy__source",
+      "family": "legacy",
+      "duration": null,
+      "arm": "source"
+    },
+    {
+      "name": "legacy__price",
+      "family": "legacy",
+      "duration": null,
+      "arm": "price"
+    },
+    {
+      "name": "h60__source",
+      "family": "h60",
+      "duration": 60,
+      "arm": "source"
+    },
+    {
+      "name": "h60__price",
+      "family": "h60",
+      "duration": 60,
+      "arm": "price"
+    },
+    {
+      "name": "h120__source",
+      "family": "h120",
+      "duration": 120,
+      "arm": "source"
+    },
+    {
+      "name": "h120__price",
+      "family": "h120",
+      "duration": 120,
+      "arm": "price"
+    },
+    {
+      "name": "c120__source",
+      "family": "c120",
+      "duration": 120,
+      "arm": "source"
+    },
+    {
+      "name": "c120__price",
+      "family": "c120",
+      "duration": 120,
+      "arm": "price"
+    },
+    {
+      "name": "h180__source",
+      "family": "h180",
+      "duration": 180,
+      "arm": "source"
+    },
+    {
+      "name": "h180__price",
+      "family": "h180",
+      "duration": 180,
+      "arm": "price"
+    },
+    {
+      "name": "c180__source",
+      "family": "c180",
+      "duration": 180,
+      "arm": "source"
+    },
+    {
+      "name": "c180__price",
+      "family": "c180",
+      "duration": 180,
+      "arm": "price"
+    }
+  ],
+  "eligible_new": [
+    "h120__source",
+    "h120__price",
+    "c120__source",
+    "c120__price",
+    "h180__source",
+    "h180__price",
+    "c180__source",
+    "c180__price"
+  ],
+  "blocked": [
+    {
+      "name": "legacy__source",
+      "reasons": [
+        "IMMUTABLE_REFERENCE_AND_SAMEEXIT_LABEL_ONLY"
+      ]
+    },
+    {
+      "name": "legacy__price",
+      "reasons": [
+        "IMMUTABLE_REFERENCE_AND_SAMEEXIT_LABEL_ONLY"
+      ]
+    },
+    {
+      "name": "h60__source",
+      "reasons": [
+        "NO_INTERMEDIATE_PROTECTION_OBSERVATION_LABEL_ONLY"
+      ]
+    },
+    {
+      "name": "h60__price",
+      "reasons": [
+        "NO_INTERMEDIATE_PROTECTION_OBSERVATION_LABEL_ONLY"
+      ]
+    }
+  ],
+  "calendar_prefix_checks": 18,
+  "actual_scheduled_clock_checks": 17784,
+  "scores_sha256": "47588e27e567bcbfc6bbea931e6b258312bf925f4fe12b242e096cefdb7bcc43",
+  "no_threshold_fit": true,
+  "original_scheduled_minutes_equal_after_delay_events": 0,
+  "independent_validation": false,
+  "orders": 0
+}

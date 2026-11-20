@@ -1,0 +1,52 @@
+{
+  "status": "COMPLETE",
+  "engine_calls": 6,
+  "source_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "periods": [
+    "2025H1",
+    "2025H2"
+  ],
+  "independent_holdout": false,
+  "seed": 20261117,
+  "draws": 2000,
+  "design": {
+    "source_union": "gap(.5,.6), volume(6,2), per-role gap priority",
+    "candidate": "daily_regime(.4,.15), hold4,target3,stop60",
+    "seed": 20261117,
+    "permutation_draws": 2000,
+    "bootstrap_draws": 2000,
+    "conditional_strata": [
+      "half",
+      "month",
+      "role",
+      "signal_hour_ny",
+      "actual_weight"
+    ],
+    "bootstrap_blocks": [
+      1,
+      5
+    ],
+    "futility": "Fail unless each role >=20 retained in each half/stress, net advantage vs conditional permutation mean >0 in all six half/stress cells, and session and 5-day block net CI lower>0 in every cell. No promotion without untouched data.",
+    "warning": "Frozen union-ledger additive capital-weighted amounts, not routed portfolio returns or a causal effect. Baseline stops/equity/halt truncate opportunities. Replacement ETF returns are unobserved. Exact-count conditional cash selections are fitted ex post; exchangeability is unproved. Reused 2025 is development; 2026 is excluded. No real orders."
+  },
+  "warning": "Frozen union-ledger additive capital-weighted amounts, not routed portfolio returns or a causal effect. Baseline stops/equity/halt truncate opportunities. Replacement ETF returns are unobserved. Exact-count conditional cash selections are fitted ex post; exchangeability is unproved. Reused 2025 is development; 2026 is excluded. No real orders.",
+  "passes_futility": false,
+  "files": [
+    "fixed_role_ledger.csv",
+    "fixed_role_groups.csv",
+    "fixed_role_permutation_draws.csv",
+    "fixed_role_permutation_support.csv",
+    "fixed_role_bootstrap.csv",
+    "fixed_role_baseline_replay.csv",
+    "fixed_role_futility.csv",
+    "fixed_role_signal_opportunities.csv"
+  ],
+  "code_hashes": {
+    "scripts/fixed_role_attribution_20261117.py": "643aab9b5d18c877fba0b40ee5c19678a3df221dfef7a356fc29380d04ac0bf1",
+    "scripts/cohort_routing_signals_20261117.py": "b237d7819d78af3b1a23d082bc96a33162a5f0e09623d53d72b9706398c1948b",
+    "scripts/cohort_routing_controls_20261117.py": "02c1efab01cc7da9ccba7f4f18fae5a262182f16c757b7f95c6934d6c995db44",
+    "scripts/microstructure_signals_20261117.py": "442cda7a261473d9c1b95929efb054a4655295796b2d53b4fe0fc3367edee1b7",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567"
+  }
+}

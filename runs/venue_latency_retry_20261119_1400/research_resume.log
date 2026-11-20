@@ -1,0 +1,8 @@
+ months scenario      start end_exclusive                                                     schedule_key  total_return  rounds  Nasdaq_rounds  Bitcoin_rounds  win_rate  max_drawdown  ever_halted  Bitcoin_cash_months  actual_zero_trade_months
+      3     base 2026-01-01    2026-11-14 92d23f3fdd2725bc7d27b4e54d87b5cb1d470728dc24a4a853483636c19ba678      0.000000       0              0               0    0.0000      0.000000        False                   11                        11
+      3    cost2 2026-01-01    2026-11-14 0def78717aa31e4c1a1334c2dcde75cc02203182edeed0ec76ad21ef56a3566e      0.000000       0              0               0    0.0000      0.000000        False                   11                        11
+      3   delay1 2026-01-01    2026-11-14 b85ddf8de8f2fa67f88d0450c9043931302cff2f80a0b022db73f212fabd176d      0.000000       0              0               0    0.0000      0.000000        False                   11                        11
+      6     base 2026-01-01    2026-11-14 d8b66c955d522c680e08c2ab53e0d136d7e6e985e48f23120b9cac998e8be2bd     -0.007854      16              0              16    0.1875      0.008412        False                    8                         8
+      6    cost2 2026-01-01    2026-11-14 9e78f3182ff65da42740f4324779022d93dbef365e729b900562e3aadf71965b     -0.008949      16              0              16    0.1875      0.009233        False                    8                         8
+      6   delay1 2026-01-01    2026-11-14 b38c7ef2b69980959510e965b37a0818231f645fba37b76e3bbf351c722e2f6e     -0.004692      16              0              16    0.5625      0.004698        False                    8                         8
+newactualcalls 669

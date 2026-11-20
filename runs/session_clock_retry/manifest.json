@@ -1,0 +1,64 @@
+{
+  "policies": {
+    "anchor": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "open_only": [
+      9
+    ],
+    "early": [
+      9,
+      10
+    ],
+    "middle": [
+      11,
+      12
+    ],
+    "late": [
+      13,
+      14,
+      15
+    ],
+    "exclude_open": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "exclude_close": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "first_half": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "second_half": [
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  "source_sha256": "8d4ea66a1e551c079cb43891583904f4fa4ddbe482b72d7045df26b441344dcd",
+  "selection": "Minimum20 rounds in every development scenario; rank worst return then mean then ID. Freeze top3 before2026. Promotion all6 positive and each better than anchor.",
+  "change_to_retry": "Order-time clock ablation; anchor/exits/exposure fixed; long/short gross attribution and ledger identity checks; fixed entry opportunities versus full replay.",
+  "warning": "Reused periods not independent holdout; Yahoo hourly IBIT proxy. No fresh/news/macro data; clock filters use known order-time timestamps only.",
+  "evaluations": 66,
+  "development_evaluations": 54,
+  "diagnostic_evaluations": 12
+}

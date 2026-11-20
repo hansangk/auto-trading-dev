@@ -1,0 +1,86 @@
+{
+  "status": "PREPARED_BEFORE_PNL",
+  "definitions": [
+    {
+      "name": "source__none",
+      "feed": "source",
+      "gate": "none"
+    },
+    {
+      "name": "source__current",
+      "feed": "source",
+      "gate": "current"
+    },
+    {
+      "name": "source__L20",
+      "feed": "source",
+      "gate": "L20"
+    },
+    {
+      "name": "source__L40",
+      "feed": "source",
+      "gate": "L40"
+    },
+    {
+      "name": "ETF__none",
+      "feed": "ETF",
+      "gate": "none"
+    },
+    {
+      "name": "ETF__current",
+      "feed": "ETF",
+      "gate": "current"
+    },
+    {
+      "name": "ETF__L20",
+      "feed": "ETF",
+      "gate": "L20"
+    },
+    {
+      "name": "ETF__L40",
+      "feed": "ETF",
+      "gate": "L40"
+    }
+  ],
+  "aliases": {
+    "source__none": "source__none",
+    "source__current": "source__current",
+    "source__L20": "source__L20",
+    "source__L40": "source__L40",
+    "ETF__none": "ETF__none",
+    "ETF__current": "ETF__current",
+    "ETF__L20": "ETF__L20",
+    "ETF__L40": "ETF__L40"
+  },
+  "exact_legacy_array_regressions": 6,
+  "score_prefix_checks": 24,
+  "raw_QQQ_volume_only_null_OHLC_finite": 0,
+  "mask_nesting": true,
+  "source_meta": {
+    "raw_rows": 3499,
+    "null_rows": 33,
+    "invalid_days": {
+      "2026-07-14": 7,
+      "2026-07-13": 7,
+      "2026-01-30": 5,
+      "2026-07-10": 5,
+      "2026-02-02": 4,
+      "2024-11-29": 1,
+      "2024-12-24": 1,
+      "2025-12-24": 1,
+      "2025-07-03": 1,
+      "2025-11-28": 1
+    },
+    "finite_offgrid_rows": 6,
+    "accepted_rows": 3459,
+    "first_start": "2024-11-18 16:30:00+00:00",
+    "last_end": "2026-11-18 16:30:00+00:00",
+    "raw_sha256": "a62a158a1f6a3fc85ef803c277543408e7b46c629630787013427218827271ad"
+  },
+  "masks_sha256": "b8f6f1b293aa7d1da6ae6959eb1f00d078ba0ce6591a89b6e696ba0fcf0aa337",
+  "scores_sha256": "2c10edc142bc5eb86d2b27ad8a444308b2da232d1713e606b83a3a039622ee3a",
+  "Nasdaq_scores_sha256": "bb49d22c97ef0bce0e91820bd0a5106fbfe467065ed1f15675b5d966004bd175",
+  "independent_validation": false,
+  "news_macro": false,
+  "orders": 0
+}

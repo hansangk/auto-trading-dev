@@ -1,0 +1,431 @@
+{
+  "scope": "Informationfilter+lag combinations on current frozen snapshot; insufficient identification is not universal zeroalpha proof",
+  "reuse": "No same threshold/lag resweep without new independent history or actualnewinformation evidence; a new hash alone is not validation",
+  "ETF_sha256": "a672f4d76a6216e743270abb97fae31f421a955985fa718cd82c6c423430e99c",
+  "reference_sha256": "836d92f572b14bf0a622b637b7009ca6e261f09e7b567e36bec4ab206a689075",
+  "failed": [
+    {
+      "name": "wick_pressure_lag0",
+      "family": "wick_pressure",
+      "lag": 0,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "wick_pressure_lag0",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 122,
+          "source_admitted": 73,
+          "source_rejected": 49,
+          "ETF_admitted": 78,
+          "changed_roles": 15,
+          "changed_days": 5,
+          "support_pass": false
+        },
+        {
+          "name": "wick_pressure_lag0",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 170,
+          "source_admitted": 113,
+          "source_rejected": 57,
+          "ETF_admitted": 105,
+          "changed_roles": 16,
+          "changed_days": 7,
+          "support_pass": false
+        }
+      ]
+    },
+    {
+      "name": "wick_pressure_lag1",
+      "family": "wick_pressure",
+      "lag": 1,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "wick_pressure_lag1",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 122,
+          "source_admitted": 70,
+          "source_rejected": 52,
+          "ETF_admitted": 67,
+          "changed_roles": 9,
+          "changed_days": 5,
+          "support_pass": false
+        },
+        {
+          "name": "wick_pressure_lag1",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 170,
+          "source_admitted": 117,
+          "source_rejected": 53,
+          "ETF_admitted": 108,
+          "changed_roles": 15,
+          "changed_days": 8,
+          "support_pass": false
+        }
+      ]
+    },
+    {
+      "name": "wick_pressure_lag3",
+      "family": "wick_pressure",
+      "lag": 3,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "wick_pressure_lag3",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 122,
+          "source_admitted": 81,
+          "source_rejected": 41,
+          "ETF_admitted": 80,
+          "changed_roles": 11,
+          "changed_days": 5,
+          "support_pass": false
+        },
+        {
+          "name": "wick_pressure_lag3",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 170,
+          "source_admitted": 114,
+          "source_rejected": 56,
+          "ETF_admitted": 109,
+          "changed_roles": 15,
+          "changed_days": 7,
+          "support_pass": false
+        }
+      ]
+    },
+    {
+      "name": "path_chop_lag0",
+      "family": "path_chop",
+      "lag": 0,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT",
+        "BASE_MIN20_ROUNDS_FAILED"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "path_chop_lag0",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 121,
+          "source_admitted": 11,
+          "source_rejected": 110,
+          "ETF_admitted": 15,
+          "changed_roles": 4,
+          "changed_days": 2,
+          "support_pass": false
+        },
+        {
+          "name": "path_chop_lag0",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 165,
+          "source_admitted": 14,
+          "source_rejected": 151,
+          "ETF_admitted": 24,
+          "changed_roles": 22,
+          "changed_days": 7,
+          "support_pass": false
+        }
+      ]
+    },
+    {
+      "name": "path_chop_lag1",
+      "family": "path_chop",
+      "lag": 1,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT",
+        "BASE_MIN20_ROUNDS_FAILED"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "path_chop_lag1",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 121,
+          "source_admitted": 12,
+          "source_rejected": 109,
+          "ETF_admitted": 16,
+          "changed_roles": 4,
+          "changed_days": 2,
+          "support_pass": false
+        },
+        {
+          "name": "path_chop_lag1",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 165,
+          "source_admitted": 20,
+          "source_rejected": 145,
+          "ETF_admitted": 29,
+          "changed_roles": 21,
+          "changed_days": 6,
+          "support_pass": true
+        }
+      ]
+    },
+    {
+      "name": "path_chop_lag3",
+      "family": "path_chop",
+      "lag": 3,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT",
+        "BASE_MIN20_ROUNDS_FAILED"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "path_chop_lag3",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 120,
+          "source_admitted": 14,
+          "source_rejected": 106,
+          "ETF_admitted": 18,
+          "changed_roles": 4,
+          "changed_days": 3,
+          "support_pass": false
+        },
+        {
+          "name": "path_chop_lag3",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 165,
+          "source_admitted": 15,
+          "source_rejected": 150,
+          "ETF_admitted": 27,
+          "changed_roles": 20,
+          "changed_days": 7,
+          "support_pass": false
+        }
+      ]
+    },
+    {
+      "name": "vol_compression_lag0",
+      "family": "vol_compression",
+      "lag": 0,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "vol_compression_lag0",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 122,
+          "source_admitted": 78,
+          "source_rejected": 44,
+          "ETF_admitted": 78,
+          "changed_roles": 6,
+          "changed_days": 4,
+          "support_pass": false
+        },
+        {
+          "name": "vol_compression_lag0",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 170,
+          "source_admitted": 100,
+          "source_rejected": 70,
+          "ETF_admitted": 107,
+          "changed_roles": 11,
+          "changed_days": 5,
+          "support_pass": false
+        }
+      ]
+    },
+    {
+      "name": "vol_compression_lag1",
+      "family": "vol_compression",
+      "lag": 1,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "vol_compression_lag1",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 122,
+          "source_admitted": 76,
+          "source_rejected": 46,
+          "ETF_admitted": 77,
+          "changed_roles": 3,
+          "changed_days": 2,
+          "support_pass": false
+        },
+        {
+          "name": "vol_compression_lag1",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 170,
+          "source_admitted": 101,
+          "source_rejected": 69,
+          "ETF_admitted": 101,
+          "changed_roles": 8,
+          "changed_days": 6,
+          "support_pass": false
+        }
+      ]
+    },
+    {
+      "name": "vol_compression_lag3",
+      "family": "vol_compression",
+      "lag": 3,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "vol_compression_lag3",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 122,
+          "source_admitted": 77,
+          "source_rejected": 45,
+          "ETF_admitted": 77,
+          "changed_roles": 8,
+          "changed_days": 4,
+          "support_pass": false
+        },
+        {
+          "name": "vol_compression_lag3",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 170,
+          "source_admitted": 102,
+          "source_rejected": 68,
+          "ETF_admitted": 106,
+          "changed_roles": 8,
+          "changed_days": 5,
+          "support_pass": false
+        }
+      ]
+    },
+    {
+      "name": "tail_energy_lag0",
+      "family": "tail_energy",
+      "lag": 0,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "tail_energy_lag0",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 122,
+          "source_admitted": 106,
+          "source_rejected": 16,
+          "ETF_admitted": 109,
+          "changed_roles": 7,
+          "changed_days": 5,
+          "support_pass": false
+        },
+        {
+          "name": "tail_energy_lag0",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 170,
+          "source_admitted": 146,
+          "source_rejected": 24,
+          "ETF_admitted": 146,
+          "changed_roles": 6,
+          "changed_days": 5,
+          "support_pass": false
+        }
+      ]
+    },
+    {
+      "name": "tail_energy_lag1",
+      "family": "tail_energy",
+      "lag": 1,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "tail_energy_lag1",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 122,
+          "source_admitted": 85,
+          "source_rejected": 37,
+          "ETF_admitted": 83,
+          "changed_roles": 8,
+          "changed_days": 5,
+          "support_pass": false
+        },
+        {
+          "name": "tail_energy_lag1",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 170,
+          "source_admitted": 129,
+          "source_rejected": 41,
+          "ETF_admitted": 128,
+          "changed_roles": 9,
+          "changed_days": 6,
+          "support_pass": false
+        }
+      ]
+    },
+    {
+      "name": "tail_energy_lag3",
+      "family": "tail_energy",
+      "lag": 3,
+      "reasons": [
+        "INADEQUATE_SOURCE_VS_ETF_INTERVENTION_SUPPORT"
+      ],
+      "independent_history_missing": true,
+      "support": [
+        {
+          "name": "tail_energy_lag3",
+          "start": "2026-09-21",
+          "potential_roles": 122,
+          "common_valid_roles": 122,
+          "source_admitted": 79,
+          "source_rejected": 43,
+          "ETF_admitted": 81,
+          "changed_roles": 6,
+          "changed_days": 4,
+          "support_pass": false
+        },
+        {
+          "name": "tail_energy_lag3",
+          "start": "2026-10-01",
+          "potential_roles": 170,
+          "common_valid_roles": 170,
+          "source_admitted": 108,
+          "source_rejected": 62,
+          "ETF_admitted": 108,
+          "changed_roles": 6,
+          "changed_days": 4,
+          "support_pass": false
+        }
+      ]
+    }
+  ]
+}

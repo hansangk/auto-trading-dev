@@ -1,0 +1,116 @@
+{
+  "status": "PROPOSED_ONLY_UNIMPLEMENTED",
+  "executed": false,
+  "budget_if_new_evidence_gates_pass": 64,
+  "reason": "ActualPITfeeds absent;shortreusedfinehistoryinsufficient;no newgridexecuted",
+  "families": [
+    {
+      "id": "primary_market_flow",
+      "mechanism": "ETF actual sharecreation/redemption andNAVdislocation beyondprice/volume",
+      "requires": "issuer shares/NAV/splits withactualpublicationtimes",
+      "parameters": {
+        "flow_sessions": [
+          1,
+          3
+        ],
+        "past60_flow_percentile": [
+          0.8,
+          0.9
+        ],
+        "completed15m_confirmations": [
+          1,
+          2
+        ],
+        "hold_minutes": [
+          60,
+          120
+        ]
+      },
+      "combinations": 16,
+      "reject": "Missingpublicationtimestamps or<20changeddev events; comparepricevolumeonlyandflowremoved"
+    },
+    {
+      "id": "option_tail_price_state",
+      "mechanism": "Observedoptiontailpricingasymmetry beyondrealizedvolatility; no inferreddealerpositionclaim",
+      "requires": "Actualvintagedoptionquotes,strikes,expiries,underlying andfrozenIVdeltarules",
+      "parameters": {
+        "tenor_days": [
+          7,
+          30
+        ],
+        "past_standardization_sessions": [
+          20,
+          60
+        ],
+        "absolute_tail_z": [
+          1,
+          2
+        ],
+        "completed15m_confirmations": [
+          1,
+          2
+        ]
+      },
+      "combinations": 16,
+      "reject": "Missingquotehistory/time,sparsetails or<20interventions;realizedvolandtailremovedcontrols"
+    },
+    {
+      "id": "fund_rebalance_pressure",
+      "mechanism": "Exantefundsize/targetexposure inferredrebalancepressure beyondintradayreturn",
+      "requires": "PITfundassets,targetleverage,holdings andactualunderlying/ETFbars",
+      "parameters": {
+        "past60_pressure_percentile": [
+          0.8,
+          0.9
+        ],
+        "start_ny": [
+          "14:30",
+          "15:00"
+        ],
+        "confirmation_minutes": [
+          5,
+          15
+        ],
+        "hold_minutes": [
+          15,
+          30
+        ]
+      },
+      "combinations": 16,
+      "reject": "Requiresfinaldayholdings/close orreturnalias;size-removedandreturnonlycontrols"
+    },
+    {
+      "id": "forced_deleveraging_exhaustion",
+      "mechanism": "ActualBTCforcedliquidation saturation pluscompletedrecovery beyondpricevolumeshock",
+      "requires": "Actualevent/receipttimes,liquidationside,coverage/gapmetadata,BTCandIBIT/BITIbars",
+      "parameters": {
+        "past30_liquidation_percentile": [
+          0.95,
+          0.99
+        ],
+        "wait_minutes": [
+          5,
+          15
+        ],
+        "prior_trend_hours": [
+          4,
+          24
+        ],
+        "hold_minutes": [
+          30,
+          60
+        ]
+      },
+      "combinations": 16,
+      "reject": "Missingeventhistory/receiptclock,feedgaptreatedaszero,orinsufficientdevsupport;shockonly/liquidationremoved/fixedcontinuationcontrols"
+    }
+  ],
+  "shared": [
+    "Noactualnewfeedsacquiredorused",
+    "Deduplicateagainstoldfailedsignalhashesbeforegrid",
+    "Minimum20changed eventsand20account rounds EACHdev",
+    "Onlydevelopmenttop8stresscost2/delay1",
+    "ActualETFBUY15%cashstops",
+    "Recentfit3/6distinctfromcausalnextmonth; reused2026notindependent"
+  ]
+}

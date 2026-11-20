@@ -1,0 +1,216 @@
+{
+  "status": "CALENDAR_SCHEDULER_VERIFIED_FRESHNESS_AND_PROTECTION_REJECTED_NO_ENGINE",
+  "parent_commit": "79c76bc64fdfe07ae3dcf5d7862cde34f7b19690",
+  "verified_immutable_path_count": 105,
+  "actual08_metadata_reused": true,
+  "receipt_mapping_scope": "Maximum of four ETF completed-bar first observations; not actual selected-leg fill or brokerage order evidence",
+  "schedule_plans": [
+    {
+      "event_start_utc": "2026-11-19T15:30:00+00:00",
+      "original_event_decision_utc": "2026-11-19T16:30:00+00:00",
+      "source_end_utc": "2026-11-19T15:30:00+00:00",
+      "recorded_ready_utc": "2026-11-19T17:07:35.656109+00:00",
+      "original_event_source_age_minutes": 60.0,
+      "source_age_at_receipt_minutes": 97.59426848333332,
+      "source_fresh_at_receipt": false,
+      "base_entry_utc": "2026-11-19T17:30:00+00:00",
+      "delayed_entry_utc": "2026-11-19T18:30:00+00:00",
+      "base_exit_utc": "2026-11-19T19:30:00+00:00",
+      "delayed_exit_utc": "2026-11-19T20:30:00+00:00",
+      "hold_bars": 2,
+      "required_equal_scheduled_minutes": 120,
+      "base_full_hold_support": true,
+      "delayed_full_hold_support": true,
+      "common_full_hold_support": true,
+      "base_protective_marks": [
+        "2026-11-19T18:30:00+00:00"
+      ],
+      "delayed_protective_marks": [
+        "2026-11-19T19:30:00+00:00"
+      ],
+      "rejection_reasons": [
+        "SOURCE_NOT_FRESH_AT_ACTUAL_RECEIPT"
+      ],
+      "terminal_backtest_allowed": false,
+      "interpretation": "Carried original-event packet scheduling diagnostic; source freshness at actual receipt is a separate primary gate. No refreshed features or executable quote inference.",
+      "model": "h120",
+      "base_protection_receipt_audit": {
+        "all_marks_observed_by_deadline": false,
+        "late_or_missing": [
+          {
+            "mark_utc": "2026-11-19T18:30:00+00:00",
+            "first_recorded_receipt_utc": "2026-11-19T19:07:20.487713+00:00",
+            "reason": "RECEIPT_AFTER_NEXT_OPEN_DEADLINE"
+          }
+        ],
+        "terminal_backtest_allowed": false
+      },
+      "delay1_protection_receipt_audit": {
+        "all_marks_observed_by_deadline": false,
+        "late_or_missing": [
+          {
+            "mark_utc": "2026-11-19T19:30:00+00:00",
+            "first_recorded_receipt_utc": "2026-11-19T20:03:10.894009+00:00",
+            "reason": "RECEIPT_AFTER_NEXT_OPEN_DEADLINE"
+          }
+        ],
+        "terminal_backtest_allowed": false
+      },
+      "retrospective_packet": true,
+      "prospective_after_this_plan": false,
+      "source_nonzero_onset": false,
+      "price_nonzero_onset": true,
+      "historical_bar_fill_prices_exist_in_prior_full_snapshot": true,
+      "independently_captured_execution_time_quotes": false,
+      "full_state_initialized": false,
+      "engine_calls": 0,
+      "financial_metrics": null
+    },
+    {
+      "event_start_utc": "2026-11-19T16:30:00+00:00",
+      "original_event_decision_utc": "2026-11-19T17:30:00+00:00",
+      "source_end_utc": "2026-11-19T16:30:00+00:00",
+      "recorded_ready_utc": "2026-11-19T19:07:20.487713+00:00",
+      "original_event_source_age_minutes": 60.0,
+      "source_age_at_receipt_minutes": 157.34146188333335,
+      "source_fresh_at_receipt": false,
+      "base_entry_utc": "2026-11-19T19:30:00+00:00",
+      "delayed_entry_utc": "2026-11-19T20:30:00+00:00",
+      "base_exit_utc": null,
+      "delayed_exit_utc": null,
+      "hold_bars": 2,
+      "required_equal_scheduled_minutes": 120,
+      "base_full_hold_support": false,
+      "delayed_full_hold_support": false,
+      "common_full_hold_support": false,
+      "base_protective_marks": [],
+      "delayed_protective_marks": [],
+      "rejection_reasons": [
+        "SOURCE_NOT_FRESH_AT_ACTUAL_RECEIPT",
+        "BASE_FINAL_PARTIAL_BAR_NOT_EQUAL_HORIZON",
+        "DELAY1_INCOMPLETE_FULL_HOLD"
+      ],
+      "terminal_backtest_allowed": false,
+      "interpretation": "Carried original-event packet scheduling diagnostic; source freshness at actual receipt is a separate primary gate. No refreshed features or executable quote inference.",
+      "model": "h120",
+      "base_protection_receipt_audit": {
+        "all_marks_observed_by_deadline": false,
+        "late_or_missing": [
+          {
+            "reason": "NO_INTERMEDIATE_MARKS"
+          }
+        ],
+        "terminal_backtest_allowed": false
+      },
+      "delay1_protection_receipt_audit": {
+        "all_marks_observed_by_deadline": false,
+        "late_or_missing": [
+          {
+            "reason": "NO_INTERMEDIATE_MARKS"
+          }
+        ],
+        "terminal_backtest_allowed": false
+      },
+      "retrospective_packet": true,
+      "prospective_after_this_plan": false,
+      "source_nonzero_onset": false,
+      "price_nonzero_onset": false,
+      "historical_bar_fill_prices_exist_in_prior_full_snapshot": true,
+      "independently_captured_execution_time_quotes": false,
+      "full_state_initialized": false,
+      "engine_calls": 0,
+      "financial_metrics": null
+    },
+    {
+      "event_start_utc": "2026-11-19T15:30:00+00:00",
+      "original_event_decision_utc": "2026-11-19T16:30:00+00:00",
+      "source_end_utc": "2026-11-19T15:30:00+00:00",
+      "recorded_ready_utc": "2026-11-19T17:07:35.656109+00:00",
+      "original_event_source_age_minutes": 60.0,
+      "source_age_at_receipt_minutes": 97.59426848333332,
+      "source_fresh_at_receipt": false,
+      "base_entry_utc": "2026-11-19T17:30:00+00:00",
+      "delayed_entry_utc": "2026-11-19T18:30:00+00:00",
+      "base_exit_utc": null,
+      "delayed_exit_utc": null,
+      "hold_bars": 4,
+      "required_equal_scheduled_minutes": 240,
+      "base_full_hold_support": false,
+      "delayed_full_hold_support": false,
+      "common_full_hold_support": false,
+      "base_protective_marks": [],
+      "delayed_protective_marks": [],
+      "rejection_reasons": [
+        "SOURCE_NOT_FRESH_AT_ACTUAL_RECEIPT",
+        "BASE_FINAL_PARTIAL_BAR_NOT_EQUAL_HORIZON",
+        "DELAY1_INCOMPLETE_FULL_HOLD"
+      ],
+      "terminal_backtest_allowed": false,
+      "interpretation": "Carried original-event packet scheduling diagnostic; source freshness at actual receipt is a separate primary gate. No refreshed features or executable quote inference.",
+      "model": "c180",
+      "base_protection_receipt_audit": {
+        "all_marks_observed_by_deadline": false,
+        "late_or_missing": [
+          {
+            "reason": "NO_INTERMEDIATE_MARKS"
+          }
+        ],
+        "terminal_backtest_allowed": false
+      },
+      "delay1_protection_receipt_audit": {
+        "all_marks_observed_by_deadline": false,
+        "late_or_missing": [
+          {
+            "reason": "NO_INTERMEDIATE_MARKS"
+          }
+        ],
+        "terminal_backtest_allowed": false
+      },
+      "retrospective_packet": true,
+      "prospective_after_this_plan": false,
+      "source_nonzero_onset": false,
+      "price_nonzero_onset": true,
+      "historical_bar_fill_prices_exist_in_prior_full_snapshot": true,
+      "independently_captured_execution_time_quotes": false,
+      "full_state_initialized": false,
+      "engine_calls": 0,
+      "financial_metrics": null
+    }
+  ],
+  "mark_first_receipt_by_deadline": {
+    "2026-11-19T15:30:00+00:00": "2026-11-19T16:06:29.524025+00:00",
+    "2026-11-19T16:30:00+00:00": "2026-11-19T17:07:35.656109+00:00",
+    "2026-11-19T17:30:00+00:00": "2026-11-19T19:07:20.487713+00:00",
+    "2026-11-19T18:30:00+00:00": "2026-11-19T19:07:20.487713+00:00",
+    "2026-11-19T19:30:00+00:00": "2026-11-19T20:03:10.894009+00:00",
+    "2026-11-19T20:30:00+00:00": "2026-11-19T21:04:14.547955+00:00",
+    "2026-11-19T21:00:00+00:00": "2026-11-19T21:04:14.547955+00:00"
+  },
+  "distinct_original_event_times": 2,
+  "common_full_hold_support_plans": 1,
+  "primary_fresh_and_common_plans": 0,
+  "receipt_protected_common_plans": 0,
+  "historical_h120_source_onsets": 0,
+  "historical_h120_price_onsets": 1,
+  "interpretation": "Clock path support is not an executed trade or profit. Strict actual-receipt freshness remains primary. Carried-stale event is separately labeled. Subsequent actual historical OPEN can be hypothetical evaluation price without signal lookahead, but does not prove actual receipt-protected fills. Current contract cannot be applied prospectively to Nov19.",
+  "new_market_requests": 0,
+  "engine_calls": 0,
+  "orders": 0,
+  "account_trades": 0,
+  "financial_metrics": null,
+  "AccountState_initialized": false,
+  "terminal_backtest_allowed": false,
+  "new_independent_validation": false,
+  "new_calendar_file": "runs/prospective_execution_schedule_20261120_0900/calendar_20261120.csv",
+  "new_calendar_sha256": "79aeacc47e11ee088abdb91bdaab4a534031beeed903a7a4f3cce816a0a6629c",
+  "prospective_next_session": {
+    "NY_day": "2026-11-20",
+    "open_utc": "2026-11-20T14:30:00Z",
+    "close_utc": "2026-11-20T21:00:00Z",
+    "new_actual_ETF_rows": 0,
+    "next_session_price_access_verified": false,
+    "requires_fresh_input_receipts_and_execution_quotes": true,
+    "requires_contiguous_actual_source_bridge": true
+  },
+  "remaining": "Need new future fresh-at-actualdecision event generation, separate frozen-carried/refresh comparator and actual protective observation timing/quotes. Do not backdate closes at nextOPEN. No engine until full horizon plus NEW FULLAccountState/modelcontrolstress integration. Existing engine AccountState is flat sessionboundary risk state only."
+}

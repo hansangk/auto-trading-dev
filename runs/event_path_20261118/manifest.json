@@ -1,0 +1,56 @@
+{
+  "status": "COMPLETE",
+  "candidate_count": 4,
+  "shortlist": 4,
+  "diagnostic_selected": [
+    "fade_wait0",
+    "fade_wait1",
+    "continue_wait1"
+  ],
+  "evaluations": 388,
+  "source": {
+    "downloaded_utc": "2026-11-16T11:23:05.784864+00:00",
+    "source": "Yahoo 1h actual ETF OHLCV; IBIT spot Bitcoin proxy, BITI inverse futures ETF, not identical spot hedge",
+    "files": [
+      {
+        "symbol": "TQQQ",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/TQQQ?range=2y&interval=1h&includePrePost=false&events=div%2Csplits",
+        "raw_sha256": "4f5c68642f2ef977776e2225658f80b6accb4eaa4307db7f94cc164c5ccf04af",
+        "rows": 3484
+      },
+      {
+        "symbol": "SQQQ",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/SQQQ?range=2y&interval=1h&includePrePost=false&events=div%2Csplits",
+        "raw_sha256": "12678cc7ccdb32f5d3518e83b272d6b0086b578ed5ec37bd8c219b809d5be22b",
+        "rows": 3484
+      },
+      {
+        "symbol": "IBIT",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/IBIT?range=2y&interval=1h&includePrePost=false&events=div%2Csplits",
+        "raw_sha256": "f9cb765969482805d26e68b997440a0c235e519421b70df1700c0550f8021791",
+        "rows": 3484
+      },
+      {
+        "symbol": "BITI",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITI?range=2y&interval=1h&includePrePost=false&events=div%2Csplits",
+        "raw_sha256": "d0486a36fe123821292cd745efe5799d14892c3bf27d3b9544218922102c0b78",
+        "rows": 3483
+      }
+    ],
+    "sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+    "first": "2024-11-14 14:30:00+00:00",
+    "last": "2026-11-13 20:30:00+00:00",
+    "csv_sha256": "138106dac1c0cc7fb80abd68dff3e01c7316da5d23e91ef9a9e364003b6c38f6"
+  },
+  "source_sha256": "e0dea9e76a9c7f57b5d3791912e85473a29f5d31d4743783cf17b29a95c09fbd",
+  "parent": "cc1e017a341c54d9ea7998ecbd9048883c5a645a",
+  "independent_holdout": false,
+  "news_macro": false,
+  "walkforward_policy": "Train trailing3/6months, staged shortlist, positiveallstress/min20/nohalts, freeze choice then nextmonth. AccountState carries equity/peak/streak/cooldown/kill, never monthly reset",
+  "hashes": {
+    "scripts/event_path_20261118.py": "c3ab06581f84b54823695b7035dac32861fa07bead911a23a28bc9110e597853",
+    "scripts/event_path_signals.py": "70a2cefc1624f10ba631faf264e57e61db2ffbb2d4facabab571ca8679be11d5",
+    "configs/win60_search.yaml": "3229151fbb477ce405bea0e266e0c16f59d978d71b83133406a5f4700c0f9567",
+    "src/autogrid/engine.py": "44dc3c3588cc4fcc3168807b950bd95a5e3a5102bb7ef4b46b36d66d2cd70cc5"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "status": "PREPARED_BEFORE_NEW_PNL",
+  "definitions": [
+    {
+      "name": "full__body55__source",
+      "scope": "full",
+      "body": 55,
+      "arm": "source"
+    },
+    {
+      "name": "full__body55__price",
+      "scope": "full",
+      "body": 55,
+      "arm": "price"
+    },
+    {
+      "name": "full__body35__source",
+      "scope": "full",
+      "body": 35,
+      "arm": "source"
+    },
+    {
+      "name": "full__body35__price",
+      "scope": "full",
+      "body": 35,
+      "arm": "price"
+    },
+    {
+      "name": "coin__body55__source",
+      "scope": "coin",
+      "body": 55,
+      "arm": "source"
+    },
+    {
+      "name": "coin__body55__price",
+      "scope": "coin",
+      "body": 55,
+      "arm": "price"
+    },
+    {
+      "name": "coin__body35__source",
+      "scope": "coin",
+      "body": 35,
+      "arm": "source"
+    },
+    {
+      "name": "coin__body35__price",
+      "scope": "coin",
+      "body": 35,
+      "arm": "price"
+    },
+    {
+      "name": "sync__body55__source",
+      "scope": "sync",
+      "body": 55,
+      "arm": "source"
+    },
+    {
+      "name": "sync__body55__price",
+      "scope": "sync",
+      "body": 55,
+      "arm": "price"
+    },
+    {
+      "name": "sync__body35__source",
+      "scope": "sync",
+      "body": 35,
+      "arm": "source"
+    },
+    {
+      "name": "sync__body35__price",
+      "scope": "sync",
+      "body": 35,
+      "arm": "price"
+    },
+    {
+      "name": "async__body55__source",
+      "scope": "async",
+      "body": 55,
+      "arm": "source"
+    },
+    {
+      "name": "async__body55__price",
+      "scope": "async",
+      "body": 55,
+      "arm": "price"
+    },
+    {
+      "name": "async__body35__source",
+      "scope": "async",
+      "body": 35,
+      "arm": "source"
+    },
+    {
+      "name": "async__body35__price",
+      "scope": "async",
+      "body": 35,
+      "arm": "price"
+    }
+  ],
+  "eligible_new": [
+    "coin__body55__source",
+    "coin__body55__price",
+    "coin__body35__source",
+    "coin__body35__price"
+  ],
+  "blocked": [
+    {
+      "name": "full__body55__source",
+      "reasons": [
+        "IMMUTABLE_FULL_REFERENCE_CACHE_ONLY"
+      ]
+    },
+    {
+      "name": "full__body55__price",
+      "reasons": [
+        "IMMUTABLE_FULL_REFERENCE_CACHE_ONLY"
+      ]
+    },
+    {
+      "name": "full__body35__source",
+      "reasons": [
+        "IMMUTABLE_FULL_REFERENCE_CACHE_ONLY"
+      ]
+    },
+    {
+      "name": "full__body35__price",
+      "reasons": [
+        "IMMUTABLE_FULL_REFERENCE_CACHE_ONLY"
+      ]
+    },
+    {
+      "name": "sync__body55__source",
+      "reasons": [
+        "OPPORTUNITY_UPPER_BOUND_LT20",
+        "FLOW_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "sync__body55__price",
+      "reasons": [
+        "OPPORTUNITY_UPPER_BOUND_LT20",
+        "FLOW_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "sync__body35__source",
+      "reasons": [
+        "OPPORTUNITY_UPPER_BOUND_LT20",
+        "FLOW_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "sync__body35__price",
+      "reasons": [
+        "FLOW_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "async__body55__source",
+      "reasons": [
+        "PAIRED_ROLE_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "async__body55__price",
+      "reasons": [
+        "PAIRED_ROLE_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "async__body35__source",
+      "reasons": [
+        "PAIRED_ROLE_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    },
+    {
+      "name": "async__body35__price",
+      "reasons": [
+        "PAIRED_ROLE_INTERVENTION_LT20_OR_LT10DAYS"
+      ]
+    }
+  ],
+  "aliases": {
+    "full__body55__source": "full__body55__source",
+    "full__body55__price": "full__body55__price",
+    "full__body35__source": "full__body35__source",
+    "full__body35__price": "full__body35__price",
+    "coin__body55__source": "coin__body55__source",
+    "coin__body55__price": "coin__body55__price",
+    "coin__body35__source": "coin__body35__source",
+    "coin__body35__price": "coin__body35__price",
+    "sync__body55__source": "sync__body55__source",
+    "sync__body55__price": "sync__body55__price",
+    "sync__body35__source": "sync__body35__source",
+    "sync__body35__price": "sync__body35__price",
+    "async__body55__source": "async__body55__source",
+    "async__body55__price": "async__body55__price",
+    "async__body35__source": "async__body35__source",
+    "async__body35__price": "async__body35__price"
+  },
+  "prefix_and_full_regressions": 52,
+  "scores_sha256": "022d4b3bb8929300f6115684de4f107fd0710d9326502221d7f309a6ccbdb6d4",
+  "no_new_thresholds": true,
+  "independent_validation": false,
+  "orders": 0
+}

@@ -1,0 +1,15 @@
+{
+  "run_id": "prospective_five_hour_append_20261120_0500",
+  "parent": "07cbded03f0ed3a14c8785d94cae28797830de1b",
+  "hypothesis": "Frozen03classifier works on5completed actualhours and preserves01/04previous keys/values. Postclose behavior remains failclosed, not fixed by expectation.",
+  "ETF_expected": 20,
+  "ETF_range": "2026-11-19[14:30,19:30)UTC,5starts per4ETFs",
+  "source_expected": 26,
+  "source_range": "2026-11-19[06:30,19:30)UTC actual30m",
+  "criteria": "Strictunchanged03classifier; no unknownoffclock/merge/shift/round; exactcoverage/sourcevolume/taker/contiguity; compare01trusted/04access canonicalprefix after rawhashverification. Revision=>separatevintage/no continuation.",
+  "new_strategy_definitions": 0,
+  "engine_calls": 0,
+  "orders": 0,
+  "new_independent_validation": false,
+  "raw_upload": "NO, LOCAL only"
+}

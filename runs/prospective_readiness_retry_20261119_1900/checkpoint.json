@@ -1,0 +1,10 @@
+{
+  "status": "WAITING_FOR_COMPLETED_SHADOW_BARS",
+  "worker_active": false,
+  "shadow_account_initialized": false,
+  "engine_calls": 0,
+  "price_acquisitions": 0,
+  "metrics": null,
+  "next_required_step": "Freshreadiness;oncepostfreezeETF/sourcebarscompleteauditvintage/PIT/hash/coverageandnewFULLAccountStatebeforeexecution",
+  "closed_grid_replay": false
+}

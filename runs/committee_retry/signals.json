@@ -1,0 +1,82 @@
+[
+  {
+    "mode": "momentum",
+    "window": 6,
+    "threshold": 0.75
+  },
+  {
+    "mode": "momentum",
+    "window": 6,
+    "threshold": 1.5
+  },
+  {
+    "mode": "momentum",
+    "window": 24,
+    "threshold": 0.75
+  },
+  {
+    "mode": "momentum",
+    "window": 24,
+    "threshold": 1.5
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 6,
+    "threshold": 0.75
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 6,
+    "threshold": 1.5
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 24,
+    "threshold": 0.75
+  },
+  {
+    "mode": "mean_reversion",
+    "window": 24,
+    "threshold": 1.5
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 6,
+    "threshold": 0.75
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 6,
+    "threshold": 1.5
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 0.75
+  },
+  {
+    "mode": "dual_momentum",
+    "window": 24,
+    "threshold": 1.5
+  },
+  {
+    "mode": "macd",
+    "window": 6,
+    "threshold": 0.75
+  },
+  {
+    "mode": "macd",
+    "window": 6,
+    "threshold": 1.5
+  },
+  {
+    "mode": "macd",
+    "window": 24,
+    "threshold": 0.75
+  },
+  {
+    "mode": "macd",
+    "window": 24,
+    "threshold": 1.5
+  }
+]

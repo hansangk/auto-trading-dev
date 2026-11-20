@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/venue_flow_retry_20261119.py", line 174, in <module>
+    if mode==['prepare']:prepare()
+                         ^^^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/venue_flow_retry_20261119.py", line 29, in prepare
+    raw[c['name']]=signals(data,times,ctx,c,c['arm']=='price');score[c['name']]=raw[c['name']]+background
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/venue_flow_signals_20261119.py", line 150, in signals
+    calendar, common, now, prior, mean = _prepare(data, times, ctx, c)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/venue_flow_signals_20261119.py", line 112, in _prepare
+    family = _config(c)
+             ^^^^^^^^^^
+  File "/workspace/scratch/65dbacd227e0/auto-trading-recovery/scripts/venue_flow_signals_20261119.py", line 68, in _config
+    raise ValueError('Unexpected configuration key')
+ValueError: Unexpected configuration key

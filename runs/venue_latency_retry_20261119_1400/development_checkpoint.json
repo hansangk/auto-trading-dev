@@ -1,0 +1,11 @@
+{
+  "new_calls": 48,
+  "logical_cells": 78,
+  "prior_unique_cells": 30,
+  "pool": [
+    "h120__source",
+    "c120__source",
+    "h180__source",
+    "c180__source"
+  ]
+}
